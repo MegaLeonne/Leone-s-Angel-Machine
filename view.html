@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonne's Angel Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h1>Leonne's Angel Machine</h1>
+            <p class="tagline">A digital codex of ritual, lore, and creative invention</p>
+        </div>
+
+        <!-- Constellation View Button -->
+        <a href="index.html" class="constellation-btn">
+            <span class="icon">🌌</span>
+            <span>Constellation View</span>
+        </a>
+
+        <!-- Folder Navigation -->
+        <nav class="folder-nav">
+            <!-- Archetypes Folder -->
+            <div class="folder-item">
+                <div class="folder-toggle">
+                    <span class="folder-icon">📁</span>
+                    <span class="folder-name">Archetypes</span>
+                </div>
+                <div class="folder-content">
+                    <a href="view.html?file=Archetypes/Amnesia.md" class="file-link">Amnesia</a>
+                    <a href="view.html?file=Archetypes/Angel Numbers.md" class="file-link">Angel Numbers</a>
+                    <a href="view.html?file=Archetypes/Counterspell-Playlist.md" class="file-link">Counterspell Playlist</a>
+                    <a href="view.html?file=Archetypes/Guiding-Prompt.md" class="file-link">Guiding Prompt</a>
+                    <a href="view.html?file=Archetypes/Michael, The KlockWork Angel.md" class="file-link">Michael, The KlockWork Angel</a>
+                    <a href="view.html?file=Archetypes/Osiris. Arch Angel Of Omen.md" class="file-link">Osiris, Arch Angel Of Omen</a>
+                    <a href="view.html?file=Archetypes/Passion.md" class="file-link">Passion</a>
+                    <a href="view.html?file=Archetypes/Raphael, Angel Of Recursion.md" class="file-link">Raphael, Angel Of Recursion</a>
+                    <a href="view.html?file=Archetypes/Uriel, The Angel Of Fortune.md" class="file-link">Uriel, The Angel Of Fortune</a>
+                </div>
+            </div>
+
+            <!-- Orphans Folder -->
+            <div class="folder-item">
+                <div class="folder-toggle">
+                    <span class="folder-icon">📁</span>
+                    <span class="folder-name">Orphans</span>
+                </div>
+                <div class="folder-content">
+                    <a href="view.html?file=Orphans/OrphanIndex.md" class="file-link">📋 Orphan Index</a>
+                    <a href="view.html?file=Orphans/AI Alignment Through Animism.md" class="file-link">AI Alignment Through Animism</a>
+                    <a href="view.html?file=Orphans/AI as Medium.md" class="file-link">AI as Medium</a>
+                    <a href="view.html?file=Orphans/AI Creative Partners.md" class="file-link">AI Creative Partners</a>
+                    <a href="view.html?file=Orphans/AI Faith and Ritual.md" class="file-link">AI Faith and Ritual</a>
+                </div>
+            </div>
+
+            <!-- Providence Folder -->
+            <div class="folder-item">
+                <div class="folder-toggle">
+                    <span class="folder-icon">📁</span>
+                    <span class="folder-name">Providence</span>
+                </div>
+                <div class="folder-content">
+                    <a href="view.html?file=providence/Angels.md" class="file-link">Angels</a>
+                    <a href="view.html?file=providence/Philosophy.md" class="file-link">Philosophy</a>
+                    <a href="view.html?file=providence/Rituals.md" class="file-link">Rituals</a>
+                </div>
+            </div>
+
+            <!-- Structure Folder -->
+            <div class="folder-item">
+                <div class="folder-toggle">
+                    <span class="folder-icon">📁</span>
+                    <span class="folder-name">Structure</span>
+                </div>
+                <div class="folder-content">
+                    <a href="home.html" class="file-link">📖 README</a>
+                    <a href="full-index.html" class="file-link">📋 Full Index</a>
+                </div>
+            </div>
+        </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <div id="content" class="markdown-content">
+            <p style="text-align: center; margin-top: 100px; color: #888;">Loading...</p>
+        </div>
+    </main>
+
+    <script src="navigation.js"></script>
+    <script>
+        // Get the file path from URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const filePath = urlParams.get('file');
+        
+        if (filePath) {
+            // Fetch and render the markdown file
+            fetch(filePath)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('File not found');
+                    }
+                    return response.text();
+                })
+                .then(text => {
+                    document.getElementById('content').innerHTML = marked.parse(text);
+                    // Update page title
+                    const fileName = filePath.split('/').pop().replace('.md', '');
+                    document.title = fileName + ' - Leonne\'s Angel Machine';
+                })
+                .catch(error => {
+                    document.getElementById('content').innerHTML = 
+                        '<h1>Error Loading File</h1>' +
+                        '<p>Could not load: ' + filePath + '</p>' +
+                        '<p>Error: ' + error.message + '</p>';
+                    console.error('Error loading file:', error);
+                });
+        } else {
+            document.getElementById('content').innerHTML = 
+                '<h1>No File Specified</h1>' +
+                '<p>Please select a file from the sidebar navigation.</p>';
+        }
+    </script>
+</body>
+</html>
