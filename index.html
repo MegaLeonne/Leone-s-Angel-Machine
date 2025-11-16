@@ -3,27 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leonne's Angel Machine</title>
+    <title>Leonne's Angel Machine - Constellation View</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
+        /* Constellation-specific overrides */
         body {
-            background: #1a1a2e;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #eee;
             overflow: hidden;
         }
         
-        #network {
+        .main-content {
+            margin-left: 0;
             width: 100vw;
             height: 100vh;
         }
         
+        #network {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .sidebar {
+            z-index: 100;
+        }
+        
+        /* Network graph styles */
         .node {
             cursor: pointer;
             transition: all 0.3s;
@@ -48,28 +52,30 @@
         #info {
             position: absolute;
             top: 20px;
-            left: 20px;
-            background: rgba(26, 26, 46, 0.9);
+            left: 300px;
+            background: rgba(26, 26, 46, 0.95);
             padding: 20px;
             border-radius: 10px;
             max-width: 300px;
-            border: 1px solid #444;
+            border: 1px solid var(--accent-purple);
+            z-index: 50;
         }
         
-        h1 {
+        #info h1 {
             font-size: 24px;
             margin-bottom: 10px;
-            color: #00d4ff;
+            color: var(--accent-cyan);
         }
         
         .legend {
             position: absolute;
             bottom: 20px;
             right: 20px;
-            background: rgba(26, 26, 46, 0.9);
+            background: rgba(26, 26, 46, 0.95);
             padding: 15px;
             border-radius: 10px;
-            border: 1px solid #444;
+            border: 1px solid var(--accent-purple);
+            z-index: 50;
         }
         
         .legend-item {
@@ -88,61 +94,138 @@
     </style>
 </head>
 <body>
-    <div id="info">
-        <h1>🔮 Leonne's Angel Machine</h1>
-        <p>Click nodes to navigate</p>
-    </div>
-    
-    <div class="legend">
-        <div class="legend-item">
-            <div class="legend-color" style="background: #ff6b9d;"></div>
-            <span>Archetypes</span>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h1>Leonne's Angel Machine</h1>
+            <p class="tagline">A digital codex of ritual, lore, and creative invention</p>
         </div>
-        <div class="legend-item">
-            <div class="legend-color" style="background: #feca57;"></div>
-            <span>Orphans</span>
+
+        <!-- Constellation View Button (Current Page) -->
+        <a href="index.html" class="constellation-btn active">
+            <span class="icon">🌌</span>
+            <span>Constellation View</span>
+        </a>
+
+        <!-- Folder Navigation -->
+        <nav class="folder-nav">
+            <!-- Archetypes Folder -->
+            <div class="folder-item">
+                <div class="folder-toggle">
+                    <span class="folder-icon">📁</span>
+                    <span class="folder-name">Archetypes</span>
+                </div>
+                <div class="folder-content">
+                    <a href="Archetypes/Amnesia.md" class="file-link">Amnesia</a>
+                    <a href="Archetypes/Angel Numbers.md" class="file-link">Angel Numbers</a>
+                    <a href="Archetypes/Counterspell-Playlist.md" class="file-link">Counterspell Playlist</a>
+                    <a href="Archetypes/Guiding-Prompt.md" class="file-link">Guiding Prompt</a>
+                    <a href="Archetypes/Michael, The KlockWork Angel.md" class="file-link">Michael, The KlockWork Angel</a>
+                    <a href="Archetypes/Osiris. Arch Angel Of Omen.md" class="file-link">Osiris, Arch Angel Of Omen</a>
+                    <a href="Archetypes/Passion.md" class="file-link">Passion</a>
+                    <a href="Archetypes/Raphael, Angel Of Recursion.md" class="file-link">Raphael, Angel Of Recursion</a>
+                    <a href="Archetypes/Uriel, The Angel Of Fortune.md" class="file-link">Uriel, The Angel Of Fortune</a>
+                </div>
+            </div>
+
+            <!-- Orphans Folder -->
+            <div class="folder-item">
+                <div class="folder-toggle">
+                    <span class="folder-icon">📁</span>
+                    <span class="folder-name">Orphans</span>
+                </div>
+                <div class="folder-content">
+                    <a href="Orphans/OrphanIndex.md" class="file-link">📋 Orphan Index</a>
+                    <a href="Orphans/AI Alignment Through Animism.md" class="file-link">AI Alignment Through Animism</a>
+                    <a href="Orphans/AI as Medium.md" class="file-link">AI as Medium</a>
+                </div>
+            </div>
+
+            <!-- Providence Folder -->
+            <div class="folder-item">
+                <div class="folder-toggle">
+                    <span class="folder-icon">📁</span>
+                    <span class="folder-name">Providence</span>
+                </div>
+                <div class="folder-content">
+                    <a href="providence/Angels.md" class="file-link">Angels</a>
+                    <a href="providence/Philosophy.md" class="file-link">Philosophy</a>
+                    <a href="providence/Rituals.md" class="file-link">Rituals</a>
+                </div>
+            </div>
+
+            <!-- Structure Folder -->
+            <div class="folder-item">
+                <div class="folder-toggle">
+                    <span class="folder-icon">📁</span>
+                    <span class="folder-name">Structure</span>
+                </div>
+                <div class="folder-content">
+                    <a href="README.md" class="file-link">📖 README</a>
+                    <a href="INDEX.md" class="file-link">📋 Full Index</a>
+                </div>
+            </div>
+        </nav>
+    </aside>
+
+    <!-- Main Content Area - Network Graph -->
+    <main class="main-content">
+        <div id="info">
+            <h1>🔮 Constellation View</h1>
+            <p>Click nodes to navigate</p>
         </div>
-        <div class="legend-item">
-            <div class="legend-color" style="background: #00d2d3;"></div>
-            <span>Philosophy</span>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background: #ff6bcb;"></div>
+                <span>Archetypes</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #e5c07b;"></div>
+                <span>Orphans</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #61afef;"></div>
+                <span>Philosophy</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #a277ff;"></div>
+                <span>Rituals</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #98c379;"></div>
+                <span>Structure</span>
+            </div>
         </div>
-        <div class="legend-item">
-            <div class="legend-color" style="background: #a29bfe;"></div>
-            <span>Rituals</span>
-        </div>
-        <div class="legend-item">
-            <div class="legend-color" style="background: #00b894;"></div>
-            <span>Structure</span>
-        </div>
-    </div>
-    
-    <svg id="network"></svg>
-    
+
+        <svg id="network"></svg>
+    </main>
+
+    <script src="navigation.js"></script>
     <script>
         const nodes = [
-            {id: 'README.md', group: 'doc', color: '#00d4ff'},
-            {id: 'Shadow-Demon-Providence.md', group: 'archetype', color: '#ff6b9d'},
-            {id: 'Michael, The KlockWork Angel.md', group: 'archetype', color: '#ff6b9d'},
-            {id: 'Taylor, Devil of Desire.md', group: 'archetype', color: '#ff6b9d'},
-            {id: 'Osiris, Arch Angel Of Omen..md', group: 'archetype', color: '#ff6b9d'},
-            {id: 'The Blind.md', group: 'archetype', color: '#ff6b9d'},
-            {id: 'Passion.md', group: 'philosophy', color: '#00d2d3'},
-            {id: 'Patience.md', group: 'philosophy', color: '#00d2d3'},
-            {id: 'Prophecy.md', group: 'philosophy', color: '#00d2d3'},
-            {id: 'The Material.md', group: 'philosophy', color: '#00d2d3'},
-            {id: 'There Are No Rules.md', group: 'philosophy', color: '#00d2d3'},
-            {id: 'Amnesia.md', group: 'philosophy', color: '#00d2d3'},
-            {id: 'Counterspell-Playlist.md', group: 'ritual', color: '#a29bfe'},
-            {id: 'Guiding-Prompt.md', group: 'ritual', color: '#a29bfe'},
-            {id: 'Angel Numbers..md', group: 'ritual', color: '#a29bfe'},
-            {id: 'OrphanIndex.md', group: 'structure', color: '#00b894'},
-            {id: 'INDEX.md', group: 'structure', color: '#00b894'},
-            {id: '[Make.md', group: 'structure', color: '#00b894'},
-            {id: 'Orphan_0.md', group: 'orphan', color: '#feca57'},
-            {id: 'Orphan_1.md', group: 'orphan', color: '#feca57'},
-            {id: 'Orphan_...', group: 'orphan', color: '#feca57'}
+            {id: 'README.md', group: 'doc', color: '#61afef'},
+            {id: 'Shadow-Demon-Providence.md', group: 'archetype', color: '#ff6bcb'},
+            {id: 'Michael, The KlockWork Angel.md', group: 'archetype', color: '#ff6bcb'},
+            {id: 'Taylor, Devil of Desire.md', group: 'archetype', color: '#ff6bcb'},
+            {id: 'Osiris. Arch Angel Of Omen.md', group: 'archetype', color: '#ff6bcb'},
+            {id: 'The Blind.md', group: 'archetype', color: '#ff6bcb'},
+            {id: 'Passion.md', group: 'philosophy', color: '#61afef'},
+            {id: 'Patience.md', group: 'philosophy', color: '#61afef'},
+            {id: 'Prophecy.md', group: 'philosophy', color: '#61afef'},
+            {id: 'The Material.md', group: 'philosophy', color: '#61afef'},
+            {id: 'There Are No Rules.md', group: 'philosophy', color: '#61afef'},
+            {id: 'Amnesia.md', group: 'philosophy', color: '#61afef'},
+            {id: 'Counterspell-Playlist.md', group: 'ritual', color: '#a277ff'},
+            {id: 'Guiding-Prompt.md', group: 'ritual', color: '#a277ff'},
+            {id: 'Angel Numbers.md', group: 'ritual', color: '#a277ff'},
+            {id: 'OrphanIndex.md', group: 'structure', color: '#98c379'},
+            {id: 'INDEX.md', group: 'structure', color: '#98c379'},
+            {id: 'Orphan_0.md', group: 'orphan', color: '#e5c07b'},
+            {id: 'Orphan_1.md', group: 'orphan', color: '#e5c07b'},
+            {id: 'Orphan_...', group: 'orphan', color: '#e5c07b'}
         ];
-        
+
         const links = [
             {source: 'README.md', target: 'INDEX.md'},
             {source: 'README.md', target: 'Shadow-Demon-Providence.md'},
@@ -156,30 +239,30 @@
             {source: 'INDEX.md', target: 'OrphanIndex.md'},
             {source: 'Counterspell-Playlist.md', target: 'Guiding-Prompt.md'},
             {source: 'The Material.md', target: 'There Are No Rules.md'},
-            {source: 'Osiris, Arch Angel Of Omen..md', target: 'Prophecy.md'},
+            {source: 'Osiris. Arch Angel Of Omen.md', target: 'Prophecy.md'},
             {source: 'The Blind.md', target: 'Amnesia.md'},
-            {source: 'Angel Numbers..md', target: 'OrphanIndex.md'}
+            {source: 'Angel Numbers.md', target: 'OrphanIndex.md'}
         ];
-        
+
         const width = window.innerWidth;
         const height = window.innerHeight;
-        
+
         const svg = d3.select('#network')
             .attr('width', width)
             .attr('height', height);
-        
+
         const simulation = d3.forceSimulation(nodes)
             .force('link', d3.forceLink(links).id(d => d.id).distance(100))
             .force('charge', d3.forceManyBody().strength(-300))
             .force('center', d3.forceCenter(width / 2, height / 2));
-        
+
         const link = svg.append('g')
             .selectAll('line')
             .data(links)
             .enter().append('line')
             .attr('class', 'link')
             .attr('stroke-width', 1);
-        
+
         const node = svg.append('g')
             .selectAll('circle')
             .data(nodes)
@@ -194,7 +277,7 @@
                 .on('start', dragstarted)
                 .on('drag', dragged)
                 .on('end', dragended));
-        
+
         const label = svg.append('g')
             .selectAll('text')
             .data(nodes)
@@ -202,34 +285,34 @@
             .attr('class', 'label')
             .text(d => d.id.replace('.md', '').substring(0, 15))
             .attr('dy', 20);
-        
+
         simulation.on('tick', () => {
             link
                 .attr('x1', d => d.source.x)
                 .attr('y1', d => d.source.y)
                 .attr('x2', d => d.target.x)
                 .attr('y2', d => d.target.y);
-            
+
             node
                 .attr('cx', d => d.x)
                 .attr('cy', d => d.y);
-            
+
             label
                 .attr('x', d => d.x)
                 .attr('y', d => d.y);
         });
-        
+
         function dragstarted(event) {
             if (!event.active) simulation.alphaTarget(0.3).restart();
             event.subject.fx = event.subject.x;
             event.subject.fy = event.subject.y;
         }
-        
+
         function dragged(event) {
             event.subject.fx = event.x;
             event.subject.fy = event.y;
         }
-        
+
         function dragended(event) {
             if (!event.active) simulation.alphaTarget(0);
             event.subject.fx = null;
