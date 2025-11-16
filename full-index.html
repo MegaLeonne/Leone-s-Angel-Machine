@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonne's Angel Machine - Full Index</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h1>Leonne's Angel Machine</h1>
+            <p class="tagline">A digital codex of ritual, lore, and creative invention</p>
+        </div>
+
+        <!-- Constellation View Button -->
+        <a href="index.html" class="constellation-btn">
+            <span class="icon">🌌</span>
+            <span>Constellation View</span>
+        </a>
+
+        <!-- Folder Navigation -->
+        <nav class="folder-nav">
+            <!-- Archetypes Folder -->
+            <div class="folder-item">
+                <div class="folder-toggle">
+                    <span class="folder-icon">📁</span>
+                    <span class="folder-name">Archetypes</span>
+                </div>
+                <div class="folder-content">
+                    <a href="Archetypes/Amnesia.md" class="file-link">Amnesia</a>
+                    <a href="Archetypes/Angel Numbers.md" class="file-link">Angel Numbers</a>
+                    <a href="Archetypes/Counterspell-Playlist.md" class="file-link">Counterspell Playlist</a>
+                    <a href="Archetypes/Guiding-Prompt.md" class="file-link">Guiding Prompt</a>
+                    <a href="Archetypes/Michael, The KlockWork Angel.md" class="file-link">Michael, The KlockWork Angel</a>
+                    <a href="Archetypes/Osiris. Arch Angel Of Omen.md" class="file-link">Osiris, Arch Angel Of Omen</a>
+                    <a href="Archetypes/Passion.md" class="file-link">Passion</a>
+                    <a href="Archetypes/Raphael, Angel Of Recursion.md" class="file-link">Raphael, Angel Of Recursion</a>
+                    <a href="Archetypes/Uriel, The Angel Of Fortune.md" class="file-link">Uriel, The Angel Of Fortune</a>
+                </div>
+            </div>
+
+            <!-- Orphans Folder -->
+            <div class="folder-item">
+                <div class="folder-toggle">
+                    <span class="folder-icon">📁</span>
+                    <span class="folder-name">Orphans</span>
+                </div>
+                <div class="folder-content">
+                    <a href="Orphans/OrphanIndex.md" class="file-link">📋 Orphan Index</a>
+                    <a href="Orphans/AI Alignment Through Animism.md" class="file-link">AI Alignment Through Animism</a>
+                    <a href="Orphans/AI as Medium.md" class="file-link">AI as Medium</a>
+                </div>
+            </div>
+
+            <!-- Providence Folder -->
+            <div class="folder-item">
+                <div class="folder-toggle">
+                    <span class="folder-icon">📁</span>
+                    <span class="folder-name">Providence</span>
+                </div>
+                <div class="folder-content">
+                    <a href="providence/Angels.md" class="file-link">Angels</a>
+                    <a href="providence/Philosophy.md" class="file-link">Philosophy</a>
+                    <a href="providence/Rituals.md" class="file-link">Rituals</a>
+                </div>
+            </div>
+
+            <!-- Structure Folder -->
+            <div class="folder-item">
+                <div class="folder-toggle">
+                    <span class="folder-icon">📁</span>
+                    <span class="folder-name">Structure</span>
+                </div>
+                <div class="folder-content">
+                    <a href="home.html" class="file-link">📖 README</a>
+                    <a href="full-index.html" class="file-link active">📋 Full Index</a>
+                </div>
+            </div>
+        </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <div id="content" class="markdown-content">
+            <!-- INDEX content will be loaded here -->
+        </div>
+    </main>
+
+    <script src="navigation.js"></script>
+    <script>
+        // Fetch and render INDEX.md
+        fetch('INDEX.md')
+            .then(response => response.text())
+            .then(text => {
+                document.getElementById('content').innerHTML = marked.parse(text);
+            })
+            .catch(error => {
+                document.getElementById('content').innerHTML = '<h1>Error loading INDEX</h1><p>Could not load INDEX.md content.</p>';
+                console.error('Error loading INDEX:', error);
+            });
+    </script>
+</body>
+</html>
