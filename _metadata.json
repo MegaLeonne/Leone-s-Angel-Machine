@@ -1,0 +1,161 @@
+{
+  "project": {
+    "name": "Leone's Angel Machine",
+    "description": "A digital codex of ritual, lore, and creative invention",
+    "version": "2.0-phase-1",
+    "status": "Phase 1: Foundation - In Progress",
+    "last_updated": "2024-11-16",
+    "repository": "https://github.com/MegaMilky/Leone-s-Angel-Machine"
+  },
+  "categories": {
+    "philosophy": {
+      "label": "Core Philosophical Texts",
+      "path": "Philosophy/",
+      "color": "#61afef",
+      "count": 5,
+      "files": [
+        {
+          "name": "Passion.md",
+          "title": "Passion",
+          "tags": ["desire", "transformation", "striving"],
+          "connects": ["Patience.md", "Archetypes/Devils/Taylor, Devil of Desire.md"],
+          "status": "Complete"
+        },
+        {
+          "name": "Patience.md",
+          "title": "Patience",
+          "tags": ["time", "cycles", "self-awareness"],
+          "connects": ["Passion.md", "Archetypes/Angels/Michael, The KlockWork Angel.md"],
+          "status": "Complete"
+        },
+        {
+          "name": "Prophecy.md",
+          "title": "Prophecy",
+          "tags": ["inevitability", "language", "fate"],
+          "connects": ["Patience.md", "Archetypes/Angels/Osiris, Arch Angel Of Omen.md"],
+          "status": "Complete"
+        },
+        {
+          "name": "The Material.md",
+          "title": "The Material",
+          "tags": ["co-creation", "mutual willingness"],
+          "connects": ["Passion.md", "Guiding-Prompt.md"],
+          "status": "Complete"
+        },
+        {
+          "name": "There Are No Rules.md",
+          "title": "There Are No Rules",
+          "tags": ["chaos", "structure", "paradox"],
+          "connects": ["Prophecy.md", "Passion.md"],
+          "status": "Complete"
+        }
+      ]
+    },
+    "archetypes": {
+      "label": "Archetypes & Characters",
+      "path": "Archetypes/",
+      "color": "#ff6bcb",
+      "count": 5,
+      "subcategories": {
+        "angels": {
+          "label": "Angels",
+          "path": "Archetypes/Angels/",
+          "count": 2,
+          "files": [
+            {
+              "name": "Michael, The KlockWork Angel.md",
+              "title": "Michael, The KlockWork Angel",
+              "tags": ["time", "divinity", "automation"],
+              "status": "Complete"
+            },
+            {
+              "name": "Osiris, Arch Angel Of Omen..md",
+              "title": "Osiris, Arch Angel Of Omen",
+              "tags": ["omens", "signs", "prophecy"],
+              "status": "Complete"
+            }
+          ]
+        },
+        "devils": {
+          "label": "Devils & Shadows",
+          "path": "Archetypes/Devils/",
+          "count": 2,
+          "files": [
+            {
+              "name": "Taylor, Devil of Desire.md",
+              "title": "Taylor, Devil of Desire",
+              "tags": ["desire", "duality", "temptation"],
+              "status": "Complete"
+            },
+            {
+              "name": "The Blind.md",
+              "title": "The Blind",
+              "tags": ["truth", "prophecy", "wisdom"],
+              "status": "Complete"
+            }
+          ]
+        },
+        "composite": {
+          "label": "Composite Archetypes",
+          "path": "Archetypes/Composite/",
+          "count": 1,
+          "files": [
+            {
+              "name": "Shadow-Demon-Providence.md",
+              "title": "Shadow, Demon, Providence",
+              "tags": ["trinity", "self", "fear", "grace"],
+              "status": "Complete"
+            }
+          ]
+        }
+      }
+    },
+    "rituals": {
+      "label": "Rituals & Spells",
+      "path": "Rituals/",
+      "color": "#a277ff",
+      "count": 0,
+      "status": "TODO: Organize ritual files"
+    },
+    "orphans": {
+      "label": "The Orphan Archive",
+      "path": "Orphans/",
+      "color": "#e5c07b",
+      "count": 100,
+      "classified": 0,
+      "status": "TODO: Phase 1 - Begin classification"
+    }
+  },
+  "navigation": {
+    "views": [
+      {
+        "name": "Constellation View",
+        "file": "index.html",
+        "description": "Interactive D3.js network graph"
+      },
+      {
+        "name": "Browse View",
+        "file": "browse.html",
+        "description": "Hierarchical tree navigation (Phase 2)"
+      },
+      {
+        "name": "Timeline View",
+        "file": "timeline.html",
+        "description": "Project evolution (Phase 3)"
+      }
+    ]
+  },
+  "phase_1_progress": {
+    "metadata_added": ["Passion.md", "Patience.md", "Prophecy.md", "The Material.md", "There Are No Rules.md", "Guiding-Prompt.md"],
+    "archetypes_metadated": ["Michael", "Osiris", "Taylor", "The Blind", "Shadow-Demon-Providence"],
+    "index_files_created": ["_PHILOSOPHY_INDEX.md", "_ARCHETYPES_INDEX.md"],
+    "foundation_files_created": ["CONTRIBUTING.md", "_metadata.json"],
+    "next_steps": [
+      "Add metadata to remaining key files (Counterspell-Playlist, Angel Numbers)",
+      "Create Rituals/, Orphans/ classified structure",
+      "Begin orphan classification taxonomy",
+      "Generate navigation.js updates",
+      "Create _ORPHAN_TAXONOMY.md"
+    ]
+  }
+}
