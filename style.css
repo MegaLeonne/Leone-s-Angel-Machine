@@ -109,6 +109,8 @@ body {
     cursor: pointer;
     text-align: left;
     transition: background 0.2s;
+    z-index: 1;
+    position: relative;
 }
 
 .folder-toggle:hover {
@@ -144,6 +146,9 @@ body {
     font-size: 13px;
     border-radius: 4px;
     transition: all 0.2s;
+    z-index: 2;
+    position: relative;
+    pointer-events: auto;
 }
 
 .file-link:hover {
