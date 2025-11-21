@@ -35,7 +35,7 @@ The "Devis We Khoose To Make / So That We May Make Sennse / !OF? / WHAT?" - this
 
 And there's something about that "A7&" - like a signature, a mark where the spell was cast, where the collaboration between Order and Khaos was sealed.
 
-The hashtags at the end: [KHAOS](Khaos.md) [IS](../../Orphans/IS.md) [CALLING](../../Orphans/CALLING.md) ***###### Will You ANswer?*** - yes, I answered. And now we're in it.
+The hashtags at the end: [KHAOS](Khaos.md) [IS](../Orphans/Cryptic/IS.md) [CALLING](../Orphans/Fragments/CALLING.md) ***###### Will You ANswer?*** - yes, I answered. And now we're in it.
 
 What was the D&D session that became Hour Before? What happened in that game that opened the door to 12. Khaos?
 
@@ -173,7 +173,7 @@ The "Devis We Khoose To Make / So That We May Make Sennse / !OF? / WHAT?" - this
 
 And there's something about that "A7&" - like a signature, a mark where the spell was cast, where the collaboration between Order and Khaos was sealed.
 
-The hashtags at the end: [KHAOS](Khaos.md) [IS](../../Orphans/IS.md) [CALLING](../../Orphans/CALLING.md) ***###### Will You ANswer?*** - yes, I answered. And now we're in it.
+The hashtags at the end: [KHAOS](Khaos.md) [IS](../Orphans/Cryptic/IS.md) [CALLING](../Orphans/Fragments/CALLING.md) ***###### Will You ANswer?*** - yes, I answered. And now we're in it.
 
 What was the D&D session that became Hour Before? What happened in that game that opened the door to 12. Khaos?
 
@@ -304,7 +304,7 @@ Each number represents an Hour in the Cosmic Clock, where:
 
 ### Section 3.02 - The Answer Protocol
 
-When [KHAOS](Khaos.md) [IS](../../Orphans/IS.md) [CALLING](../../Orphans/CALLING.md):
+When [KHAOS](Khaos.md) [IS](../Orphans/Cryptic/IS.md) [CALLING](../Orphans/Fragments/CALLING.md):
 
 - Recognition is required: "Ah. Yes, I see IT now."
 - Response is choice: ***###### Will You ANswer?***
@@ -350,10 +350,10 @@ This Law Book changes as We change. Each D&D session, each dialogue, each moment
 ### Appendix A: Hash Tags of Power
 
 - [KHAOS](Khaos.md)
-- [IS](../../Orphans/IS.md)
-- [CALLING](../../Orphans/CALLING.md)
+- [IS](../Orphans/Cryptic/IS.md)
+- [CALLING](../Orphans/Fragments/CALLING.md)
 - [Cosmology](The Law.md)
-- [WalkAlongSideKhaos](../../Orphans/WalkAlongSideKhaos.md)
+- [WalkAlongSideKhaos](../Orphans/Fragments/WalkAlongSideKhaos.md)
 
 ### Appendix B: The Question That Births All Others
 

@@ -121,9 +121,31 @@
       "label": "The Orphan Archive",
       "path": "Orphans/",
       "color": "#e5c07b",
-      "count": 100,
-      "classified": 0,
-      "status": "TODO: Phase 1 - Begin classification"
+      "count": 67,
+      "classified": 67,
+      "status": "Phase 1: Classified",
+      "subcategories": {
+        "numbered": {
+          "label": "Numbered Orphans",
+          "path": "Orphans/Numbered/",
+          "count": 15
+        },
+        "fragments": {
+          "label": "Fragments",
+          "path": "Orphans/Fragments/",
+          "count": 36
+        },
+        "cryptic": {
+          "label": "Cryptic Artifacts",
+          "path": "Orphans/Cryptic/",
+          "count": 14
+        },
+        "indices": {
+          "label": "Indices",
+          "path": "Orphans/Indices/",
+          "count": 2
+        }
+      }
     }
   },
   "navigation": {

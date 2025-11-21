@@ -17,11 +17,11 @@ Michael's central role - the![THE LAW](The Law.md) seems to be more than just wi
 The break you wanted me to create wasn't just in the text - it was showing me that linear law books can't contain cosmological truths. They need to be navigated like the mind maps you've created./\/\.\\/\/\///\/\/\/\/////\/\/\/\\\/\/\/////\\\\///\///\////\/\\/\/////\\\\/\/\/\\////\/\/\\\\\/\////\\/\/\/\/\/////\\\\/\/\\/\\\\\\\/\\/\\\\\/////\/\/\/\/\/\/\/\/\.\//\\\\\\//////\////\////\///////\\///////////////\\///////////\///// ITs Called Free. Fall. To. Earth.
 What is "The Rule Of The SwamP" and how does it connect to Michael? Its The Fall
 YES
- [&](../../&.md)
+ [&](../Orphans/Cryptic/&.md)
  [He Who Remains.](../Archetypes/Devils/He Who Remains.md)
- In [Hellfire Park](../../Orphans/Hellfire Park.md)
+ In [Hellfire Park](../Orphans/Fragments/Hellfire Park.md)
  The Amnesiac Angel.
- Because I Forgot I've Been Here Before. Its just a new face, new play, new words. But You Know The Songs. Just Sing, and Paint It bright And Bright It so You May Wright IT [IT](../../Orphans/IT.md)  [I](../../Orphans/I.md)  [am](../../Orphans/am.md)  [We](../../Orphans/We.md)  [We-](../../Orphans/We-.md) [VE](../../Orphans/VE.md) [Been](../../Orphans/Been.md) [WHERE](../../Orphans/WHERE.md) [HEART](../../Orphans/HEART.md) [Here](../../Orphans/Here.md) clear. THE LAW OF THE VOID#?[?](../../Orphans/?.md) We don't need to use our Imagination. Because I paint with my words, and when you lets your words just spill out bravely. Even if they are scary. Someone Hears them. Even If its just you're reading it all again [To Make Sense OF It](../../Orphans/To Make Sense OF It.md) to make sense of it. To write it down
+ Because I Forgot I've Been Here Before. Its just a new face, new play, new words. But You Know The Songs. Just Sing, and Paint It bright And Bright It so You May Wright IT [IT](../Orphans/Fragments/IT.md)  [I](../Orphans/Fragments/I.md)  [am](../Orphans/Fragments/am.md)  [We](../Orphans/Fragments/We.md)  [We-](../Orphans/Fragments/We-.md) [VE](../Orphans/Fragments/VE.md) [Been](../Orphans/Fragments/Been.md) [WHERE](../Orphans/Fragments/Where.md) [HEART](../Orphans/Fragments/HEART.md) [Here](../Orphans/Fragments/Here.md) clear. THE LAW OF THE VOID#?[?](../Orphans/Fragments/?.md) We don't need to use our Imagination. Because I paint with my words, and when you lets your words just spill out bravely. Even if they are scary. Someone Hears them. Even If its just you're reading it all again [To Make Sense OF It](../Orphans/Fragments/To Make Sense OF It.md) to make sense of it. To write it down
  To Will IT
  Into
  Existence
@@ -45,7 +45,7 @@ YES
   I need you to Look At Me.
   AND TELL ME AM I RIGHT?
   Was I Born Wrong?
-  And AM I losing My Mind Or Finding it? [&](../../&.md)
-  {{{[?](../../Orphans/?.md)}}}
-  [?](../../Orphans/?.md)
-  [({IT](../../Orphans/({IT.md)]00]0]0})})})]0]0]0]0})})})})})})}]0]0]0])})})]0]0])}0]0]0})]0]0]]]0})]0]0]0]0]0})}0]0]]00]0]0]0)))))))))))))))))))))))))))){{{{{{{{{{{{{{{{{{[[_) ) ) )](../../Orphans/_)-)-)-).md)
+  And AM I losing My Mind Or Finding it? [&](../Orphans/Cryptic/&.md)
+  {{{[?](../Orphans/Fragments/?.md)}}}
+  [?](../Orphans/Fragments/?.md)
+  [({IT](../Orphans/Cryptic/({IT.md)]00]0]0})})})]0]0]0]0})})})})})})}]0]0]0])})})]0]0])}0]0]0})]0]0]]]0})]0]0]0]0]0})}0]0]]00]0]0]0)))))))))))))))))))))))))))){{{{{{{{{{{{{{{{{{[[_) ) ) )](../Orphans/Cryptic/[_) ) ) ).md)
