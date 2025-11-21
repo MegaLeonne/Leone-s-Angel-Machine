@@ -1,22 +1,20 @@
 // Leonne's Angel Machine - Navigation JavaScript
 
-// Initialize folder toggles
 document.addEventListener('DOMContentLoaded', function() {
     // Handle folder toggle clicks
     const folderToggles = document.querySelectorAll('.folder-toggle');
-    
     folderToggles.forEach(toggle => {
-        toggle.addEventListener('click', function() {
+        toggle.addEventListener('click', function(e) {
+            // Don't block link clicks!
+            if (e.target && e.target.classList.contains('file-link')) return;
             const folderItem = this.parentElement;
             folderItem.classList.toggle('open');
-            
             // Save state to localStorage
             const folderId = this.dataset.folder;
             const isOpen = folderItem.classList.contains('open');
             localStorage.setItem(`folder-${folderId}`, isOpen);
         });
     });
-    
     // Restore folder states from localStorage
     document.querySelectorAll('.folder-item').forEach(folder => {
         const toggle = folder.querySelector('.folder-toggle');
@@ -28,20 +26,24 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     });
-    
     // Highlight active page in sidebar
-    const currentPath = window.location.pathname;
+    const currentUrl = new URL(window.location.href);
     document.querySelectorAll('.file-link').forEach(link => {
-        if (link.getAttribute('href') === currentPath) {
-            link.classList.add('active');
-            // Open parent folder if exists
-            const parentFolder = link.closest('.folder-item');
-            if (parentFolder) {
-                parentFolder.classList.add('open');
+        if (link.getAttribute('href')) {
+            let linkPath = link.getAttribute('href');
+            if (linkPath.startsWith('view.html')) {
+                const linkUrl = new URL(linkPath, window.location.origin);
+                if (linkUrl.pathname === currentUrl.pathname && linkUrl.search === currentUrl.search) {
+                    link.classList.add('active');
+                    // Open parent folder if exists
+                    const parentFolder = link.closest('.folder-item');
+                    if (parentFolder) {
+                        parentFolder.classList.add('open');
+                    }
+                }
             }
         }
     });
-    
     // Mobile menu toggle
     const menuToggle = document.getElementById('mobile-menu-toggle');
     if (menuToggle) {

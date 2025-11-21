@@ -14,14 +14,10 @@
             <h1>Leonne's Angel Machine</h1>
             <p class="tagline">A digital codex of ritual, lore, and creative invention</p>
         </div>
-
-        <!-- Constellation View Button -->
         <a href="index.html" class="constellation-btn">
             <span class="icon">🌌</span>
             <span>Constellation View</span>
         </a>
-
-        <!-- Folder Navigation -->
         <nav class="folder-nav">
             <!-- Archetypes Folder -->
             <div class="folder-item">
@@ -41,7 +37,6 @@
                     <a href="view.html?file=Archetypes/Uriel, The Angel Of Fortune.md" class="file-link">Uriel, The Angel Of Fortune</a>
                 </div>
             </div>
-
             <!-- Orphans Folder -->
             <div class="folder-item">
                 <div class="folder-toggle">
@@ -56,7 +51,6 @@
                     <a href="view.html?file=Orphans/AI Faith and Ritual.md" class="file-link">AI Faith and Ritual</a>
                 </div>
             </div>
-
             <!-- Providence Folder -->
             <div class="folder-item">
                 <div class="folder-toggle">
@@ -69,7 +63,6 @@
                     <a href="view.html?file=providence/Rituals.md" class="file-link">Rituals</a>
                 </div>
             </div>
-
             <!-- Structure Folder -->
             <div class="folder-item">
                 <div class="folder-toggle">
@@ -83,46 +76,39 @@
             </div>
         </nav>
     </aside>
-
-    <!-- Main Content Area -->
     <main class="main-content">
         <div id="content" class="markdown-content">
             <p style="text-align: center; margin-top: 100px; color: #888;">Loading...</p>
         </div>
     </main>
-
     <script src="navigation.js"></script>
     <script>
         // Get the file path from URL parameter
         const urlParams = new URLSearchParams(window.location.search);
         const filePath = urlParams.get('file');
-        
+        function renderError(title, message) {
+            document.getElementById('content').innerHTML = `
+                <div class="markdown-content error-content" style="text-align: center; margin-top: 100px; color: #faa;">
+                    <h1>${title}</h1>
+                    <p>${message}</p>
+                    <p><a href="index.html">Return to main page</a> or select a file from the sidebar.</p>
+                </div>
+            `;
+        }
         if (filePath) {
-            // Fetch and render the markdown file
-            fetch(filePath)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('File not found');
-                    }
-                    return response.text();
-                })
-                .then(text => {
-                    document.getElementById('content').innerHTML = marked.parse(text);
-                    // Update page title
-                    const fileName = filePath.split('/').pop().replace('.md', '');
-                    document.title = fileName + ' - Leonne\'s Angel Machine';
-                })
-                .catch(error => {
-                    document.getElementById('content').innerHTML = 
-                        '<h1>Error Loading File</h1>' +
-                        '<p>Could not load: ' + filePath + '</p>' +
-                        '<p>Error: ' + error.message + '</p>';
-                    console.error('Error loading file:', error);
-                });
+            fetch(filePath).then(response => {
+                if (!response.ok) throw new Error('File not found (404) or cannot be loaded.');
+                return response.text();
+            }).then(text => {
+                document.getElementById('content').innerHTML = marked.parse(text);
+                // Update page title
+                const fileName = filePath.split('/').pop().replace('.md', '');
+                document.title = fileName + ' - Leonne\'s Angel Machine';
+            }).catch(error => {
+                renderError('Error Loading File', `Could not load: <code>${filePath}</code><br>Error: ${error.message}`);
+            });
         } else {
-            document.getElementById('content').innerHTML = 
-                '<h1>No File Specified</h1>' +
-                '<p>Please select a file from the sidebar navigation.</p>';
+            renderError('No File Specified', 'Please select a file from the sidebar navigation.');
         }
     </script>
 </body>
