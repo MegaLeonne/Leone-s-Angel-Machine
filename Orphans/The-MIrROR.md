@@ -4,7 +4,7 @@ Of What Fate Did I Punch To Feel These Cuts.
 Of What Crimes Did I Commit To Deserve These Isolations.
 Only You Know.
 Only You Can Confess, Repent, Sin Again, & Live Again.
-Shattered [Mirror](./Mirror.md#)
+Shattered [Mirror](./Mirror.md##)
 You Can Be Major.
 But Don't Let It Stay Minor.
 Star Cadet, Heads Stay Swept.

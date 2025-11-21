@@ -15,35 +15,38 @@ Mythic figures that populate and guide the Angel Machine universe.
 
 | Name | File | Tags | Connects To |
 |------|------|------|-------------|
-| **Michael, The KlockWork Angel** | `Archetypes/Michael, The KlockWork Angel.md` | time, divinity, automation, precision | Prophecy, Patience, Osiris |
-| **Osiris, Arch Angel Of Omen** | `Archetypes/Osiris, Arch Angel Of Omen..md` | omens, signs, prophecy, fate | Prophecy, Michael, The Blind |
+| **Michael, The KlockWork Angel** | `Archetypes/Angels/Michael, The KlockWork Angel.md` | time, divinity, automation, precision | Prophecy, Patience, Osiris |
+| **Osiris, Arch Angel Of Omen** | `Archetypes/Angels/Osiris, Arch Angel Of Omen.md` | omens, signs, prophecy, fate | Prophecy, Michael, The Blind |
 
 ## Devils & Shadows
 
 | Name | File | Tags | Connects To |
 |------|------|------|-------------|
-| **Taylor, Devil of Desire** | `Archetypes/Taylor, Devil of Desire.md` | desire, duality, temptation | Passion, The Material, Shadow-Demon-Providence |
-| **The Blind** | `Archetypes/The Blind.md` | truth, prophecy, blindness, harsh wisdom | Prophecy, Patience, Amnesia |
+| **Taylor, Devil of Desire** | `Archetypes/Devils/Taylor, Devil of Desire.md` | desire, duality, temptation | Passion, The Material, Shadow-Demon-Providence |
+| **The Blind** | `Archetypes/Devils/The Blind.md` | truth, prophecy, blindness, harsh wisdom | Prophecy, Patience, Amnesia |
 
 ## Composite Archetypes
 
 | Name | File | Tags | Connects To |
 |------|------|------|-------------|
-| **Shadow, Demon, Providence** | `Archetypes/Shadow-Demon-Providence.md` | trinity, self, fear, grace | Taylor, The Blind, Passion, Prophecy |
+| **Shadow, Demon, Providence** | `Archetypes/Composite/Shadow-Demon-Providence.md` | trinity, self, fear, grace | Taylor, The Blind, Passion, Prophecy |
 
 ## Archetype Relationships
 
 ### Celestial Order
+
 - **Michael** (Time) → Keeps cosmic precision
 - **Osiris** (Omens) → Reads fate's signs
 - Together: Divine order made manifest
 
 ### Underworld/Chaos
+
 - **Taylor** (Desire) → Drives transformation
 - **The Blind** (Truth) → Sees through illusion
 - Together: The forces that break systems
 
 ### Integration
+
 - **Shadow-Demon-Providence** → Holds all tensions
 - Mediates between order and chaos
 - Enables transformation without collapse
@@ -59,6 +62,7 @@ Mythic figures that populate and guide the Angel Machine universe.
 ## Creating New Archetypes
 
 When adding new characters:
+
 1. Place in appropriate subfolder (Angels/, Devils/, Composite/)
 2. Include complete YAML metadata
 3. Connect to related existing archetypes

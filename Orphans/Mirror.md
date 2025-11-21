@@ -12,4 +12,4 @@ A Thief Must Be Alert In The Night.
 But A Saint Must Be Aware Of Others Plight.
 So Take Flight. Look Into The Sky.
 See My Mirror, Only Mine.
-[KHAOS](./KHAOS.md#)
+[KHAOS](../%7B%7B%7D%7D/KHAOS.md##)

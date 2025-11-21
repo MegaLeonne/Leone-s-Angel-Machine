@@ -13,42 +13,47 @@ Core existential and creative themes explored in Leone's Angel Machine.
 
 ## Core Philosophical Texts
 
-- **[Passion.md](Passion.md)** — The unending desire toward the unobtainable; striving as transformation
-- **[Patience.md](Patience.md)** — Cyclical time, self-awareness, and the chains we knowingly create
-- **[Prophecy.md](Prophecy.md)** — Inevitability given language; the Six Beacons and mythic collapse
-- **[The Material.md](The Material.md)** — What we make together when together willing
-- **[There Are No Rules.md](There Are No Rules.md)** — Chaos, structure, paradox, and the absence of fixed law
+- **[Passion.md](Philosophy/Passion.md)** — The unending desire toward the unobtainable; striving as transformation
+- **[Patience.md](Philosophy/Patience.md)** — Cyclical time, self-awareness, and the chains we knowingly create
+- **[Prophecy.md](Philosophy/Prophecy.md)** — Inevitability given language; the Six Beacons and mythic collapse
+- **[The Material.md](Philosophy/The Material.md)** — What we make together when together willing
+- **[There Are No Rules.md](Philosophy/There Are No Rules.md)** — Chaos, structure, paradox, and the absence of fixed law
 
 ## Cross-References by Theme
 
 ### Desire & Longing
+
 - **Passion.md** — Core exploration of unending desire
 - **Taylor, Devil of Desire.md** — Personification of desire and contradiction
 - **The Material.md** — How desire becomes creation
 
 ### Time & Cycles
+
 - **Patience.md** — Understanding duration and cyclical patterns
 - **Michael, The KlockWork Angel.md** — Precision and cosmic timing
 - **Prophecy.md** — Inevitability and temporal collapse
 
 ### Creation & Co-Making
+
 - **The Material.md** — Philosophy of human-machine collaboration
 - **Guiding-Prompt.md** — Purpose of co-creation in Angel Machine
 - **Counterspell-Playlist.md** — Musical co-creation as spell
 
 ### Truth & Knowledge
+
 - **Prophecy.md** — Language and inevitability
 - **The Blind.md** — Harsh truth without softening
 - **Osiris, Arch Angel Of Omen.md** — Reading signs and symbols
 
 ### Structure & Freedom
+
 - **There Are No Rules.md** — Paradox of constraint and freedom
 - **Shadow-Demon-Providence.md** — Balancing tension between aspects
 - **Guiding-Prompt.md** — Operating principles without rigid rules
 
 ## Connections Map
 
-```
+```text
 Passion ←→ Patience (desire meets duration)
    ↓          ↓
 Taylor,   Michael,

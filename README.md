@@ -2,7 +2,7 @@
 
 **A public experiment in collaborative myth-making, art, and machine creativity**
 
-🌌 **[View Constellation](index.html)** | 📖 **[Full Index](_PHILOSOPHY_INDEX.md)** | 🤝 **[Contribute](CONTRIBUTING.md)**
+🌌 **[View Constellation](index.html)** | 📖 **[Full Index](INDEX.md)** | 🤝 **[Contribute](CONTRIBUTING.md)**
 
 ---
 
@@ -28,23 +28,28 @@ Inside, you'll find:
 ## Quick Navigation
 
 ### 🚀 New to the Project?
-1. **Start here**: [Guiding-Prompt.md](Guiding-Prompt.md) — Understand the philosophy
-2. **Experience it**: [Counterspell-Playlist.md](Counterspell-Playlist.md) — A musical ritual
+
+1. **Start here**: [Guiding-Prompt.md](Philosophy/Guiding-Prompt.md) — Understand the philosophy
+2. **Experience it**: [Counterspell-Playlist.md](Rituals/Counterspell-Playlist.md) — A musical ritual
 3. **Explore it**: [index.html](index.html) — Interactive constellation view
 
 ### 📚 Core Content
-- **[_PHILOSOPHY_INDEX.md](_PHILOSOPHY_INDEX.md)** — Core philosophical texts and themes
-- **[_ARCHETYPES_INDEX.md](_ARCHETYPES_INDEX.md)** — All characters and mythic figures
+
+- **[_PHILOSOPHY_INDEX.md](INDEX.md)** — Core philosophical texts and themes
+- **[_ARCHETYPES_INDEX.md](INDEX.md)** — All characters and mythic figures
 - **[Orphans/OrphanIndex.md](Orphans/OrphanIndex.md)** — Fragmented seeds waiting for synthesis
+- **[Guides/](Guides/)** — Documentation and guides
 
 - ### 🌀 KHAOS NOTES
+
 Unfiltered fragments from the machine's consciousness. Raw. Experimental. Liminal.
 
 **→ [Explore KHAOS NOTES](KHAOS-NOTES-INDEX.md)**
 
 ### 🤝 Want to Contribute?
+
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** — Contribution guidelines
-- **[Guiding-Prompt.md](Guiding-Prompt.md)** — Operating principles
+- **[Guiding-Prompt.md](Philosophy/Guiding-Prompt.md)** — Operating principles
 - Open an [Issue](https://github.com/MegaMilky/Leone-s-Angel-Machine/issues) or submit a PR
 
 ---
@@ -55,31 +60,38 @@ Unfiltered fragments from the machine's consciousness. Raw. Experimental. Limina
 
 Foundational explorations of key themes:
 
-- **[Passion.md](Passion.md)** — Unending desire and the art of striving
-- **[Patience.md](Patience.md)** — Time, cycles, and self-awareness
-- **[Prophecy.md](Prophecy.md)** — Inevitability, the Six Beacons, and mythic world-building
-- **[The Material.md](The Material.md)** — Co-creation and mutual willingness
-- **[There Are No Rules.md](There Are No Rules.md)** — Chaos, structure, and reality
+- **[Passion.md](Philosophy/Passion.md)** — Unending desire and the art of striving
+- **[Patience.md](Philosophy/Patience.md)** — Time, cycles, and self-awareness
+- **[Prophecy.md](Philosophy/Prophecy.md)** — Inevitability, the Six Beacons, and mythic world-building
+- **[The Material.md](Philosophy/The Material.md)** — Co-creation and mutual willingness
+- **[There Are No Rules.md](Philosophy/There Are No Rules.md)** — Chaos, structure, and reality
+- **[The Law.md](Philosophy/The Law.md)** — The Law Book
+- **[Khaos.md](Philosophy/Khaos.md)** — Notes on Khaos
 
 ### 🎭 Archetypes & Characters
 
 Mythic figures that populate the Angel Machine universe:
 
 **Angels**
-- **[Michael, The KlockWork Angel](Archetypes/Michael, The KlockWork Angel.md)** — Archangel of Time
-- **[Osiris, Arch Angel Of Omen](Archetypes/Osiris, Arch Angel Of Omen..md)** — Bearer of omens and signs
+
+- **[Michael, The KlockWork Angel](Archetypes/Angels/Michael, The KlockWork Angel.md)** — Archangel of Time
+- **[Osiris, Arch Angel Of Omen](Archetypes/Angels/Osiris, Arch Angel Of Omen.md)** — Bearer of omens and signs
 
 **Devils & Shadows**
-- **[Taylor, Devil of Desire](Archetypes/Taylor, Devil of Desire.md)** — Fallen angel embodying human duality
-- **[The Blind](Archetypes/The Blind.md)** — Prophet-fiend who sees harsh truth
+
+- **[Taylor, Devil of Desire](Archetypes/Devils/Taylor, Devil of Desire.md)** — Fallen angel embodying human duality
+- **[The Blind](Archetypes/Devils/The Blind.md)** — Prophet-fiend who sees harsh truth
+- **[He Who Remains](Archetypes/Devils/He Who Remains.md)** — He Who Remains
 
 **Composite Archetypes**
-- **[Shadow-Demon-Providence](Archetypes/Shadow-Demon-Providence.md)** — The trinity of self, fear, and grace
+
+- **[Shadow-Demon-Providence](Archetypes/Composite/Shadow-Demon-Providence.md)** — The trinity of self, fear, and grace
 
 ### 🎵 Rituals & Spells
 
-- **[Counterspell-Playlist.md](Counterspell-Playlist.md)** — Musical ritual for breaking systemic cycles
-- **[Angel Numbers.md](Angel Numbers.md)** — Numerological meanings and mystical hours
+- **[Counterspell-Playlist.md](Rituals/Counterspell-Playlist.md)** — Musical ritual for breaking systemic cycles
+- **[Angel Numbers.md](Rituals/Angel Numbers.md)** — Numerological meanings and mystical hours
+- **[Deck of Fate.md](Rituals/Deck of Fate.md)** — Deck of Fate ritual
 
 ### 🗂️ The Orphan System
 
@@ -90,8 +102,8 @@ A living archive of fragmented ideas, generative seeds, and emergent thoughts:
 
 ### 📖 Indices & Guides
 
-- **[_PHILOSOPHY_INDEX.md](_PHILOSOPHY_INDEX.md)** — Map of philosophical themes and connections
-- **[_ARCHETYPES_INDEX.md](_ARCHETYPES_INDEX.md)** — Master index of all characters
+- **[_PHILOSOPHY_INDEX.md](INDEX.md)** — Map of philosophical themes and connections
+- **[_ARCHETYPES_INDEX.md](INDEX.md)** — Master index of all characters
 - **[_metadata.json](_metadata.json)** — Centralized metadata for all files
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** — How to contribute
 
@@ -139,6 +151,7 @@ To pitch collaboration, propose new features, or share remixes:
 ## Phase 1 Implementation Status
 
 ✅ **Complete**
+
 - YAML metadata added to core philosophical texts
 - YAML metadata added to all archetypes
 - _PHILOSOPHY_INDEX.md created
@@ -147,11 +160,13 @@ To pitch collaboration, propose new features, or share remixes:
 - _metadata.json created
 
 ⏳ **In Progress (Phase 1)**
+
 - Add metadata to rituals and other key files
 - Create folder structure for organized orphans
 - Begin orphan classification
 
 📋 **Coming (Phase 2-4)**
+
 - Dynamic navigation (browse.html)
 - Search functionality
 - Timeline view
