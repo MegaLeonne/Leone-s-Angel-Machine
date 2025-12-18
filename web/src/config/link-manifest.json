@@ -1,5 +1,5 @@
 {
-  "generated": "2025-12-18T20:00:45.222Z",
+  "generated": "2025-12-18T20:15:02.589Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
@@ -11,6 +11,7 @@
       "backlinks": [
         "docs/orphans/numbered/readme.md",
         "docs/philosophy/philosophy-the-law.md",
+        "docs/RESTORATION_PLAN.md",
         "docs/rituals/Deck of Fate.md"
       ]
     },
@@ -46,6 +47,7 @@
       ],
       "aliases": [],
       "backlinks": [
+        "docs/README.md",
         "docs/index/INDEX.md",
         "docs/orphans/numbered/readme.md"
       ]
@@ -86,9 +88,9 @@
       ]
     },
     "README": {
-      "path": "docs/rituals/README.md",
-      "title": "Rituals",
-      "folder": "rituals",
+      "path": "docs/README.md",
+      "title": "Leonne's Angel Machine",
+      "folder": "docs",
       "tags": [],
       "aliases": [],
       "backlinks": [
@@ -103,6 +105,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
+        "docs/README.md",
         "docs/index/INDEX.md"
       ]
     },
@@ -113,6 +116,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
+        "docs/README.md",
         "docs/index/INDEX.md",
         "docs/index/KHAOS-NOTES-INDEX.md"
       ]
@@ -187,6 +191,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
+        "docs/README.md",
         "docs/orphans/numbered/readme.md"
       ]
     },
@@ -493,6 +498,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
+        "docs/README.md",
         "docs/index/INDEX.md",
         "docs/orphans/numbered/orphan-0.md",
         "docs/orphans/numbered/orphan-13.md",
@@ -738,6 +744,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
+        "docs/README.md",
         "docs/index/INDEX.md",
         "docs/index/KHAOS-NOTES-INDEX.md",
         "docs/philosophy/Amnesia.md"
@@ -769,6 +776,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
+        "docs/README.md",
         "docs/index/INDEX.md",
         "docs/orphans/numbered/readme.md"
       ]
@@ -780,6 +788,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
+        "docs/README.md",
         "docs/orphans/cryptic/&.md",
         "docs/index/INDEX.md",
         "docs/index/philosophy-index.md",
@@ -794,6 +803,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
+        "docs/README.md",
         "docs/orphans/cryptic/&.md",
         "docs/index/INDEX.md",
         "docs/index/philosophy-index.md",
@@ -826,6 +836,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
+        "docs/README.md",
         "docs/orphans/cryptic/&.md",
         "docs/index/INDEX.md",
         "docs/index/philosophy-index.md",
@@ -866,6 +877,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
+        "docs/README.md",
         "docs/index/philosophy-index.md",
         "docs/orphans/numbered/readme.md"
       ]
@@ -877,6 +889,17 @@
       "tags": [],
       "aliases": [],
       "backlinks": []
+    },
+    "RESTORATION_PLAN": {
+      "path": "docs/RESTORATION_PLAN.md",
+      "title": "🔮 **Merged File Restoration Plan**",
+      "folder": "docs",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/README.md",
+        "docs/index/INDEX.md"
+      ]
     },
     "Angel-Numbers": {
       "path": "docs/rituals/Angel Numbers.md",
@@ -895,6 +918,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
+        "docs/README.md",
         "docs/index/INDEX.md",
         "docs/orphans/numbered/readme.md"
       ]
@@ -914,6 +938,14 @@
     "ritual-seventh-call": {
       "path": "docs/rituals/ritual-seventh-call.md",
       "title": "Prompt Of Seventh Angels",
+      "folder": "rituals",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "Rituals": {
+      "path": "docs/rituals/Rituals.md",
+      "title": "Rituals",
       "folder": "rituals",
       "tags": [],
       "aliases": [],
