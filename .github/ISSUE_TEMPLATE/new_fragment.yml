@@ -1,0 +1,49 @@
+name: "🌀 New Fragment / Orphan"
+description: "Submit a new piece of lore, a concept, or an orphan idea for the Seventh Borough."
+title: "[FRAGMENT]: A brief, clear title"
+labels: ["triage", "orphan"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Thank you for contributing to the Seventh Borough. Please provide as much detail as possible.**
+  - type: textarea
+    id: content
+    attributes:
+      label: Fragment Content
+      description: "Write the full text of your lore, idea, or story here. Use Markdown for formatting."
+      placeholder: "The air in the Low Wards grew heavy, tasting of ozone and forgotten memories..."
+    validations:
+      required: true
+  - type: dropdown
+    id: archetype
+    attributes:
+      label: Associated Archetype
+      description: "Which major entity is this lore connected to?"
+      options:
+        - The Head
+        - The Heart
+        - The Void
+        - Michael, The KlockWork Angel
+        - Taylor, Devil of Desire
+        - Unaffiliated / Other
+    validations:
+      required: true
+  - type: textarea
+    id: connections
+    attributes:
+      label: Connections & Links
+      description: "How does this piece connect to existing lore? Please link to at least one other file or concept."
+      placeholder: "This event explains why [The Head](The-Head-Archetype) remains silent..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: workflow_compliance
+    attributes:
+      label: "Borough Workflow Checklist"
+      description: "By submitting, you agree that you have followed the canon workflow."
+      options:
+        - label: "I have checked for direct conflicts with established canon."
+          required: true
+        - label: "This piece is presented in a way that can be integrated, not overwritten."
+          required: true

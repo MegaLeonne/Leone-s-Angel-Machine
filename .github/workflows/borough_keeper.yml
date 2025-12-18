@@ -1,0 +1,37 @@
+name: "🏛️ Borough Keeper"
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**.md'
+
+jobs:
+  check-frontmatter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout Code"
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: "Get Changed Markdown Files"
+        id: changed_files
+        run: |
+          # Gets a list of .md files that were added or modified in this PR
+          echo "files=$(git diff --name-only HEAD^ HEAD | grep '.md$' | tr '\n' ' ')" >> $GITHUB_OUTPUT
+
+      - name: "Scan for Missing Tags"
+        if: steps.changed_files.outputs.files != ''
+        run: |
+          MISSING_TAGS=false
+          for file in ${{ steps.changed_files.outputs.files }}; do
+            if ! grep -q "^tags:" "$file"; then
+              echo "❌ Missing 'tags:' frontmatter in $file"
+              MISSING_TAGS=true
+            fi
+          done
+          if [ "$MISSING_TAGS" = true ]; then
+            echo "--------------------------------------------------"
+            echo "⚠️ Some files are missing 'tags:' frontmatter. Please add tags to ensure they can be indexed by the Angel Machine."
+            # In a more advanced setup, this could fail the check or add a comment
+          fi
