@@ -35,7 +35,8 @@ class AngelMachine {
     async route() {
         if (!this.manifest) return;
 
-        const hash = window.location.hash.slice(1) || 'README';
+        // Default to INDEX instead of README since that exists in the manifest
+        const hash = window.location.hash.slice(1) || 'INDEX';
         let fileData = this.manifest.files[hash];
 
         // If not found by stem, try aliases
@@ -51,7 +52,7 @@ class AngelMachine {
                 <div style="padding: 2rem;">
                     <h2>404 - Fragment Lost</h2>
                     <p>The record <code>${hash}</code> has been erased or never existed.</p>
-                    <p style="margin-top: 1rem;"><a href="#README">Return to home</a></p>
+                    <p style="margin-top: 1rem;"><a href="#INDEX">Return to Index</a></p>
                 </div>
             `;
             return;
