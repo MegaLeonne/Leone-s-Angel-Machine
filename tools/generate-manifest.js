@@ -203,6 +203,36 @@ function main() {
     console.log('🔮 Generating manifest for Angel Machine...');
     console.log(`📂 Target Directory: ${DOCS_DIR}\n`);
 
+    // --- NEW: Sync Root README to Docs README ---
+    const rootReadme = path.join(__dirname, '../README.md');
+    const docsReadme = path.join(DOCS_DIR, 'README.md');
+
+    try {
+        if (fs.existsSync(rootReadme)) {
+            const rootContent = fs.readFileSync(rootReadme, 'utf-8');
+            // If docs/README.md exists, check if content differs
+            let needsCopy = true;
+            if (fs.existsSync(docsReadme)) {
+                const docsContent = fs.readFileSync(docsReadme, 'utf-8');
+                if (rootContent === docsContent) {
+                    needsCopy = false;
+                    console.log('✅ README is in sync.');
+                }
+            }
+
+            if (needsCopy) {
+                fs.copyFileSync(rootReadme, docsReadme);
+                console.log('🔄 Synced root README.md to docs/README.md');
+            }
+        } else {
+            console.warn('⚠️ Root README.md not found, skipping sync.');
+        }
+    } catch (err) {
+        console.error('❌ Failed to sync README:', err);
+    }
+    // -------------------------------------------
+
+
     const { files, aliases } = scanDirectory(DOCS_DIR);
 
     const manifest = {
