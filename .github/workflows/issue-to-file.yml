@@ -1,0 +1,57 @@
+name: 🔮 Issue to Fragment
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  create-file:
+    if: github.event.label.name == 'fragment'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Parse Issue Body
+        id: parse
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const body = context.payload.issue.body;
+            // Extract ID from frontmatter
+            const idMatch = body.match(/id:\s*([^\n\r]+)/);
+            if (!idMatch) throw new Error("No 'id:' found in frontmatter!");
+            
+            const cleanId = idMatch[1].trim();
+            return { filename: `docs/orphans/${cleanId}.md`, content: body };
+
+      - name: Create File
+        run: |
+          mkdir -p docs/orphans
+          echo "${{ fromJson(steps.parse.outputs.result).content }}" > "${{ fromJson(steps.parse.outputs.result).filename }}"
+
+      - name: Commit & Push
+        run: |
+          git config user.name "Angel Machine Bot"
+          git config user.email "bot@angelmachine.void"
+          git add .
+          git commit -m "🔮 New Fragment: ${{ github.event.issue.title }}"
+          git push
+
+      - name: Close Issue
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: "✨ Fragment assimilated into the Angel Machine. File created."
+            });
+            github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            });
