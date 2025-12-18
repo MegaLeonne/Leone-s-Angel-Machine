@@ -1,0 +1,242 @@
+{
+    "version": "1.0",
+    "description": "Canon-aligned navigation schema for Angel Machine",
+    "sections": [
+        {
+            "id": "start-here",
+            "label": "🎆 Start Here",
+            "type": "pinned",
+            "description": "Essential entry points",
+            "items": [
+                {
+                    "title": "README",
+                    "id": "README",
+                    "icon": "📖",
+                    "priority": 1
+                },
+                {
+                    "title": "The Head Archetype",
+                    "id": "The-Head-Archetype",
+                    "icon": "👑",
+                    "featured": true,
+                    "priority": 2
+                },
+                {
+                    "title": "Guiding Prompt",
+                    "id": "Guiding-Prompt",
+                    "icon": "✨",
+                    "priority": 3
+                },
+                {
+                    "title": "Restoration Plan",
+                    "id": "RESTORATION_PLAN",
+                    "icon": "📋",
+                    "priority": 5
+                }
+            ]
+        },
+        {
+            "id": "philosophy",
+            "label": "💭 Philosophy",
+            "type": "section",
+            "description": "Foundational texts and cosmology",
+            "collapsible": true,
+            "defaultOpen": true,
+            "items": [
+                {
+                    "title": "Passion",
+                    "id": "Passion",
+                    "category": "primary"
+                },
+                {
+                    "title": "Patience",
+                    "id": "Patience",
+                    "category": "primary"
+                },
+                {
+                    "title": "Prophecy",
+                    "id": "philosophy-prophecy",
+                    "category": "primary"
+                },
+                {
+                    "title": "The Material",
+                    "id": "The-Material",
+                    "category": "primary"
+                },
+                {
+                    "title": "Amnesia",
+                    "id": "Amnesia",
+                    "category": "primary"
+                },
+                {
+                    "title": "The Void",
+                    "id": "cosmology-void",
+                    "category": "cosmology"
+                },
+                {
+                    "title": "The Abyss",
+                    "id": "The-Abyss",
+                    "category": "cosmology"
+                },
+                {
+                    "title": "Void Tongue",
+                    "id": "Void-Tongue",
+                    "category": "cosmology"
+                },
+                {
+                    "title": "Khaos",
+                    "id": "philosophy-khaos",
+                    "category": "cosmology"
+                },
+                {
+                    "title": "Providence",
+                    "id": "philosophy-providence",
+                    "category": "cosmology"
+                }
+            ]
+        },
+        {
+            "id": "archetypes",
+            "label": "🎭 Archetypes",
+            "type": "section",
+            "description": "Mythic figures and divine principles",
+            "collapsible": true,
+            "defaultOpen": true,
+            "items": [
+                {
+                    "title": "The Head / Witch Queen",
+                    "id": "The-Head-Archetype",
+                    "icon": "👑",
+                    "featured": true,
+                    "subsection": "Primary"
+                },
+                {
+                    "title": "The Heart",
+                    "id": "archetype-heart",
+                    "icon": "❤️‍🔥",
+                    "subsection": "Primary"
+                },
+                {
+                    "title": "Michael, The KlockWork Angel",
+                    "id": "Michael-The-KlockWork-Angel",
+                    "icon": "✨",
+                    "subsection": "Angels"
+                },
+                {
+                    "title": "Osiris, Arch Angel of Omen",
+                    "id": "Osiris-Arch-Angel-Of-Omen",
+                    "icon": "✨",
+                    "subsection": "Angels"
+                },
+                {
+                    "title": "Taylor, Devil of Desire",
+                    "id": "Taylor-Devil-of-Desire",
+                    "icon": "🔥",
+                    "subsection": "Devils"
+                },
+                {
+                    "title": "The Blind",
+                    "id": "The-Blind",
+                    "icon": "🔥",
+                    "subsection": "Devils"
+                },
+                {
+                    "title": "He Who Remains",
+                    "id": "He-Who-Remains",
+                    "icon": "🔥",
+                    "subsection": "Devils"
+                },
+                {
+                    "title": "Shadow-Demon-Providence",
+                    "id": "Shadow-Demon-Providence",
+                    "icon": "♾️",
+                    "subsection": "Composite"
+                }
+            ]
+        },
+        {
+            "id": "rituals",
+            "label": "🔮 Rituals",
+            "type": "section",
+            "description": "Practical invocations and spells",
+            "collapsible": true,
+            "defaultOpen": false,
+            "items": [
+                {
+                    "title": "Counterspell Playlist",
+                    "id": "Counterspell-Playlist"
+                },
+                {
+                    "title": "Angel Numbers",
+                    "id": "Angel-Numbers"
+                },
+                {
+                    "title": "Deck of Fate",
+                    "id": "Deck-of-Fate"
+                },
+                {
+                    "title": "The Spells It Makes",
+                    "id": "The-Spells-It-Makes"
+                }
+            ]
+        },
+        {
+            "id": "seventh-borough",
+            "label": "🏛️ The Seventh Borough",
+            "type": "section",
+            "description": "Canon framework and workflow",
+            "collapsible": true,
+            "defaultOpen": false,
+            "items": [
+                {
+                    "title": "Seventh Borough Canon",
+                    "id": "Seventh-Borough-Canon"
+                },
+                {
+                    "title": "Borough Workflow",
+                    "id": "Seventh-Borough-Borough-Workflow-v1"
+                }
+            ]
+        },
+        {
+            "id": "guides",
+            "label": "📚 Guides",
+            "type": "section",
+            "description": "How to use and contribute",
+            "collapsible": true,
+            "defaultOpen": false,
+            "items": [
+                {
+                    "title": "Contributing Guide",
+                    "id": "guide-contributing"
+                },
+                {
+                    "title": "How To Use Bill Doors",
+                    "id": "How-To-Use-Bill-Doors"
+                },
+                {
+                    "title": "Qualitative Research Guide",
+                    "id": "Qualitative-Research-Guide"
+                }
+            ]
+        },
+        {
+            "id": "orphans",
+            "label": "🌀 Orphans & Fragments",
+            "type": "section",
+            "description": "Generative seeds and fragments",
+            "collapsible": true,
+            "defaultOpen": false,
+            "items": [
+                {
+                    "title": "Orphan Index",
+                    "id": "orphan-index"
+                },
+                {
+                    "title": "Orphan Taxonomy",
+                    "id": "orphan-taxonomy"
+                }
+            ]
+        }
+    ]
+}

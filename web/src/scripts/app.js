@@ -5,6 +5,19 @@ class AngelMachine {
         this.init();
     }
 
+    async loadNavigationSchema() {
+        try {
+            const response = await fetch('./config/navigation-schema.json');
+            if (!response.ok) {
+                throw new Error(`Schema fetch failed: ${response.status}`);
+            }
+            return await response.json();
+        } catch (error) {
+            console.error('Failed to load navigation schema:', error);
+            return null;
+        }
+    }
+
     async init() {
         try {
             const response = await fetch('./config/link-manifest.json');
@@ -13,6 +26,12 @@ class AngelMachine {
             }
             this.manifest = await response.json();
             console.log('Manifest loaded successfully', Object.keys(this.manifest.files).length, 'files');
+
+            // Load navigation schema
+            this.navSchema = await this.loadNavigationSchema();
+            if (!this.navSchema) {
+                console.warn('Navigation schema not found, falling back to auto-generated nav');
+            }
 
             window.addEventListener('hashchange', () => this.route());
             this.route();
@@ -76,10 +95,16 @@ class AngelMachine {
             // Generate Backlinks HTML
             let backlinksHtml = '';
             if (fileData.backlinks && fileData.backlinks.length > 0) {
-                const backlinkItems = fileData.backlinks.map(path => {
+                const backlinkItems = fileData.backlinks.map(backlinkPath => {
+                    // Normalize the backlink path to forward slashes
+                    const normalizedPath = backlinkPath.replace(/\\/g, '/');
+
                     // Find the ID for this path (reverse lookup)
-                    // The path in backlinks is the relative path found in the manifest e.g. "docs/folder/file.md"
-                    const entry = Object.entries(this.manifest.files).find(([key, data]) => data.path === path);
+                    const entry = Object.entries(this.manifest.files).find(([key, data]) => {
+                        const normalizedDataPath = data.path.replace(/\\/g, '/');
+                        return normalizedDataPath === normalizedPath;
+                    });
+
                     if (entry) {
                         const [id, data] = entry;
                         return `<li><a href="#${id}" class="backlink-item">${data.title || id}</a></li>`;
@@ -138,75 +163,113 @@ class AngelMachine {
             return;
         }
 
-        const tree = { _files: [], _sub: {} };
-        Object.entries(this.manifest.files).forEach(([id, data]) => {
-            const folder = data.folder || '.';
-            const parts = folder === '.' ? [] : folder.split('/');
+        if (!this.navSchema) {
+            nav.innerHTML = '<p style="opacity: 0.5;">Loading navigation...</p>';
+            return;
+        }
 
-            let current = tree;
-            parts.forEach(part => {
-                if (!current._sub[part]) {
-                    current._sub[part] = { _files: [], _sub: {} };
-                }
-                current = current._sub[part];
+        // Render each section from schema
+        this.navSchema.sections.forEach(section => {
+            const sectionEl = this.renderNavSection(section);
+            if (sectionEl) nav.appendChild(sectionEl);
+        });
+    }
+
+    renderNavSection(section) {
+        const sectionEl = document.createElement('div');
+        sectionEl.className = `nav-section nav-section-${section.id}`;
+
+        if (section.type === 'pinned') {
+            sectionEl.classList.add('pinned-section');
+        }
+
+        // Section header
+        const header = document.createElement('div');
+        header.className = 'section-header';
+        header.innerHTML = `<span class="section-label">${section.label}</span>`;
+
+        if (section.collapsible && section.type !== 'pinned') {
+            header.classList.add('collapsible');
+            header.innerHTML += `<span class="collapse-icon">▼</span>`;
+
+            const content = document.createElement('div');
+            content.className = `section-content ${section.defaultOpen ? 'open' : 'collapsed'}`;
+
+            header.addEventListener('click', (e) => {
+                e.stopPropagation();
+                content.classList.toggle('open');
+                content.classList.toggle('collapsed');
+                header.querySelector('.collapse-icon').style.transform =
+                    content.classList.contains('open') ? 'rotate(0deg)' : 'rotate(-90deg)';
             });
 
-            current._files.push({ id, title: data.title });
-        });
+            section.items.forEach(item => {
+                const itemEl = this.renderNavItem(item, section);
+                if (itemEl) content.appendChild(itemEl);
+            });
 
-        const renderTree = (node, path = '', container = nav) => {
-            // 1. Render files at this level first
-            if (node._files && node._files.length > 0) {
-                node._files
-                    .sort((a, b) => a.title.localeCompare(b.title))
-                    .forEach(file => {
-                        const a = document.createElement('a');
-                        a.href = `#${file.id}`;
-                        a.className = 'file-link';
-                        a.dataset.id = file.id;
-                        a.textContent = file.title;
-                        container.appendChild(a);
-                    });
-            }
+            sectionEl.appendChild(header);
+            sectionEl.appendChild(content);
+        } else {
+            // Non-collapsible or pinned: render items directly
+            const content = document.createElement('div');
+            content.className = 'section-content open';
 
-            // 2. Render subfolders
-            if (node._sub) {
-                const sortedKeys = Object.keys(node._sub).sort();
+            section.items.forEach(item => {
+                const itemEl = this.renderNavItem(item, section);
+                if (itemEl) content.appendChild(itemEl);
+            });
 
-                sortedKeys.forEach(key => {
-                    const item = node._sub[key];
-                    const folderPath = path ? `${path}/${key}` : key;
-                    const folderId = folderPath.replace(/\//g, '-');
-                    const folderName = key.toUpperCase();
+            sectionEl.appendChild(header);
+            sectionEl.appendChild(content);
+        }
 
-                    const folderEl = document.createElement('div');
-                    folderEl.className = 'folder-item';
+        return sectionEl;
+    }
 
-                    const toggle = document.createElement('div');
-                    toggle.className = 'folder-toggle';
-                    toggle.dataset.folder = folderId;
-                    toggle.innerHTML = `<span class="folder-icon">▶</span> ${folderName}`;
+    renderNavItem(item, section) {
+        // External link
+        if (item.external) {
+            const a = document.createElement('a');
+            a.href = item.external;
+            a.className = 'file-link external-link';
+            a.target = '_blank';
+            a.rel = 'noopener noreferrer';
+            a.innerHTML = `
+                <span class="item-icon">${item.icon || '🔗'}</span>
+                <span class="item-title">${item.title}</span>
+            `;
+            return a;
+        }
 
-                    const content = document.createElement('div');
-                    content.className = 'folder-content';
+        // Internal file link
+        if (!item.id) return null;
 
-                    // Recursively render contents of this folder
-                    renderTree(item, folderPath, content);
+        const fileData = this.manifest.files[item.id];
+        if (!fileData) {
+            // Try alias
+            const realId = this.manifest.link_aliases && this.manifest.link_aliases[item.id];
+            if (!realId) return null;
+        }
 
-                    toggle.addEventListener('click', (e) => {
-                        e.stopPropagation();
-                        folderEl.classList.toggle('open');
-                    });
+        const a = document.createElement('a');
+        a.href = `#${item.id}`;
+        a.className = 'file-link';
+        a.dataset.id = item.id;
 
-                    folderEl.appendChild(toggle);
-                    folderEl.appendChild(content);
-                    container.appendChild(folderEl);
-                });
-            }
-        };
+        const icon = item.icon || '📄';
+        const featured = item.featured ? ' featured' : '';
 
-        // Render the tree starting from the root node
-        renderTree(tree, '', nav);
+        a.innerHTML = `
+            <span class="item-icon">${icon}</span>
+            <span class="item-title${featured}">${item.title}</span>
+        `;
+
+        if (item.featured) {
+            a.classList.add('featured-link');
+        }
+
+        return a;
     }
 
     updateActiveNav(id) {
@@ -224,36 +287,77 @@ class AngelMachine {
             const href = a.getAttribute('href');
             if (!href) return;
 
-            // Skip external links and anchors
+            // Skip external links and email
             if (href.startsWith('http') || href.startsWith('mailto:')) return;
-            if (href.startsWith('#')) return;
 
-            // Convert relative .md links to hash routes
+            // Handle hash links - validate they exist in manifest
+            if (href.startsWith('#')) {
+                const id = href.slice(1);
+                if (this.manifest.files[id] ||
+                    (this.manifest.link_aliases && this.manifest.link_aliases[id])) {
+                    // Valid hash link, keep it
+                    return;
+                } else {
+                    // Invalid hash link, mark as broken
+                    a.style.opacity = '0.5';
+                    a.style.cursor = 'not-allowed';
+                    a.title = `File not found: ${id}`;
+                    a.addEventListener('click', e => {
+                        e.preventDefault();
+                        alert(`Cannot navigate to: ${id}\n\nThis file is not in the manifest.`);
+                    });
+                }
+                return;
+            }
+
+            // Handle markdown file links
             if (href.endsWith('.md')) {
                 const filename = href.split('/').pop().replace('.md', '');
+                const linkText = a.textContent.trim();
 
-                // Try to find in manifest
+                // Try exact filename match first
                 if (this.manifest.files[filename]) {
                     a.href = `#${filename}`;
                     return;
                 }
 
-                // Try aliases
+                // Try link aliases
                 if (this.manifest.link_aliases && this.manifest.link_aliases[filename]) {
                     const canonicalName = this.manifest.link_aliases[filename];
                     a.href = `#${canonicalName}`;
                     return;
                 }
-            }
 
-            // Fallback: disable broken links
-            a.style.opacity = '0.5';
-            a.style.cursor = 'not-allowed';
-            a.title = 'Link target not found in manifest';
-            a.addEventListener('click', (e) => {
-                e.preventDefault();
-                alert(`Cannot navigate to: ${href}\n\nThis file is not in the manifest or path is incorrect.`);
-            });
+                // Try link text as alias
+                if (this.manifest.link_aliases && this.manifest.link_aliases[linkText]) {
+                    const canonicalName = this.manifest.link_aliases[linkText];
+                    a.href = `#${canonicalName}`;
+                    return;
+                }
+
+                // Try title matching
+                const matchingEntry = Object.entries(this.manifest.files).find(([key, data]) =>
+                    data.title && (
+                        data.title === linkText ||
+                        data.title === filename ||
+                        data.title.toLowerCase().includes(filename.toLowerCase())
+                    )
+                );
+
+                if (matchingEntry) {
+                    a.href = `#${matchingEntry[0]}`;
+                    return;
+                }
+
+                // Link is broken
+                a.style.opacity = '0.5';
+                a.style.cursor = 'not-allowed';
+                a.title = `Link target not found: ${href}`;
+                a.addEventListener('click', e => {
+                    e.preventDefault();
+                    alert(`Cannot navigate to: ${href}\n\nThis file is not in the manifest or path is incorrect.`);
+                });
+            }
         });
     }
 }

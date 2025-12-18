@@ -8,14 +8,12 @@ const OUTPUT_FILE = path.join(__dirname, '../web/src/config/link-manifest.json')
 function parseYAMLValue(value) {
     value = value.trim();
 
-    // Handle arrays [item1, item2, item3]
     if (value.startsWith('[') && value.endsWith(']')) {
         try {
-            // Try JSON parsing first (safe for simple arrays)
             return JSON.parse(value.replace(/'/g, '"'));
         } catch (e) {
-            // If JSON fails, manually parse as comma-separated
-            const content = value.slice(1, -1);
+            const content = value.slice(1, -1).trim();
+            if (!content) return [];
             return content
                 .split(',')
                 .map(item => item.trim().replace(/^["']|["']$/g, ''))
@@ -23,15 +21,22 @@ function parseYAMLValue(value) {
         }
     }
 
-    // Handle booleans
     if (value === 'true') return true;
     if (value === 'false') return false;
-
-    // Handle numbers
     if (!isNaN(value) && value !== '') return Number(value);
 
-    // Default: return as string, cleaning quotes
     return value.replace(/^["']|["']$/g, '');
+}
+
+function ensureArray(value) {
+    if (Array.isArray(value)) return value;
+    if (typeof value === 'string') {
+        if (value.startsWith('[') && value.endsWith(']')) {
+            return parseYAMLValue(value);
+        }
+        return value.trim() ? [value.trim()] : [];
+    }
+    return [];
 }
 
 function extractFrontmatter(content) {
@@ -42,10 +47,15 @@ function extractFrontmatter(content) {
     const metadata = {};
 
     yaml.split('\n').forEach(line => {
-        const [key, ...valueParts] = line.split(':');
-        if (key && valueParts.length) {
-            const value = valueParts.join(':').trim();
-            metadata[key.trim()] = parseYAMLValue(value);
+        if (!line.trim()) return;
+        const colonIndex = line.indexOf(':');
+        if (colonIndex === -1) return;
+
+        const key = line.substring(0, colonIndex).trim();
+        const value = line.substring(colonIndex + 1).trim();
+
+        if (key && value) {
+            metadata[key] = parseYAMLValue(value);
         }
     });
 
@@ -103,12 +113,11 @@ function scanDirectory(dir, baseDir = DOCS_DIR) {
                 try {
                     const content = fs.readFileSync(fullPath, 'utf-8');
                     const frontmatter = extractFrontmatter(content);
-                    const relativePath = path.relative(path.join(__dirname, '..'), fullPath)
-                        .split(path.sep)
-                        .join('/');
-                    const folder = path.relative(baseDir, currentDir)
-                        .split(path.sep)
-                        .join('/');
+                    const rawRelativePath = path.relative(path.join(__dirname, '..'), fullPath);
+                    const relativePath = rawRelativePath.split(path.sep).join('/');
+
+                    const rawFolder = path.relative(baseDir, currentDir);
+                    const folder = rawFolder.split(path.sep).join('/') || 'docs';
 
                     // Create file ID from filename (without extension)
                     let fileId = item.name.replace(/\.md$/, '');
@@ -119,10 +128,8 @@ function scanDirectory(dir, baseDir = DOCS_DIR) {
                     files[cleanId] = {
                         path: relativePath,
                         title: extractTitle(content, item.name),
-                        folder: folder || '',
-                        tags: Array.isArray(frontmatter.tags)
-                            ? frontmatter.tags
-                            : (frontmatter.tags ? [frontmatter.tags] : []),
+                        folder: folder || 'docs',
+                        tags: ensureArray(frontmatter.tags || []),
                         aliases: frontmatter.aliases || [],
                         backlinks: []
                     };
