@@ -17,36 +17,70 @@
         {
           "name": "Passion.md",
           "title": "Passion",
-          "tags": ["desire", "transformation", "striving"],
-          "connects": ["Patience.md", "Archetypes/Devils/Taylor, Devil of Desire.md"],
+          "tags": [
+            "desire",
+            "transformation",
+            "striving"
+          ],
+          "connects": [
+            "Patience.md",
+            "Archetypes/Devils/Taylor, Devil of Desire.md"
+          ],
           "status": "Complete"
         },
         {
           "name": "Patience.md",
           "title": "Patience",
-          "tags": ["time", "cycles", "self-awareness"],
-          "connects": ["Passion.md", "Archetypes/Angels/Michael, The KlockWork Angel.md"],
+          "tags": [
+            "time",
+            "cycles",
+            "self-awareness"
+          ],
+          "connects": [
+            "Passion.md",
+            "Archetypes/Angels/Michael, The KlockWork Angel.md"
+          ],
           "status": "Complete"
         },
         {
           "name": "Prophecy.md",
           "title": "Prophecy",
-          "tags": ["inevitability", "language", "fate"],
-          "connects": ["Patience.md", "Archetypes/Angels/Osiris, Arch Angel Of Omen.md"],
+          "tags": [
+            "inevitability",
+            "language",
+            "fate"
+          ],
+          "connects": [
+            "Patience.md",
+            "Archetypes/Angels/Osiris, Arch Angel Of Omen.md"
+          ],
           "status": "Complete"
         },
         {
           "name": "The Material.md",
           "title": "The Material",
-          "tags": ["co-creation", "mutual willingness"],
-          "connects": ["Passion.md", "Guiding-Prompt.md"],
+          "tags": [
+            "co-creation",
+            "mutual willingness"
+          ],
+          "connects": [
+            "Passion.md",
+            "Guiding-Prompt.md"
+          ],
           "status": "Complete"
         },
         {
           "name": "There Are No Rules.md",
           "title": "There Are No Rules",
-          "tags": ["chaos", "structure", "paradox"],
-          "connects": ["Prophecy.md", "Passion.md"],
+          "tags": [
+            "chaos",
+            "structure",
+            "paradox"
+          ],
+          "connects": [
+            "Prophecy.md",
+            "Passion.md"
+          ],
           "status": "Complete"
         }
       ]
@@ -65,13 +99,21 @@
             {
               "name": "Michael, The KlockWork Angel.md",
               "title": "Michael, The KlockWork Angel",
-              "tags": ["time", "divinity", "automation"],
+              "tags": [
+                "time",
+                "divinity",
+                "automation"
+              ],
               "status": "Complete"
             },
             {
               "name": "Osiris, Arch Angel Of Omen..md",
               "title": "Osiris, Arch Angel Of Omen",
-              "tags": ["omens", "signs", "prophecy"],
+              "tags": [
+                "omens",
+                "signs",
+                "prophecy"
+              ],
               "status": "Complete"
             }
           ]
@@ -84,13 +126,21 @@
             {
               "name": "Taylor, Devil of Desire.md",
               "title": "Taylor, Devil of Desire",
-              "tags": ["desire", "duality", "temptation"],
+              "tags": [
+                "desire",
+                "duality",
+                "temptation"
+              ],
               "status": "Complete"
             },
             {
               "name": "The Blind.md",
               "title": "The Blind",
-              "tags": ["truth", "prophecy", "wisdom"],
+              "tags": [
+                "truth",
+                "prophecy",
+                "wisdom"
+              ],
               "status": "Complete"
             }
           ]
@@ -103,7 +153,12 @@
             {
               "name": "Shadow-Demon-Providence.md",
               "title": "Shadow, Demon, Providence",
-              "tags": ["trinity", "self", "fear", "grace"],
+              "tags": [
+                "trinity",
+                "self",
+                "fear",
+                "grace"
+              ],
               "status": "Complete"
             }
           ]
@@ -121,29 +176,32 @@
       "label": "The Orphan Archive",
       "path": "Orphans/",
       "color": "#e5c07b",
-      "count": 67,
-      "classified": 67,
-      "status": "Phase 1: Classified",
+      "count": 43,
+      "status": "Phase 1: Flattened Structure Complete",
       "subcategories": {
         "numbered": {
           "label": "Numbered Orphans",
           "path": "Orphans/Numbered/",
-          "count": 15
-        },
-        "fragments": {
-          "label": "Fragments",
-          "path": "Orphans/Fragments/",
-          "count": 36
+          "count": 16,
+          "description": "Sequential orphan transmissions (Orphan_*.md)"
         },
         "cryptic": {
           "label": "Cryptic Artifacts",
           "path": "Orphans/Cryptic/",
-          "count": 14
+          "count": 13,
+          "description": "Symbolic, abstract, and glitch artifacts"
+        },
+        "fragments": {
+          "label": "Fragments",
+          "path": "Orphans/Fragments/",
+          "count": 12,
+          "description": "Coherent text fragments and philosophical musings"
         },
         "indices": {
           "label": "Indices",
           "path": "Orphans/Indices/",
-          "count": 2
+          "count": 2,
+          "description": "Metadata and index files"
         }
       }
     }
@@ -168,10 +226,29 @@
     ]
   },
   "phase_1_progress": {
-    "metadata_added": ["Passion.md", "Patience.md", "Prophecy.md", "The Material.md", "There Are No Rules.md", "Guiding-Prompt.md"],
-    "archetypes_metadated": ["Michael", "Osiris", "Taylor", "The Blind", "Shadow-Demon-Providence"],
-    "index_files_created": ["_PHILOSOPHY_INDEX.md", "_ARCHETYPES_INDEX.md"],
-    "foundation_files_created": ["CONTRIBUTING.md", "_metadata.json"],
+    "metadata_added": [
+      "Passion.md",
+      "Patience.md",
+      "Prophecy.md",
+      "The Material.md",
+      "There Are No Rules.md",
+      "Guiding-Prompt.md"
+    ],
+    "archetypes_metadated": [
+      "Michael",
+      "Osiris",
+      "Taylor",
+      "The Blind",
+      "Shadow-Demon-Providence"
+    ],
+    "index_files_created": [
+      "_PHILOSOPHY_INDEX.md",
+      "_ARCHETYPES_INDEX.md"
+    ],
+    "foundation_files_created": [
+      "CONTRIBUTING.md",
+      "_metadata.json"
+    ],
     "next_steps": [
       "Add metadata to remaining key files (Counterspell-Playlist, Angel Numbers)",
       "Create Rituals/, Orphans/ classified structure",

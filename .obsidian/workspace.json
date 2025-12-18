@@ -1,0 +1,262 @@
+{
+  "main": {
+    "id": "b301b4f3294f346c",
+    "type": "split",
+    "children": [
+      {
+        "id": "93262db374c73237",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1500eda1cc8262bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blackbook/placeholder-af5aca1626e042aaa81b27bdc46ceda3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "placeholder-af5aca1626e042aaa81b27bdc46ceda3"
+            },
+            "group": "31da2196f1ac9f15"
+          }
+        ]
+      },
+      {
+        "id": "5968ba59ba5631dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a132af9b41f2e5a9",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Blackbook/placeholder-af5aca1626e042aaa81b27bdc46ceda3.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.1029488891070427,
+                  "close": false
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of placeholder-af5aca1626e042aaa81b27bdc46ceda3"
+            },
+            "group": "31da2196f1ac9f15"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "60bd04ec1a8586f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "7341caa0b0c28d81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3156daf4fcea1ef6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "17cdc8e7817b48e2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "184f49aafec86215",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "80fde8b8ba7c5dd3",
+    "type": "split",
+    "children": [
+      {
+        "id": "45bfd132d4f8c598",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d51539083a01b83f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Blackbook/placeholder-af5aca1626e042aaa81b27bdc46ceda3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for placeholder-af5aca1626e042aaa81b27bdc46ceda3"
+            }
+          },
+          {
+            "id": "b5c67e4a79ff4719",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Blackbook/placeholder-af5aca1626e042aaa81b27bdc46ceda3.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from placeholder-af5aca1626e042aaa81b27bdc46ceda3"
+            }
+          },
+          {
+            "id": "0eb1789ef3659f1b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "44414d75af1e76d3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "4cd135e61a1bc703",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Blackbook/placeholder-af5aca1626e042aaa81b27bdc46ceda3.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of placeholder-af5aca1626e042aaa81b27bdc46ceda3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "1500eda1cc8262bc",
+  "lastOpenFiles": [
+    "Blackbook/placeholder-72f2a14cdd2a46da8bad4a787dbec463.md",
+    "Blackbook/placeholder-1fe8d368dff0474db1e34fd4588d5bd3.md",
+    "Blackbook/pasted-image-20250925225433.png.md",
+    "Blackbook/pasted-image-20250925225433.png",
+    "Blackbook/lies.md",
+    "Blackbook/Kerberus.md",
+    "Blackbook/He%20Who%20Remains..md",
+    "Blackbook/Engineers.md",
+    "Blackbook/Been.md",
+    "Blackbook/Asked.md",
+    "Blackbook/Arc.md",
+    "Blackbook/AM%20I%20NOT.md",
+    "Blackbook/abyssmal.md",
+    "Blackbook/12.-khaos.md",
+    "Blackbook/8.-dreams.md",
+    "Blackbook/7.--amnesia.md",
+    "Blackbook/4.-knightmares.md",
+    "Blackbook/%7D%7D.md",
+    "Blackbook/%7B%7B%7B%7B%7B%7B%7B%7B&%7D%7D.md",
+    "Blackbook/%7B%7B.md",
+    "Blackbook/}}.md",
+    "Blackbook/[[[.md",
+    "Blackbook/[_.md",
+    "Blackbook/(warning.md",
+    "Philosophy/There.md",
+    "_PHILOSOPHY_INDEX.md",
+    "_ORPHAN_TAXONOMY.md",
+    "Blackbook/pasted-image-20250925225428.png"
+  ]
+}
