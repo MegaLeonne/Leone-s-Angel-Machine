@@ -1,5 +1,5 @@
 {
-  "generated": "2025-12-18T20:36:22.953Z",
+  "generated": "2025-12-18T20:55:14.702Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
@@ -88,15 +88,11 @@
       ]
     },
     "README": {
-      "path": "docs/README.md",
-      "title": "Leonne's Angel Machine",
-      "folder": "docs",
+      "path": "README.md",
+      "title": "README",
+      "folder": "Root",
       "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/index/INDEX.md",
-        "docs/orphans/numbered/readme.md"
-      ]
+      "backlinks": []
     },
     "The-Head-Archetype": {
       "path": "docs/archetypes/The-Head-Archetype.md",

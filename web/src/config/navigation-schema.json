@@ -10,7 +10,7 @@
             "items": [
                 {
                     "title": "README",
-                    "id": "Root-README",
+                    "id": "README",
                     "icon": "📖",
                     "priority": 1
                 },

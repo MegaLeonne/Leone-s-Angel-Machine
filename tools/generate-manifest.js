@@ -76,6 +76,30 @@ function extractTitle(content, filename) {
     return filename.replace(/\.md$/, '').replace(/-/g, ' ');
 }
 
+
+function processRootReadme(files) {
+    const readmePath = path.join(__dirname, '..', 'README.md');
+    if (fs.existsSync(readmePath)) {
+        console.log('Processing root README.md...');
+        try {
+            const content = fs.readFileSync(readmePath, 'utf-8');
+            const frontmatter = extractFrontmatter(content);
+            const relativePath = 'README.md'; // Simple path for root
+
+            files['README'] = {
+                path: relativePath,
+                title: frontmatter.title || 'README',
+                folder: 'Root',
+                tags: ensureArray(frontmatter.tags || []),
+                backlinks: []
+            };
+            console.log('✓ Root README.md processed successfully.');
+        } catch (error) {
+            console.error('✗ Error processing root README.md:', error);
+        }
+    }
+}
+
 function scanDirectory(dir, baseDir = DOCS_DIR) {
     const files = {};
     const aliases = {};
@@ -203,37 +227,11 @@ function main() {
     console.log('🔮 Generating manifest for Angel Machine...');
     console.log(`📂 Target Directory: ${DOCS_DIR}\n`);
 
-    // --- NEW: Sync Root README to Docs README ---
-    const rootReadme = path.join(__dirname, '../README.md');
-    const docsReadme = path.join(DOCS_DIR, 'README.md');
-
-    try {
-        if (fs.existsSync(rootReadme)) {
-            const rootContent = fs.readFileSync(rootReadme, 'utf-8');
-            // If docs/README.md exists, check if content differs
-            let needsCopy = true;
-            if (fs.existsSync(docsReadme)) {
-                const docsContent = fs.readFileSync(docsReadme, 'utf-8');
-                if (rootContent === docsContent) {
-                    needsCopy = false;
-                    console.log('✅ README is in sync.');
-                }
-            }
-
-            if (needsCopy) {
-                fs.copyFileSync(rootReadme, docsReadme);
-                console.log('🔄 Synced root README.md to docs/README.md');
-            }
-        } else {
-            console.warn('⚠️ Root README.md not found, skipping sync.');
-        }
-    } catch (err) {
-        console.error('❌ Failed to sync README:', err);
-    }
-    // -------------------------------------------
-
-
     const { files, aliases } = scanDirectory(DOCS_DIR);
+
+    // --- Root README Processing ---
+    processRootReadme(files);
+    // -----------------------------
 
     const manifest = {
         generated: new Date().toISOString(),
