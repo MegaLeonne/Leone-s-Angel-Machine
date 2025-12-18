@@ -15,7 +15,8 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./docs/index/INDEX.md"
+        "./docs/index/INDEX.md",
+        "./docs/orphans/numbered/readme.md"
       ]
     },
     "RESTORATION_PLAN": {
@@ -49,7 +50,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/The Law of the Void.md",
+        "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law of the Void.md",
         "./docs/orphans/numbered/orphan-8.md",
         "./docs/philosophy/cosmology-void.md"
       ]
@@ -63,7 +64,7 @@
       "backlinks": [
         "./archive/.archive/empty/am.md",
         "./docs/orphans/cryptic/{&&&}.md",
-        "./tools/restore-merged/extracted/The Law of the Void.md",
+        "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law of the Void.md",
         "./docs/philosophy/cosmology-void.md"
       ]
     },
@@ -75,7 +76,7 @@
       "aliases": [],
       "backlinks": [
         "./archive/.archive/empty/angels.md",
-        "./tools/restore-merged/extracted/Orphan_56.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_56.md",
         "./docs/orphans/numbered/orphan-56.md"
       ]
     },
@@ -109,7 +110,7 @@
       "aliases": [],
       "backlinks": [
         "./archive/.archive/empty/devils.md",
-        "./tools/restore-merged/extracted/Orphan_63.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_63.md",
         "./docs/orphans/numbered/orphan-63.md"
       ]
     },
@@ -121,8 +122,8 @@
       "aliases": [],
       "backlinks": [
         "./archive/.archive/empty/dragons.md",
-        "./tools/restore-merged/extracted/He Who Remains.md",
-        "./tools/restore-merged/extracted/Orphan_70.md",
+        "./docs/archetypes/Devils/He Who Remains.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_70.md",
         "./docs/orphans/numbered/orphan-70.md"
       ]
     },
@@ -158,7 +159,7 @@
         "./archive/.archive/empty/I.md",
         "./docs/orphans/cryptic/{&&&}.md",
         "./docs/orphans/cryptic/THE New Note..md",
-        "./tools/restore-merged/extracted/The Law of the Void.md",
+        "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law of the Void.md",
         "./docs/philosophy/cosmology-void.md"
       ]
     },
@@ -197,7 +198,7 @@
         "./archive/.archive/empty/IT.md",
         "./docs/orphans/cryptic/&.md",
         "./docs/orphans/cryptic/{&&&}.md",
-        "./tools/restore-merged/extracted/The Law of the Void.md",
+        "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law of the Void.md",
         "./docs/philosophy/cosmology-void.md"
       ]
     },
@@ -235,23 +236,26 @@
       ]
     },
     "THE-VOID": {
-      "path": "./tools/restore-merged/extracted/THE-VOID.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.archive/empty/THE-VOID.md",
+      "folder": "archive/.archive/empty",
       "title": "THE-VOID",
       "tags": [],
       "aliases": [],
       "backlinks": [
+        "./archive/.archive/empty/THE-VOID.md",
         "./docs/index/KHAOS-NOTES-INDEX.md",
         "./docs/orphans/cryptic/{&&&}.md"
       ]
     },
     "THEM": {
-      "path": "./tools/restore-merged/extracted/THEM.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.archive/empty/THEM.md",
+      "folder": "archive/.archive/empty",
       "title": "THEM",
       "tags": [],
       "aliases": [],
-      "backlinks": []
+      "backlinks": [
+        "./archive/.archive/empty/THEM.md"
+      ]
     },
     "We": {
       "path": "./archive/.archive/empty/We.md",
@@ -263,7 +267,7 @@
         "./archive/.archive/empty/We.md",
         "./docs/orphans/fragments/The Rule OF The Swamp..md",
         "./docs/orphans/cryptic/THE New Note..md",
-        "./tools/restore-merged/extracted/The Law of the Void.md",
+        "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law of the Void.md",
         "./docs/philosophy/cosmology-void.md"
       ]
     },
@@ -286,7 +290,7 @@
       "backlinks": [
         "./archive/.archive/empty/Where.md",
         "./docs/orphans/cryptic/{&&&}.md",
-        "./tools/restore-merged/extracted/The Law of the Void.md",
+        "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law of the Void.md",
         "./docs/philosophy/cosmology-void.md"
       ]
     },
@@ -314,12 +318,14 @@
       ]
     },
     "[Make": {
-      "path": "./tools/restore-merged/extracted/[Make.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.archive/empty/[Make.md",
+      "folder": "archive/.archive/empty",
       "title": "[Make",
       "tags": [],
       "aliases": [],
-      "backlinks": []
+      "backlinks": [
+        "./archive/.archive/empty/[Make.md"
+      ]
     },
     "[[[[[[[[[[[[[[[[[[[_) ) ) )": {
       "path": "./archive/.linkfix_backups/20251128-201300/.archive/empty/[[[[[[[[[[[[[[[[[[[_) ) ) ).md",
@@ -366,14 +372,15 @@
       ]
     },
     "OrphanIndex": {
-      "path": "./tools/restore-merged/extracted/OrphanIndex.md",
-      "folder": "tools/restore-merged/extracted",
-      "title": "Orphan Files Index",
+      "path": "./docs/orphans/indices/OrphanIndex.md",
+      "folder": "docs/orphans/indices",
+      "title": "OrphanIndex",
       "tags": [],
       "aliases": [],
       "backlinks": [
         "./docs/index/INDEX.md",
-        "./tools/restore-merged/extracted/He Who Remains.md",
+        "./docs/archetypes/Devils/He Who Remains.md",
+        "./archive/.linkfix_backups/20251128-201300/providence/Orphan_0.md",
         "./archive/.linkfix_backups/20251128-201300/providence/Orphan_13.md",
         "./archive/.linkfix_backups/20251128-201300/providence/Orphan_16.md",
         "./archive/.linkfix_backups/20251128-201300/providence/Orphan_25.md",
@@ -395,15 +402,15 @@
       ]
     },
     "He Who Remains": {
-      "path": "./tools/restore-merged/extracted/He Who Remains.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/archetypes/Devils/He Who Remains.md",
+      "folder": "docs/archetypes/Devils",
       "title": "I Am Either The Last One Standing, Or The Only One Left, Regardless I am He Who Remains",
       "tags": [],
       "aliases": [],
       "backlinks": [
         "./docs/index/INDEX.md",
         "./docs/index/KHAOS-NOTES-INDEX.md",
-        "./tools/restore-merged/extracted/The Law of the Void.md",
+        "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law of the Void.md",
         "./docs/orphans/numbered/readme.md",
         "./docs/philosophy/cosmology-void.md"
       ]
@@ -431,8 +438,8 @@
       ]
     },
     "Why": {
-      "path": "./tools/restore-merged/extracted/Why.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/orphans/fragments/Why.md",
+      "folder": "docs/orphans/fragments",
       "title": "Why",
       "tags": [],
       "aliases": [],
@@ -453,8 +460,8 @@
         "./docs/orphans/fragments/KHAOS.md",
         "./docs/orphans/cryptic/CALLING.md",
         "./docs/orphans/cryptic/THE New Note..md",
-        "./tools/restore-merged/extracted/Mirror.md",
-        "./tools/restore-merged/extracted/INDEXING_REPORT.md"
+        "./docs/orphans/fragments/Mirror.md",
+        "./docs/orphans/indices/INDEXING_REPORT.md"
       ]
     },
     "&": {
@@ -473,7 +480,7 @@
         "./docs/orphans/cryptic/THE New Note..md",
         "./docs/orphans/cryptic/}}[[THE LAW.md",
         "./archive/.linkfix_backups/20251128-201300/Philosophy/Khaos.md",
-        "./tools/restore-merged/extracted/The Law of the Void.md",
+        "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law of the Void.md",
         "./docs/philosophy/cosmology-void.md",
         "./docs/philosophy/philosophy-khaos.md"
       ]
@@ -507,155 +514,155 @@
       ]
     },
     "Orphan_0": {
-      "path": "./tools/restore-merged/extracted/Orphan_0.md",
-      "folder": "tools/restore-merged/extracted",
-      "title": "Orphan #0: OF.md",
+      "path": "./archive/.linkfix_backups/20251128-201300/providence/Orphan_0.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/providence",
+      "title": "Orphan File 0",
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md",
+        "./docs/orphans/indices/OrphanIndex.md",
         "./docs/orphans/indices/orphan-index.md",
         "./docs/orphans/numbered/orphanindex.md"
       ]
     },
     "Orphan_14": {
-      "path": "./tools/restore-merged/extracted/Orphan_14.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_14.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/Orphans/Numbered",
       "title": "Orphan #14: What.md",
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md"
+        "./docs/orphans/indices/OrphanIndex.md"
       ]
     },
     "Orphan_21": {
-      "path": "./tools/restore-merged/extracted/Orphan_21.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_21.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/Orphans/Numbered",
       "title": "Orphan #21: Where.md",
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md"
+        "./docs/orphans/indices/OrphanIndex.md"
       ]
     },
     "Orphan_28": {
-      "path": "./tools/restore-merged/extracted/Orphan_28.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_28.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/Orphans/Numbered",
       "title": "Orphan #28: Why.md",
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md"
+        "./docs/orphans/indices/OrphanIndex.md"
       ]
     },
     "Orphan_35": {
-      "path": "./tools/restore-merged/extracted/Orphan_35.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_35.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/Orphans/Numbered",
       "title": "Orphan #35: How.md",
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md"
+        "./docs/orphans/indices/OrphanIndex.md"
       ]
     },
     "Orphan_42": {
-      "path": "./tools/restore-merged/extracted/Orphan_42.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_42.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/Orphans/Numbered",
       "title": "Orphan #42: We.md",
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md"
+        "./docs/orphans/indices/OrphanIndex.md"
       ]
     },
     "Orphan_49": {
-      "path": "./tools/restore-merged/extracted/Orphan_49.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_49.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/Orphans/Numbered",
       "title": "Orphan #49: You.md",
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md"
+        "./docs/orphans/indices/OrphanIndex.md"
       ]
     },
     "Orphan_56": {
-      "path": "./tools/restore-merged/extracted/Orphan_56.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_56.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/Orphans/Numbered",
       "title": "Orphan #56: angels.md",
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md"
+        "./docs/orphans/indices/OrphanIndex.md"
       ]
     },
     "Orphan_63": {
-      "path": "./tools/restore-merged/extracted/Orphan_63.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_63.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/Orphans/Numbered",
       "title": "Orphan #63: devils.md",
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md"
+        "./docs/orphans/indices/OrphanIndex.md"
       ]
     },
     "Orphan_7": {
-      "path": "./tools/restore-merged/extracted/Orphan_7.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_7.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/Orphans/Numbered",
       "title": "Orphan #7: TH.md",
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md"
+        "./docs/orphans/indices/OrphanIndex.md"
       ]
     },
     "Orphan_70": {
-      "path": "./tools/restore-merged/extracted/Orphan_70.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_70.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/Orphans/Numbered",
       "title": "Orphan #70: dragons.md",
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md"
+        "./docs/orphans/indices/OrphanIndex.md"
       ]
     },
     "Orphan_77": {
-      "path": "./tools/restore-merged/extracted/Orphan_77.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_77.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/Orphans/Numbered",
       "title": "Orphan #77: AS.md",
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md"
+        "./docs/orphans/indices/OrphanIndex.md"
       ]
     },
     "Orphan_84": {
-      "path": "./tools/restore-merged/extracted/Orphan_84.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_84.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/Orphans/Numbered",
       "title": "Orphan #84: IN.md",
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md"
+        "./docs/orphans/indices/OrphanIndex.md"
       ]
     },
     "Orphan_91": {
-      "path": "./tools/restore-merged/extracted/Orphan_91.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_91.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/Orphans/Numbered",
       "title": "Orphan #91: IS.md",
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md"
+        "./docs/orphans/indices/OrphanIndex.md"
       ]
     },
     "Orphan_98": {
-      "path": "./tools/restore-merged/extracted/Orphan_98.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_98.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/Orphans/Numbered",
       "title": "Orphan #98: IT.md",
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md"
+        "./docs/orphans/indices/OrphanIndex.md"
       ]
     },
     "CALLING": {
@@ -719,7 +726,7 @@
       "aliases": [],
       "backlinks": [
         "./docs/index/INDEX.md",
-        "./tools/restore-merged/extracted/OrphanIndex.md",
+        "./docs/orphans/indices/OrphanIndex.md",
         "./archive/.linkfix_backups/20251128-201300/Philosophy/A New Spell Book.md",
         "./archive/.linkfix_backups/20251128-201300/Philosophy/Khaos.md",
         "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law.md",
@@ -731,8 +738,8 @@
       ]
     },
     "The Law of the Void": {
-      "path": "./tools/restore-merged/extracted/The Law of the Void.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law of the Void.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/Philosophy",
       "title": "The Law of the Void",
       "tags": [],
       "aliases": [],
@@ -748,14 +755,14 @@
       "aliases": [],
       "backlinks": [
         "./docs/index/INDEX.md",
-        "./tools/restore-merged/extracted/He Who Remains.md",
-        "./tools/restore-merged/extracted/The Law of the Void.md",
+        "./docs/archetypes/Devils/He Who Remains.md",
+        "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law of the Void.md",
         "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law.md",
         "./docs/rituals/The Spells It Makes.md",
         "./docs/orphans/numbered/readme.md",
         "./docs/philosophy/cosmology-void.md",
         "./docs/philosophy/philosophy-the-law.md",
-        "./tools/restore-merged/extracted/Deck of Fate.md"
+        "./docs/rituals/Deck of Fate.md"
       ]
     },
     "Orphan_13": {
@@ -832,8 +839,8 @@
       "backlinks": []
     },
     "Orphan_87": {
-      "path": "./tools/restore-merged/extracted/Orphan_87.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./archive/.linkfix_backups/20251128-201300/providence/Orphan_87.md",
+      "folder": "archive/.linkfix_backups/20251128-201300/providence",
       "title": "Orphan File 87",
       "tags": [],
       "aliases": [],
@@ -853,8 +860,8 @@
       ]
     },
     "[_) ) ) )": {
-      "path": "./tools/restore-merged/extracted/[_) ) ) ).md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/orphans/cryptic/[_) ) ) ).md",
+      "folder": "docs/orphans/cryptic",
       "title": "[_) ) ) )",
       "tags": [],
       "aliases": [],
@@ -999,7 +1006,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/The Law of the Void.md",
+        "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law of the Void.md",
         "./docs/philosophy/cosmology-void.md"
       ]
     },
@@ -1097,7 +1104,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/The Law of the Void.md",
+        "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law of the Void.md",
         "./docs/philosophy/cosmology-void.md"
       ]
     },
@@ -1138,7 +1145,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/Why.md",
+        "./docs/orphans/fragments/Why.md",
         "./docs/orphans/cryptic/&.md"
       ]
     },
@@ -1245,7 +1252,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md"
+        "./docs/orphans/indices/OrphanIndex.md"
       ]
     },
     "Our": {
@@ -1736,7 +1743,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/The Law of the Void.md",
+        "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law of the Void.md",
         "./docs/philosophy/cosmology-void.md"
       ]
     },
@@ -1747,23 +1754,22 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/OrphanIndex.md",
+        "./docs/orphans/indices/OrphanIndex.md",
         "./docs/orphans/cryptic/&.md",
-        "./tools/restore-merged/extracted/Orphan_0.md",
-        "./tools/restore-merged/extracted/Orphan_14.md",
-        "./tools/restore-merged/extracted/Orphan_21.md",
-        "./tools/restore-merged/extracted/Orphan_28.md",
-        "./tools/restore-merged/extracted/Orphan_35.md",
-        "./tools/restore-merged/extracted/Orphan_42.md",
-        "./tools/restore-merged/extracted/Orphan_49.md",
-        "./tools/restore-merged/extracted/Orphan_56.md",
-        "./tools/restore-merged/extracted/Orphan_63.md",
-        "./tools/restore-merged/extracted/Orphan_7.md",
-        "./tools/restore-merged/extracted/Orphan_70.md",
-        "./tools/restore-merged/extracted/Orphan_77.md",
-        "./tools/restore-merged/extracted/Orphan_84.md",
-        "./tools/restore-merged/extracted/Orphan_91.md",
-        "./tools/restore-merged/extracted/Orphan_98.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_14.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_21.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_28.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_35.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_42.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_49.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_56.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_63.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_7.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_70.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_77.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_84.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_91.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_98.md",
         "./docs/orphans/numbered/orphan-14.md",
         "./docs/orphans/numbered/orphan-21.md",
         "./docs/orphans/numbered/orphan-28.md",
@@ -1787,7 +1793,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/Orphan_87.md",
+        "./archive/.linkfix_backups/20251128-201300/providence/Orphan_87.md",
         "./docs/orphans/numbered/orphan-87.md"
       ]
     },
@@ -1840,7 +1846,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/The Law of the Void.md",
+        "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law of the Void.md",
         "./docs/philosophy/cosmology-void.md"
       ]
     },
@@ -1854,7 +1860,7 @@
         "./archive/.linkfix_backups/20251128-201300/.archive/empty/({IT.md",
         "./archive/.linkfix_backups/20251128-201300/providence/Orphan_16.md",
         "./archive/.linkfix_backups/20251128-201300/providence/Orphan_38.md",
-        "./tools/restore-merged/extracted/Orphan_87.md",
+        "./archive/.linkfix_backups/20251128-201300/providence/Orphan_87.md",
         "./docs/orphans/indices/orphan-index.md",
         "./docs/orphans/numbered/orphan-16.md",
         "./docs/orphans/numbered/orphan-38.md",
@@ -1881,31 +1887,61 @@
       "aliases": [],
       "backlinks": []
     },
+    "The-Head-Archetype": {
+      "path": "./docs/archetypes/The-Head-Archetype.md",
+      "folder": "docs/archetypes",
+      "title": "The Head / The Witch Queen",
+      "tags": [
+        "#SEVENTH-BOUND #archetype #threshold-guardian #witch-queen #the-head"
+      ],
+      "aliases": [
+        "The Anchor",
+        "She Who Stays",
+        "The Nurse of Names",
+        "The Keeper",
+        "The Witch Queen",
+        "Queen of Cups"
+      ],
+      "backlinks": []
+    },
     "Michael, The KlockWork Angel": {
-      "path": "./tools/restore-merged/extracted/Michael, The KlockWork Angel.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/archetypes/Angels/Michael, The KlockWork Angel.md",
+      "folder": "docs/archetypes/Angels",
       "title": "Michael, The KlockWork Angel",
-      "tags": [],
+      "tags": [
+        "time",
+        "divinity",
+        "automation",
+        "precision",
+        "order",
+        "clockwork"
+      ],
       "aliases": [],
       "backlinks": [
         "./RESTORATION_PLAN.md",
         "./docs/index/INDEX.md",
-        "./tools/restore-merged/extracted/He Who Remains.md",
+        "./docs/archetypes/Devils/He Who Remains.md",
         "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law.md",
         "./docs/orphans/numbered/readme.md",
         "./docs/philosophy/philosophy-the-law.md",
-        "./tools/restore-merged/extracted/Deck of Fate.md"
+        "./docs/rituals/Deck of Fate.md"
       ]
     },
     "Osiris, Arch Angel Of Omen": {
-      "path": "./tools/restore-merged/extracted/Osiris, Arch Angel Of Omen.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/archetypes/Angels/Osiris, Arch Angel Of Omen.md",
+      "folder": "docs/archetypes/Angels",
       "title": "Osiris, Arch Angel Of Omen",
-      "tags": [],
+      "tags": [
+        "omens",
+        "signs",
+        "prophecy",
+        "fate",
+        "communication"
+      ],
       "aliases": [],
       "backlinks": [
         "./docs/index/INDEX.md",
-        "./tools/restore-merged/extracted/He Who Remains.md",
+        "./docs/archetypes/Devils/He Who Remains.md",
         "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law.md",
         "./docs/orphans/numbered/readme.md",
         "./docs/philosophy/philosophy-the-law.md"
@@ -1929,23 +1965,35 @@
       ]
     },
     "Taylor, Devil of Desire": {
-      "path": "./tools/restore-merged/extracted/Taylor, Devil of Desire.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/archetypes/Devils/Taylor, Devil of Desire.md",
+      "folder": "docs/archetypes/Devils",
       "title": "Taylor, Devil of Desire",
-      "tags": [],
+      "tags": [
+        "desire",
+        "duality",
+        "temptation",
+        "human nature",
+        "contradiction"
+      ],
       "aliases": [],
       "backlinks": [
         "./docs/index/INDEX.md",
-        "./tools/restore-merged/extracted/He Who Remains.md",
+        "./docs/archetypes/Devils/He Who Remains.md",
         "./docs/orphans/numbered/readme.md",
-        "./tools/restore-merged/extracted/Deck of Fate.md"
+        "./docs/rituals/Deck of Fate.md"
       ]
     },
     "The Blind": {
-      "path": "./tools/restore-merged/extracted/The Blind.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/archetypes/Devils/The Blind.md",
+      "folder": "docs/archetypes/Devils",
       "title": "The Blind",
-      "tags": [],
+      "tags": [
+        "truth",
+        "prophecy",
+        "blindness",
+        "harsh wisdom",
+        "prophet"
+      ],
       "aliases": [],
       "backlinks": [
         "./docs/index/INDEX.md",
@@ -1976,8 +2024,8 @@
       "backlinks": []
     },
     "How To Use Bill Doors": {
-      "path": "./tools/restore-merged/extracted/How To Use Bill Doors.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/guides/How To Use Bill Doors.md",
+      "folder": "docs/guides",
       "title": "\u2261\u0192\u00f4\u00fb How to Use BillDoors-NotGates: Complete Guide by @Jaime-Lannister",
       "tags": [],
       "aliases": [],
@@ -1986,8 +2034,8 @@
       ]
     },
     "Qualitative Research Guide": {
-      "path": "./tools/restore-merged/extracted/Qualitative Research Guide.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/guides/Qualitative Research Guide.md",
+      "folder": "docs/guides",
       "title": "Qualitative Research Guide",
       "tags": [],
       "aliases": [],
@@ -2041,8 +2089,8 @@
       "backlinks": []
     },
     "AM I NOT": {
-      "path": "./tools/restore-merged/extracted/AM I NOT.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/orphans/cryptic/AM I NOT.md",
+      "folder": "docs/orphans/cryptic",
       "title": "AM I NOT",
       "tags": [],
       "aliases": [],
@@ -2051,8 +2099,8 @@
       ]
     },
     "UntiL": {
-      "path": "./tools/restore-merged/extracted/UntiL.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/orphans/cryptic/UntiL.md",
+      "folder": "docs/orphans/cryptic",
       "title": "UntiL",
       "tags": [],
       "aliases": [],
@@ -2061,16 +2109,16 @@
       ]
     },
     "[[": {
-      "path": "./tools/restore-merged/extracted/[[.md",
-      "folder": "tools/restore-merged/extracted",
-      "title": "Echoes Of A Past Self - Lexus",
+      "path": "./docs/orphans/cryptic/[[.md",
+      "folder": "docs/orphans/cryptic",
+      "title": "[[",
       "tags": [],
       "aliases": [],
       "backlinks": []
     },
     "{{": {
-      "path": "./tools/restore-merged/extracted/{{.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/orphans/cryptic/{{.md",
+      "folder": "docs/orphans/cryptic",
       "title": "{{",
       "tags": [],
       "aliases": [],
@@ -2079,20 +2127,20 @@
       ]
     },
     "Here": {
-      "path": "./tools/restore-merged/extracted/Here.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/orphans/fragments/Here.md",
+      "folder": "docs/orphans/fragments",
       "title": "Here",
       "tags": [],
       "aliases": [],
       "backlinks": [
         "./docs/index/KHAOS-NOTES-INDEX.md",
-        "./tools/restore-merged/extracted/The Law of the Void.md",
+        "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law of the Void.md",
         "./docs/philosophy/cosmology-void.md"
       ]
     },
     "Mirror": {
-      "path": "./tools/restore-merged/extracted/Mirror.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/orphans/fragments/Mirror.md",
+      "folder": "docs/orphans/fragments",
       "title": "Mirror",
       "tags": [],
       "aliases": [],
@@ -2103,9 +2151,9 @@
       ]
     },
     "Sing The City": {
-      "path": "./tools/restore-merged/extracted/Sing The City.md",
-      "folder": "tools/restore-merged/extracted",
-      "title": "\"The Wards of the City are Weak, Sing unto Them New Strength\"",
+      "path": "./docs/orphans/fragments/Sing The City.md",
+      "folder": "docs/orphans/fragments",
+      "title": "Sing The City",
       "tags": [],
       "aliases": [],
       "backlinks": [
@@ -2113,8 +2161,8 @@
       ]
     },
     "There Are No Rules": {
-      "path": "./tools/restore-merged/extracted/There Are No Rules.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/orphans/fragments/There Are No Rules.md",
+      "folder": "docs/orphans/fragments",
       "title": "There Are No Rules",
       "tags": [],
       "aliases": [],
@@ -2125,20 +2173,20 @@
       ]
     },
     "To Make Sense OF It": {
-      "path": "./tools/restore-merged/extracted/To Make Sense OF It.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/orphans/fragments/To Make Sense OF It.md",
+      "folder": "docs/orphans/fragments",
       "title": "To Make Sense OF It",
       "tags": [],
       "aliases": [],
       "backlinks": [
         "./docs/index/KHAOS-NOTES-INDEX.md",
-        "./tools/restore-merged/extracted/The Law of the Void.md",
+        "./archive/.linkfix_backups/20251128-201300/Philosophy/The Law of the Void.md",
         "./docs/philosophy/cosmology-void.md"
       ]
     },
     "WalkAlongSideKhaos": {
-      "path": "./tools/restore-merged/extracted/WalkAlongSideKhaos.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/orphans/fragments/WalkAlongSideKhaos.md",
+      "folder": "docs/orphans/fragments",
       "title": "WalkAlongSideKhaos",
       "tags": [],
       "aliases": [],
@@ -2151,8 +2199,8 @@
       ]
     },
     "Winning": {
-      "path": "./tools/restore-merged/extracted/Winning.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/orphans/fragments/Winning.md",
+      "folder": "docs/orphans/fragments",
       "title": "Winning",
       "tags": [],
       "aliases": [],
@@ -2162,17 +2210,17 @@
       ]
     },
     "You Mind": {
-      "path": "./tools/restore-merged/extracted/You Mind.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/orphans/fragments/You Mind.md",
+      "folder": "docs/orphans/fragments",
       "title": "You Mind",
       "tags": [],
       "aliases": [],
       "backlinks": []
     },
     "INDEXING_REPORT": {
-      "path": "./tools/restore-merged/extracted/INDEXING_REPORT.md",
-      "folder": "tools/restore-merged/extracted",
-      "title": "Find new empty files",
+      "path": "./docs/orphans/indices/INDEXING_REPORT.md",
+      "folder": "docs/orphans/indices",
+      "title": "INDEXING_REPORT",
       "tags": [],
       "aliases": [],
       "backlinks": []
@@ -2384,23 +2432,22 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "./tools/restore-merged/extracted/Orphan_0.md",
-        "./tools/restore-merged/extracted/Orphan_14.md",
-        "./tools/restore-merged/extracted/Orphan_21.md",
-        "./tools/restore-merged/extracted/Orphan_28.md",
-        "./tools/restore-merged/extracted/Orphan_35.md",
-        "./tools/restore-merged/extracted/Orphan_42.md",
-        "./tools/restore-merged/extracted/Orphan_49.md",
-        "./tools/restore-merged/extracted/Orphan_56.md",
-        "./tools/restore-merged/extracted/Orphan_63.md",
-        "./tools/restore-merged/extracted/Orphan_7.md",
-        "./tools/restore-merged/extracted/Orphan_70.md",
-        "./tools/restore-merged/extracted/Orphan_77.md",
-        "./tools/restore-merged/extracted/Orphan_84.md",
-        "./tools/restore-merged/extracted/Orphan_91.md",
-        "./tools/restore-merged/extracted/Orphan_98.md",
-        "./tools/restore-merged/extracted/Orphan_87.md",
-        "./tools/restore-merged/extracted/INDEXING_REPORT.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_14.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_21.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_28.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_35.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_42.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_49.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_56.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_63.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_7.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_70.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_77.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_84.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_91.md",
+        "./archive/.linkfix_backups/20251128-201300/Orphans/Numbered/Orphan_98.md",
+        "./archive/.linkfix_backups/20251128-201300/providence/Orphan_87.md",
+        "./docs/orphans/indices/INDEXING_REPORT.md",
         "./docs/orphans/numbered/orphan-14.md",
         "./docs/orphans/numbered/orphan-21.md",
         "./docs/orphans/numbered/orphan-28.md",
@@ -2449,8 +2496,8 @@
       ]
     },
     "Guiding-Prompt": {
-      "path": "./tools/restore-merged/extracted/Guiding-Prompt.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/philosophy/Guiding-Prompt.md",
+      "folder": "docs/philosophy",
       "title": "Leonne's Angel Machine \u0393\u00c7\u00f6 Guiding Manifesto (Updated)",
       "tags": [],
       "aliases": [],
@@ -2460,8 +2507,8 @@
       ]
     },
     "Passion": {
-      "path": "./tools/restore-merged/extracted/Passion.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/philosophy/Passion.md",
+      "folder": "docs/philosophy",
       "title": "Passion",
       "tags": [],
       "aliases": [],
@@ -2474,8 +2521,8 @@
       ]
     },
     "Patience": {
-      "path": "./tools/restore-merged/extracted/Patience.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/philosophy/Patience.md",
+      "folder": "docs/philosophy",
       "title": "Patience",
       "tags": [],
       "aliases": [],
@@ -2518,7 +2565,8 @@
       "backlinks": [
         "./docs/index/INDEX.md",
         "./docs/orphans/cryptic/&.md",
-        "./docs/index/philosophy-index.md"
+        "./docs/index/philosophy-index.md",
+        "./docs/orphans/numbered/readme.md"
       ]
     },
     "philosophy-providence": {
@@ -2549,8 +2597,8 @@
       "backlinks": []
     },
     "The Material": {
-      "path": "./tools/restore-merged/extracted/The Material.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/philosophy/The Material.md",
+      "folder": "docs/philosophy",
       "title": "The Material",
       "tags": [],
       "aliases": [],
@@ -2569,8 +2617,8 @@
       "backlinks": []
     },
     "Tried": {
-      "path": "./tools/restore-merged/extracted/Tried.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/philosophy/Fragments/Tried.md",
+      "folder": "docs/philosophy/Fragments",
       "title": "dream-3",
       "tags": [],
       "aliases": [],
@@ -2580,8 +2628,8 @@
       ]
     },
     "Angel Numbers": {
-      "path": "./tools/restore-merged/extracted/Angel Numbers.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/rituals/Angel Numbers.md",
+      "folder": "docs/rituals",
       "title": "Angel Numbers",
       "tags": [],
       "aliases": [],
@@ -2591,8 +2639,8 @@
       ]
     },
     "Counterspell-Playlist": {
-      "path": "./tools/restore-merged/extracted/Counterspell-Playlist.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/rituals/Counterspell-Playlist.md",
+      "folder": "docs/rituals",
       "title": "Counterspell Playlist",
       "tags": [],
       "aliases": [],
@@ -2602,8 +2650,8 @@
       ]
     },
     "Deck of Fate": {
-      "path": "./tools/restore-merged/extracted/Deck of Fate.md",
-      "folder": "tools/restore-merged/extracted",
+      "path": "./docs/rituals/Deck of Fate.md",
+      "folder": "docs/rituals",
       "title": "Deck of Fate",
       "tags": [],
       "aliases": [],
@@ -2611,7 +2659,7 @@
         "./docs/index/INDEX.md",
         "./docs/index/KHAOS-NOTES-INDEX.md",
         "./docs/orphans/numbered/readme.md",
-        "./tools/restore-merged/extracted/Deck of Fate.md"
+        "./docs/rituals/Deck of Fate.md"
       ]
     },
     "ritual-seventh-call": {
@@ -2643,14 +2691,6 @@
         "./docs/archetypes/archetype-heart.md",
         "./docs/the-seventh-borough/mechanics/The-Hearts-Reprise.md"
       ]
-    },
-    "Providence": {
-      "path": "./tools/restore-merged/extracted/Providence.md",
-      "folder": "tools/restore-merged/extracted",
-      "title": "Define the conversation text (summarized with the orphan marking details)",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
     }
   },
   "link_aliases": {
@@ -2696,7 +2736,7 @@
     "KHAOS NOTES \u2014 The Raw Feed": "KHAOS-NOTES-INDEX",
     "OrphanIndex": "OrphanIndex",
     "Orphan Files Index": "OrphanIndex",
-    "He Who Remains": "He Who Remains",
+    "He Who Remains": "He-Who-Remains",
     "I Am Either The Last One Standing, Or The Only One Left, Regardless I am He Who Remains": "He Who Remains",
     "But": "But",
     "The Rule OF The Swamp.": "The Rule OF The Swamp.",
@@ -2764,7 +2804,7 @@
     "Orphan_8": "Orphan_8",
     "Orphan File 8": "orphan-8",
     "Orphan_87": "Orphan_87",
-    "Orphan File 87": "Orphan_87",
+    "Orphan File 87": "orphan-87",
     "The Spells It Makes": "The Spells It Makes",
     "[_) ) ) )": "[_) ) ) )",
     "%7B%7B%7B%7B%7B%7B%7B%7B&%7D%7D": "%7B%7B%7B%7B%7B%7B%7B%7B&%7D%7D",
@@ -2978,6 +3018,14 @@
     "archetype-heart": "archetype-heart",
     "The Heart": "archetype-heart",
     "Archetypes": "README",
+    "The Anchor": "The-Head-Archetype",
+    "She Who Stays": "The-Head-Archetype",
+    "The Nurse of Names": "The-Head-Archetype",
+    "The Keeper": "The-Head-Archetype",
+    "The Witch Queen": "The-Head-Archetype",
+    "Queen of Cups": "The-Head-Archetype",
+    "The-Head-Archetype": "The-Head-Archetype",
+    "The Head / The Witch Queen": "The-Head-Archetype",
     "Michael, The KlockWork Angel": "Michael, The KlockWork Angel",
     "Osiris, Arch Angel Of Omen": "Osiris, Arch Angel Of Omen",
     "Shadow-Demon-Providence": "Shadow-Demon-Providence",
@@ -3010,7 +3058,7 @@
     "Mirror": "Mirror",
     "Fragments": "README",
     "Sing The City": "Sing The City",
-    "There Are No Rules": "There Are No Rules",
+    "There Are No Rules": "philosophy-no-rules",
     "To Make Sense OF It": "To Make Sense OF It",
     "WalkAlongSideKhaos": "WalkAlongSideKhaos",
     "Winning": "Winning",
@@ -3055,7 +3103,7 @@
     "philosophy-prophecy": "philosophy-prophecy",
     "Prophecy": "philosophy-prophecy",
     "philosophy-providence": "philosophy-providence",
-    "Define the conversation text (summarized with the orphan marking details)": "Providence",
+    "Define the conversation text (summarized with the orphan marking details)": "philosophy-providence",
     "philosophy-spell-book": "philosophy-spell-book",
     "philosophy-the-law": "philosophy-the-law",
     "Philosophy & Cosmology": "README",
@@ -3074,14 +3122,10 @@
     "The Heart's Reprise (Mechanic: Burn-Bloom)": "The-Hearts-Reprise",
     "He-Who-Remains": "He-Who-Remains",
     "Tools": "README",
-    "Find new empty files": "INDEXING_REPORT",
-    "Providence": "Providence",
-    "\"The Wards of the City are Weak, Sing unto Them New Strength\"": "Sing The City",
-    "Echoes Of A Past Self - Lexus": "[[",
     "Web Application": "README"
   },
   "metadata": {
-    "generated": "2025-12-17T23:08:00.642420",
+    "generated": "2025-12-18T00:12:04.558826",
     "total_files": 254,
     "status": "GENERATED"
   }

@@ -1,3 +1,4 @@
+---
 title: The Blind
 category: Archetype
 subcategory: Devils
@@ -10,7 +11,9 @@ last_updated: 2024-11-16
 contributor: Mega/Des
 status: Complete
 summary: "Prophet-fiend who sees harsh truth without compassion or softening"
+---
 # The Blind
+
 The Blind cannot see, yet sees more clearly than any sighted being. This is the paradox of true vision.
 
 The Blind speaks truth without mercy. It offers no comfort, no metaphor, no softening. Where others see potential, The Blind sees inevitable collapse. Where others hope, The Blind sees the mathematical certainty of failure.

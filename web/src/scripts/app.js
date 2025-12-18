@@ -111,53 +111,91 @@ class AngelMachine {
             return;
         }
 
-        const folders = {};
+        const tree = {};
         Object.entries(this.manifest.files).forEach(([id, data]) => {
-            const folder = data.folder || 'Root';
-            if (!folders[folder]) folders[folder] = [];
-            folders[folder].push({ id, title: data.title });
-        });
-
-        const priority = ['docs/index', 'docs/philosophy', 'docs/archetypes', 'docs/rituals', 'docs/guides', 'docs/orphans'];
-
-        priority.forEach(folderPath => {
-            if (!folders[folderPath]) return;
-
-            const folderName = folderPath.split('/').pop().toUpperCase();
-            const folderId = folderPath.replace(/\//g, '-');
-
-            const folderEl = document.createElement('div');
-            folderEl.className = 'folder-item';
-
-            const toggle = document.createElement('div');
-            toggle.className = 'folder-toggle';
-            toggle.dataset.folder = folderId;
-            toggle.innerHTML = `<span class="folder-icon">▶</span> ${folderName}`;
-
-            const content = document.createElement('div');
-            content.className = 'folder-content';
-
-            folders[folderPath]
-                .sort((a, b) => a.title.localeCompare(b.title))
-                .forEach(file => {
-                    const a = document.createElement('a');
-                    a.href = `#${file.id}`;
-                    a.className = 'file-link';
-                    a.dataset.id = file.id;
-                    a.textContent = file.title;
-                    content.appendChild(a);
-                });
-
-            // Toggle functionality with CSS classes
-            toggle.addEventListener('click', (e) => {
-                e.stopPropagation();
-                folderEl.classList.toggle('open');
+            const folder = data.folder || '.';
+            const parts = folder === '.' ? [] : folder.split('/');
+            let current = tree;
+            parts.forEach(part => {
+                if (!current[part]) current[part] = { _files: [], _sub: {} };
+                current = current[part]._sub;
             });
 
-            folderEl.appendChild(toggle);
-            folderEl.appendChild(content);
-            nav.appendChild(folderEl);
+            // Find the correct _files array
+            let target = tree;
+            parts.forEach(part => {
+                target = target[part];
+            });
+            if (folder === '.') {
+                if (!tree['.']) tree['.'] = { _files: [], _sub: {} };
+                tree['.']._files.push({ id, title: data.title });
+            } else {
+                target._files.push({ id, title: data.title });
+            }
         });
+
+        const renderTree = (node, path = '', container = nav) => {
+            // Sort keys to respect priority if needed, but here we just alphabetize
+            const sortedKeys = Object.keys(node).filter(k => k !== '.' && k !== '_files' && k !== '_sub').sort();
+
+            // Manual priority for Top Level
+            const priority = ['docs'];
+            const topLevel = priority.filter(p => sortedKeys.includes(p));
+            const others = sortedKeys.filter(s => !priority.includes(s));
+
+            [...topLevel, ...others].forEach(key => {
+                const item = node[key];
+                const folderPath = path ? `${path}/${key}` : key;
+                const folderId = folderPath.replace(/\//g, '-');
+                const folderName = key.toUpperCase();
+
+                const folderEl = document.createElement('div');
+                folderEl.className = 'folder-item';
+
+                const toggle = document.createElement('div');
+                toggle.className = 'folder-toggle';
+                toggle.dataset.folder = folderId;
+                toggle.innerHTML = `<span class="folder-icon">▶</span> ${folderName}`;
+
+                const content = document.createElement('div');
+                content.className = 'folder-content';
+
+                // Render files in this folder
+                if (item._files) {
+                    item._files
+                        .sort((a, b) => a.title.localeCompare(b.title))
+                        .forEach(file => {
+                            const a = document.createElement('a');
+                            a.href = `#${file.id}`;
+                            a.className = 'file-link';
+                            a.dataset.id = file.id;
+                            a.textContent = file.title;
+                            content.appendChild(a);
+                        });
+                }
+
+                // Recursively render subfolders
+                if (item._sub && Object.keys(item._sub).length > 0) {
+                    renderTree(item._sub, folderPath, content);
+                }
+
+                toggle.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    folderEl.classList.toggle('open');
+                });
+
+                folderEl.appendChild(toggle);
+                folderEl.appendChild(content);
+                container.appendChild(folderEl);
+            });
+        };
+
+        // If the manifest root is "docs", we might want to skip the "docs" wrapper
+        if (tree['docs']) {
+            renderTree(tree['docs']._sub, 'docs', nav);
+        } else {
+            renderTree(tree, '', nav);
+        }
     }
 
     updateActiveNav(id) {
@@ -182,13 +220,13 @@ class AngelMachine {
             // Convert relative .md links to hash routes
             if (href.endsWith('.md')) {
                 const filename = href.split('/').pop().replace('.md', '');
-                
+
                 // Try to find in manifest
                 if (this.manifest.files[filename]) {
                     a.href = `#${filename}`;
                     return;
                 }
-                
+
                 // Try aliases
                 if (this.manifest.link_aliases && this.manifest.link_aliases[filename]) {
                     const canonicalName = this.manifest.link_aliases[filename];

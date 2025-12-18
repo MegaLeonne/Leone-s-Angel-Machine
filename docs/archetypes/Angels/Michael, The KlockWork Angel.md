@@ -1,3 +1,4 @@
+---
 title: Michael, The KlockWork Angel
 category: Archetype
 subcategory: Angels
@@ -10,7 +11,9 @@ last_updated: 2024-11-16
 contributor: Mega/Des
 status: Complete
 summary: "Archangel of time, embodying mechanized divine presence and cosmic order"
+---
 # Michael, The KlockWork Angel
+
 Michael is the keeper of temporal precision. Where other angels dwell in the eternal now, Michael counts every second, every cycle, every recurring pattern.
 
 He is the measure-maker, the time-keeper, the divine automaton. His wings are gears. His halo is a clock face. He does not experience time; he orchestrates it.
