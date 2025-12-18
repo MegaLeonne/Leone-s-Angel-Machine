@@ -309,8 +309,20 @@
                     "icon": "🎶"
                 }
             ]
-        }
-        
+        },
+        {
+            "id": "cosmology",
+            "label": "🌌 Cosmology",
+            "type": "section",
+            "collapsible": true,
+            "items": [
+                {
+                    "title": "The Cosmic Clock",
+                    "id": "The-Cosmic-Clock",
+                    "icon": "⏱️"
+                }
+            ]
+        },
         {
             "id": "orphans",
             "label": "🌀 Orphans & Fragments",
