@@ -1,148 +1,580 @@
 {
-  "generated": "2025-12-18T18:30:00.000Z",
+  "generated": "2025-12-18T18:54:06.806Z",
   "version": "2.0",
   "files": {
-    "INDEX": {
-      "path": "docs/index/INDEX.md",
-      "title": "Complete Navigation Index",
-      "folder": "docs/index",
-      "tags": ["index", "navigation"]
-    },
-    "README": {
-      "path": "README.md",
-      "title": "Leonne's Angel Machine",
-      "folder": ".",
-      "tags": ["intro", "overview"]
-    },
-    "RESTORATION_PLAN": {
-      "path": "RESTORATION_PLAN.md",
-      "title": "Merged File Restoration Plan",
-      "folder": ".",
-      "tags": ["restoration", "maintenance"]
-    },
-    "The-Head-Archetype": {
-      "path": "docs/archetypes/The-Head-Archetype.md",
-      "title": "The Head / The Witch Queen",
-      "folder": "docs/archetypes",
-      "tags": ["SEVENTH-BOUND", "archetype", "witch-queen", "the-head"]
-    },
-    "archetype-heart": {
-      "path": "docs/archetypes/archetype-heart.md",
-      "title": "The Heart",
-      "folder": "docs/archetypes",
-      "tags": ["archetype", "heart"]
-    },
     "Michael-The-KlockWork-Angel": {
-      "path": "docs/archetypes/Angels/Michael, The KlockWork Angel.md",
+      "path": "docs\\archetypes\\Angels\\Michael, The KlockWork Angel.md",
       "title": "Michael, The KlockWork Angel",
-      "folder": "docs/archetypes/Angels",
-      "tags": ["angel", "time", "archetype"]
+      "folder": "archetypes\\Angels",
+      "tags": []
     },
     "Osiris-Arch-Angel-Of-Omen": {
-      "path": "docs/archetypes/Angels/Osiris, Arch Angel Of Omen.md",
-      "title": "Osiris, Arch Angel of Omen",
-      "folder": "docs/archetypes/Angels",
-      "tags": ["angel", "omen", "archetype"]
+      "path": "docs\\archetypes\\Angels\\Osiris, Arch Angel Of Omen.md",
+      "title": "Osiris, Arch Angel Of Omen",
+      "folder": "archetypes\\Angels",
+      "tags": []
     },
-    "Taylor-Devil-of-Desire": {
-      "path": "docs/archetypes/Devils/Taylor, Devil of Desire.md",
-      "title": "Taylor, Devil of Desire",
-      "folder": "docs/archetypes/Devils",
-      "tags": ["devil", "desire", "archetype"]
-    },
-    "The-Blind": {
-      "path": "docs/archetypes/Devils/The Blind.md",
-      "title": "The Blind",
-      "folder": "docs/archetypes/Devils",
-      "tags": ["devil", "prophet", "archetype"]
-    },
-    "He-Who-Remains": {
-      "path": "docs/archetypes/Devils/He Who Remains.md",
-      "title": "He Who Remains",
-      "folder": "docs/archetypes/Devils",
-      "tags": ["devil", "archetype"]
+    "archetype-heart": {
+      "path": "docs\\archetypes\\archetype-heart.md",
+      "title": "The Heart",
+      "folder": "archetypes",
+      "tags": []
     },
     "Shadow-Demon-Providence": {
-      "path": "docs/archetypes/Composite/Shadow-Demon-Providence.md",
-      "title": "Shadow-Demon-Providence",
-      "folder": "docs/archetypes/Composite",
-      "tags": ["composite", "trinity", "archetype"]
+      "path": "docs\\archetypes\\Composite\\Shadow-Demon-Providence.md",
+      "title": "Shadow, Demon, Providence",
+      "folder": "archetypes\\Composite",
+      "tags": "[trinity, self, fear, grace, shadow-work]"
     },
-    "Passion": {
-      "path": "docs/philosophy/Passion.md",
-      "title": "Passion",
-      "folder": "docs/philosophy",
-      "tags": ["philosophy", "desire"]
+    "He-Who-Remains": {
+      "path": "docs\\the-seventh-borough\\residents\\He-Who-Remains.md",
+      "title": "He Who Remains",
+      "folder": "the-seventh-borough\\residents",
+      "tags": []
     },
-    "Patience": {
-      "path": "docs/philosophy/Patience.md",
-      "title": "Patience",
-      "folder": "docs/philosophy",
-      "tags": ["philosophy", "time"]
+    "Taylor-Devil-of-Desire": {
+      "path": "docs\\archetypes\\Devils\\Taylor, Devil of Desire.md",
+      "title": "Taylor, Devil of Desire",
+      "folder": "archetypes\\Devils",
+      "tags": []
     },
-    "philosophy-prophecy": {
-      "path": "docs/philosophy/philosophy-prophecy.md",
-      "title": "Prophecy",
-      "folder": "docs/philosophy",
-      "tags": ["philosophy", "prophecy"]
+    "The-Blind": {
+      "path": "docs\\archetypes\\Devils\\The Blind.md",
+      "title": "The Blind",
+      "folder": "archetypes\\Devils",
+      "tags": []
     },
-    "The-Material": {
-      "path": "docs/philosophy/The Material.md",
-      "title": "The Material",
-      "folder": "docs/philosophy",
-      "tags": ["philosophy", "creation"]
+    "README": {
+      "path": "docs\\rituals\\README.md",
+      "title": "Rituals",
+      "folder": "rituals",
+      "tags": []
     },
-    "Amnesia": {
-      "path": "docs/philosophy/Amnesia.md",
-      "title": "Amnesia",
-      "folder": "docs/philosophy",
-      "tags": ["philosophy", "memory"]
-    },
-    "Guiding-Prompt": {
-      "path": "docs/philosophy/Guiding-Prompt.md",
-      "title": "Guiding Prompt",
-      "folder": "docs/philosophy",
-      "tags": ["philosophy", "manifesto", "SEVENTH-BOUND"]
-    },
-    "Counterspell-Playlist": {
-      "path": "docs/rituals/Counterspell-Playlist.md",
-      "title": "Counterspell Playlist",
-      "folder": "docs/rituals",
-      "tags": ["ritual", "music", "spell"]
-    },
-    "Angel-Numbers": {
-      "path": "docs/rituals/Angel Numbers.md",
-      "title": "Angel Numbers",
-      "folder": "docs/rituals",
-      "tags": ["ritual", "divination", "numbers"]
-    },
-    "Deck-of-Fate": {
-      "path": "docs/rituals/Deck of Fate.md",
-      "title": "Deck of Fate",
-      "folder": "docs/rituals",
-      "tags": ["ritual", "divination", "tarot"]
+    "The-Head-Archetype": {
+      "path": "docs\\archetypes\\The-Head-Archetype.md",
+      "title": "The Head / The Witch Queen",
+      "folder": "archetypes",
+      "tags": []
     },
     "guide-contributing": {
-      "path": "docs/guides/guide-contributing.md",
-      "title": "Contributing Guide",
-      "folder": "docs/guides",
-      "tags": ["guide", "meta"]
+      "path": "docs\\guides\\guide-contributing.md",
+      "title": "Contributing to Leone's Angel Machine",
+      "folder": "guides",
+      "tags": []
+    },
+    "guide-import-instructions": {
+      "path": "docs\\guides\\guide-import-instructions.md",
+      "title": "Automated Linear Import Instructions",
+      "folder": "guides",
+      "tags": []
+    },
+    "How-To-Use-Bill-Doors": {
+      "path": "docs\\guides\\How To Use Bill Doors.md",
+      "title": "≡ƒôû How to Use BillDoors-NotGates: Complete Guide by @Jaime-Lannister",
+      "folder": "guides",
+      "tags": []
+    },
+    "Qualitative-Research-Guide": {
+      "path": "docs\\guides\\Qualitative Research Guide.md",
+      "title": "Qualitative Research Guide",
+      "folder": "guides",
+      "tags": []
+    },
+    "Seventh-Borough-Borough-Workflow-v1": {
+      "path": "docs\\guides\\Seventh-Borough-Borough-Workflow-v1.md",
+      "title": "Seventh Borough Canon – Borough Workflow v1",
+      "folder": "guides",
+      "tags": []
+    },
+    "&": {
+      "path": "docs\\orphans\\cryptic\\&.md",
+      "title": "&",
+      "folder": "orphans\\cryptic",
+      "tags": []
+    },
+    "archetype-index": {
+      "path": "docs\\index\\archetype-index.md",
+      "title": "Archetypes Index",
+      "folder": "index",
+      "tags": "[archetypes, characters, index, navigation]"
+    },
+    "INDEX": {
+      "path": "docs\\index\\INDEX.md",
+      "title": "Leonne's Angel Machine - Complete Navigation Index",
+      "folder": "index",
+      "tags": []
+    },
+    "KHAOS-NOTES-INDEX": {
+      "path": "docs\\index\\KHAOS-NOTES-INDEX.md",
+      "title": "KHAOS NOTES",
+      "folder": "index",
+      "tags": []
+    },
+    "orphan-taxonomy": {
+      "path": "docs\\index\\orphan-taxonomy.md",
+      "title": "Orphan Taxonomy",
+      "folder": "index",
+      "tags": "[orphans, taxonomy, classification]"
+    },
+    "philosophy-index": {
+      "path": "docs\\index\\philosophy-index.md",
+      "title": "Philosophy Index",
+      "folder": "index",
+      "tags": []
+    },
+    "AM-I-NOT": {
+      "path": "docs\\orphans\\cryptic\\AM I NOT.md",
+      "title": "AM I NOT",
+      "folder": "orphans\\cryptic",
+      "tags": []
+    },
+    "CALLING": {
+      "path": "docs\\orphans\\cryptic\\CALLING.md",
+      "title": "CALLING",
+      "folder": "orphans\\cryptic",
+      "tags": []
+    },
+    "THE-New-Note.": {
+      "path": "docs\\orphans\\cryptic\\THE New Note..md",
+      "title": "THE New Note.",
+      "folder": "orphans\\cryptic",
+      "tags": []
+    },
+    "The-MIrROR": {
+      "path": "docs\\orphans\\cryptic\\The-MIrROR.md",
+      "title": "The MIrROR",
+      "folder": "orphans\\cryptic",
+      "tags": []
+    },
+    "UntiL": {
+      "path": "docs\\orphans\\cryptic\\UntiL.md",
+      "title": "UntiL",
+      "folder": "orphans\\cryptic",
+      "tags": []
+    },
+    "[[": {
+      "path": "docs\\orphans\\cryptic\\[[.md",
+      "title": "[[",
+      "folder": "orphans\\cryptic",
+      "tags": []
+    },
+    "[_)-)-)-)": {
+      "path": "docs\\orphans\\cryptic\\[_) ) ) ).md",
+      "title": "[_) ) ) )",
+      "folder": "orphans\\cryptic",
+      "tags": []
+    },
+    "{&&&}": {
+      "path": "docs\\orphans\\cryptic\\{&&&}.md",
+      "title": "Everywhere [&](./&.md) IT IS WHAT IT IS IS'NT IT?",
+      "folder": "orphans\\cryptic",
+      "tags": []
+    },
+    "{{": {
+      "path": "docs\\orphans\\cryptic\\{{.md",
+      "title": "{{",
+      "folder": "orphans\\cryptic",
+      "tags": []
+    },
+    "{{{{{{{{&}}": {
+      "path": "docs\\orphans\\cryptic\\{{{{{{{{&}}.md",
+      "title": "{{{{{{{{&}}",
+      "folder": "orphans\\cryptic",
+      "tags": []
+    },
+    "}}[[THE-LAW": {
+      "path": "docs\\orphans\\cryptic\\}}[[THE LAW.md",
+      "title": "}}[[THE LAW",
+      "folder": "orphans\\cryptic",
+      "tags": []
+    },
+    "But": {
+      "path": "docs\\orphans\\fragments\\But.md",
+      "title": "But",
+      "folder": "orphans\\fragments",
+      "tags": []
+    },
+    "Here": {
+      "path": "docs\\orphans\\fragments\\Here.md",
+      "title": "Here",
+      "folder": "orphans\\fragments",
+      "tags": []
+    },
+    "KHAOS": {
+      "path": "docs\\orphans\\fragments\\KHAOS.md",
+      "title": "KHAOS",
+      "folder": "orphans\\fragments",
+      "tags": []
+    },
+    "Mirror": {
+      "path": "docs\\orphans\\fragments\\Mirror.md",
+      "title": "Mirror",
+      "folder": "orphans\\fragments",
+      "tags": []
+    },
+    "Sing-The-City": {
+      "path": "docs\\orphans\\fragments\\Sing The City.md",
+      "title": "Sing The City",
+      "folder": "orphans\\fragments",
+      "tags": []
+    },
+    "The-Rule-OF-The-Swamp.": {
+      "path": "docs\\orphans\\fragments\\The Rule OF The Swamp..md",
+      "title": "The Rule OF The Swamp.",
+      "folder": "orphans\\fragments",
+      "tags": []
+    },
+    "There-Are-No-Rules": {
+      "path": "docs\\orphans\\fragments\\There Are No Rules.md",
+      "title": "There Are No Rules",
+      "folder": "orphans\\fragments",
+      "tags": []
+    },
+    "To-Make-Sense-OF-It": {
+      "path": "docs\\orphans\\fragments\\To Make Sense OF It.md",
+      "title": "To Make Sense OF It",
+      "folder": "orphans\\fragments",
+      "tags": []
+    },
+    "WalkAlongSideKhaos": {
+      "path": "docs\\orphans\\fragments\\WalkAlongSideKhaos.md",
+      "title": "WalkAlongSideKhaos",
+      "folder": "orphans\\fragments",
+      "tags": []
+    },
+    "Why": {
+      "path": "docs\\orphans\\fragments\\Why.md",
+      "title": "Why",
+      "folder": "orphans\\fragments",
+      "tags": []
+    },
+    "Winning": {
+      "path": "docs\\orphans\\fragments\\Winning.md",
+      "title": "Winning",
+      "folder": "orphans\\fragments",
+      "tags": []
+    },
+    "You-Mind": {
+      "path": "docs\\orphans\\fragments\\You Mind.md",
+      "title": "You Mind",
+      "folder": "orphans\\fragments",
+      "tags": []
+    },
+    "INDEXING_REPORT": {
+      "path": "docs\\orphans\\indices\\INDEXING_REPORT.md",
+      "title": "INDEXING_REPORT",
+      "folder": "orphans\\indices",
+      "tags": []
+    },
+    "orphan-index": {
+      "path": "docs\\orphans\\indices\\orphan-index.md",
+      "title": "Providence Orphan Files Index",
+      "folder": "orphans\\indices",
+      "tags": []
+    },
+    "OrphanIndex": {
+      "path": "docs\\orphans\\indices\\OrphanIndex.md",
+      "title": "OrphanIndex",
+      "folder": "orphans\\indices",
+      "tags": []
+    },
+    "orphan-0": {
+      "path": "docs\\orphans\\numbered\\orphan-0.md",
+      "title": "Orphan File 0",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-13": {
+      "path": "docs\\orphans\\numbered\\orphan-13.md",
+      "title": "Orphan File 13",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-14": {
+      "path": "docs\\orphans\\numbered\\orphan-14.md",
+      "title": "orphan 14",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-16": {
+      "path": "docs\\orphans\\numbered\\orphan-16.md",
+      "title": "Orphan File 16",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-21": {
+      "path": "docs\\orphans\\numbered\\orphan-21.md",
+      "title": "orphan 21",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-25": {
+      "path": "docs\\orphans\\numbered\\orphan-25.md",
+      "title": "Orphan File 25",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-28": {
+      "path": "docs\\orphans\\numbered\\orphan-28.md",
+      "title": "orphan 28",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-35": {
+      "path": "docs\\orphans\\numbered\\orphan-35.md",
+      "title": "orphan 35",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-38": {
+      "path": "docs\\orphans\\numbered\\orphan-38.md",
+      "title": "Orphan File 38",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-42": {
+      "path": "docs\\orphans\\numbered\\orphan-42.md",
+      "title": "orphan 42",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-49": {
+      "path": "docs\\orphans\\numbered\\orphan-49.md",
+      "title": "orphan 49",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-5": {
+      "path": "docs\\orphans\\numbered\\orphan-5.md",
+      "title": "Orphan File 5",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-56": {
+      "path": "docs\\orphans\\numbered\\orphan-56.md",
+      "title": "orphan 56",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-6": {
+      "path": "docs\\orphans\\numbered\\orphan-6.md",
+      "title": "Orphan File 6",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-63": {
+      "path": "docs\\orphans\\numbered\\orphan-63.md",
+      "title": "orphan 63",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-7": {
+      "path": "docs\\orphans\\numbered\\orphan-7.md",
+      "title": "orphan 7",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-70": {
+      "path": "docs\\orphans\\numbered\\orphan-70.md",
+      "title": "orphan 70",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-74": {
+      "path": "docs\\orphans\\numbered\\orphan-74.md",
+      "title": "Orphan File 74",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-77": {
+      "path": "docs\\orphans\\numbered\\orphan-77.md",
+      "title": "orphan 77",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-8": {
+      "path": "docs\\orphans\\numbered\\orphan-8.md",
+      "title": "Orphan File 8",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-84": {
+      "path": "docs\\orphans\\numbered\\orphan-84.md",
+      "title": "orphan 84",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-87": {
+      "path": "docs\\orphans\\numbered\\orphan-87.md",
+      "title": "Orphan File 87",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-91": {
+      "path": "docs\\orphans\\numbered\\orphan-91.md",
+      "title": "orphan 91",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphan-98": {
+      "path": "docs\\orphans\\numbered\\orphan-98.md",
+      "title": "orphan 98",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "orphanindex": {
+      "path": "docs\\orphans\\numbered\\orphanindex.md",
+      "title": "Providence Orphan Files Index",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "readme": {
+      "path": "docs\\orphans\\numbered\\readme.md",
+      "title": "Leonne's Angel Machine",
+      "folder": "orphans\\numbered",
+      "tags": []
+    },
+    "Amnesia": {
+      "path": "docs\\philosophy\\Amnesia.md",
+      "title": "Amnesia",
+      "folder": "philosophy",
+      "tags": []
+    },
+    "cosmology-void": {
+      "path": "docs\\philosophy\\cosmology-void.md",
+      "title": "cosmology void",
+      "folder": "philosophy",
+      "tags": []
+    },
+    "Tried": {
+      "path": "docs\\philosophy\\Fragments\\Tried.md",
+      "title": "dream-3",
+      "folder": "philosophy\\Fragments",
+      "tags": []
+    },
+    "Guiding-Prompt": {
+      "path": "docs\\philosophy\\Guiding-Prompt.md",
+      "title": "Leonne's Angel Machine ΓÇö Guiding Manifesto (Updated)",
+      "folder": "philosophy",
+      "tags": []
+    },
+    "Passion": {
+      "path": "docs\\philosophy\\Passion.md",
+      "title": "Passion",
+      "folder": "philosophy",
+      "tags": []
+    },
+    "Patience": {
+      "path": "docs\\philosophy\\Patience.md",
+      "title": "Patience",
+      "folder": "philosophy",
+      "tags": []
+    },
+    "philosophy-khaos": {
+      "path": "docs\\philosophy\\philosophy-khaos.md",
+      "title": "philosophy khaos",
+      "folder": "philosophy",
+      "tags": []
+    },
+    "philosophy-no-rules": {
+      "path": "docs\\philosophy\\philosophy-no-rules.md",
+      "title": "There Are No Rules",
+      "folder": "philosophy",
+      "tags": []
+    },
+    "philosophy-prophecy": {
+      "path": "docs\\philosophy\\philosophy-prophecy.md",
+      "title": "Prophecy",
+      "folder": "philosophy",
+      "tags": []
+    },
+    "philosophy-providence": {
+      "path": "docs\\philosophy\\philosophy-providence.md",
+      "title": "Define the conversation text (summarized with the orphan marking details)",
+      "folder": "philosophy",
+      "tags": []
+    },
+    "philosophy-spell-book": {
+      "path": "docs\\philosophy\\philosophy-spell-book.md",
+      "title": "A New Note",
+      "folder": "philosophy",
+      "tags": []
+    },
+    "philosophy-the-law": {
+      "path": "docs\\philosophy\\philosophy-the-law.md",
+      "title": "OF",
+      "folder": "philosophy",
+      "tags": []
+    },
+    "The-Material": {
+      "path": "docs\\philosophy\\The Material.md",
+      "title": "The Material",
+      "folder": "philosophy",
+      "tags": []
+    },
+    "There": {
+      "path": "docs\\philosophy\\There.md",
+      "title": "There",
+      "folder": "philosophy",
+      "tags": []
+    },
+    "Angel-Numbers": {
+      "path": "docs\\rituals\\Angel Numbers.md",
+      "title": "Angel Numbers",
+      "folder": "rituals",
+      "tags": []
+    },
+    "Counterspell-Playlist": {
+      "path": "docs\\rituals\\Counterspell-Playlist.md",
+      "title": "Counterspell Playlist",
+      "folder": "rituals",
+      "tags": []
+    },
+    "Deck-of-Fate": {
+      "path": "docs\\rituals\\Deck of Fate.md",
+      "title": "Deck of Fate",
+      "folder": "rituals",
+      "tags": []
+    },
+    "ritual-seventh-call": {
+      "path": "docs\\rituals\\ritual-seventh-call.md",
+      "title": "Prompt Of Seventh Angels",
+      "folder": "rituals",
+      "tags": []
+    },
+    "The-Spells-It-Makes": {
+      "path": "docs\\rituals\\The Spells It Makes.md",
+      "title": "The Spells It Makes",
+      "folder": "rituals",
+      "tags": []
+    },
+    "The-Hearts-Reprise": {
+      "path": "docs\\the-seventh-borough\\mechanics\\The-Hearts-Reprise.md",
+      "title": "The Heart's Reprise (Mechanic: Burn-Bloom)",
+      "folder": "the-seventh-borough\\mechanics",
+      "tags": []
     }
   },
   "link_aliases": {
     "Michael, The KlockWork Angel": "Michael-The-KlockWork-Angel",
     "Osiris, Arch Angel Of Omen": "Osiris-Arch-Angel-Of-Omen",
+    "He Who Remains": "He-Who-Remains",
     "Taylor, Devil of Desire": "Taylor-Devil-of-Desire",
     "The Blind": "The-Blind",
-    "He Who Remains": "He-Who-Remains",
+    "How To Use Bill Doors": "How-To-Use-Bill-Doors",
+    "Qualitative Research Guide": "Qualitative-Research-Guide",
+    "AM I NOT": "AM-I-NOT",
+    "THE New Note.": "THE-New-Note.",
+    "[_) ) ) )": "[_)-)-)-)",
+    "}}[[THE LAW": "}}[[THE-LAW",
+    "Sing The City": "Sing-The-City",
+    "The Rule OF The Swamp.": "The-Rule-OF-The-Swamp.",
+    "There Are No Rules": "There-Are-No-Rules",
+    "To Make Sense OF It": "To-Make-Sense-OF-It",
+    "You Mind": "You-Mind",
     "The Material": "The-Material",
     "Angel Numbers": "Angel-Numbers",
     "Deck of Fate": "Deck-of-Fate",
-    "The Head": "The-Head-Archetype",
-    "Witch Queen": "The-Head-Archetype",
-    "The Heart": "archetype-heart",
-    "Michael": "Michael-The-KlockWork-Angel",
-    "Osiris": "Osiris-Arch-Angel-Of-Omen",
-    "Taylor": "Taylor-Devil-of-Desire"
+    "The Spells It Makes": "The-Spells-It-Makes"
   }
 }

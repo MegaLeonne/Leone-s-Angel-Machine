@@ -128,63 +128,58 @@ class AngelMachine {
         });
 
         const renderTree = (node, path = '', container = nav) => {
-            // Sort keys to respect priority if needed, but here we just alphabetize
-            const sortedKeys = Object.keys(node).filter(k => k !== '.' && k !== '_files' && k !== '_sub').sort();
+            // 1. Render files at this level first
+            if (node._files && node._files.length > 0) {
+                node._files
+                    .sort((a, b) => a.title.localeCompare(b.title))
+                    .forEach(file => {
+                        const a = document.createElement('a');
+                        a.href = `#${file.id}`;
+                        a.className = 'file-link';
+                        a.dataset.id = file.id;
+                        a.textContent = file.title;
+                        container.appendChild(a);
+                    });
+            }
 
-            // Manual priority for Top Level
-            const priority = ['docs'];
-            const topLevel = priority.filter(p => sortedKeys.includes(p));
-            const others = sortedKeys.filter(s => !priority.includes(s));
+            // 2. Render subfolders
+            if (node._sub) {
+                const sortedKeys = Object.keys(node._sub).sort();
 
-            [...topLevel, ...others].forEach(key => {
-                const item = node[key];
-                const folderPath = path ? `${path}/${key}` : key;
-                const folderId = folderPath.replace(/\//g, '-');
-                const folderName = key.toUpperCase();
+                sortedKeys.forEach(key => {
+                    const item = node._sub[key];
+                    const folderPath = path ? `${path}/${key}` : key;
+                    const folderId = folderPath.replace(/\//g, '-');
+                    const folderName = key.toUpperCase();
 
-                const folderEl = document.createElement('div');
-                folderEl.className = 'folder-item';
+                    const folderEl = document.createElement('div');
+                    folderEl.className = 'folder-item';
 
-                const toggle = document.createElement('div');
-                toggle.className = 'folder-toggle';
-                toggle.dataset.folder = folderId;
-                toggle.innerHTML = `<span class="folder-icon">▶</span> ${folderName}`;
+                    const toggle = document.createElement('div');
+                    toggle.className = 'folder-toggle';
+                    toggle.dataset.folder = folderId;
+                    toggle.innerHTML = `<span class="folder-icon">▶</span> ${folderName}`;
 
-                const content = document.createElement('div');
-                content.className = 'folder-content';
+                    const content = document.createElement('div');
+                    content.className = 'folder-content';
 
-                // Render files in this folder
-                if (item._files) {
-                    item._files
-                        .sort((a, b) => a.title.localeCompare(b.title))
-                        .forEach(file => {
-                            const a = document.createElement('a');
-                            a.href = `#${file.id}`;
-                            a.className = 'file-link';
-                            a.dataset.id = file.id;
-                            a.textContent = file.title;
-                            content.appendChild(a);
-                        });
-                }
+                    // Recursively render contents of this folder
+                    renderTree(item, folderPath, content);
 
-                // Recursively render subfolders
-                if (item._sub && Object.keys(item._sub).length > 0) {
-                    renderTree(item._sub, folderPath, content);
-                }
+                    toggle.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        folderEl.classList.toggle('open');
+                    });
 
-                toggle.addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    folderEl.classList.toggle('open');
+                    folderEl.appendChild(toggle);
+                    folderEl.appendChild(content);
+                    container.appendChild(folderEl);
                 });
-
-                folderEl.appendChild(toggle);
-                folderEl.appendChild(content);
-                container.appendChild(folderEl);
-            });
+            }
         };
 
-        // Render the tree starting from the root subfolders
-        renderTree(tree._sub, '', nav);
+        // Render the tree starting from the root node
+        renderTree(tree, '', nav);
     }
 
     updateActiveNav(id) {
