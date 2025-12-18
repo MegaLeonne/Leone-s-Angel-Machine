@@ -7,8 +7,6 @@ class AngelMachine {
 
     async init() {
         try {
-            // When deployed to GitHub Pages, this runs from web/public/index.html
-            // So config/link-manifest.json is at the same level
             const response = await fetch('./config/link-manifest.json');
             if (!response.ok) {
                 throw new Error(`Manifest fetch failed: ${response.status} ${response.statusText}`);
@@ -35,11 +33,9 @@ class AngelMachine {
     async route() {
         if (!this.manifest) return;
 
-        // Default to INDEX instead of README since that exists in the manifest
         const hash = window.location.hash.slice(1) || 'INDEX';
         let fileData = this.manifest.files[hash];
 
-        // If not found by stem, try aliases
         if (!fileData && this.manifest.link_aliases && this.manifest.link_aliases[hash]) {
             const realName = this.manifest.link_aliases[hash];
             fileData = this.manifest.files[realName];
@@ -115,7 +111,6 @@ class AngelMachine {
             return;
         }
 
-        // Organize by folder
         const folders = {};
         Object.entries(this.manifest.files).forEach(([id, data]) => {
             const folder = data.folder || 'Root';
@@ -123,7 +118,6 @@ class AngelMachine {
             folders[folder].push({ id, title: data.title });
         });
 
-        // Priority folders to display
         const priority = ['docs/index', 'docs/philosophy', 'docs/archetypes', 'docs/rituals', 'docs/guides', 'docs/orphans'];
 
         priority.forEach(folderPath => {
@@ -138,15 +132,10 @@ class AngelMachine {
             const toggle = document.createElement('div');
             toggle.className = 'folder-toggle';
             toggle.dataset.folder = folderId;
-            toggle.textContent = `${folderName}`;
-            toggle.style.cursor = 'pointer';
-            toggle.style.padding = '8px 0';
-            toggle.style.fontWeight = 'bold';
+            toggle.innerHTML = `<span class="folder-icon">▶</span> ${folderName}`;
 
             const content = document.createElement('div');
             content.className = 'folder-content';
-            content.style.display = 'none';
-            content.style.paddingLeft = '16px';
 
             folders[folderPath]
                 .sort((a, b) => a.title.localeCompare(b.title))
@@ -156,15 +145,13 @@ class AngelMachine {
                     a.className = 'file-link';
                     a.dataset.id = file.id;
                     a.textContent = file.title;
-                    a.style.display = 'block';
-                    a.style.padding = '4px 0';
                     content.appendChild(a);
                 });
 
-            // Toggle functionality
-            toggle.addEventListener('click', () => {
-                const isOpen = content.style.display !== 'none';
-                content.style.display = isOpen ? 'none' : 'block';
+            // Toggle functionality with CSS classes
+            toggle.addEventListener('click', (e) => {
+                e.stopPropagation();
+                folderEl.classList.toggle('open');
             });
 
             folderEl.appendChild(toggle);
@@ -177,8 +164,8 @@ class AngelMachine {
         document.querySelectorAll('.file-link').forEach(el => {
             el.classList.toggle('active', el.dataset.id === id);
             if (el.dataset.id === id) {
-                const content = el.closest('.folder-content');
-                if (content) content.style.display = 'block';
+                const folderItem = el.closest('.folder-item');
+                if (folderItem) folderItem.classList.add('open');
             }
         });
     }
@@ -186,9 +173,38 @@ class AngelMachine {
     interceptLinks() {
         document.querySelectorAll('#content-area a').forEach(a => {
             const href = a.getAttribute('href');
-            if (href && !href.startsWith('#') && !href.startsWith('http')) {
-                a.href = '#';
+            if (!href) return;
+
+            // Skip external links and anchors
+            if (href.startsWith('http') || href.startsWith('mailto:')) return;
+            if (href.startsWith('#')) return;
+
+            // Convert relative .md links to hash routes
+            if (href.endsWith('.md')) {
+                const filename = href.split('/').pop().replace('.md', '');
+                
+                // Try to find in manifest
+                if (this.manifest.files[filename]) {
+                    a.href = `#${filename}`;
+                    return;
+                }
+                
+                // Try aliases
+                if (this.manifest.link_aliases && this.manifest.link_aliases[filename]) {
+                    const canonicalName = this.manifest.link_aliases[filename];
+                    a.href = `#${canonicalName}`;
+                    return;
+                }
             }
+
+            // Fallback: disable broken links
+            a.style.opacity = '0.5';
+            a.style.cursor = 'not-allowed';
+            a.title = 'Link target not found in manifest';
+            a.addEventListener('click', (e) => {
+                e.preventDefault();
+                alert(`Cannot navigate to: ${href}\n\nThis file is not in the manifest or path is incorrect.`);
+            });
         });
     }
 }
