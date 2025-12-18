@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leone's Angel Machine</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@14.1.0/dist/markdown-it.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fira+Code&display=swap"
+        rel="stylesheet">
+    <style>
+        /* Mobile menu toggle button */
+        #mobile-menu-toggle {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background: var(--accent-purple);
+            color: white;
+            border-radius: 50%;
+            border: none;
+            font-size: 24px;
+            z-index: 1000;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            #mobile-menu-toggle {
+                display: block;
+            }
+        }
+
+        .loading-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            color: var(--text-muted);
+        }
+
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--border-color);
+            border-top: 3px solid var(--accent-purple);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 1rem;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Nav highlighting */
+        .file-link.active {
+            background: var(--hover-bg);
+            color: var(--accent-cyan);
+            border-left: 2px solid var(--accent-purple);
+        }
+    </style>
+</head>
+
+<body class="theme-dark">
+    <button id="mobile-menu-toggle">☰</button>
+
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h1>Angel Machine</h1>
+            <p class="tagline">Digital Codex of Ritual & Lore</p>
+        </div>
+
+        <nav class="folder-nav" id="dynamic-nav">
+            <!-- Navigation will be injected here -->
+            <div class="loading-container" style="height: auto; padding: 20px;">
+                <div class="loading-spinner" style="width: 20px; height: 20px;"></div>
+                <span>Loading Codex...</span>
+            </div>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <div id="content-area">
+            <div class="loading-container">
+                <div class="loading-spinner"></div>
+                <p>Decoding fragment...</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="scripts/markdown-renderer.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>

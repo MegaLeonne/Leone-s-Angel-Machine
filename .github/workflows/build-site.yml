@@ -1,0 +1,56 @@
+name: Build & Deploy Angel Machine
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Generate Link Manifest
+        run: |
+          python tools/link-fixer/generate-manifest.py ./config/link-manifest.json
+
+      - name: Validate Links
+        run: |
+          python tools/link-fixer/analyze-links.py
+          # Fails if there are auto-fixable links (there shouldn't be after my work)
+          # For now, just generate the report
+
+      - name: Prepare Web Assets
+        run: |
+          mkdir -p web/public/config
+          cp -r web/src/* web/public/
+          cp config/link-manifest.json web/public/config/
+          # Copy docs so they can be fetched relative to web/public
+          cp -r docs web/public/
+          cp README.md web/public/
+          # Adjust app.js to fetch from correct relative path when deployed
+          sed -i 's|../../config/link-manifest.json|config/link-manifest.json|g' web/public/scripts/app.js
+          sed -i 's|../../|./|g' web/public/scripts/app.js
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './web/public'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

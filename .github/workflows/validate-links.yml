@@ -1,0 +1,23 @@
+name: Link Validation
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Validation
+        run: |
+          python tools/link-fixer/generate-manifest.py ./config/link-manifest.json
+          python tools/link-fixer/analyze-links.py
+          # You could add a check here to fail the build if unresolved > 0
+          # python -c "import json; r = json.load(open('broken-links-report.json')); exit(1 if r['auto_fixable'] else 0)"

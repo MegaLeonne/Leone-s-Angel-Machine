@@ -1,0 +1,15 @@
+{
+    "project": "Leone's Angel Machine",
+    "version": "1.0.0",
+    "docs_path": "./docs",
+    "web_path": "./web",
+    "config_path": "./config",
+    "build": {
+        "output": "./web/public",
+        "scripts": {
+            "manifest": "tools/link-fixer/generate-manifest.py",
+            "analyzer": "tools/link-fixer/analyze-links.py",
+            "fixer": "tools/link-fixer/fix-broken-links.py"
+        }
+    }
+}
