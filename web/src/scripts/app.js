@@ -7,8 +7,12 @@ class AngelMachine {
 
     async init() {
         try {
-            // Path relative to web/src/
-            const response = await fetch('../../config/link-manifest.json');
+            // When deployed to GitHub Pages, this runs from web/public/index.html
+            // So config/link-manifest.json is at the same level
+            const response = await fetch('./config/link-manifest.json');
+            if (!response.ok) {
+                throw new Error(`Failed to fetch manifest: ${response.status} ${response.statusText}`);
+            }
             this.manifest = await response.json();
 
             window.addEventListener('hashchange', () => this.route());
@@ -20,6 +24,7 @@ class AngelMachine {
                 <div class="error" style="padding: 2rem; border: 1px solid #ef4444; border-radius: 8px; background: #fee2e2; color: #991b1b;">
                     <h2>System Malfunction</h2>
                     <p>Failed to load the link manifest. The digital codex is currently offline.</p>
+                    <p style="font-size: 0.9em; margin-top: 1rem; color: #7f1d1d;">Error: ${error.message}</p>
                 </div>
             `;
         }
@@ -57,18 +62,28 @@ class AngelMachine {
         `;
 
         try {
-            const fetchPath = `../../${fileData.path.replace('./', '')}`;
+            // Files are copied to web/public/ during build
+            // So ./docs/philosophy/cosmology-void.md is accessible from web/public/
+            const fetchPath = `./${fileData.path}`;
+            console.log(`Fetching: ${fetchPath}`);
             const response = await fetch(fetchPath);
+            
+            if (!response.ok) {
+                throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
+            }
+            
             const content = await response.text();
 
             // Render content
+            const renderedContent = this.renderer ? this.renderer.render(content) : `<pre>${content}</pre>`;
+            
             contentArea.innerHTML = `
                 <div class="content-header">
                     <h1>${fileData.title}</h1>
-                    ${fileData.tags.length ? `<p class="tagline">${fileData.tags.map(t => `#${t}`).join(' ')}</p>` : ''}
+                    ${fileData.tags && fileData.tags.length ? `<p class="tagline">${fileData.tags.map(t => `#${t}`).join(' ')}</p>` : ''}
                 </div>
                 <div class="content-section">
-                    ${this.renderer.render(content)}
+                    ${renderedContent}
                 </div>
             `;
 
@@ -81,13 +96,25 @@ class AngelMachine {
             // Intercept internal links
             this.interceptLinks();
         } catch (error) {
-            contentArea.innerHTML = `<h2>Error</h2><p>Failed to fetch data source for ${fileData.path}</p>`;
+            console.error('Route error:', error);
+            contentArea.innerHTML = `
+                <div style="padding: 2rem; border: 1px solid #ef4444; border-radius: 8px; background: #fee2e2; color: #991b1b;">
+                    <h2>Error</h2>
+                    <p>Failed to fetch data source for ${fileData.path}</p>
+                    <p style="font-size: 0.9em; margin-top: 0.5rem; color: #7f1d1d;">${error.message}</p>
+                </div>
+            `;
         }
     }
 
     renderNav() {
         const nav = document.getElementById('dynamic-nav');
         nav.innerHTML = '';
+
+        if (!this.manifest || !this.manifest.files) {
+            nav.innerHTML = '<p>Failed to load navigation</p>';
+            return;
+        }
 
         // Organize by folder
         const folders = {};
