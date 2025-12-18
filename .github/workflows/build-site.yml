@@ -28,20 +28,16 @@ jobs:
       - name: Validate Links
         run: |
           python tools/link-fixer/analyze-links.py
-          # Fails if there are auto-fixable links (there shouldn't be after my work)
-          # For now, just generate the report
+          # Just generates the report, doesn't fail the build
 
       - name: Prepare Web Assets
         run: |
           mkdir -p web/public/config
           cp -r web/src/* web/public/
           cp config/link-manifest.json web/public/config/
-          # Copy docs so they can be fetched relative to web/public
           cp -r docs web/public/
           cp README.md web/public/
-          # Adjust app.js to fetch from correct relative path when deployed
-          sed -i 's|../../config/link-manifest.json|config/link-manifest.json|g' web/public/scripts/app.js
-          sed -i 's|../../|./|g' web/public/scripts/app.js
+          # Source files already have correct paths, no sed needed!
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
