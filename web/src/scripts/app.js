@@ -173,6 +173,21 @@ class AngelMachine {
             const sectionEl = this.renderNavSection(section);
             if (sectionEl) nav.appendChild(sectionEl);
         });
+        // NEW: Automated "Unsorted" Section
+        const schemaIds = new Set(this.navSchema.sections.flatMap(s => s.items.map(i => i.id)));
+        const unsortedIds = Object.keys(this.manifest.files).filter(id => !schemaIds.has(id));
+
+        if (unsortedIds.length > 0) {
+            const unsortedSection = this.renderNavSection({
+                id: 'unsorted',
+                label: '🌀 Unsorted Fragments',
+                collapsible: true,
+                defaultOpen: false,
+                items: unsortedIds.map(id => ({ id, title: this.manifest.files[id].title || id }))
+            });
+            nav.appendChild(unsortedSection);
+        }
+
     }
 
     renderNavSection(section) {
@@ -365,3 +380,5 @@ class AngelMachine {
 window.addEventListener('DOMContentLoaded', () => {
     window.app = new AngelMachine();
 });
+
+

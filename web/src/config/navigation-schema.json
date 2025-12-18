@@ -36,6 +36,45 @@
             ]
         },
         {
+            "id": "laws-of-khaos",
+            "label": "⚖️ Laws of Khaos",
+            "type": "section",
+            "collapsible": true,
+            "defaultOpen": false,
+            "items": [
+                {
+                    "title": "KHAOS",
+                    "id": "KHAOS",
+                    "icon": "🌀"
+                },
+                {
+                    "title": "The Law",
+                    "id": "philosophy-the-law",
+                    "icon": "📜"
+                },
+                {
+                    "title": "The Law (Mirror)",
+                    "id": "}}[[THE-LAW",
+                    "icon": "🪞"
+                },
+                {
+                    "title": "There Are No Rules",
+                    "id": "There-Are-No-Rules",
+                    "icon": "❌"
+                },
+                {
+                    "title": "The Rule Of The Swamp",
+                    "id": "The-Rule-OF-The-Swamp.",
+                    "icon": "🐊"
+                },
+                {
+                    "title": "Walk Alongside Khaos",
+                    "id": "WalkAlongSideKhaos",
+                    "icon": "🚶"
+                }
+            ]
+        },
+        {
             "id": "philosophy",
             "label": "💭 Philosophy",
             "type": "section",
@@ -155,6 +194,29 @@
             ]
         },
         {
+            "id": "historical-logs",
+            "label": "📼 Historical Logs",
+            "type": "section",
+            "collapsible": true,
+            "items": [
+                {
+                    "title": "The Heart's Reprise",
+                    "id": "The-Hearts-Reprise",
+                    "icon": "💔"
+                },
+                {
+                    "title": "Event Log 009",
+                    "id": "Event-Log-009-The-Hearts-Reprise",
+                    "icon": "📋"
+                },
+                {
+                    "title": "The Seventh Call",
+                    "id": "ritual-seventh-call",
+                    "icon": "📞"
+                }
+            ]
+        },
+        {
             "id": "rituals",
             "label": "🔮 Rituals",
             "type": "section",
@@ -220,6 +282,35 @@
                 }
             ]
         },
+        {
+            "id": "identity-fragments",
+            "label": "🧩 Identity Fragments",
+            "type": "section",
+            "collapsible": true,
+            "items": [
+                {
+                    "title": "AM I NOT",
+                    "id": "AM-I-NOT",
+                    "icon": "❓"
+                },
+                {
+                    "title": "The Mirror",
+                    "id": "The-MIrROR",
+                    "icon": "🪞"
+                },
+                {
+                    "title": "You Mind",
+                    "id": "You-Mind",
+                    "icon": "🧠"
+                },
+                {
+                    "title": "Sing The City",
+                    "id": "Sing-The-City",
+                    "icon": "🎶"
+                }
+            ]
+        }
+        
         {
             "id": "orphans",
             "label": "🌀 Orphans & Fragments",
