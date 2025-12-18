@@ -111,27 +111,20 @@ class AngelMachine {
             return;
         }
 
-        const tree = {};
+        const tree = { _files: [], _sub: {} };
         Object.entries(this.manifest.files).forEach(([id, data]) => {
             const folder = data.folder || '.';
             const parts = folder === '.' ? [] : folder.split('/');
+
             let current = tree;
             parts.forEach(part => {
-                if (!current[part]) current[part] = { _files: [], _sub: {} };
-                current = current[part]._sub;
+                if (!current._sub[part]) {
+                    current._sub[part] = { _files: [], _sub: {} };
+                }
+                current = current._sub[part];
             });
 
-            // Find the correct _files array
-            let target = tree;
-            parts.forEach(part => {
-                target = target[part];
-            });
-            if (folder === '.') {
-                if (!tree['.']) tree['.'] = { _files: [], _sub: {} };
-                tree['.']._files.push({ id, title: data.title });
-            } else {
-                target._files.push({ id, title: data.title });
-            }
+            current._files.push({ id, title: data.title });
         });
 
         const renderTree = (node, path = '', container = nav) => {
@@ -190,12 +183,8 @@ class AngelMachine {
             });
         };
 
-        // If the manifest root is "docs", we might want to skip the "docs" wrapper
-        if (tree['docs']) {
-            renderTree(tree['docs']._sub, 'docs', nav);
-        } else {
-            renderTree(tree, '', nav);
-        }
+        // Render the tree starting from the root subfolders
+        renderTree(tree._sub, '', nav);
     }
 
     updateActiveNav(id) {
