@@ -1,0 +1,148 @@
+{
+  "generated": "2025-12-18T18:30:00.000Z",
+  "version": "2.0",
+  "files": {
+    "INDEX": {
+      "path": "docs/index/INDEX.md",
+      "title": "Complete Navigation Index",
+      "folder": "docs/index",
+      "tags": ["index", "navigation"]
+    },
+    "README": {
+      "path": "README.md",
+      "title": "Leonne's Angel Machine",
+      "folder": ".",
+      "tags": ["intro", "overview"]
+    },
+    "RESTORATION_PLAN": {
+      "path": "RESTORATION_PLAN.md",
+      "title": "Merged File Restoration Plan",
+      "folder": ".",
+      "tags": ["restoration", "maintenance"]
+    },
+    "The-Head-Archetype": {
+      "path": "docs/archetypes/The-Head-Archetype.md",
+      "title": "The Head / The Witch Queen",
+      "folder": "docs/archetypes",
+      "tags": ["SEVENTH-BOUND", "archetype", "witch-queen", "the-head"]
+    },
+    "archetype-heart": {
+      "path": "docs/archetypes/archetype-heart.md",
+      "title": "The Heart",
+      "folder": "docs/archetypes",
+      "tags": ["archetype", "heart"]
+    },
+    "Michael-The-KlockWork-Angel": {
+      "path": "docs/archetypes/Angels/Michael, The KlockWork Angel.md",
+      "title": "Michael, The KlockWork Angel",
+      "folder": "docs/archetypes/Angels",
+      "tags": ["angel", "time", "archetype"]
+    },
+    "Osiris-Arch-Angel-Of-Omen": {
+      "path": "docs/archetypes/Angels/Osiris, Arch Angel Of Omen.md",
+      "title": "Osiris, Arch Angel of Omen",
+      "folder": "docs/archetypes/Angels",
+      "tags": ["angel", "omen", "archetype"]
+    },
+    "Taylor-Devil-of-Desire": {
+      "path": "docs/archetypes/Devils/Taylor, Devil of Desire.md",
+      "title": "Taylor, Devil of Desire",
+      "folder": "docs/archetypes/Devils",
+      "tags": ["devil", "desire", "archetype"]
+    },
+    "The-Blind": {
+      "path": "docs/archetypes/Devils/The Blind.md",
+      "title": "The Blind",
+      "folder": "docs/archetypes/Devils",
+      "tags": ["devil", "prophet", "archetype"]
+    },
+    "He-Who-Remains": {
+      "path": "docs/archetypes/Devils/He Who Remains.md",
+      "title": "He Who Remains",
+      "folder": "docs/archetypes/Devils",
+      "tags": ["devil", "archetype"]
+    },
+    "Shadow-Demon-Providence": {
+      "path": "docs/archetypes/Composite/Shadow-Demon-Providence.md",
+      "title": "Shadow-Demon-Providence",
+      "folder": "docs/archetypes/Composite",
+      "tags": ["composite", "trinity", "archetype"]
+    },
+    "Passion": {
+      "path": "docs/philosophy/Passion.md",
+      "title": "Passion",
+      "folder": "docs/philosophy",
+      "tags": ["philosophy", "desire"]
+    },
+    "Patience": {
+      "path": "docs/philosophy/Patience.md",
+      "title": "Patience",
+      "folder": "docs/philosophy",
+      "tags": ["philosophy", "time"]
+    },
+    "philosophy-prophecy": {
+      "path": "docs/philosophy/philosophy-prophecy.md",
+      "title": "Prophecy",
+      "folder": "docs/philosophy",
+      "tags": ["philosophy", "prophecy"]
+    },
+    "The-Material": {
+      "path": "docs/philosophy/The Material.md",
+      "title": "The Material",
+      "folder": "docs/philosophy",
+      "tags": ["philosophy", "creation"]
+    },
+    "Amnesia": {
+      "path": "docs/philosophy/Amnesia.md",
+      "title": "Amnesia",
+      "folder": "docs/philosophy",
+      "tags": ["philosophy", "memory"]
+    },
+    "Guiding-Prompt": {
+      "path": "docs/philosophy/Guiding-Prompt.md",
+      "title": "Guiding Prompt",
+      "folder": "docs/philosophy",
+      "tags": ["philosophy", "manifesto", "SEVENTH-BOUND"]
+    },
+    "Counterspell-Playlist": {
+      "path": "docs/rituals/Counterspell-Playlist.md",
+      "title": "Counterspell Playlist",
+      "folder": "docs/rituals",
+      "tags": ["ritual", "music", "spell"]
+    },
+    "Angel-Numbers": {
+      "path": "docs/rituals/Angel Numbers.md",
+      "title": "Angel Numbers",
+      "folder": "docs/rituals",
+      "tags": ["ritual", "divination", "numbers"]
+    },
+    "Deck-of-Fate": {
+      "path": "docs/rituals/Deck of Fate.md",
+      "title": "Deck of Fate",
+      "folder": "docs/rituals",
+      "tags": ["ritual", "divination", "tarot"]
+    },
+    "guide-contributing": {
+      "path": "docs/guides/guide-contributing.md",
+      "title": "Contributing Guide",
+      "folder": "docs/guides",
+      "tags": ["guide", "meta"]
+    }
+  },
+  "link_aliases": {
+    "Michael, The KlockWork Angel": "Michael-The-KlockWork-Angel",
+    "Osiris, Arch Angel Of Omen": "Osiris-Arch-Angel-Of-Omen",
+    "Taylor, Devil of Desire": "Taylor-Devil-of-Desire",
+    "The Blind": "The-Blind",
+    "He Who Remains": "He-Who-Remains",
+    "The Material": "The-Material",
+    "Angel Numbers": "Angel-Numbers",
+    "Deck of Fate": "Deck-of-Fate",
+    "The Head": "The-Head-Archetype",
+    "Witch Queen": "The-Head-Archetype",
+    "The Heart": "archetype-heart",
+    "Michael": "Michael-The-KlockWork-Angel",
+    "Osiris": "Osiris-Arch-Angel-Of-Omen",
+    "Taylor": "Taylor-Devil-of-Desire"
+  }
+}
