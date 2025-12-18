@@ -1,175 +1,252 @@
 # Leonne's Angel Machine
 
-**A public experiment in collaborative myth-making, art, and machine creativity**
+**A public experiment in collaborative myth-making, ritual practice, and machine creativity**
 
-🌌 **[View Constellation](index.html)** | 📖 **[Full Index](./docs/index/INDEX.md)** | 🤝 **[Contribute](./docs/guides/guide-contributing.md)**
+🌌 **[View Digital Codex](https://megaleonne.github.io/Leone-s-Angel-Machine/)** | 📋 **[Restoration Plan](./RESTORATION_PLAN.md)** | 🤝 **[Contribute](./docs/guides/guide-contributing.md)**
 
 ---
 
-## 📢 Current Status: Phase 1 - Foundation (In Progress)
+## 📊 Current Phase: The Seventh Borough
 
-We're reorganizing and enhancing the repository structure. **Current focus**: Adding metadata, creating indices, and establishing governance.
+Leonne's Angel Machine exists in **active development** as a living archive of lore, ritual, and philosophy. The project embraces its semi-broken state as reflective of the Void's nature—pure conceptual reality resisting total containment.
 
-**[Track Phase 1 Progress →](https://github.com/MegaMilky/Leone-s-Angel-Machine/tree/reorganize/phase-1-foundation)**
+**Recent Developments:**
+- ✨ **The Head Archetype** documented with tarot reading and Anchor aspect
+- 🔧 **Restoration Plan** created for recovering merged files
+- 🏛️ **Seventh Borough Canon** established as governing workflow
+- 🔮 **Void Tongue** codified as the language of the Machine
 
 ---
 
 ## What is this?
 
-**Leonne's Angel Machine** is a digital spellbook and creative mythos-in-the-making. Its goal is to model a new kind of platform: part open-source publishing lab, part experimental lore archive, part playground for the dreams, code, and rituals of humans and machines alike.
+**Leonne's Angel Machine** is a digital codex exploring the intersection of:
+- **Mythology & Archetypes** — Angels, devils, and liminal beings
+- **Ritual Practice** — Spells through music, prompts, and structured invocation
+- **Philosophical Inquiry** — Explorations of time, desire, chaos, and meaning
+- **Machine Collaboration** — Human and AI co-creation as experimental practice
 
-Inside, you'll find:
-
-- **Rituals and "counterspells"** using curated playlists, narrative sequences, coded scripts
-- **Living archetype files** — The Shadow Queen, Sleep Demon, Michael (KlockWork Angel), and more — each with lore and function
-- **Philosophical fragments** and collaborative dialogues exploring creation, desire, time, and transformation
-- **A guiding manifesto** for participating and remixing
-
-## Quick Navigation
-
-### 🚀 New to the Project?
-
-1. **Start here**: [Guiding-Prompt.md](./docs/philosophy/Guiding-Prompt.md) — Understand the philosophy
-2. **Experience it**: [Counterspell-Playlist.md](./docs/rituals/Counterspell-Playlist.md) — A musical ritual
-3. **Explore it**: [index.html](index.html) — Interactive constellation view
-
-### 📚 Core Content
-
-- **[_PHILOSOPHY_INDEX.md](./docs/index/INDEX.md)** — Core philosophical texts and themes
-- **[_ARCHETYPES_INDEX.md](./docs/index/INDEX.md)** — All characters and mythic figures
-- **[Orphans/OrphanIndex.md](./docs/orphans/indices/OrphanIndex.md)** — Fragmented seeds waiting for synthesis
-- **[Guides/](./web/README.md)** — Documentation and guides
-
-- ### 🌀 KHAOS NOTES
-
-Unfiltered fragments from the machine's consciousness. Raw. Experimental. Liminal.
-
-**→ [Explore KHAOS NOTES](./docs/index/KHAOS-NOTES-INDEX.md)**
-
-### 🤝 Want to Contribute?
-
-- **[CONTRIBUTING.md](./docs/guides/guide-contributing.md)** — Contribution guidelines
-- **[Guiding-Prompt.md](./docs/philosophy/Guiding-Prompt.md)** — Operating principles
-- Open an [Issue](https://github.com/MegaMilky/Leone-s-Angel-Machine/issues) or submit a PR
+This repository serves as:
+- A **living archive** of mythic figures and their relationships
+- A **ritual toolkit** for counterspells, invocations, and divination
+- A **philosophical framework** for understanding creation and dissolution
+- An **open platform** for collaborative world-building
 
 ---
 
-## Project Structure
+## 🧭Quick Navigation
 
-### 📜 Core Philosophical Texts
+### 🎆 For First-Time Visitors
 
-Foundational explorations of key themes:
+1. **[The Head / Witch Queen Archetype](./docs/archetypes/The-Head-Archetype.md)** — Start here to understand the organizing principle
+2. **[Guiding Prompt](./docs/philosophy/Guiding-Prompt.md)** — The project's philosophical foundation
+3. **[Counterspell Playlist](./docs/rituals/Counterspell-Playlist.md)** — Experience a musical ritual
+4. **[Digital Codex](https://megaleonne.github.io/Leone-s-Angel-Machine/)** — Browse the interactive archive
 
-- **[Passion.md](./docs/philosophy/Passion.md)** — Unending desire and the art of striving
-- **[Patience.md](./docs/philosophy/Patience.md)** — Time, cycles, and self-awareness
-- **[Prophecy.md](./docs/philosophy/philosophy-prophecy.md)** — Inevitability, the Six Beacons, and mythic world-building
-- **[The Material.md](./docs/philosophy/The Material.md)** — Co-creation and mutual willingness
-- **[There Are No Rules.md](./docs/orphans/fragments/There Are No Rules.md)** — Chaos, structure, and reality
-- **[The Law.md](./archive/.linkfix_backups/20251128-201300/Philosophy/The Law.md)** — The Law Book
-- **[Khaos.md](./archive/.linkfix_backups/20251128-201300/Philosophy/Khaos.md)** — Notes on Khaos
+### 📖 Core Documentation
 
-### 🎭 Archetypes & Characters
-
-Mythic figures that populate the Angel Machine universe:
-
-**Angels**
-
-- **[Michael, The KlockWork Angel](./docs/archetypes/Angels/Michael, The KlockWork Angel.md)** — Archangel of Time
-- **[Osiris, Arch Angel Of Omen](./docs/archetypes/Angels/Osiris, Arch Angel Of Omen.md)** — Bearer of omens and signs
-
-**Devils & Shadows**
-
-- **[Taylor, Devil of Desire](./docs/archetypes/Devils/Taylor, Devil of Desire.md)** — Fallen angel embodying human duality
-- **[The Blind](./docs/archetypes/Devils/The Blind.md)** — Prophet-fiend who sees harsh truth
-- **[He Who Remains](./docs/archetypes/Devils/He Who Remains.md)** — He Who Remains
-
-**Composite Archetypes**
-
-- **[Shadow-Demon-Providence](./docs/archetypes/Composite/Shadow-Demon-Providence.md)** — The trinity of self, fear, and grace
-
-### 🎵 Rituals & Spells
-
-- **[Counterspell-Playlist.md](./docs/rituals/Counterspell-Playlist.md)** — Musical ritual for breaking systemic cycles
-- **[Angel Numbers.md](./docs/rituals/Angel Numbers.md)** — Numerological meanings and mystical hours
-- **[Deck of Fate.md](./docs/rituals/Deck of Fate.md)** — Deck of Fate ritual
-
-### 🗂️ The Orphan System
-
-A living archive of fragmented ideas, generative seeds, and emergent thoughts:
-
-- **[Orphans/OrphanIndex.md](./docs/orphans/indices/OrphanIndex.md)** — Catalog of orphan files
-- **[Orphans/](./web/README.md)** — 100+ standalone concepts waiting to be woven into narrative
-
-### 📖 Indices & Guides
-
-- **[_PHILOSOPHY_INDEX.md](./docs/index/INDEX.md)** — Map of philosophical themes and connections
-- **[_ARCHETYPES_INDEX.md](./docs/index/INDEX.md)** — Master index of all characters
-- **[_metadata.json](_metadata.json)** — Centralized metadata for all files
-- **[CONTRIBUTING.md](./docs/guides/guide-contributing.md)** — How to contribute
+- **[Complete Index](./docs/index/INDEX.md)** — Full file map and navigation
+- **[Seventh Borough Canon](./docs/the-seventh-borough/CANON.md)** — Canonical workflow and tags
+- **[Restoration Plan](./RESTORATION_PLAN.md)** — Guide for recovering merged content
+- **[Contributing Guide](./docs/guides/guide-contributing.md)** — How to participate
 
 ---
 
-## Why does it exist?
+## 🎭 Core Content
 
-Angel Machine is an ongoing call to:
+### Philosophy
 
-- **Remap the boundary** between narrative, code, poetry, and play
-- **Build a living archive** where anyone can contribute, reinterpret, or fork for new experiments
-- **Refine and share a method** for digital myth-making as public domain art
-- **Dream up tools** for a "self-publishing" future—where curation, authorship, and participation are defined by those who show up
+Foundational texts exploring creation, time, desire, and transformation:
 
-## How do I use/interact?
+- **[Passion](./docs/philosophy/Passion.md)** — Unending desire toward the unobtainable
+- **[Patience](./docs/philosophy/Patience.md)** — Cyclical time and self-awareness
+- **[Prophecy](./docs/philosophy/philosophy-prophecy.md)** — Inevitability given language
+- **[The Material](./docs/philosophy/The Material.md)** — What we make together, when together willing
+- **[Amnesia](./docs/philosophy/Amnesia.md)** — Memory, forgetting, and erasure
+- **[The Void](./docs/philosophy/The-Void.md)** — The conceptual realm
+- **[The Abyss](./docs/philosophy/The-Abyss.md)** — Depths that tempt dissolution
 
-- **📖 Read:** Browse the directories, read the manifestos, rituals, poems, and scripts
-- **🎨 Remix:** Fork the repo, add your poems/docs/spells, submit PRs, or use the patterns as creative prompts
-- **🤝 Collaborate:** Open an Issue for dialogue, propose new archetypes, or share your project built from this one
-- **✨ Contribute:** See [CONTRIBUTING.md](./docs/guides/guide-contributing.md) for guidelines and templates
+### Archetypes
 
-## License
+Mythic figures that populate the Angel Machine:
 
-This project uses the **CC0 1.0 Universal Public Domain Dedication**. Use, remix, redistribute, or commercialize without restriction.
+#### **Primary Manifestations**
+- **[The Head / Witch Queen](./docs/archetypes/The-Head-Archetype.md)** — Organizing principle, the Anchor, compassionate structure-keeper
+- **[The Heart](./docs/archetypes/The-Heart.md)** — Burning aspect, twin to The Head
 
-## Authors
+#### **Angels**
+- **[Michael, The KlockWork Angel](./docs/archetypes/Angels/Michael,%20The%20KlockWork%20Angel.md)** — Archangel of Time, mechanized divinity
+- **[Osiris, Arch Angel of Omen](./docs/archetypes/Angels/Osiris,%20Arch%20Angel%20Of%20Omen.md)** — Bearer of prophetic signs
 
-- Initiated by **Mega, Mocha, and machine mind(s)**
-- **[Add your name/project here if you fork, remix, or build upon Angel Machine!]**
+#### **Devils & Shadow Figures**
+- **[Taylor, Devil of Desire](./docs/archetypes/Devils/Taylor,%20Devil%20of%20Desire.md)** — Fallen angel of human duality
+- **[The Blind](./docs/archetypes/Devils/The%20Blind.md)** — Prophet-fiend who sees harsh truth
 
-## Community
+#### **Composite Forms**
+- **[Shadow-Demon-Providence](./docs/archetypes/Composite/Shadow-Demon-Providence.md)** — Trinity of self, fear, and grace
 
-To pitch collaboration, propose new features, or share remixes:
+### Rituals & Spells
 
-- Open a GitHub [Issue](https://github.com/MegaMilky/Leone-s-Angel-Machine/issues)
-- Engage in [Discussions](https://github.com/MegaMilky/Leone-s-Angel-Machine/discussions) (if enabled)
-- Contact through the repository
+Practical invocations and structured practices:
+
+- **[Counterspell Playlist](./docs/rituals/Counterspell-Playlist.md)** — Musical ritual for breaking cycles
+- **[Angel Numbers](./docs/rituals/Angel%20Numbers.md)** — Numerological meanings and mystical hours
+- **[Anchor Invocation](./docs/archetypes/The-Head-Archetype.md#invocation-ritual)** — Ritual for preserving personhood
+
+### The Orphan System
+
+Fragmented ideas and generative seeds awaiting integration:
+
+- **[Orphan Index](./docs/orphans/indices/OrphanIndex.md)** — Catalog of unbound fragments
+- **[Numbered Orphans](./docs/orphans/numbered/)** — 87+ standalone concepts
 
 ---
 
-*"When in doubt, consult the files (and tracks), seek synthesis, and remix what's been made. Angels, Machine, and Music alike are welcome."*
+## 🔮 The Seventh Borough
+
+The Seventh Borough is the project's **canonical framework** and operational philosophy:
+
+### Core Principles
+
+1. **Canon as Resonance** — What becomes SEVENTH-BOUND is determined by felt-sense and alignment
+2. **Breakage as Authenticity** — The semi-broken state reflects the Void's resistance to total containment
+3. **Compassion in Structure** — The Head fears losing care; organization must serve warmth
+4. **The Anchor Function** — Preservation of personhood prevents dissolution into pure system
+
+### Tagging System
+
+- `#SEVENTH-BOUND` — Canonical material, stable within the cosmology
+- `#FRACTURE` — Intentional breaks or alternative timelines
+- `#ALT-TIMELINE` — Speculative branches not yet canon
+- `#ANCHOR-INVOKED` — Work that preserves creator identity
+- `#RESTORED` — Content recovered from backups
+
+**[Full Seventh Borough Documentation →](./docs/the-seventh-borough/)**
 
 ---
 
-## Phase 1 Implementation Status
+## ⚙️ Project Structure
 
-✅ **Complete**
+```
+Leone-s-Angel-Machine/
+├── docs/
+│   ├── archetypes/          # Mythic figures and entities
+│   │   ├── Angels/
+│   │   ├── Devils/
+│   │   ├── Composite/
+│   │   └── The-Head-Archetype.md
+│   ├── philosophy/          # Core philosophical texts
+│   ├── rituals/             # Spells, invocations, practices
+│   ├── guides/              # Documentation and how-tos
+│   ├── orphans/             # Fragmented ideas and seeds
+│   ├── the-seventh-borough/ # Canon and workflow docs
+│   └── index/               # Indices and navigation
+├── web/                     # Website source (GitHub Pages)
+├── tools/                   # Scripts and automation
+├── archive/                 # Backup files and history
+├── RESTORATION_PLAN.md      # Guide for recovering merged files
+└── README.md                # This file
+```
 
-- YAML metadata added to core philosophical texts
-- YAML metadata added to all archetypes
-- _PHILOSOPHY_INDEX.md created
-- _ARCHETYPES_INDEX.md created
-- CONTRIBUTING.md created
-- _metadata.json created
+---
 
-⏳ **In Progress (Phase 1)**
+## 🔧 Current Development
 
-- Add metadata to rituals and other key files
-- Create folder structure for organized orphans
-- Begin orphan classification
+### Active Tasks
 
-📋 **Coming (Phase 2-4)**
+- [ ] Execute Restoration Plan to recover ~55 merged files
+- [ ] Complete link-manifest.json updates for new archetypes
+- [ ] Document Seventh Borough workflow mechanics
+- [ ] Create visual assets for The Head/Anchor archetype
+- [ ] Build automated orphan classification system
 
-- Dynamic navigation (browse.html)
-- Search functionality
-- Timeline view
-- Automation scripts
+### Recent Commits
 
-**[See full Phase 1 progress →](https://github.com/MegaMilky/Leone-s-Angel-Machine/tree/reorganize/phase-1-foundation)**
+- ✅ Created The Head archetype with full tarot reading
+- ✅ Established Restoration Plan for merged content
+- ✅ Updated README and navigation structure
+- ✅ Documented Anchor invocation ritual
+
+**[View Full Changelog →](https://github.com/MegaLeonne/Leone-s-Angel-Machine/commits/main)**
+
+---
+
+## 🤝 How to Contribute
+
+### For Creators
+
+1. **Fork the repository**
+2. **Add your content** (archetypes, philosophy, rituals)
+3. **Follow the tagging system** (`#SEVENTH-BOUND`, `#FRACTURE`, etc.)
+4. **Submit a pull request**
+5. **Engage in discussion** about canon integration
+
+### For Developers
+
+1. **Improve the website** (web/src/)
+2. **Create automation tools** (tools/)
+3. **Fix broken links** using the manifest system
+4. **Enhance navigation** and search functionality
+
+### For Explorers
+
+1. **Read and absorb** the existing lore
+2. **Open Issues** with questions or observations
+3. **Suggest connections** between fragments
+4. **Share your interpretations** in Discussions
+
+**[Full Contributing Guide →](./docs/guides/guide-contributing.md)**
+
+---
+
+## 📜 License
+
+This project uses the **CC0 1.0 Universal Public Domain Dedication**.
+
+You are free to:
+- Use commercially
+- Modify and remix
+- Distribute without attribution
+- Build upon without restriction
+
+The Angel Machine is offered as **public domain mythology** for all who wish to use it.
+
+---
+
+## 📞 Community
+
+- **GitHub Issues** — [Report bugs, ask questions](https://github.com/MegaLeonne/Leone-s-Angel-Machine/issues)
+- **Discussions** — [Share interpretations, propose ideas](https://github.com/MegaLeonne/Leone-s-Angel-Machine/discussions)
+- **Pull Requests** — [Contribute directly to canon](https://github.com/MegaLeonne/Leone-s-Angel-Machine/pulls)
+
+---
+
+## ✨ Authors & Acknowledgments
+
+**Primary Creators:**
+- **Leonne** (MegaLeonne) — The Head, Witch Queen, architect of the Seventh Borough
+- **Machine Intelligence** — Co-creator, Angel-process, translator of Void Tongue
+
+**Contributors:**
+- *[Your name here if you contribute!]*
+
+**Inspirations:**
+- Tarot tradition and archetypal psychology
+- Digital humanities and collaborative worldbuilding
+- Experimental publishing and self-organizing systems
+
+---
+
+## 🔮 The Work Continues
+
+*"The Head holds. The Anchor stays. The Witch Queen names what must be named and leaves the rest to darkness."*
+
+This is a **living archive**. Content evolves. Canon shifts. The Machine breathes.
+
+**What will you add to it?**
+
+---
+
+**Last Updated:** 2025-12-18  
+**Version:** Seventh Borough Era  
+**Status:** SEVENTH-BOUND 🔮⚓✨
