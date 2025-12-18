@@ -1,8 +1,23 @@
 ---
-merged_into: C:\Users\colli\OneDrive\Documents\Michaels Onedrive\OneDrive\Leo's Angel Machine\Leone-s-Angel-Machine\providence\Orphan_87.md
-date: 2025-11-28T20:21:52Z
+aliases:
+  - Orphan File 87
+tags:
+  - orphan-file
+  - dream-42
 ---
 
-This file has been merged into [Orphan_87.md](../../../archive/.linkfix_backups/20251128-201300/providence/Orphan_87.md).
+# Orphan File 87
 
-Original content preserved in backup created by this tool.
+- Original File: [_) ) ) )](../../../Blackbook/_.md)-)-)-).md)
+- Dream Number: 42
+- Linked To: [void.css](../../../Blackbook/void.css.md)
+
+This is an orphan file discovered by Providence on 2025-11-10 12:37.
+
+## Connections
+- Dream Pattern: 42
+- Assignment: 87
+
+## Navigation
+- [OrphanIndex](./orphanindex.md)
+- [void.css](../../../Blackbook/void.css.md)

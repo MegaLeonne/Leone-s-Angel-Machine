@@ -1,0 +1,233 @@
+{
+  "total_files": 27,
+  "files_with_backups": 26,
+  "files_without_backups": 1,
+  "mappings": [
+    {
+      "current_path": "docs/archetypes/Angels/Michael, The KlockWork Angel.md",
+      "original_name": "Michael, The KlockWork Angel.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\Michael, The KlockWork Angel.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/archetypes/Angels/Osiris, Arch Angel Of Omen.md",
+      "original_name": "Osiris, Arch Angel Of Omen.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\Osiris, Arch Angel Of Omen.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/archetypes/Devils/He Who Remains.md",
+      "original_name": "He Who Remains.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\He Who Remains.md",
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\archive\\.linkfix_backups\\20251128-201300\\Archetypes\\Devils\\He Who Remains.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/archetypes/Devils/Taylor, Devil of Desire.md",
+      "original_name": "Taylor, Devil of Desire.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\Taylor, Devil of Desire.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/archetypes/Devils/The Blind.md",
+      "original_name": "The Blind.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\The Blind.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/guides/How To Use Bill Doors.md",
+      "original_name": "How To Use Bill Doors.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\How To Use Bill Doors.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/guides/Qualitative Research Guide.md",
+      "original_name": "Qualitative Research Guide.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\Qualitative Research Guide.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/index/&.md",
+      "original_name": "&.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\archive\\.linkfix_backups\\20251128-201300\\Orphans\\Classified\\Symbolic\\&.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/orphans/cryptic/README.md",
+      "original_name": "README.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\archive\\.linkfix_backups\\20251128-203242\\README.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/orphans/indices/orphan-index.md",
+      "original_name": "OrphanIndex.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\OrphanIndex.md",
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\archive\\.linkfix_backups\\20251128-201300\\OrphanIndex.md",
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\archive\\.linkfix_backups\\20251128-201300\\Orphans\\Indices\\OrphanIndex.md",
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\archive\\.linkfix_backups\\20251128-201300\\providence\\OrphanIndex.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/orphans/numbered/orphan-0.md",
+      "original_name": "Orphan_0.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\Orphan_0.md",
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\archive\\.linkfix_backups\\20251128-201300\\Orphans\\Numbered\\Orphan_0.md",
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\archive\\.linkfix_backups\\20251128-201300\\providence\\Orphan_0.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/orphans/numbered/orphan-87.md",
+      "original_name": "Orphan_87.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\Orphan_87.md",
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\archive\\.linkfix_backups\\20251128-201300\\providence\\Orphan_87.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/orphans/numbered/orphanindex.md",
+      "original_name": "OrphanIndex.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\OrphanIndex.md",
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\archive\\.linkfix_backups\\20251128-201300\\OrphanIndex.md",
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\archive\\.linkfix_backups\\20251128-201300\\Orphans\\Indices\\OrphanIndex.md",
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\archive\\.linkfix_backups\\20251128-201300\\providence\\OrphanIndex.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/orphans/numbered/readme.md",
+      "original_name": "README.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\archive\\.linkfix_backups\\20251128-203242\\README.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/philosophy/Amnesia.md",
+      "original_name": "Amnesia.md",
+      "backup_locations": [],
+      "has_backup": false
+    },
+    {
+      "current_path": "docs/philosophy/cosmology-void.md",
+      "original_name": "The Law of the Void.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\The Law of the Void.md",
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\archive\\.linkfix_backups\\20251128-201300\\Philosophy\\The Law of the Void.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/philosophy/Guiding-Prompt.md",
+      "original_name": "Guiding-Prompt.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\Guiding-Prompt.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/philosophy/Passion.md",
+      "original_name": "Passion.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\Passion.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/philosophy/Patience.md",
+      "original_name": "Patience.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\Patience.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/philosophy/philosophy-khaos.md",
+      "original_name": "KHAOS.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\archive\\.linkfix_backups\\20251128-201300\\Orphans\\Classified\\States\\KHAOS.md",
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\archive\\.linkfix_backups\\20251128-201300\\Philosophy\\Khaos.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/philosophy/philosophy-no-rules.md",
+      "original_name": "There Are No Rules.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\There Are No Rules.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/philosophy/philosophy-providence.md",
+      "original_name": "Providence.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\Providence.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/philosophy/The Material.md",
+      "original_name": "The Material.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\The Material.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/philosophy/Fragments/Tried.md",
+      "original_name": "Tried.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\Tried.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/rituals/Angel Numbers.md",
+      "original_name": "Angel Numbers.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\Angel Numbers.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/rituals/Counterspell-Playlist.md",
+      "original_name": "Counterspell-Playlist.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\Counterspell-Playlist.md"
+      ],
+      "has_backup": true
+    },
+    {
+      "current_path": "docs/rituals/Deck of Fate.md",
+      "original_name": "Deck of Fate.md",
+      "backup_locations": [
+        "C:\\Users\\colli\\OneDrive\\Documents\\Michaels Onedrive\\OneDrive\\Leo's Angel Machine\\Leone-s-Angel-Machine\\Leone-s-Angel-Machine\\tools\\restore-merged\\extracted\\Deck of Fate.md"
+      ],
+      "has_backup": true
+    }
+  ]
+}

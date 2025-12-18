@@ -1,34 +1,5 @@
 {
-  "auto_fixable": [
-    {
-      "file": "./docs/index/INDEX.md",
-      "line": 41,
-      "old": "Philosophy/Providence.md",
-      "new": "../philosophy/philosophy-providence.md",
-      "reason": "Alias match: Providence.md -> philosophy-providence"
-    },
-    {
-      "file": "./docs/index/INDEX.md",
-      "line": 91,
-      "old": "Providence/",
-      "new": "../philosophy/philosophy-providence.md",
-      "reason": "Alias stem match: Providence -> philosophy-providence"
-    },
-    {
-      "file": "./docs/philosophy/philosophy-providence.md",
-      "line": 6,
-      "old": "../../Leone-s-Angel-Machine.worktrees/Antigravity_Testing/Philosophy/Providence.md",
-      "new": "./philosophy-providence.md",
-      "reason": "Alias match: Providence.md -> philosophy-providence"
-    },
-    {
-      "file": "./docs/rituals/The Spells It Makes.md",
-      "line": 2,
-      "old": "../Philosophy/Providence.md",
-      "new": "../philosophy/philosophy-providence.md",
-      "reason": "Alias match: Providence.md -> philosophy-providence"
-    }
-  ],
+  "auto_fixable": [],
   "manual_review": [],
   "unresolved": [
     {
@@ -128,6 +99,48 @@
       "reason": "No match found in manifest"
     },
     {
+      "file": "./docs/index/&.md",
+      "line": 37,
+      "old": "../../../../../Kards.md#",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/index/&.md",
+      "line": 37,
+      "old": "../../../../../The.md#",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/index/&.md",
+      "line": 37,
+      "old": "../../../../../HEART.md#",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/index/&.md",
+      "line": 37,
+      "old": "../../../../../The.md#.md#",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/index/&.md",
+      "line": 37,
+      "old": "../../../../../Kards.md#",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/index/&.md",
+      "line": 70,
+      "old": "../../../../../The.md#.md#.md#",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/index/&.md",
+      "line": 109,
+      "old": "../%7B%7B%7D%7D/PROVIDENCE..md#",
+      "reason": "No match found in manifest"
+    },
+    {
       "file": "./docs/index/INDEX.md",
       "line": 13,
       "old": "LICENSE",
@@ -143,6 +156,48 @@
       "file": "./docs/index/INDEX.md",
       "line": 180,
       "old": "providence/",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/cryptic/README.md",
+      "line": 5,
+      "old": "index.html",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/cryptic/README.md",
+      "line": 5,
+      "old": "CONTRIBUTING.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/cryptic/README.md",
+      "line": 34,
+      "old": "index.html",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/cryptic/README.md",
+      "line": 51,
+      "old": "CONTRIBUTING.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/cryptic/README.md",
+      "line": 107,
+      "old": "_metadata.json",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/cryptic/README.md",
+      "line": 108,
+      "old": "CONTRIBUTING.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/cryptic/README.md",
+      "line": 126,
+      "old": "CONTRIBUTING.md",
       "reason": "No match found in manifest"
     },
     {
@@ -164,9 +219,39 @@
       "reason": "No match found in manifest"
     },
     {
+      "file": "./docs/orphans/indices/orphan-index.md",
+      "line": 21,
+      "old": "../../.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/indices/orphan-index.md",
+      "line": 22,
+      "old": "../../.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/indices/orphan-index.md",
+      "line": 25,
+      "old": "../../({it.md",
+      "reason": "No match found in manifest"
+    },
+    {
       "file": "./docs/orphans/indices/OrphanIndex.md",
       "line": 1,
       "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/numbered/orphan-0.md",
+      "line": 12,
+      "old": "../../.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/numbered/orphan-0.md",
+      "line": 23,
+      "old": ".md",
       "reason": "No match found in manifest"
     },
     {
@@ -401,6 +486,390 @@
       "file": "./docs/orphans/numbered/orphan-98.md",
       "line": 1,
       "old": "../../../khaos.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/numbered/orphanindex.md",
+      "line": 21,
+      "old": "../../.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/numbered/orphanindex.md",
+      "line": 22,
+      "old": "../../.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/numbered/orphanindex.md",
+      "line": 25,
+      "old": "../../({it.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/numbered/readme.md",
+      "line": 5,
+      "old": "index.html",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/numbered/readme.md",
+      "line": 5,
+      "old": "CONTRIBUTING.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/numbered/readme.md",
+      "line": 34,
+      "old": "index.html",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/numbered/readme.md",
+      "line": 51,
+      "old": "CONTRIBUTING.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/numbered/readme.md",
+      "line": 107,
+      "old": "_metadata.json",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/numbered/readme.md",
+      "line": 108,
+      "old": "CONTRIBUTING.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/orphans/numbered/readme.md",
+      "line": 126,
+      "old": "CONTRIBUTING.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/philosophy/cosmology-void.md",
+      "line": 24,
+      "old": "../Orphans/Fragments/We-.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/philosophy/cosmology-void.md",
+      "line": 24,
+      "old": "../Orphans/Fragments/HEART.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/philosophy/cosmology-void.md",
+      "line": 24,
+      "old": "../Orphans/Fragments/?.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/philosophy/cosmology-void.md",
+      "line": 49,
+      "old": "../Orphans/Fragments/?.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./docs/philosophy/cosmology-void.md",
+      "line": 50,
+      "old": "../Orphans/Fragments/?.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/OrphanIndex.md",
+      "line": 96,
+      "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_0.md",
+      "line": 13,
+      "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_0.md",
+      "line": 17,
+      "old": "../../../of.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_0.md",
+      "line": 25,
+      "old": "../../../khaos.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_14.md",
+      "line": 13,
+      "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_14.md",
+      "line": 17,
+      "old": "../../../what.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_14.md",
+      "line": 25,
+      "old": "../../../khaos.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_21.md",
+      "line": 13,
+      "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_21.md",
+      "line": 17,
+      "old": "../../../where.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_21.md",
+      "line": 25,
+      "old": "../../../khaos.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_28.md",
+      "line": 13,
+      "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_28.md",
+      "line": 17,
+      "old": "../../../why.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_28.md",
+      "line": 25,
+      "old": "../../../khaos.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_35.md",
+      "line": 13,
+      "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_35.md",
+      "line": 17,
+      "old": "../../../how.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_35.md",
+      "line": 25,
+      "old": "../../../khaos.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_42.md",
+      "line": 13,
+      "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_42.md",
+      "line": 17,
+      "old": "../../../we.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_42.md",
+      "line": 25,
+      "old": "../../../khaos.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_49.md",
+      "line": 13,
+      "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_49.md",
+      "line": 17,
+      "old": "../../../you.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_49.md",
+      "line": 25,
+      "old": "../../../khaos.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_56.md",
+      "line": 13,
+      "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_56.md",
+      "line": 25,
+      "old": "../../../khaos.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_63.md",
+      "line": 13,
+      "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_63.md",
+      "line": 25,
+      "old": "../../../khaos.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_7.md",
+      "line": 13,
+      "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_7.md",
+      "line": 17,
+      "old": "../../../th.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_7.md",
+      "line": 25,
+      "old": "../../../khaos.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_70.md",
+      "line": 13,
+      "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_70.md",
+      "line": 25,
+      "old": "../../../khaos.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_77.md",
+      "line": 13,
+      "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_77.md",
+      "line": 17,
+      "old": "../../../as.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_77.md",
+      "line": 25,
+      "old": "../../../khaos.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_84.md",
+      "line": 13,
+      "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_84.md",
+      "line": 17,
+      "old": "../../../in.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_84.md",
+      "line": 25,
+      "old": "../../../khaos.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_91.md",
+      "line": 13,
+      "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_91.md",
+      "line": 17,
+      "old": "../../../is.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_91.md",
+      "line": 25,
+      "old": "../../../khaos.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_98.md",
+      "line": 13,
+      "old": "../../../new-costian-nights/cosmology/the-void/index.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_98.md",
+      "line": 17,
+      "old": "../../../it.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Orphan_98.md",
+      "line": 25,
+      "old": "../../../khaos.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/The Law of the Void.md",
+      "line": 22,
+      "old": "../Orphans/Fragments/We-.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/The Law of the Void.md",
+      "line": 22,
+      "old": "../Orphans/Fragments/HEART.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/The Law of the Void.md",
+      "line": 22,
+      "old": "../Orphans/Fragments/?.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/The Law of the Void.md",
+      "line": 47,
+      "old": "../Orphans/Fragments/?.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/The Law of the Void.md",
+      "line": 48,
+      "old": "../Orphans/Fragments/?.md",
+      "reason": "No match found in manifest"
+    },
+    {
+      "file": "./tools/restore-merged/extracted/Why.md",
+      "line": 25,
+      "old": "./new-costian-nights/cosmology/the-void/index.md",
       "reason": "No match found in manifest"
     }
   ]

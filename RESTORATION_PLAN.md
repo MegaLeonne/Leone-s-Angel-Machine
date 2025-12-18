@@ -13,7 +13,7 @@
 Many markdown files in the repository were automatically merged by a link-fixing tool, leaving placeholder notices like:
 
 ```markdown
-This file has been merged into [Michael, The KlockWork Angel.md](./Michael, The KlockWork Angel.md).
+This file has been merged into [Michael, The KlockWork Angel.md](./tools/restore-merged/extracted/Michael, The KlockWork Angel.md).
 Original content preserved in backup created by this tool:
 ```
 
