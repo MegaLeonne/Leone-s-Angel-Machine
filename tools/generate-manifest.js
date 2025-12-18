@@ -82,6 +82,17 @@ function scanDirectory(dir, baseDir = DOCS_DIR) {
         for (const item of items) {
             const fullPath = path.join(currentDir, item.name);
 
+            // Safety Check: Ensure we are strictly inside DOCS_DIR
+            // We allow diving INTO docs if we started at root, but ideally we shouldn't start at root.
+            // But since we are enforcing "docs only", let's check relative path.
+            if (!item.isDirectory()) {
+                const relToDocs = path.relative(DOCS_DIR, fullPath);
+                if (relToDocs.startsWith('..') || path.isAbsolute(relToDocs)) {
+                    // Skip files outside docs
+                    continue;
+                }
+            }
+
             if (item.isDirectory()) {
                 // Skip certain directories
                 if (item.name.startsWith('.') || item.name === 'node_modules' || item.name === 'archive') {
@@ -182,7 +193,8 @@ function scanDirectory(dir, baseDir = DOCS_DIR) {
 }
 
 function main() {
-    console.log('🔮 Generating manifest for Angel Machine...\n');
+    console.log('🔮 Generating manifest for Angel Machine...');
+    console.log(`📂 Target Directory: ${DOCS_DIR}\n`);
 
     const { files, aliases } = scanDirectory(DOCS_DIR);
 

@@ -23,6 +23,11 @@ Object.entries(manifest.files).forEach(([id, data]) => {
         errors.push(`❌ ${id}: Path contains backslashes: "${data.path}"`);
     }
 
+    // Strict Scope check
+    if (!data.path.startsWith('docs/')) {
+        errors.push(`❌ ${id}: File is outside 'docs/' folder: "${data.path}"`);
+    }
+
     // Existence check
     const fullPath = path.join(__dirname, '..', data.path);
     if (!fs.existsSync(fullPath)) {
@@ -50,12 +55,18 @@ Object.entries(manifest.link_aliases).forEach(([alias, targetId]) => {
 
 // Report
 if (errors.length === 0) {
-    console.log('✅ Manifest is valid!');
+    console.log(`\n✅ Manifest is valid!`);
     console.log(`   - ${Object.keys(manifest.files).length} files cataloged`);
     console.log(`   - ${Object.keys(manifest.link_aliases).length} aliases registered`);
+
+    // Warn if total files seems low (sanity check)
+    if (Object.keys(manifest.files).length < 50) {
+        console.warn(`⚠️  Warning: File count seems low (${Object.keys(manifest.files).length}). Check if root files were incorrectly excluded?`);
+    }
+
     process.exit(0);
 } else {
-    console.error(`\nFound ${errors.length} error(s):\n`);
+    console.error(`\n❌ Validation Failed with ${errors.length} error(s):`);
     errors.forEach(err => console.error(err));
     process.exit(1);
 }
