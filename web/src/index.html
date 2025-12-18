@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>Leone's Angel Machine</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css?v=2">
     <script src="https://cdn.jsdelivr.net/npm/markdown-it@14.1.0/dist/markdown-it.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fira+Code&display=swap"
         rel="stylesheet">
@@ -99,9 +102,10 @@
         </div>
     </main>
 
-    <script src="scripts/markdown-renderer.js"></script>
-    <script src="scripts/navigation.js"></script>
-    <script src="scripts/app.js"></script>
+    <!-- Cache-busting version 2 to force reload of fixed scripts -->
+    <script src="scripts/markdown-renderer.js?v=2"></script>
+    <script src="scripts/navigation.js?v=2"></script>
+    <script src="scripts/app.js?v=2"></script>
 </body>
 
 </html>
