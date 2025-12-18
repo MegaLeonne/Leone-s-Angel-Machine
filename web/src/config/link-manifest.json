@@ -1,558 +1,945 @@
 {
-  "generated": "2025-12-18T18:54:06.806Z",
+  "generated": "2025-12-18T19:13:42.514Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
-      "path": "docs\\archetypes\\Angels\\Michael, The KlockWork Angel.md",
+      "path": "docs/archetypes/Angels/Michael, The KlockWork Angel.md",
       "title": "Michael, The KlockWork Angel",
-      "folder": "archetypes\\Angels",
-      "tags": []
+      "folder": "archetypes/Angels",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/numbered/readme.md",
+        "docs/philosophy/philosophy-the-law.md",
+        "docs/rituals/Deck of Fate.md"
+      ]
     },
     "Osiris-Arch-Angel-Of-Omen": {
-      "path": "docs\\archetypes\\Angels\\Osiris, Arch Angel Of Omen.md",
+      "path": "docs/archetypes/Angels/Osiris, Arch Angel Of Omen.md",
       "title": "Osiris, Arch Angel Of Omen",
-      "folder": "archetypes\\Angels",
-      "tags": []
+      "folder": "archetypes/Angels",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/numbered/readme.md",
+        "docs/philosophy/philosophy-the-law.md"
+      ]
     },
     "archetype-heart": {
-      "path": "docs\\archetypes\\archetype-heart.md",
+      "path": "docs/archetypes/archetype-heart.md",
       "title": "The Heart",
       "folder": "archetypes",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "Shadow-Demon-Providence": {
-      "path": "docs\\archetypes\\Composite\\Shadow-Demon-Providence.md",
+      "path": "docs/archetypes/Composite/Shadow-Demon-Providence.md",
       "title": "Shadow, Demon, Providence",
-      "folder": "archetypes\\Composite",
-      "tags": "[trinity, self, fear, grace, shadow-work]"
+      "folder": "archetypes/Composite",
+      "tags": [
+        "trinity",
+        "self",
+        "fear",
+        "grace",
+        "shadow-work"
+      ],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/INDEX.md",
+        "docs/orphans/numbered/readme.md"
+      ]
     },
     "He-Who-Remains": {
-      "path": "docs\\the-seventh-borough\\residents\\He-Who-Remains.md",
+      "path": "docs/the-seventh-borough/residents/He-Who-Remains.md",
       "title": "He Who Remains",
-      "folder": "the-seventh-borough\\residents",
-      "tags": []
+      "folder": "the-seventh-borough/residents",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archetypes/archetype-heart.md",
+        "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/orphans/numbered/readme.md",
+        "docs/philosophy/cosmology-void.md",
+        "docs/the-seventh-borough/mechanics/The-Hearts-Reprise.md"
+      ]
     },
     "Taylor-Devil-of-Desire": {
-      "path": "docs\\archetypes\\Devils\\Taylor, Devil of Desire.md",
+      "path": "docs/archetypes/Devils/Taylor, Devil of Desire.md",
       "title": "Taylor, Devil of Desire",
-      "folder": "archetypes\\Devils",
-      "tags": []
+      "folder": "archetypes/Devils",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/numbered/readme.md",
+        "docs/rituals/Deck of Fate.md"
+      ]
     },
     "The-Blind": {
-      "path": "docs\\archetypes\\Devils\\The Blind.md",
+      "path": "docs/archetypes/Devils/The Blind.md",
       "title": "The Blind",
-      "folder": "archetypes\\Devils",
-      "tags": []
+      "folder": "archetypes/Devils",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/numbered/readme.md"
+      ]
     },
     "README": {
-      "path": "docs\\rituals\\README.md",
+      "path": "docs/rituals/README.md",
       "title": "Rituals",
       "folder": "rituals",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/INDEX.md",
+        "docs/orphans/numbered/readme.md"
+      ]
     },
     "The-Head-Archetype": {
-      "path": "docs\\archetypes\\The-Head-Archetype.md",
+      "path": "docs/archetypes/The-Head-Archetype.md",
       "title": "The Head / The Witch Queen",
       "folder": "archetypes",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/INDEX.md"
+      ]
     },
     "guide-contributing": {
-      "path": "docs\\guides\\guide-contributing.md",
+      "path": "docs/guides/guide-contributing.md",
       "title": "Contributing to Leone's Angel Machine",
       "folder": "guides",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/INDEX.md",
+        "docs/index/KHAOS-NOTES-INDEX.md"
+      ]
     },
     "guide-import-instructions": {
-      "path": "docs\\guides\\guide-import-instructions.md",
+      "path": "docs/guides/guide-import-instructions.md",
       "title": "Automated Linear Import Instructions",
       "folder": "guides",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "How-To-Use-Bill-Doors": {
-      "path": "docs\\guides\\How To Use Bill Doors.md",
+      "path": "docs/guides/How To Use Bill Doors.md",
       "title": "≡ƒôû How to Use BillDoors-NotGates: Complete Guide by @Jaime-Lannister",
       "folder": "guides",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "Qualitative-Research-Guide": {
-      "path": "docs\\guides\\Qualitative Research Guide.md",
+      "path": "docs/guides/Qualitative Research Guide.md",
       "title": "Qualitative Research Guide",
       "folder": "guides",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "Seventh-Borough-Borough-Workflow-v1": {
-      "path": "docs\\guides\\Seventh-Borough-Borough-Workflow-v1.md",
+      "path": "docs/guides/Seventh-Borough-Borough-Workflow-v1.md",
       "title": "Seventh Borough Canon – Borough Workflow v1",
       "folder": "guides",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "&": {
-      "path": "docs\\orphans\\cryptic\\&.md",
+      "path": "docs/orphans/cryptic/&.md",
       "title": "&",
-      "folder": "orphans\\cryptic",
-      "tags": []
+      "folder": "orphans/cryptic",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/cryptic/&.md",
+        "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/orphans/cryptic/CALLING.md",
+        "docs/orphans/cryptic/THE New Note..md",
+        "docs/orphans/cryptic/{&&&}.md",
+        "docs/orphans/cryptic/}}[[THE LAW.md",
+        "docs/orphans/fragments/KHAOS.md",
+        "docs/philosophy/cosmology-void.md",
+        "docs/philosophy/philosophy-khaos.md"
+      ]
     },
     "archetype-index": {
-      "path": "docs\\index\\archetype-index.md",
+      "path": "docs/index/archetype-index.md",
       "title": "Archetypes Index",
       "folder": "index",
-      "tags": "[archetypes, characters, index, navigation]"
+      "tags": [
+        "archetypes",
+        "characters",
+        "index",
+        "navigation"
+      ],
+      "aliases": [],
+      "backlinks": []
     },
     "INDEX": {
-      "path": "docs\\index\\INDEX.md",
+      "path": "docs/index/INDEX.md",
       "title": "Leonne's Angel Machine - Complete Navigation Index",
       "folder": "index",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/numbered/readme.md"
+      ]
     },
     "KHAOS-NOTES-INDEX": {
-      "path": "docs\\index\\KHAOS-NOTES-INDEX.md",
+      "path": "docs/index/KHAOS-NOTES-INDEX.md",
       "title": "KHAOS NOTES",
       "folder": "index",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/numbered/readme.md"
+      ]
     },
     "orphan-taxonomy": {
-      "path": "docs\\index\\orphan-taxonomy.md",
+      "path": "docs/index/orphan-taxonomy.md",
       "title": "Orphan Taxonomy",
       "folder": "index",
-      "tags": "[orphans, taxonomy, classification]"
+      "tags": [
+        "orphans",
+        "taxonomy",
+        "classification"
+      ],
+      "aliases": [],
+      "backlinks": []
     },
     "philosophy-index": {
-      "path": "docs\\index\\philosophy-index.md",
+      "path": "docs/index/philosophy-index.md",
       "title": "Philosophy Index",
       "folder": "index",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "AM-I-NOT": {
-      "path": "docs\\orphans\\cryptic\\AM I NOT.md",
+      "path": "docs/orphans/cryptic/AM I NOT.md",
       "title": "AM I NOT",
-      "folder": "orphans\\cryptic",
-      "tags": []
+      "folder": "orphans/cryptic",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md"
+      ]
     },
     "CALLING": {
-      "path": "docs\\orphans\\cryptic\\CALLING.md",
+      "path": "docs/orphans/cryptic/CALLING.md",
       "title": "CALLING",
-      "folder": "orphans\\cryptic",
-      "tags": []
+      "folder": "orphans/cryptic",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/philosophy/philosophy-spell-book.md",
+        "docs/philosophy/philosophy-the-law.md"
+      ]
     },
     "THE-New-Note.": {
-      "path": "docs\\orphans\\cryptic\\THE New Note..md",
+      "path": "docs/orphans/cryptic/THE New Note..md",
       "title": "THE New Note.",
-      "folder": "orphans\\cryptic",
-      "tags": []
+      "folder": "orphans/cryptic",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md"
+      ]
     },
     "The-MIrROR": {
-      "path": "docs\\orphans\\cryptic\\The-MIrROR.md",
+      "path": "docs/orphans/cryptic/The-MIrROR.md",
       "title": "The MIrROR",
-      "folder": "orphans\\cryptic",
-      "tags": []
+      "folder": "orphans/cryptic",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/orphans/cryptic/THE New Note..md"
+      ]
     },
     "UntiL": {
-      "path": "docs\\orphans\\cryptic\\UntiL.md",
+      "path": "docs/orphans/cryptic/UntiL.md",
       "title": "UntiL",
-      "folder": "orphans\\cryptic",
-      "tags": []
+      "folder": "orphans/cryptic",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/fragments/The Rule OF The Swamp..md"
+      ]
     },
     "[[": {
-      "path": "docs\\orphans\\cryptic\\[[.md",
+      "path": "docs/orphans/cryptic/[[.md",
       "title": "[[",
-      "folder": "orphans\\cryptic",
-      "tags": []
+      "folder": "orphans/cryptic",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "[_)-)-)-)": {
-      "path": "docs\\orphans\\cryptic\\[_) ) ) ).md",
+      "path": "docs/orphans/cryptic/[_) ) ) ).md",
       "title": "[_) ) ) )",
-      "folder": "orphans\\cryptic",
-      "tags": []
+      "folder": "orphans/cryptic",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "{&&&}": {
-      "path": "docs\\orphans\\cryptic\\{&&&}.md",
+      "path": "docs/orphans/cryptic/{&&&}.md",
       "title": "Everywhere [&](./&.md) IT IS WHAT IT IS IS'NT IT?",
-      "folder": "orphans\\cryptic",
-      "tags": []
+      "folder": "orphans/cryptic",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/cryptic/&.md",
+        "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/orphans/cryptic/THE New Note..md",
+        "docs/orphans/cryptic/{&&&}.md",
+        "docs/orphans/cryptic/}}[[THE LAW.md",
+        "docs/orphans/fragments/KHAOS.md",
+        "docs/philosophy/philosophy-khaos.md"
+      ]
     },
     "{{": {
-      "path": "docs\\orphans\\cryptic\\{{.md",
+      "path": "docs/orphans/cryptic/{{.md",
       "title": "{{",
-      "folder": "orphans\\cryptic",
-      "tags": []
+      "folder": "orphans/cryptic",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/fragments/The Rule OF The Swamp..md"
+      ]
     },
     "{{{{{{{{&}}": {
-      "path": "docs\\orphans\\cryptic\\{{{{{{{{&}}.md",
+      "path": "docs/orphans/cryptic/{{{{{{{{&}}.md",
       "title": "{{{{{{{{&}}",
-      "folder": "orphans\\cryptic",
-      "tags": []
+      "folder": "orphans/cryptic",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/cryptic/&.md",
+        "docs/orphans/cryptic/}}[[THE LAW.md"
+      ]
     },
     "}}[[THE-LAW": {
-      "path": "docs\\orphans\\cryptic\\}}[[THE LAW.md",
+      "path": "docs/orphans/cryptic/}}[[THE LAW.md",
       "title": "}}[[THE LAW",
-      "folder": "orphans\\cryptic",
-      "tags": []
+      "folder": "orphans/cryptic",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "But": {
-      "path": "docs\\orphans\\fragments\\But.md",
+      "path": "docs/orphans/fragments/But.md",
       "title": "But",
-      "folder": "orphans\\fragments",
-      "tags": []
+      "folder": "orphans/fragments",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/cryptic/&.md",
+        "docs/orphans/cryptic/THE New Note..md",
+        "docs/orphans/cryptic/}}[[THE LAW.md"
+      ]
     },
     "Here": {
-      "path": "docs\\orphans\\fragments\\Here.md",
+      "path": "docs/orphans/fragments/Here.md",
       "title": "Here",
-      "folder": "orphans\\fragments",
-      "tags": []
+      "folder": "orphans/fragments",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/philosophy/cosmology-void.md"
+      ]
     },
     "KHAOS": {
-      "path": "docs\\orphans\\fragments\\KHAOS.md",
+      "path": "docs/orphans/fragments/KHAOS.md",
       "title": "KHAOS",
-      "folder": "orphans\\fragments",
-      "tags": []
+      "folder": "orphans/fragments",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/cryptic/CALLING.md",
+        "docs/orphans/cryptic/THE New Note..md",
+        "docs/orphans/fragments/KHAOS.md",
+        "docs/orphans/fragments/Mirror.md",
+        "docs/orphans/indices/INDEXING_REPORT.md"
+      ]
     },
     "Mirror": {
-      "path": "docs\\orphans\\fragments\\Mirror.md",
+      "path": "docs/orphans/fragments/Mirror.md",
       "title": "Mirror",
-      "folder": "orphans\\fragments",
-      "tags": []
+      "folder": "orphans/fragments",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/orphans/cryptic/THE New Note..md",
+        "docs/orphans/cryptic/The-MIrROR.md"
+      ]
     },
     "Sing-The-City": {
-      "path": "docs\\orphans\\fragments\\Sing The City.md",
+      "path": "docs/orphans/fragments/Sing The City.md",
       "title": "Sing The City",
-      "folder": "orphans\\fragments",
-      "tags": []
+      "folder": "orphans/fragments",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md"
+      ]
     },
     "The-Rule-OF-The-Swamp.": {
-      "path": "docs\\orphans\\fragments\\The Rule OF The Swamp..md",
+      "path": "docs/orphans/fragments/The Rule OF The Swamp..md",
       "title": "The Rule OF The Swamp.",
-      "folder": "orphans\\fragments",
-      "tags": []
+      "folder": "orphans/fragments",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md"
+      ]
     },
     "There-Are-No-Rules": {
-      "path": "docs\\orphans\\fragments\\There Are No Rules.md",
+      "path": "docs/orphans/fragments/There Are No Rules.md",
       "title": "There Are No Rules",
-      "folder": "orphans\\fragments",
-      "tags": []
+      "folder": "orphans/fragments",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/philosophy-index.md",
+        "docs/orphans/numbered/readme.md"
+      ]
     },
     "To-Make-Sense-OF-It": {
-      "path": "docs\\orphans\\fragments\\To Make Sense OF It.md",
+      "path": "docs/orphans/fragments/To Make Sense OF It.md",
       "title": "To Make Sense OF It",
-      "folder": "orphans\\fragments",
-      "tags": []
+      "folder": "orphans/fragments",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/philosophy/cosmology-void.md"
+      ]
     },
     "WalkAlongSideKhaos": {
-      "path": "docs\\orphans\\fragments\\WalkAlongSideKhaos.md",
+      "path": "docs/orphans/fragments/WalkAlongSideKhaos.md",
       "title": "WalkAlongSideKhaos",
-      "folder": "orphans\\fragments",
-      "tags": []
+      "folder": "orphans/fragments",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/orphans/cryptic/{&&&}.md",
+        "docs/philosophy/philosophy-the-law.md",
+        "docs/rituals/The Spells It Makes.md"
+      ]
     },
     "Why": {
-      "path": "docs\\orphans\\fragments\\Why.md",
+      "path": "docs/orphans/fragments/Why.md",
       "title": "Why",
-      "folder": "orphans\\fragments",
-      "tags": []
+      "folder": "orphans/fragments",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/cryptic/&.md",
+        "docs/orphans/cryptic/THE New Note..md",
+        "docs/orphans/cryptic/{&&&}.md",
+        "docs/orphans/cryptic/}}[[THE LAW.md"
+      ]
     },
     "Winning": {
-      "path": "docs\\orphans\\fragments\\Winning.md",
+      "path": "docs/orphans/fragments/Winning.md",
       "title": "Winning",
-      "folder": "orphans\\fragments",
-      "tags": []
+      "folder": "orphans/fragments",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/orphans/cryptic/THE New Note..md"
+      ]
     },
     "You-Mind": {
-      "path": "docs\\orphans\\fragments\\You Mind.md",
+      "path": "docs/orphans/fragments/You Mind.md",
       "title": "You Mind",
-      "folder": "orphans\\fragments",
-      "tags": []
+      "folder": "orphans/fragments",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "INDEXING_REPORT": {
-      "path": "docs\\orphans\\indices\\INDEXING_REPORT.md",
+      "path": "docs/orphans/indices/INDEXING_REPORT.md",
       "title": "INDEXING_REPORT",
-      "folder": "orphans\\indices",
-      "tags": []
+      "folder": "orphans/indices",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-index": {
-      "path": "docs\\orphans\\indices\\orphan-index.md",
+      "path": "docs/orphans/indices/orphan-index.md",
       "title": "Providence Orphan Files Index",
-      "folder": "orphans\\indices",
-      "tags": []
+      "folder": "orphans/indices",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "OrphanIndex": {
-      "path": "docs\\orphans\\indices\\OrphanIndex.md",
+      "path": "docs/orphans/indices/OrphanIndex.md",
       "title": "OrphanIndex",
-      "folder": "orphans\\indices",
-      "tags": []
+      "folder": "orphans/indices",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/INDEX.md",
+        "docs/orphans/numbered/orphan-0.md",
+        "docs/orphans/numbered/orphan-13.md",
+        "docs/orphans/numbered/orphan-16.md",
+        "docs/orphans/numbered/orphan-25.md",
+        "docs/orphans/numbered/orphan-38.md",
+        "docs/orphans/numbered/orphan-5.md",
+        "docs/orphans/numbered/orphan-6.md",
+        "docs/orphans/numbered/orphan-74.md",
+        "docs/orphans/numbered/orphan-8.md",
+        "docs/orphans/numbered/readme.md"
+      ]
     },
     "orphan-0": {
-      "path": "docs\\orphans\\numbered\\orphan-0.md",
+      "path": "docs/orphans/numbered/orphan-0.md",
       "title": "Orphan File 0",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-13": {
-      "path": "docs\\orphans\\numbered\\orphan-13.md",
+      "path": "docs/orphans/numbered/orphan-13.md",
       "title": "Orphan File 13",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-14": {
-      "path": "docs\\orphans\\numbered\\orphan-14.md",
+      "path": "docs/orphans/numbered/orphan-14.md",
       "title": "orphan 14",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-16": {
-      "path": "docs\\orphans\\numbered\\orphan-16.md",
+      "path": "docs/orphans/numbered/orphan-16.md",
       "title": "Orphan File 16",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-21": {
-      "path": "docs\\orphans\\numbered\\orphan-21.md",
+      "path": "docs/orphans/numbered/orphan-21.md",
       "title": "orphan 21",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-25": {
-      "path": "docs\\orphans\\numbered\\orphan-25.md",
+      "path": "docs/orphans/numbered/orphan-25.md",
       "title": "Orphan File 25",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-28": {
-      "path": "docs\\orphans\\numbered\\orphan-28.md",
+      "path": "docs/orphans/numbered/orphan-28.md",
       "title": "orphan 28",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-35": {
-      "path": "docs\\orphans\\numbered\\orphan-35.md",
+      "path": "docs/orphans/numbered/orphan-35.md",
       "title": "orphan 35",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-38": {
-      "path": "docs\\orphans\\numbered\\orphan-38.md",
+      "path": "docs/orphans/numbered/orphan-38.md",
       "title": "Orphan File 38",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-42": {
-      "path": "docs\\orphans\\numbered\\orphan-42.md",
+      "path": "docs/orphans/numbered/orphan-42.md",
       "title": "orphan 42",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-49": {
-      "path": "docs\\orphans\\numbered\\orphan-49.md",
+      "path": "docs/orphans/numbered/orphan-49.md",
       "title": "orphan 49",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-5": {
-      "path": "docs\\orphans\\numbered\\orphan-5.md",
+      "path": "docs/orphans/numbered/orphan-5.md",
       "title": "Orphan File 5",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-56": {
-      "path": "docs\\orphans\\numbered\\orphan-56.md",
+      "path": "docs/orphans/numbered/orphan-56.md",
       "title": "orphan 56",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-6": {
-      "path": "docs\\orphans\\numbered\\orphan-6.md",
+      "path": "docs/orphans/numbered/orphan-6.md",
       "title": "Orphan File 6",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-63": {
-      "path": "docs\\orphans\\numbered\\orphan-63.md",
+      "path": "docs/orphans/numbered/orphan-63.md",
       "title": "orphan 63",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-7": {
-      "path": "docs\\orphans\\numbered\\orphan-7.md",
+      "path": "docs/orphans/numbered/orphan-7.md",
       "title": "orphan 7",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-70": {
-      "path": "docs\\orphans\\numbered\\orphan-70.md",
+      "path": "docs/orphans/numbered/orphan-70.md",
       "title": "orphan 70",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-74": {
-      "path": "docs\\orphans\\numbered\\orphan-74.md",
+      "path": "docs/orphans/numbered/orphan-74.md",
       "title": "Orphan File 74",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-77": {
-      "path": "docs\\orphans\\numbered\\orphan-77.md",
+      "path": "docs/orphans/numbered/orphan-77.md",
       "title": "orphan 77",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-8": {
-      "path": "docs\\orphans\\numbered\\orphan-8.md",
+      "path": "docs/orphans/numbered/orphan-8.md",
       "title": "Orphan File 8",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-84": {
-      "path": "docs\\orphans\\numbered\\orphan-84.md",
+      "path": "docs/orphans/numbered/orphan-84.md",
       "title": "orphan 84",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-87": {
-      "path": "docs\\orphans\\numbered\\orphan-87.md",
+      "path": "docs/orphans/numbered/orphan-87.md",
       "title": "Orphan File 87",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-91": {
-      "path": "docs\\orphans\\numbered\\orphan-91.md",
+      "path": "docs/orphans/numbered/orphan-91.md",
       "title": "orphan 91",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphan-98": {
-      "path": "docs\\orphans\\numbered\\orphan-98.md",
+      "path": "docs/orphans/numbered/orphan-98.md",
       "title": "orphan 98",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "orphanindex": {
-      "path": "docs\\orphans\\numbered\\orphanindex.md",
+      "path": "docs/orphans/numbered/orphanindex.md",
       "title": "Providence Orphan Files Index",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/indices/INDEXING_REPORT.md",
+        "docs/orphans/numbered/orphan-14.md",
+        "docs/orphans/numbered/orphan-21.md",
+        "docs/orphans/numbered/orphan-28.md",
+        "docs/orphans/numbered/orphan-35.md",
+        "docs/orphans/numbered/orphan-42.md",
+        "docs/orphans/numbered/orphan-49.md",
+        "docs/orphans/numbered/orphan-56.md",
+        "docs/orphans/numbered/orphan-63.md",
+        "docs/orphans/numbered/orphan-7.md",
+        "docs/orphans/numbered/orphan-70.md",
+        "docs/orphans/numbered/orphan-77.md",
+        "docs/orphans/numbered/orphan-84.md",
+        "docs/orphans/numbered/orphan-87.md",
+        "docs/orphans/numbered/orphan-91.md",
+        "docs/orphans/numbered/orphan-98.md"
+      ]
     },
     "readme": {
-      "path": "docs\\orphans\\numbered\\readme.md",
+      "path": "docs/orphans/numbered/readme.md",
       "title": "Leonne's Angel Machine",
-      "folder": "orphans\\numbered",
-      "tags": []
+      "folder": "orphans/numbered",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "Amnesia": {
-      "path": "docs\\philosophy\\Amnesia.md",
+      "path": "docs/philosophy/Amnesia.md",
       "title": "Amnesia",
       "folder": "philosophy",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/INDEX.md",
+        "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/philosophy/Amnesia.md"
+      ]
     },
     "cosmology-void": {
-      "path": "docs\\philosophy\\cosmology-void.md",
+      "path": "docs/philosophy/cosmology-void.md",
       "title": "cosmology void",
       "folder": "philosophy",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "Tried": {
-      "path": "docs\\philosophy\\Fragments\\Tried.md",
+      "path": "docs/philosophy/Fragments/Tried.md",
       "title": "dream-3",
-      "folder": "philosophy\\Fragments",
-      "tags": []
+      "folder": "philosophy/Fragments",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/INDEX.md",
+        "docs/index/KHAOS-NOTES-INDEX.md"
+      ]
     },
     "Guiding-Prompt": {
-      "path": "docs\\philosophy\\Guiding-Prompt.md",
+      "path": "docs/philosophy/Guiding-Prompt.md",
       "title": "Leonne's Angel Machine ΓÇö Guiding Manifesto (Updated)",
       "folder": "philosophy",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/INDEX.md",
+        "docs/orphans/numbered/readme.md"
+      ]
     },
     "Passion": {
-      "path": "docs\\philosophy\\Passion.md",
+      "path": "docs/philosophy/Passion.md",
       "title": "Passion",
       "folder": "philosophy",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/cryptic/&.md",
+        "docs/index/INDEX.md",
+        "docs/index/philosophy-index.md",
+        "docs/orphans/numbered/readme.md",
+        "docs/rituals/The Spells It Makes.md"
+      ]
     },
     "Patience": {
-      "path": "docs\\philosophy\\Patience.md",
+      "path": "docs/philosophy/Patience.md",
       "title": "Patience",
       "folder": "philosophy",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/cryptic/&.md",
+        "docs/index/INDEX.md",
+        "docs/index/philosophy-index.md",
+        "docs/orphans/numbered/readme.md",
+        "docs/rituals/The Spells It Makes.md"
+      ]
     },
     "philosophy-khaos": {
-      "path": "docs\\philosophy\\philosophy-khaos.md",
+      "path": "docs/philosophy/philosophy-khaos.md",
       "title": "philosophy khaos",
       "folder": "philosophy",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/INDEX.md"
+      ]
     },
     "philosophy-no-rules": {
-      "path": "docs\\philosophy\\philosophy-no-rules.md",
+      "path": "docs/philosophy/philosophy-no-rules.md",
       "title": "There Are No Rules",
       "folder": "philosophy",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "philosophy-prophecy": {
-      "path": "docs\\philosophy\\philosophy-prophecy.md",
+      "path": "docs/philosophy/philosophy-prophecy.md",
       "title": "Prophecy",
       "folder": "philosophy",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/cryptic/&.md",
+        "docs/index/INDEX.md",
+        "docs/index/philosophy-index.md",
+        "docs/orphans/numbered/readme.md"
+      ]
     },
     "philosophy-providence": {
-      "path": "docs\\philosophy\\philosophy-providence.md",
+      "path": "docs/philosophy/philosophy-providence.md",
       "title": "Define the conversation text (summarized with the orphan marking details)",
       "folder": "philosophy",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/INDEX.md",
+        "docs/rituals/The Spells It Makes.md"
+      ]
     },
     "philosophy-spell-book": {
-      "path": "docs\\philosophy\\philosophy-spell-book.md",
+      "path": "docs/philosophy/philosophy-spell-book.md",
       "title": "A New Note",
       "folder": "philosophy",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "philosophy-the-law": {
-      "path": "docs\\philosophy\\philosophy-the-law.md",
+      "path": "docs/philosophy/philosophy-the-law.md",
       "title": "OF",
       "folder": "philosophy",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "The-Material": {
-      "path": "docs\\philosophy\\The Material.md",
+      "path": "docs/philosophy/The Material.md",
       "title": "The Material",
       "folder": "philosophy",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/philosophy-index.md",
+        "docs/orphans/numbered/readme.md"
+      ]
     },
     "There": {
-      "path": "docs\\philosophy\\There.md",
+      "path": "docs/philosophy/There.md",
       "title": "There",
       "folder": "philosophy",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "Angel-Numbers": {
-      "path": "docs\\rituals\\Angel Numbers.md",
+      "path": "docs/rituals/Angel Numbers.md",
       "title": "Angel Numbers",
       "folder": "rituals",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/orphans/numbered/readme.md"
+      ]
     },
     "Counterspell-Playlist": {
-      "path": "docs\\rituals\\Counterspell-Playlist.md",
+      "path": "docs/rituals/Counterspell-Playlist.md",
       "title": "Counterspell Playlist",
       "folder": "rituals",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/INDEX.md",
+        "docs/orphans/numbered/readme.md"
+      ]
     },
     "Deck-of-Fate": {
-      "path": "docs\\rituals\\Deck of Fate.md",
+      "path": "docs/rituals/Deck of Fate.md",
       "title": "Deck of Fate",
       "folder": "rituals",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/orphans/numbered/readme.md",
+        "docs/rituals/Deck of Fate.md"
+      ]
     },
     "ritual-seventh-call": {
-      "path": "docs\\rituals\\ritual-seventh-call.md",
+      "path": "docs/rituals/ritual-seventh-call.md",
       "title": "Prompt Of Seventh Angels",
       "folder": "rituals",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "The-Spells-It-Makes": {
-      "path": "docs\\rituals\\The Spells It Makes.md",
+      "path": "docs/rituals/The Spells It Makes.md",
       "title": "The Spells It Makes",
       "folder": "rituals",
-      "tags": []
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/philosophy/philosophy-spell-book.md"
+      ]
     },
     "The-Hearts-Reprise": {
-      "path": "docs\\the-seventh-borough\\mechanics\\The-Hearts-Reprise.md",
+      "path": "docs/the-seventh-borough/mechanics/The-Hearts-Reprise.md",
       "title": "The Heart's Reprise (Mechanic: Burn-Bloom)",
-      "folder": "the-seventh-borough\\mechanics",
-      "tags": []
+      "folder": "the-seventh-borough/mechanics",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archetypes/archetype-heart.md",
+        "docs/the-seventh-borough/residents/He-Who-Remains.md"
+      ]
     }
   },
   "link_aliases": {

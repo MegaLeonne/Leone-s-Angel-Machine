@@ -73,6 +73,32 @@ class AngelMachine {
             const content = await response.text();
             const renderedContent = this.renderer ? this.renderer.render(content) : `<pre>${content.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>`;
 
+            // Generate Backlinks HTML
+            let backlinksHtml = '';
+            if (fileData.backlinks && fileData.backlinks.length > 0) {
+                const backlinkItems = fileData.backlinks.map(path => {
+                    // Find the ID for this path (reverse lookup)
+                    // The path in backlinks is the relative path found in the manifest e.g. "docs/folder/file.md"
+                    const entry = Object.entries(this.manifest.files).find(([key, data]) => data.path === path);
+                    if (entry) {
+                        const [id, data] = entry;
+                        return `<li><a href="#${id}" class="backlink-item">${data.title || id}</a></li>`;
+                    }
+                    return '';
+                }).filter(Boolean).join('');
+
+                if (backlinkItems) {
+                    backlinksHtml = `
+                        <div class="backlinks">
+                            <h3>Linked In</h3>
+                            <ul class="backlinks-list">
+                                ${backlinkItems}
+                            </ul>
+                        </div>
+                    `;
+                }
+            }
+
             contentArea.innerHTML = `
                 <div>
                     <div style="margin-bottom: 2rem;">
@@ -82,6 +108,7 @@ class AngelMachine {
                     <div class="content-section">
                         ${renderedContent}
                     </div>
+                    ${backlinksHtml}
                 </div>
             `;
 

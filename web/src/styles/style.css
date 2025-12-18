@@ -312,3 +312,42 @@ pre code {
         padding: 20px;
     }
 }
+/* Backlinks Section */
+.backlinks {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.backlinks h3 {
+    font-size: 14px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.backlinks-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.backlink-item {
+    padding: 8px 16px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 13px;
+    color: var(--accent-cyan);
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.backlink-item:hover {
+    background: var(--hover-bg);
+    border-color: var(--accent-cyan);
+    transform: translateY(-2px);
+}
