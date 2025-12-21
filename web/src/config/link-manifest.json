@@ -1,5 +1,5 @@
 {
-  "generated": "2025-12-18T21:28:30.202Z",
+  "generated": "2025-12-21T04:18:31.608Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
@@ -23,6 +23,7 @@
       "aliases": [],
       "backlinks": [
         "docs/orphans/numbered/readme.md",
+        "docs/orphans/The-Cosmic-Clock.md",
         "docs/philosophy/philosophy-the-law.md"
       ]
     },
@@ -93,6 +94,19 @@
       "folder": "Root",
       "tags": [],
       "backlinks": []
+    },
+    "The-Void": {
+      "path": "docs/archetypes/The Void.md",
+      "title": "The Void",
+      "folder": "archetypes",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/README.md",
+        "docs/archetypes/The-Head-Archetype.md",
+        "docs/index/INDEX.md",
+        "docs/orphans/The-Cosmic-Clock.md"
+      ]
     },
     "The-Head-Archetype": {
       "path": "docs/archetypes/The-Head-Archetype.md",
@@ -733,6 +747,14 @@
       "aliases": [],
       "backlinks": []
     },
+    "The-Cosmic-Clock": {
+      "path": "docs/orphans/The-Cosmic-Clock.md",
+      "title": "And Unto Them Khaos said No More Shall I Be Subject To The Byproduct Of My Curiosity",
+      "folder": "orphans",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
     "Amnesia": {
       "path": "docs/philosophy/Amnesia.md",
       "title": "Amnesia",
@@ -743,6 +765,7 @@
         "docs/README.md",
         "docs/index/INDEX.md",
         "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/orphans/The-Cosmic-Clock.md",
         "docs/philosophy/Amnesia.md"
       ]
     },
@@ -875,7 +898,8 @@
       "backlinks": [
         "docs/README.md",
         "docs/index/philosophy-index.md",
-        "docs/orphans/numbered/readme.md"
+        "docs/orphans/numbered/readme.md",
+        "docs/orphans/The-Cosmic-Clock.md"
       ]
     },
     "There": {
@@ -985,6 +1009,7 @@
     "He Who Remains": "He-Who-Remains",
     "Taylor, Devil of Desire": "Taylor-Devil-of-Desire",
     "The Blind": "The-Blind",
+    "The Void": "The-Void",
     "How To Use Bill Doors": "How-To-Use-Bill-Doors",
     "Qualitative Research Guide": "Qualitative-Research-Guide",
     "AM I NOT": "AM-I-NOT",
