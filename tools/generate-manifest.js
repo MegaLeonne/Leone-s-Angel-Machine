@@ -5,9 +5,14 @@ const path = require('path');
 const DOCS_DIR = path.join(__dirname, '../docs');
 const OUTPUT_FILE = path.join(__dirname, '../web/src/config/link-manifest.json');
 
+/**
+ * Parse YAML values with proper type handling
+ * Handles arrays, booleans, numbers, and strings
+ */
 function parseYAMLValue(value) {
     value = value.trim();
 
+    // Handle arrays: [item1, item2, item3]
     if (value.startsWith('[') && value.endsWith(']')) {
         try {
             return JSON.parse(value.replace(/'/g, '"'));
@@ -21,13 +26,21 @@ function parseYAMLValue(value) {
         }
     }
 
+    // Handle booleans
     if (value === 'true') return true;
     if (value === 'false') return false;
+    
+    // Handle numbers
     if (!isNaN(value) && value !== '') return Number(value);
 
+    // Handle strings (remove quotes if present)
     return value.replace(/^["']|["']$/g, '');
 }
 
+/**
+ * Ensure a value is always an array
+ * Converts strings to single-element arrays, handles JSON arrays
+ */
 function ensureArray(value) {
     if (Array.isArray(value)) return value;
     if (typeof value === 'string') {
@@ -36,9 +49,13 @@ function ensureArray(value) {
         }
         return value.trim() ? [value.trim()] : [];
     }
-    return [];
+    if (value === null || value === undefined) return [];
+    return [value]; // Single value -> single-element array
 }
 
+/**
+ * Extract YAML frontmatter from markdown content
+ */
 function extractFrontmatter(content) {
     const match = content.match(/^---\n([\s\S]*?)\n---/);
     if (!match) return {};
@@ -62,6 +79,9 @@ function extractFrontmatter(content) {
     return metadata;
 }
 
+/**
+ * Extract title from content (frontmatter > H1 > filename)
+ */
 function extractTitle(content, filename) {
     // Try frontmatter first
     const frontmatter = extractFrontmatter(content);
@@ -76,7 +96,17 @@ function extractTitle(content, filename) {
     return filename.replace(/\.md$/, '').replace(/-/g, ' ');
 }
 
+/**
+ * Normalize path to Unix format (always forward slashes)
+ * Critical for cross-platform compatibility
+ */
+function normalizePathToUnix(pathString) {
+    return pathString.split(path.sep).join('/');
+}
 
+/**
+ * Process root README.md file
+ */
 function processRootReadme(files) {
     const readmePath = path.join(__dirname, '..', 'README.md');
     if (fs.existsSync(readmePath)) {
@@ -84,22 +114,25 @@ function processRootReadme(files) {
         try {
             const content = fs.readFileSync(readmePath, 'utf-8');
             const frontmatter = extractFrontmatter(content);
-            const relativePath = 'README.md'; // Simple path for root
+            const relativePath = 'README.md';
 
             files['README'] = {
                 path: relativePath,
                 title: frontmatter.title || 'README',
                 folder: 'Root',
-                tags: ensureArray(frontmatter.tags || []),
+                tags: ensureArray(frontmatter.tags),
                 backlinks: []
             };
             console.log('✓ Root README.md processed successfully.');
         } catch (error) {
-            console.error('✗ Error processing root README.md:', error);
+            console.error('✗ Error processing root README.md:', error.message);
         }
     }
 }
 
+/**
+ * Recursively scan directory for markdown files
+ */
 function scanDirectory(dir, baseDir = DOCS_DIR) {
     const files = {};
     const aliases = {};
@@ -116,19 +149,16 @@ function scanDirectory(dir, baseDir = DOCS_DIR) {
         for (const item of items) {
             const fullPath = path.join(currentDir, item.name);
 
-            // Safety Check: Ensure we are strictly inside DOCS_DIR
-            // We allow diving INTO docs if we started at root, but ideally we shouldn't start at root.
-            // But since we are enforcing "docs only", let's check relative path.
+            // Safety check: ensure we're inside docs directory
             if (!item.isDirectory()) {
                 const relToDocs = path.relative(DOCS_DIR, fullPath);
                 if (relToDocs.startsWith('..') || path.isAbsolute(relToDocs)) {
-                    // Skip files outside docs
-                    continue;
+                    continue; // Skip files outside docs
                 }
             }
 
             if (item.isDirectory()) {
-                // Skip certain directories
+                // Skip hidden, node_modules, and archive directories
                 if (item.name.startsWith('.') || item.name === 'node_modules' || item.name === 'archive') {
                     continue;
                 }
@@ -137,24 +167,25 @@ function scanDirectory(dir, baseDir = DOCS_DIR) {
                 try {
                     const content = fs.readFileSync(fullPath, 'utf-8');
                     const frontmatter = extractFrontmatter(content);
+                    
+                    // *** CRITICAL FIX: Normalize paths to Unix format ***
                     const rawRelativePath = path.relative(path.join(__dirname, '..'), fullPath);
-                    const relativePath = rawRelativePath.split(path.sep).join('/');
+                    const relativePath = normalizePathToUnix(rawRelativePath);
 
                     const rawFolder = path.relative(baseDir, currentDir);
-                    const folder = rawFolder.split(path.sep).join('/') || 'docs';
+                    const folder = normalizePathToUnix(rawFolder) || 'docs';
 
                     // Create file ID from filename (without extension)
                     let fileId = item.name.replace(/\.md$/, '');
-
-                    // Clean ID: replace spaces, commas with hyphens
                     const cleanId = fileId.replace(/[, ]+/g, '-');
 
+                    // *** CRITICAL FIX: Ensure tags are ALWAYS arrays ***
                     files[cleanId] = {
                         path: relativePath,
                         title: extractTitle(content, item.name),
                         folder: folder || 'docs',
-                        tags: ensureArray(frontmatter.tags || []),
-                        aliases: frontmatter.aliases || [],
+                        tags: ensureArray(frontmatter.tags),
+                        aliases: ensureArray(frontmatter.aliases),
                         backlinks: []
                     };
 
@@ -164,7 +195,7 @@ function scanDirectory(dir, baseDir = DOCS_DIR) {
                     }
 
                     // Add aliases from frontmatter
-                    if (frontmatter.aliases && Array.isArray(frontmatter.aliases)) {
+                    if (Array.isArray(frontmatter.aliases)) {
                         frontmatter.aliases.forEach(alias => {
                             aliases[alias] = cleanId;
                         });
@@ -178,13 +209,12 @@ function scanDirectory(dir, baseDir = DOCS_DIR) {
 
     scan(dir);
 
-    // --- Second Pass: Backlink Detection ---
+    // Second pass: backlink detection
     console.log('🔗 Scanning for backlinks...');
     Object.entries(files).forEach(([fileId, data]) => {
         const fullPath = path.join(__dirname, '..', data.path);
         try {
             const content = fs.readFileSync(fullPath, 'utf-8');
-            // Regex to find markdown links: [text](target.md) or [text](target)
             const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
             let match;
 
@@ -229,9 +259,8 @@ function main() {
 
     const { files, aliases } = scanDirectory(DOCS_DIR);
 
-    // --- Root README Processing ---
+    // Process root README
     processRootReadme(files);
-    // -----------------------------
 
     const manifest = {
         generated: new Date().toISOString(),
@@ -249,7 +278,7 @@ function main() {
 
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(manifest, null, 2));
 
-    console.log(`✅ Manifest generated successfully!`);
+    console.log(`\n✅ Manifest generated successfully!`);
     console.log(`📊 Total files: ${Object.keys(files).length}`);
     console.log(`🔗 Total aliases: ${Object.keys(aliases).length}`);
     console.log(`📝 Output: ${OUTPUT_FILE}\n`);
@@ -279,4 +308,4 @@ if (require.main === module) {
     main();
 }
 
-module.exports = { scanDirectory, extractTitle, extractFrontmatter };
+module.exports = { scanDirectory, extractTitle, extractFrontmatter, normalizePathToUnix, ensureArray };
