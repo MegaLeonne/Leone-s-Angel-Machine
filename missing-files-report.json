@@ -1,0 +1,55 @@
+{
+  "missing": [
+    {
+      "folder": "archetypes",
+      "file": "README.md"
+    },
+    {
+      "folder": "archetypes/Devils",
+      "file": "He Who Remains.md"
+    },
+    {
+      "folder": "docs",
+      "file": "README.md"
+    },
+    {
+      "folder": "guides",
+      "file": "README.md"
+    },
+    {
+      "folder": "index",
+      "file": "&.md"
+    },
+    {
+      "folder": "index",
+      "file": "README.md"
+    },
+    {
+      "folder": "orphans",
+      "file": "README.md"
+    },
+    {
+      "folder": "orphans/cryptic",
+      "file": "README.md"
+    },
+    {
+      "folder": "orphans/fragments",
+      "file": "README.md"
+    },
+    {
+      "folder": "orphans/indices",
+      "file": "README.md"
+    },
+    {
+      "folder": "philosophy",
+      "file": "README.md"
+    }
+  ],
+  "extra": [
+    {
+      "folder": "Root",
+      "file": "README.md"
+    }
+  ],
+  "timestamp": "2025-12-21T04:57:52.137Z"
+}

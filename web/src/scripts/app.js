@@ -1,3 +1,8 @@
+/**
+ * Leone's Angel Machine - Main Application
+ * Enhanced with nested subsection support for navigation
+ */
+
 class AngelMachine {
     constructor() {
         this.manifest = null;
@@ -173,7 +178,8 @@ class AngelMachine {
             const sectionEl = this.renderNavSection(section);
             if (sectionEl) nav.appendChild(sectionEl);
         });
-        // NEW: Automated "Unsorted" Section
+
+        // Automated "Unsorted" Section
         const schemaIds = new Set(this.navSchema.sections.flatMap(s => s.items.map(i => i.id)));
         const unsortedIds = Object.keys(this.manifest.files).filter(id => !schemaIds.has(id));
 
@@ -187,9 +193,12 @@ class AngelMachine {
             });
             nav.appendChild(unsortedSection);
         }
-
     }
 
+    /**
+     * ENHANCED: Renders a navigation section with support for nested subsections
+     * Now detects items with "subsection" property and groups them into collapsible nested sections
+     */
     renderNavSection(section) {
         const sectionEl = document.createElement('div');
         sectionEl.className = `nav-section nav-section-${section.id}`;
@@ -218,15 +227,88 @@ class AngelMachine {
                     content.classList.contains('open') ? 'rotate(0deg)' : 'rotate(-90deg)';
             });
 
+            // NEW: Group items by subsection (e.g., "Angels", "Devils")
+            const subsectionGroups = {};
+            const ungroupedItems = [];
+
             section.items.forEach(item => {
+                if (item.subsection) {
+                    // This item belongs to a subsection (like "Angels" or "Devils")
+                    if (!subsectionGroups[item.subsection]) {
+                        subsectionGroups[item.subsection] = [];
+                    }
+                    subsectionGroups[item.subsection].push(item);
+                } else {
+                    // This item has no subsection (like "The Head" or "The Heart")
+                    ungroupedItems.push(item);
+                }
+            });
+
+            // Render ungrouped items first (these appear at the top)
+            ungroupedItems.forEach(item => {
                 const itemEl = this.renderNavItem(item, section);
                 if (itemEl) content.appendChild(itemEl);
             });
 
+            // NEW: Render nested subsections (Angels, Devils, etc.)
+            Object.keys(subsectionGroups).forEach(subsectionName => {
+                // Create subsection container
+                const subsectionEl = document.createElement('div');
+                subsectionEl.className = 'nav-subsection';
+
+                // Subsection header (collapsible)
+                const subsectionHeader = document.createElement('div');
+                subsectionHeader.className = 'subsection-header collapsible';
+                subsectionHeader.innerHTML = `
+                    <span class="subsection-label">${subsectionName}</span>
+                    <span class="collapse-icon">▼</span>
+                `;
+
+                // Subsection content (collapsed by default)
+                const subsectionContent = document.createElement('div');
+                subsectionContent.className = 'subsection-content collapsed';
+
+                // Toggle subsection on click
+                subsectionHeader.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    subsectionContent.classList.toggle('open');
+                    subsectionContent.classList.toggle('collapsed');
+                    subsectionHeader.querySelector('.collapse-icon').style.transform =
+                        subsectionContent.classList.contains('open') ? 'rotate(0deg)' : 'rotate(-90deg)';
+                });
+
+                // Render items in subsection (Michael, Osiris, Taylor, etc.)
+                subsectionGroups[subsectionName].forEach(item => {
+                    const itemEl = this.renderNavItem(item, section);
+                    if (itemEl) subsectionContent.appendChild(itemEl);
+                });
+
+                // Append subsection to main content
+                subsectionEl.appendChild(subsectionHeader);
+                subsectionEl.appendChild(subsectionContent);
+                content.appendChild(subsectionEl);
+            });
+
+            // NEW: Auto-expand subsection if it contains the active page
+            setTimeout(() => {
+                const activeLink = content.querySelector('.file-link.active');
+                if (activeLink) {
+                    const parentSubsection = activeLink.closest('.subsection-content');
+                    if (parentSubsection) {
+                        parentSubsection.classList.remove('collapsed');
+                        parentSubsection.classList.add('open');
+                        const parentHeader = parentSubsection.previousElementSibling;
+                        if (parentHeader && parentHeader.querySelector('.collapse-icon')) {
+                            parentHeader.querySelector('.collapse-icon').style.transform = 'rotate(0deg)';
+                        }
+                    }
+                }
+            }, 100);
+
             sectionEl.appendChild(header);
             sectionEl.appendChild(content);
         } else {
-            // Non-collapsible or pinned: render items directly
+            // Non-collapsible or pinned: render items directly (no subsections)
             const content = document.createElement('div');
             content.className = 'section-content open';
 
@@ -380,5 +462,3 @@ class AngelMachine {
 window.addEventListener('DOMContentLoaded', () => {
     window.app = new AngelMachine();
 });
-
-

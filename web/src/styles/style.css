@@ -494,3 +494,98 @@ pre code {
         padding-left: 0.75rem;
     }
 }
+
+/* ============================================
+   NESTED SUBSECTION NAVIGATION STYLES
+   Added for Angels/Devils dropdown support
+   ============================================ */
+
+/* Container for nested subsections (Angels, Devils, etc.) */
+.nav-subsection {
+    margin-left: 0.5rem;
+    border-left: 2px solid var(--border-color);
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Subsection header styling (the "Angels" or "Devils" label) */
+.subsection-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: var(--text-muted);
+    border-radius: 4px;
+    transition: background 0.2s ease;
+}
+
+/* Hover effect for subsection headers */
+.subsection-header:hover {
+    background: var(--hover-bg);
+    color: var(--text-primary);
+}
+
+/* Subsection label text */
+.subsection-label {
+    flex: 1;
+}
+
+/* Container for items inside a subsection */
+.subsection-content {
+    padding-left: 0.5rem;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+/* Open state - subsection is expanded */
+.subsection-content.open {
+    max-height: 2000px;
+    /* Large enough for any number of items */
+    opacity: 1;
+}
+
+/* Collapsed state - subsection is hidden */
+.subsection-content.collapsed {
+    max-height: 0;
+    opacity: 0;
+}
+
+/* Arrow icon rotation for collapse/expand */
+.subsection-header .collapse-icon {
+    transition: transform 0.3s ease;
+    font-size: 0.8em;
+    color: var(--accent-purple);
+}
+
+/* Rotate arrow when collapsed */
+.subsection-content.collapsed+.subsection-header .collapse-icon,
+.subsection-header.collapsed .collapse-icon {
+    transform: rotate(-90deg);
+}
+
+/* Ensure items inside subsections have proper spacing */
+.subsection-content .file-link {
+    margin-left: 0.25rem;
+}
+
+/* Add subtle visual separation for subsection items */
+.nav-subsection .file-link {
+    border-left: 1px solid transparent;
+    padding-left: 0.5rem;
+    transition: border-color 0.2s ease;
+}
+
+/* Highlight subsection item on hover */
+.nav-subsection .file-link:hover {
+    border-left-color: var(--accent-cyan);
+}
+
+/* Active state for items inside subsections */
+.nav-subsection .file-link.active {
+    border-left-color: var(--accent-purple);
+    background: var(--hover-bg);
+}

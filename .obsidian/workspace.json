@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blackbook/placeholder-af5aca1626e042aaa81b27bdc46ceda3.md",
+                "file": "docs/archetypes/The-Head-Archetype.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "placeholder-af5aca1626e042aaa81b27bdc46ceda3"
+              "title": "The-Head-Archetype"
             },
             "group": "31da2196f1ac9f15"
           }
@@ -34,7 +34,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Blackbook/placeholder-af5aca1626e042aaa81b27bdc46ceda3.md",
+                "file": "docs/archetypes/The-Head-Archetype.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -57,12 +57,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.1029488891070427,
+                  "scale": 0.8765371770851293,
                   "close": false
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of placeholder-af5aca1626e042aaa81b27bdc46ceda3"
+              "title": "Graph of The-Head-Archetype"
             },
             "group": "31da2196f1ac9f15"
           }
@@ -99,7 +99,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -230,33 +230,33 @@
   },
   "active": "1500eda1cc8262bc",
   "lastOpenFiles": [
-    "Blackbook/placeholder-72f2a14cdd2a46da8bad4a787dbec463.md",
-    "Blackbook/placeholder-1fe8d368dff0474db1e34fd4588d5bd3.md",
-    "Blackbook/pasted-image-20250925225433.png.md",
-    "Blackbook/pasted-image-20250925225433.png",
-    "Blackbook/lies.md",
-    "Blackbook/Kerberus.md",
-    "Blackbook/He%20Who%20Remains..md",
+    "docs/archetypes/Angels/Michael, The KlockWork Angel.md",
+    "docs/orphans/indices/INDEXING_REPORT.md",
+    "docs/archetypes/The Void.md",
+    "docs/archetypes/The-Head-Archetype.md",
+    "docs/archetypes/archetype-heart.md",
+    "Blackbook/In%20The%20Social.md",
+    "Blackbook/Kaire.md",
+    "Blackbook/heart.md",
     "Blackbook/Engineers.md",
-    "Blackbook/Been.md",
+    "Blackbook/cosmology.md",
     "Blackbook/Asked.md",
     "Blackbook/Arc.md",
-    "Blackbook/AM%20I%20NOT.md",
-    "Blackbook/abyssmal.md",
-    "Blackbook/12.-khaos.md",
     "Blackbook/8.-dreams.md",
-    "Blackbook/7.--amnesia.md",
-    "Blackbook/4.-knightmares.md",
-    "Blackbook/%7D%7D.md",
-    "Blackbook/%7B%7B%7B%7B%7B%7B%7B%7B&%7D%7D.md",
-    "Blackbook/%7B%7B.md",
-    "Blackbook/}}.md",
     "Blackbook/[[[.md",
+    "Blackbook/6.-kaire.md",
+    "Blackbook/AM%20I%20NOT.md",
+    "Blackbook/4.-knightmares.md",
+    "Blackbook/%7B%7B%7B%7B%7B%7B%7B%7B&%7D%7D.md",
+    "Blackbook/%7B&&&%7D.md",
     "Blackbook/[_.md",
     "Blackbook/(warning.md",
-    "Philosophy/There.md",
-    "_PHILOSOPHY_INDEX.md",
-    "_ORPHAN_TAXONOMY.md",
+    "Blackbook/_.md",
+    "archive/README.md",
+    "archive/hallucination-eval-v0.md",
+    "archive/PHASE_1_STATUS.md",
+    "Blackbook/the-spells-it-makes..md",
+    "Blackbook/pasted-image-20250925225433.png",
     "Blackbook/pasted-image-20250925225428.png"
   ]
 }
