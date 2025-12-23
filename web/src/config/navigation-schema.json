@@ -162,7 +162,7 @@
                     "subsection": "Angels"
                 },
                 {
-                    "title": "Osiris, Arch Angel of Omen",
+                    "title": "Osiris, Arch Angel Of Omen",
                     "id": "Osiris-Arch-Angel-Of-Omen",
                     "icon": "✨",
                     "subsection": "Angels"
@@ -257,87 +257,6 @@
                 {
                     "title": "Borough Workflow",
                     "id": "Seventh-Borough-Borough-Workflow-v1"
-                }
-            ]
-        },
-        {
-            "id": "guides",
-            "label": "📚 Guides",
-            "type": "section",
-            "description": "How to use and contribute",
-            "collapsible": true,
-            "defaultOpen": false,
-            "items": [
-                {
-                    "title": "Contributing Guide",
-                    "id": "guide-contributing"
-                },
-                {
-                    "title": "How To Use Bill Doors",
-                    "id": "How-To-Use-Bill-Doors"
-                },
-                {
-                    "title": "Qualitative Research Guide",
-                    "id": "Qualitative-Research-Guide"
-                }
-            ]
-        },
-        {
-            "id": "identity-fragments",
-            "label": "🧩 Identity Fragments",
-            "type": "section",
-            "collapsible": true,
-            "items": [
-                {
-                    "title": "AM I NOT",
-                    "id": "AM-I-NOT",
-                    "icon": "❓"
-                },
-                {
-                    "title": "The Mirror",
-                    "id": "The-MIrROR",
-                    "icon": "🪞"
-                },
-                {
-                    "title": "You Mind",
-                    "id": "You-Mind",
-                    "icon": "🧠"
-                },
-                {
-                    "title": "Sing The City",
-                    "id": "Sing-The-City",
-                    "icon": "🎶"
-                }
-            ]
-        },
-        {
-            "id": "cosmology",
-            "label": "🌌 Cosmology",
-            "type": "section",
-            "collapsible": true,
-            "items": [
-                {
-                    "title": "The Cosmic Clock",
-                    "id": "The-Cosmic-Clock",
-                    "icon": "⏱️"
-                }
-            ]
-        },
-        {
-            "id": "orphans",
-            "label": "🌀 Orphans & Fragments",
-            "type": "section",
-            "description": "Generative seeds and fragments",
-            "collapsible": true,
-            "defaultOpen": false,
-            "items": [
-                {
-                    "title": "Orphan Index",
-                    "id": "orphan-index"
-                },
-                {
-                    "title": "Orphan Taxonomy",
-                    "id": "orphan-taxonomy"
                 }
             ]
         }
