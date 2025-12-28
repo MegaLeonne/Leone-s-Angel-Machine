@@ -1,12 +1,19 @@
 {
-  "generated": "2025-12-21T04:42:50.873Z",
+  "generated": "2025-12-28T02:54:10.091Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
       "path": "docs/archetypes/Angels/Michael, The KlockWork Angel.md",
       "title": "Michael, The KlockWork Angel",
       "folder": "archetypes/Angels",
-      "tags": [],
+      "tags": [
+        "time",
+        "divinity",
+        "automation",
+        "precision",
+        "order",
+        "clockwork"
+      ],
       "aliases": [],
       "backlinks": [
         "docs/orphans/numbered/readme.md",
@@ -19,7 +26,13 @@
       "path": "docs/archetypes/Angels/Osiris, Arch Angel Of Omen.md",
       "title": "Osiris, Arch Angel Of Omen",
       "folder": "archetypes/Angels",
-      "tags": [],
+      "tags": [
+        "omens",
+        "signs",
+        "prophecy",
+        "fate",
+        "communication"
+      ],
       "aliases": [],
       "backlinks": [
         "docs/orphans/numbered/readme.md",
@@ -33,7 +46,9 @@
       "folder": "archetypes",
       "tags": [],
       "aliases": [],
-      "backlinks": []
+      "backlinks": [
+        "docs/archetypes/The-Head-Archetype.md"
+      ]
     },
     "Shadow-Demon-Providence": {
       "path": "docs/archetypes/Composite/Shadow-Demon-Providence.md",
@@ -71,7 +86,13 @@
       "path": "docs/archetypes/Devils/Taylor, Devil of Desire.md",
       "title": "Taylor, Devil of Desire",
       "folder": "archetypes/Devils",
-      "tags": [],
+      "tags": [
+        "desire",
+        "duality",
+        "temptation",
+        "human nature",
+        "contradiction"
+      ],
       "aliases": [],
       "backlinks": [
         "docs/orphans/numbered/readme.md",
@@ -82,7 +103,13 @@
       "path": "docs/archetypes/Devils/The Blind.md",
       "title": "The Blind",
       "folder": "archetypes/Devils",
-      "tags": [],
+      "tags": [
+        "truth",
+        "prophecy",
+        "blindness",
+        "harsh wisdom",
+        "prophet"
+      ],
       "aliases": [],
       "backlinks": [
         "docs/orphans/numbered/readme.md"
@@ -97,13 +124,17 @@
     },
     "The-Void": {
       "path": "docs/archetypes/The Void.md",
-      "title": "Realm of The Conceptual",
+      "title": "The Void",
       "folder": "archetypes",
-      "tags": [],
+      "tags": [
+        "plane",
+        "conceptual",
+        "void",
+        "cosmology"
+      ],
       "aliases": [],
       "backlinks": [
         "docs/README.md",
-        "docs/archetypes/The-Head-Archetype.md",
         "docs/index/INDEX.md",
         "docs/orphans/The-Cosmic-Clock.md"
       ]
@@ -112,8 +143,17 @@
       "path": "docs/archetypes/The-Head-Archetype.md",
       "title": "The Head / The Witch Queen",
       "folder": "archetypes",
-      "tags": [],
-      "aliases": [],
+      "tags": [
+        "#SEVENTH-BOUND #archetype #threshold-guardian #witch-queen #the-head"
+      ],
+      "aliases": [
+        "The Anchor",
+        "She Who Stays",
+        "The Nurse of Names",
+        "The Keeper",
+        "The Witch Queen",
+        "Queen of Cups"
+      ],
       "backlinks": [
         "docs/README.md",
         "docs/index/INDEX.md"
@@ -123,7 +163,12 @@
       "path": "docs/guides/guide-contributing.md",
       "title": "Contributing to Leone's Angel Machine",
       "folder": "guides",
-      "tags": [],
+      "tags": [
+        "contribution",
+        "guidelines",
+        "collaboration",
+        "process"
+      ],
       "aliases": [],
       "backlinks": [
         "docs/README.md",
@@ -1010,6 +1055,12 @@
     "Taylor, Devil of Desire": "Taylor-Devil-of-Desire",
     "The Blind": "The-Blind",
     "The Void": "The-Void",
+    "The Anchor": "The-Head-Archetype",
+    "She Who Stays": "The-Head-Archetype",
+    "The Nurse of Names": "The-Head-Archetype",
+    "The Keeper": "The-Head-Archetype",
+    "The Witch Queen": "The-Head-Archetype",
+    "Queen of Cups": "The-Head-Archetype",
     "How To Use Bill Doors": "How-To-Use-Bill-Doors",
     "Qualitative Research Guide": "Qualitative-Research-Guide",
     "AM I NOT": "AM-I-NOT",
