@@ -86,7 +86,13 @@ class AngelMachine {
         `;
 
         try {
-            const fetchPath = `./${fileData.path}`;
+            let basePath = './';
+            // Adjust base path if running locally from web/src to find project root docs
+            if (window.location.pathname.includes('/web/src/')) {
+                basePath = '../../';
+            }
+
+            const fetchPath = `${basePath}${fileData.path}`;
             console.log(`Fetching: ${fetchPath}`);
             const response = await fetch(fetchPath);
 
@@ -95,7 +101,12 @@ class AngelMachine {
             }
 
             const content = await response.text();
-            const renderedContent = this.renderer ? this.renderer.render(content) : `<pre>${content.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>`;
+
+            // NEW: Parse frontmatter and separate it from content
+            const { metadata, content: cleanContent } = this.parseFrontmatter(content);
+            const metadataHtml = this.renderMetadataCard(metadata);
+
+            const renderedContent = this.renderer ? this.renderer.render(cleanContent) : `<pre>${cleanContent.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>`;
 
             // Generate Backlinks HTML
             let backlinksHtml = '';
@@ -135,6 +146,7 @@ class AngelMachine {
                         <h1>${fileData.title || hash}</h1>
                         ${fileData.tags && fileData.tags.length ? `<p style="opacity: 0.7;">${fileData.tags.map(t => `<code>#${t}</code>`).join(' ')}</p>` : ''}
                     </div>
+                    ${metadataHtml}
                     <div class="content-section">
                         ${renderedContent}
                     </div>
@@ -196,9 +208,82 @@ class AngelMachine {
     }
 
     /**
-     * ENHANCED: Renders a navigation section with support for nested subsections
-     * Now detects items with "subsection" property and groups them into collapsible nested sections
+     * Extracts and parses YAML frontmatter from markdown content
+     * @param {string} text - Raw markdown text
+     * @returns {object} { metadata, content }
      */
+    parseFrontmatter(text) {
+        if (!text.startsWith('---')) {
+            return { metadata: {}, content: text };
+        }
+
+        const match = text.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
+        if (!match) {
+            return { metadata: {}, content: text };
+        }
+
+        const rawYaml = match[1];
+        const content = match[2];
+        const metadata = {};
+
+        rawYaml.split('\n').forEach(line => {
+            const parts = line.split(':');
+            if (parts.length >= 2) {
+                const key = parts[0].trim();
+                let value = parts.slice(1).join(':').trim();
+
+                // Remove quotes if present
+                if (value.startsWith('"') && value.endsWith('"')) {
+                    value = value.slice(1, -1);
+                } else if (value.startsWith('[') && value.endsWith(']')) {
+                    // Simple array parsing
+                    value = value.slice(1, -1).split(',').map(v => v.trim());
+                }
+
+                metadata[key] = value;
+            }
+        });
+
+        return { metadata, content };
+    }
+
+    /**
+     * Renders a metadata card from the parsed frontmatter
+     */
+    renderMetadataCard(metadata) {
+        if (!metadata || Object.keys(metadata).length === 0) return '';
+
+        // Fields to exclude from display (internal logic or displayed elsewhere)
+        const ignored = ['title', 'tags', 'connects_to', 'category', 'subcategory', 'summary'];
+
+        // Filter and format entries
+        const entries = Object.entries(metadata)
+            .filter(([key]) => !ignored.includes(key))
+            .map(([key, value]) => {
+                const label = key.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+                return `
+                    <div class="meta-item">
+                        <span class="meta-label">${label}</span>
+                        <span class="meta-value">${value}</span>
+                    </div>
+                `;
+            }).join('');
+
+        if (!entries) return '';
+
+        let summaryHtml = '';
+        if (metadata.summary) {
+            summaryHtml = `<div class="meta-summary">"${metadata.summary}"</div>`;
+        }
+
+        return `
+            <div class="metadata-card">
+                ${entries}
+                ${summaryHtml}
+            </div>
+        `;
+    }
+
     renderNavSection(section) {
         const sectionEl = document.createElement('div');
         sectionEl.className = `nav-section nav-section-${section.id}`;
@@ -233,30 +318,26 @@ class AngelMachine {
 
             section.items.forEach(item => {
                 if (item.subsection) {
-                    // This item belongs to a subsection (like "Angels" or "Devils")
                     if (!subsectionGroups[item.subsection]) {
                         subsectionGroups[item.subsection] = [];
                     }
                     subsectionGroups[item.subsection].push(item);
                 } else {
-                    // This item has no subsection (like "The Head" or "The Heart")
                     ungroupedItems.push(item);
                 }
             });
 
-            // Render ungrouped items first (these appear at the top)
+            // Render ungrouped items first
             ungroupedItems.forEach(item => {
                 const itemEl = this.renderNavItem(item, section);
                 if (itemEl) content.appendChild(itemEl);
             });
 
-            // NEW: Render nested subsections (Angels, Devils, etc.)
+            // Render nested subsections
             Object.keys(subsectionGroups).forEach(subsectionName => {
-                // Create subsection container
                 const subsectionEl = document.createElement('div');
                 subsectionEl.className = 'nav-subsection';
 
-                // Subsection header (collapsible)
                 const subsectionHeader = document.createElement('div');
                 subsectionHeader.className = 'subsection-header collapsible';
                 subsectionHeader.innerHTML = `
@@ -264,11 +345,9 @@ class AngelMachine {
                     <span class="collapse-icon">▼</span>
                 `;
 
-                // Subsection content (collapsed by default)
                 const subsectionContent = document.createElement('div');
                 subsectionContent.className = 'subsection-content collapsed';
 
-                // Toggle subsection on click
                 subsectionHeader.addEventListener('click', (e) => {
                     e.stopPropagation();
                     subsectionContent.classList.toggle('open');
@@ -277,19 +356,17 @@ class AngelMachine {
                         subsectionContent.classList.contains('open') ? 'rotate(0deg)' : 'rotate(-90deg)';
                 });
 
-                // Render items in subsection (Michael, Osiris, Taylor, etc.)
                 subsectionGroups[subsectionName].forEach(item => {
                     const itemEl = this.renderNavItem(item, section);
                     if (itemEl) subsectionContent.appendChild(itemEl);
                 });
 
-                // Append subsection to main content
                 subsectionEl.appendChild(subsectionHeader);
                 subsectionEl.appendChild(subsectionContent);
                 content.appendChild(subsectionEl);
             });
 
-            // NEW: Auto-expand subsection if it contains the active page
+            // Auto-expand subsection if active
             setTimeout(() => {
                 const activeLink = content.querySelector('.file-link.active');
                 if (activeLink) {
@@ -298,7 +375,7 @@ class AngelMachine {
                         parentSubsection.classList.remove('collapsed');
                         parentSubsection.classList.add('open');
                         const parentHeader = parentSubsection.previousElementSibling;
-                        if (parentHeader && parentHeader.querySelector('.collapse-icon')) {
+                        if (parentHeader) {
                             parentHeader.querySelector('.collapse-icon').style.transform = 'rotate(0deg)';
                         }
                     }
@@ -308,7 +385,7 @@ class AngelMachine {
             sectionEl.appendChild(header);
             sectionEl.appendChild(content);
         } else {
-            // Non-collapsible or pinned: render items directly (no subsections)
+            // Non-collapsible or pinned: render items directly
             const content = document.createElement('div');
             content.className = 'section-content open';
 

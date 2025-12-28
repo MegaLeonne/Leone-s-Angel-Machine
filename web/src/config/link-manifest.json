@@ -1,5 +1,5 @@
 {
-  "generated": "2025-12-28T02:54:10.091Z",
+  "generated": "2025-12-28T03:48:34.003Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
@@ -121,23 +121,6 @@
       "folder": "Root",
       "tags": [],
       "backlinks": []
-    },
-    "The-Void": {
-      "path": "docs/archetypes/The Void.md",
-      "title": "The Void",
-      "folder": "archetypes",
-      "tags": [
-        "plane",
-        "conceptual",
-        "void",
-        "cosmology"
-      ],
-      "aliases": [],
-      "backlinks": [
-        "docs/README.md",
-        "docs/index/INDEX.md",
-        "docs/orphans/The-Cosmic-Clock.md"
-      ]
     },
     "The-Head-Archetype": {
       "path": "docs/archetypes/The-Head-Archetype.md",
@@ -947,6 +930,23 @@
         "docs/orphans/The-Cosmic-Clock.md"
       ]
     },
+    "The-Void": {
+      "path": "docs/philosophy/The Void.md",
+      "title": "The Void",
+      "folder": "philosophy",
+      "tags": [
+        "plane",
+        "conceptual",
+        "void",
+        "cosmology"
+      ],
+      "aliases": [],
+      "backlinks": [
+        "docs/README.md",
+        "docs/index/INDEX.md",
+        "docs/orphans/The-Cosmic-Clock.md"
+      ]
+    },
     "There": {
       "path": "docs/philosophy/There.md",
       "title": "There",
@@ -1054,7 +1054,6 @@
     "He Who Remains": "He-Who-Remains",
     "Taylor, Devil of Desire": "Taylor-Devil-of-Desire",
     "The Blind": "The-Blind",
-    "The Void": "The-Void",
     "The Anchor": "The-Head-Archetype",
     "She Who Stays": "The-Head-Archetype",
     "The Nurse of Names": "The-Head-Archetype",
@@ -1073,6 +1072,7 @@
     "To Make Sense OF It": "To-Make-Sense-OF-It",
     "You Mind": "You-Mind",
     "The Material": "The-Material",
+    "The Void": "The-Void",
     "Angel Numbers": "Angel-Numbers",
     "Deck of Fate": "Deck-of-Fate",
     "The Spells It Makes": "The-Spells-It-Makes"
