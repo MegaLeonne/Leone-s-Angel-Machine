@@ -346,7 +346,20 @@ class AngelMachine {
         if (!fileData) {
             // Try alias
             const realId = this.manifest.link_aliases && this.manifest.link_aliases[item.id];
-            if (!realId) return null;
+            if (realId) {
+                // Found via alias
+                return this.renderNavItem({ ...item, id: realId }, section);
+            }
+
+            // Debugging: Render broken item
+            console.warn(`MISSING MANIFEST ENTRY: ${item.id}`);
+            const errorEl = document.createElement('div');
+            errorEl.className = 'file-link error';
+            errorEl.style.color = '#ff6b6b';
+            errorEl.style.padding = '0.5rem 1rem';
+            errorEl.style.fontSize = '0.8rem';
+            errorEl.innerHTML = `⚠️ ${item.title} (Missing Data)`;
+            return errorEl;
         }
 
         const a = document.createElement('a');
