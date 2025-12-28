@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/archetypes/The-Head-Archetype.md",
+                "file": "docs/orphans/The-Cosmic-Clock.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The-Head-Archetype"
+              "title": "The-Cosmic-Clock"
             },
             "group": "31da2196f1ac9f15"
           }
@@ -34,7 +34,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "docs/archetypes/The-Head-Archetype.md",
+                "file": "docs/orphans/The-Cosmic-Clock.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -57,12 +57,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8765371770851293,
-                  "close": false
+                  "scale": 0.6488873738523616,
+                  "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of The-Head-Archetype"
+              "title": "Graph of The-Cosmic-Clock"
             },
             "group": "31da2196f1ac9f15"
           }
@@ -230,10 +230,11 @@
   },
   "active": "1500eda1cc8262bc",
   "lastOpenFiles": [
+    "docs/archetypes/Devils/Taylor, Devil of Desire.md",
+    "docs/archetypes/The-Head-Archetype.md",
     "docs/archetypes/Angels/Michael, The KlockWork Angel.md",
     "docs/orphans/indices/INDEXING_REPORT.md",
     "docs/archetypes/The Void.md",
-    "docs/archetypes/The-Head-Archetype.md",
     "docs/archetypes/archetype-heart.md",
     "Blackbook/In%20The%20Social.md",
     "Blackbook/Kaire.md",
@@ -255,7 +256,6 @@
     "archive/README.md",
     "archive/hallucination-eval-v0.md",
     "archive/PHASE_1_STATUS.md",
-    "Blackbook/the-spells-it-makes..md",
     "Blackbook/pasted-image-20250925225433.png",
     "Blackbook/pasted-image-20250925225428.png"
   ]

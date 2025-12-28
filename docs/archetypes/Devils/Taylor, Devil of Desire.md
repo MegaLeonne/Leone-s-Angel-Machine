@@ -14,7 +14,7 @@ summary: "Fallen angel embodying human duality and the impossibility of singular
 ---
 # Taylor, Devil of Desire
 
-Taylor fell because he wanted too much. Or perhaps because he wanted the wrong things. Or perhaps because desire itself is the original sin.
+Taylor fell because she wanted too much. Or perhaps because he wanted the wrong things. Or perhaps because desire itself is the original sin.
 
 Taylor represents the part of us that cannot be satisfied. The eternal longing that creates both beauty and suffering. He is the embodiment of human contradiction capable of great love and great cruelty, often simultaneously.
 
