@@ -252,8 +252,6 @@ class AngelMachine {
 
             // NEW: Render nested subsections (Angels, Devils, etc.)
             Object.keys(subsectionGroups).forEach(subsectionName => {
-                console.log(`Rendering subsection group: ${subsectionName} with ${subsectionGroups[subsectionName].length} items`);
-
                 // Create subsection container
                 const subsectionEl = document.createElement('div');
                 subsectionEl.className = 'nav-subsection';
@@ -281,13 +279,8 @@ class AngelMachine {
 
                 // Render items in subsection (Michael, Osiris, Taylor, etc.)
                 subsectionGroups[subsectionName].forEach(item => {
-                    console.log(`  - Processing item: ${item.title} (${item.id})`);
                     const itemEl = this.renderNavItem(item, section);
-                    if (itemEl) {
-                        subsectionContent.appendChild(itemEl);
-                    } else {
-                        console.warn(`  - renderNavItem returned null for ${item.title}`);
-                    }
+                    if (itemEl) subsectionContent.appendChild(itemEl);
                 });
 
                 // Append subsection to main content

@@ -4,6 +4,7 @@ const path = require('path');
 
 const DOCS_DIR = path.join(__dirname, '../docs');
 const OUTPUT_FILE = path.join(__dirname, '../web/src/config/link-manifest.json');
+const OUTPUT_FILE_ROOT = path.join(__dirname, '../config/link-manifest.json');
 
 /**
  * Parse YAML values with proper type handling
@@ -29,7 +30,7 @@ function parseYAMLValue(value) {
     // Handle booleans
     if (value === 'true') return true;
     if (value === 'false') return false;
-    
+
     // Handle numbers
     if (!isNaN(value) && value !== '') return Number(value);
 
@@ -167,7 +168,7 @@ function scanDirectory(dir, baseDir = DOCS_DIR) {
                 try {
                     const content = fs.readFileSync(fullPath, 'utf-8');
                     const frontmatter = extractFrontmatter(content);
-                    
+
                     // *** CRITICAL FIX: Normalize paths to Unix format ***
                     const rawRelativePath = path.relative(path.join(__dirname, '..'), fullPath);
                     const relativePath = normalizePathToUnix(rawRelativePath);
@@ -278,10 +279,17 @@ function main() {
 
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(manifest, null, 2));
 
+    // Also write to root config if directory exists
+    const outputDirRoot = path.dirname(OUTPUT_FILE_ROOT);
+    if (fs.existsSync(outputDirRoot)) {
+        fs.writeFileSync(OUTPUT_FILE_ROOT, JSON.stringify(manifest, null, 2));
+        console.log(`📝 Output (Root): ${OUTPUT_FILE_ROOT}`);
+    }
+
     console.log(`\n✅ Manifest generated successfully!`);
     console.log(`📊 Total files: ${Object.keys(files).length}`);
     console.log(`🔗 Total aliases: ${Object.keys(aliases).length}`);
-    console.log(`📝 Output: ${OUTPUT_FILE}\n`);
+    console.log(`📝 Output: ${OUTPUT_FILE}`);
 
     // List key sections for verification
     console.log('🎭 Archetypes found:');
