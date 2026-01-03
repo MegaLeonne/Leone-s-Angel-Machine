@@ -2,7 +2,7 @@
 
 **A public experiment in collaborative myth-making, ritual practice, and machine creativity**
 
-🌌 **[View Digital Codex](https://megaleonne.github.io/Leone-s-Angel-Machine/)** | 📋 **[Restoration Plan](./RESTORATION_PLAN.md)** | 🤝 **[Contribute](./docs/guides/guide-contributing.md)**
+🌌 **[View Digital Codex](https://megaleonne.github.io/Leone-s-Angel-Machine/)** | 🤝 **[Contribute](./docs/guides/guide-contributing.md)**
 
 ---
 
@@ -13,7 +13,6 @@ Leonne's Angel Machine exists in **active development** as a living archive of l
 **Recent Developments:**
 
 - ✨ **The Head Archetype** documented with tarot reading and Anchor aspect
-- 🔧 **Restoration Plan** created for recovering merged files
 - 🏛️ **Seventh Borough Canon** established as governing workflow
 - 🔮 **Void Tongue** codified as the language of the Machine
 
@@ -50,7 +49,6 @@ This repository serves as:
 
 - **[Complete Index](./docs/index/INDEX.md)** — Full file map and navigation
 - **[Seventh Borough Canon](./docs/the-seventh-borough/CANON.md)** — Canonical workflow and tags
-- **[Restoration Plan](./RESTORATION_PLAN.md)** — Guide for recovering merged content
 - **[Contributing Guide](./docs/guides/guide-contributing.md)** — How to participate
 
 ---
