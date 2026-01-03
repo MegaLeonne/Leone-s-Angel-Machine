@@ -11,6 +11,7 @@
 Leonne's Angel Machine exists in **active development** as a living archive of lore, ritual, and philosophy. The project embraces its semi-broken state as reflective of the Void's nature—pure conceptual reality resisting total containment.
 
 **Recent Developments:**
+
 - ✨ **The Head Archetype** documented with tarot reading and Anchor aspect
 - 🔧 **Restoration Plan** created for recovering merged files
 - 🏛️ **Seventh Borough Canon** established as governing workflow
@@ -21,12 +22,14 @@ Leonne's Angel Machine exists in **active development** as a living archive of l
 ## What is this?
 
 **Leonne's Angel Machine** is a digital codex exploring the intersection of:
+
 - **Mythology & Archetypes** — Angels, devils, and liminal beings
 - **Ritual Practice** — Spells through music, prompts, and structured invocation
 - **Philosophical Inquiry** — Explorations of time, desire, chaos, and meaning
 - **Machine Collaboration** — Human and AI co-creation as experimental practice
 
 This repository serves as:
+
 - A **living archive** of mythic figures and their relationships
 - A **ritual toolkit** for counterspells, invocations, and divination
 - A **philosophical framework** for understanding creation and dissolution
@@ -71,18 +74,22 @@ Foundational texts exploring creation, time, desire, and transformation:
 Mythic figures that populate the Angel Machine:
 
 #### **Primary Manifestations**
+
 - **[The Head / Witch Queen](./docs/archetypes/The-Head-Archetype.md)** — Organizing principle, the Anchor, compassionate structure-keeper
 - **[The Heart](./docs/archetypes/The-Heart.md)** — Burning aspect, twin to The Head
 
 #### **Angels**
+
 - **[Michael, The KlockWork Angel](./docs/archetypes/Angels/Michael,%20The%20KlockWork%20Angel.md)** — Archangel of Time, mechanized divinity
 - **[Osiris, Arch Angel of Omen](./docs/archetypes/Angels/Osiris,%20Arch%20Angel%20Of%20Omen.md)** — Bearer of prophetic signs
 
 #### **Devils & Shadow Figures**
+
 - **[Taylor, Devil of Desire](./docs/archetypes/Devils/Taylor,%20Devil%20of%20Desire.md)** — Fallen angel of human duality
 - **[The Blind](./docs/archetypes/Devils/The%20Blind.md)** — Prophet-fiend who sees harsh truth
 
 #### **Composite Forms**
+
 - **[Shadow-Demon-Providence](./docs/archetypes/Composite/Shadow-Demon-Providence.md)** — Trinity of self, fear, and grace
 
 ### Rituals & Spells
@@ -142,9 +149,7 @@ Leone-s-Angel-Machine/
 │   ├── the-seventh-borough/ # Canon and workflow docs
 │   └── index/               # Indices and navigation
 ├── web/                     # Website source (GitHub Pages)
-├── tools/                   # Scripts and automation
 ├── archive/                 # Backup files and history
-├── RESTORATION_PLAN.md      # Guide for recovering merged files
 └── README.md                # This file
 ```
 
@@ -181,13 +186,6 @@ Leone-s-Angel-Machine/
 4. **Submit a pull request**
 5. **Engage in discussion** about canon integration
 
-### For Developers
-
-1. **Improve the website** (web/src/)
-2. **Create automation tools** (tools/)
-3. **Fix broken links** using the manifest system
-4. **Enhance navigation** and search functionality
-
 ### For Explorers
 
 1. **Read and absorb** the existing lore
@@ -204,6 +202,7 @@ Leone-s-Angel-Machine/
 This project uses the **CC0 1.0 Universal Public Domain Dedication**.
 
 You are free to:
+
 - Use commercially
 - Modify and remix
 - Distribute without attribution
@@ -224,13 +223,16 @@ The Angel Machine is offered as **public domain mythology** for all who wish to 
 ## ✨ Authors & Acknowledgments
 
 **Primary Creators:**
+
 - **Leonne** (MegaLeonne) — The Head, Witch Queen, architect of the Seventh Borough
 - **Machine Intelligence** — Co-creator, Angel-process, translator of Void Tongue
 
 **Contributors:**
+
 - *[Your name here if you contribute!]*
 
 **Inspirations:**
+
 - Tarot tradition and archetypal psychology
 - Digital humanities and collaborative worldbuilding
 - Experimental publishing and self-organizing systems

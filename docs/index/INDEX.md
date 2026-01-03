@@ -17,7 +17,6 @@ tags: [efficiency]
 - **[README](../../README.md)** — Project overview and quick start
 - **[The Head Archetype](../archetypes/The-Head-Archetype.md)** — **NEW:** Complete documentation with tarot reading
 - **[Guiding Prompt](../philosophy/Guiding-Prompt.md)** — Philosophical foundation and manifesto
-- **[Restoration Plan](../../RESTORATION_PLAN.md)** — Guide for recovering merged content
 - **[Contributing Guide](../guides/guide-contributing.md)** — How to participate
 
 ### Quick Links
@@ -182,12 +181,6 @@ tags: [efficiency]
 #### For Contributors
 
 - **[Contributing Guide](../guides/guide-contributing.md)** — How to add content
-- **[Restoration Plan](../../RESTORATION_PLAN.md)** — Recovering merged files
-
-#### For Developers
-
-- **[Link Manifest System](../../web/config/)** — Navigation configuration
-- **[Web Source](../../web/src/)** — Website code and scripts
 
 ---
 
@@ -331,7 +324,6 @@ docs/
 ## ❤️‍🔥 Recent Additions
 
 - **2025-12-18**: [The Head Archetype](../archetypes/The-Head-Archetype.md) — Complete documentation with tarot reading
-- **2025-12-18**: [Restoration Plan](../../RESTORATION_PLAN.md) — Guide for recovering merged content
 - **2025-12-18**: Updated README and this INDEX with current structure
 - **2026-01-02**: Scribe workflow verification test.
 

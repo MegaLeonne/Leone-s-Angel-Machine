@@ -26,12 +26,6 @@
                     "id": "Guiding-Prompt",
                     "icon": "✨",
                     "priority": 3
-                },
-                {
-                    "title": "Restoration Plan",
-                    "id": "RESTORATION_PLAN",
-                    "icon": "📋",
-                    "priority": 5
                 }
             ]
         },
@@ -253,10 +247,6 @@
                 {
                     "title": "Seventh Borough Canon",
                     "id": "CANON"
-                },
-                {
-                    "title": "Borough Workflow",
-                    "id": "Seventh-Borough-Borough-Workflow-v1"
                 },
                 {
                     "title": "Tagging System",
