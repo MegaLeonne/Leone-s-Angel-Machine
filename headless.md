@@ -14,7 +14,7 @@ Task: Fix missing manifest entries in INDEX.md (The-Material, The-Void, Angels, 
 Tier: 1
 Agent: @scribe
 Command: /scribe-document index "Fix missing manifest entries for The-Material, The-Void, Michaels, Osiris"
-Status: ⏳ READY
+Status: ✅ DONE
 
 text
 
