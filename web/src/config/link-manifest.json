@@ -1,5 +1,5 @@
 {
-  "generated": "2025-12-28T03:48:34.003Z",
+  "generated": "2026-01-03T04:46:47.727Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
@@ -915,7 +915,9 @@
       "folder": "philosophy",
       "tags": [],
       "aliases": [],
-      "backlinks": []
+      "backlinks": [
+        "docs/index/INDEX.md"
+      ]
     },
     "The-Material": {
       "path": "docs/philosophy/The Material.md",
@@ -943,8 +945,18 @@
       "aliases": [],
       "backlinks": [
         "docs/README.md",
-        "docs/index/INDEX.md",
         "docs/orphans/The-Cosmic-Clock.md"
+      ]
+    },
+    "The-Abyss": {
+      "path": "docs/philosophy/The-Abyss.md",
+      "title": "The Abyss",
+      "folder": "philosophy",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/README.md",
+        "docs/index/INDEX.md"
       ]
     },
     "There": {
@@ -954,6 +966,16 @@
       "tags": [],
       "aliases": [],
       "backlinks": []
+    },
+    "Void-Tongue": {
+      "path": "docs/philosophy/Void-Tongue.md",
+      "title": "Void Tongue",
+      "folder": "philosophy",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/INDEX.md"
+      ]
     },
     "RESTORATION_PLAN": {
       "path": "docs/RESTORATION_PLAN.md",
@@ -1035,6 +1057,17 @@
       "aliases": [],
       "backlinks": []
     },
+    "CANON": {
+      "path": "docs/the-seventh-borough/CANON.md",
+      "title": "Seventh Borough Canon",
+      "folder": "the-seventh-borough",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/README.md",
+        "docs/index/INDEX.md"
+      ]
+    },
     "The-Hearts-Reprise": {
       "path": "docs/the-seventh-borough/mechanics/The-Hearts-Reprise.md",
       "title": "The Heart's Reprise (Mechanic: Burn-Bloom)",
@@ -1045,6 +1078,16 @@
         "docs/archetypes/archetype-heart.md",
         "docs/the-seventh-borough/residents/He-Who-Remains.md",
         "docs/the-seventh-borough/archives/Event-Log-009-The-Hearts-Reprise.md"
+      ]
+    },
+    "TAGS": {
+      "path": "docs/the-seventh-borough/TAGS.md",
+      "title": "Tagging System",
+      "folder": "the-seventh-borough",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/INDEX.md"
       ]
     }
   },

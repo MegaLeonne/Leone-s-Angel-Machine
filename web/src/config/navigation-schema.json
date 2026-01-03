@@ -252,11 +252,15 @@
             "items": [
                 {
                     "title": "Seventh Borough Canon",
-                    "id": "Seventh-Borough-Canon"
+                    "id": "CANON"
                 },
                 {
                     "title": "Borough Workflow",
                     "id": "Seventh-Borough-Borough-Workflow-v1"
+                },
+                {
+                    "title": "Tagging System",
+                    "id": "TAGS"
                 }
             ]
         }

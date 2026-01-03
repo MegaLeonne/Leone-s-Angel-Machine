@@ -53,7 +53,10 @@ def generate_manifest(root_dir):
             if file.endswith('.md'):
                 file_path = (Path(r) / file).resolve()
                 rel_path = "./" + str(file_path.relative_to(root_path)).replace('\\', '/')
-                canonical_name = file_path.stem
+                
+                # Normalize ID to match Node script: replace spaces and commas with hyphens
+                original_stem = file_path.stem
+                canonical_name = re.sub(r'[, ]+', '-', original_stem)
                 
                 try:
                     content = file_path.read_text(encoding='utf-8')
@@ -74,8 +77,14 @@ def generate_manifest(root_dir):
                 # Add aliases to lookup
                 for alias in meta["aliases"]:
                     manifest["link_aliases"][alias] = canonical_name
-                # Add filename itself as an alias
+                
+                # Add original filename as alias if different
+                if original_stem != canonical_name:
+                    manifest["link_aliases"][original_stem] = canonical_name
+                    
+                # Add clean name as self-alias (for consistency)
                 manifest["link_aliases"][canonical_name] = canonical_name
+                
                 # Add title as an alias if it's different
                 if meta["title"] and meta["title"] != canonical_name:
                     manifest["link_aliases"][meta["title"]] = canonical_name
@@ -90,16 +99,21 @@ def generate_manifest(root_dir):
                 if url.startswith(('http', 'mailto', '#')): continue
                 
                 # Try to resolve link to a canonical name
-                target_stem = Path(url.split('#')[0]).stem
-                if target_stem in manifest["files"]:
-                    source_rel = data["path"]
-                    if source_rel not in manifest["files"][target_stem]["backlinks"]:
-                        manifest["files"][target_stem]["backlinks"].append(source_rel)
-                elif url in manifest["link_aliases"]:
-                    target_canonical = manifest["link_aliases"][url]
-                    source_rel = data["path"]
-                    if source_rel not in manifest["files"][target_canonical]["backlinks"]:
-                        manifest["files"][target_canonical]["backlinks"].append(source_rel)
+                # Handle both raw filename and clean ID in links
+                target_raw = Path(url.split('#')[0]).stem
+                target_clean = re.sub(r'[, ]+', '-', target_raw)
+                
+                target_id = None
+                if target_clean in manifest["files"]:
+                    target_id = target_clean
+                elif target_raw in manifest["link_aliases"]:
+                    target_id = manifest["link_aliases"][target_raw]
+                
+                if target_id:
+                     source_rel = data["path"]
+                     if source_rel not in manifest["files"][target_id]["backlinks"]:
+                         manifest["files"][target_id]["backlinks"].append(source_rel)
+
         except Exception:
             continue
 
