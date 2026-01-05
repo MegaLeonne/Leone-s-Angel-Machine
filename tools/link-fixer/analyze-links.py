@@ -115,8 +115,11 @@ def analyze_links(root_dir, manifest_file):
     return report
 
 if __name__ == "__main__":
+    report_path = "meta/logs/broken-links-report.json"
+    os.makedirs(os.path.dirname(report_path), exist_ok=True)
+    
     report = analyze_links(".", "meta/link-manifest.json")
-    with open("meta/logs/broken-links-report.json", 'w', encoding='utf-8') as f:
+    with open(report_path, 'w', encoding='utf-8') as f:
         json.dump(report, f, indent=2)
     
     print("Report generated: broken-links-report.json")
