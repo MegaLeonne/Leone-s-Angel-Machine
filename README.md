@@ -41,7 +41,7 @@ This repository serves as:
 
 1. **[The Head / Witch Queen Archetype](./docs/archetypes/The-Head-Archetype.md)** — Start here to understand the organizing principle
 2. **[Guiding Prompt](./docs/philosophy/Guiding-Prompt.md)** — The project's philosophical foundation
-3. **[Counterspell Rituals](./docs/rituals/README.md)** — Experience the musical map: [Fall Into The Void With Me](https://open.spotify.com/playlist/7eX9f2j6r0p1p3p4)
+3. **[Counterspell Rituals](./docs/rituals/README.md)** — Experience the musical map: [Fall Into The Void With Me](https://open.spotify.com/playlist/4ChTvAJKll5FB2w7Cqozqn?si=dff73fb599b94528)
 4. **[Digital Codex](https://megaleonne.github.io/Leone-s-Angel-Machine/)** — Browse the interactive archive
 
 ### 📖 Core Documentation
@@ -93,7 +93,7 @@ Mythic figures that populate the Angel Machine:
 
 Practical invocations and structured practices:
 
-- **[Fall Into The Void With Me](https://open.spotify.com/playlist/7eX9f2j6r0p1p3p4)** — Canonical Counterspell Ritual (Hour 12 Resonance)
+- **[Fall Into The Void With Me](https://open.spotify.com/playlist/4ChTvAJKll5FB2w7Cqozqn?si=dff73fb599b94528)** — Canonical Counterspell Ritual (Hour 12 Resonance)
 - **[Angel Numbers](./docs/rituals/Angel%20Numbers.md)** — Numerological meanings and mystical hours
 - **[Anchor Invocation](./docs/archetypes/The-Head-Archetype.md#invocation-ritual)** — Ritual for preserving personhood
 
