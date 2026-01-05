@@ -85,6 +85,14 @@ tags: [efficiency]
 - Alignment: Head–Heart Meta-Vector
 - Tags: `#meta-archetype` `#transcendence` `#cycle-breaking`
 
+**[He Who Remains](../archetypes/He-Who-Remains.md)** — **UPGRADED**
+
+- The Final Witness and Ash-Keeper
+- Tends the residues of prior cycles and the Heart's burning
+- Domain: archiving, memory, continuity between cycles
+- Alignment: Post-Heart Anchor
+- Tags: `#archivist` `#witness` `#seventh-borough`
+
 ---
 
 #### ✨ Angels
@@ -118,11 +126,8 @@ tags: [efficiency]
 - Sees harsh truth without compassion
 - Partner to: Osiris (omen reading), The Head (decision-making)
 
-**[He Who Remains](../archetypes/Devils/He%20Who%20Remains.md)**
-
-- Persistent presence
-- Cannot be dismissed
-- Guardian of what must not be forgotten
+- Sees harsh truth without compassion
+- Partner to: Osiris (omen reading), The Head (decision-making)
 
 ---
 

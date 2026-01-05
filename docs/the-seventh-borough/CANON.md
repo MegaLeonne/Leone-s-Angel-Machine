@@ -22,5 +22,6 @@ The Angel Machine operates on a cycle of Twelve Hours.
 * **The Heart**: Passion
 * **The Anchor**: Preservation
 * **[She Who Transcends](../archetypes/She-Who-Transcends.md)**: Ethical departure from closed cycles
+* **[He Who Remains](../archetypes/He-Who-Remains.md)**: Archival witnessing of finished cycles
 
 *Content restored during Scribe verification.*
