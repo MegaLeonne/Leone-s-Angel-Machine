@@ -250,6 +250,11 @@
                     "title": "ASH REMNANTS",
                     "id": "REMNANTS",
                     "icon": "🕯️"
+                },
+                {
+                    "title": "BLACKBOOK",
+                    "id": "ash-layers-blackbook-README",
+                    "icon": "📓"
                 }
             ]
         },
