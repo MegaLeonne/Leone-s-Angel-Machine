@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-05T05:24:38.295Z",
+  "generated": "2026-01-05T05:31:09.519Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
@@ -250,14 +250,6 @@
       "backlinks": [
         "docs/archive/ash-layers/fragments/The Rule OF The Swamp..md"
       ]
-    },
-    "[[": {
-      "path": "docs/archive/ash-layers/cryptic/[[.md",
-      "title": "[[",
-      "folder": "archive/ash-layers/cryptic",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
     },
     "[_)-)-)-)": {
       "path": "docs/archive/ash-layers/cryptic/[_) ) ) ).md",
@@ -870,6 +862,14 @@
     "KHAOS_NOTES": {
       "path": "docs/khaos/KHAOS_NOTES.md",
       "title": "🌀 KHAOS NOTES — The Hour 12 Reservoir",
+      "folder": "khaos",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "Lexus-Echoes-001": {
+      "path": "docs/khaos/Lexus-Echoes-001.md",
+      "title": "🌀 Echoes Of A Past Self - Lexus",
       "folder": "khaos",
       "tags": [],
       "aliases": [],
