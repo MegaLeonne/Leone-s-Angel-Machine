@@ -9,8 +9,10 @@
 
 ## 📋 NEXT IMMEDIATE TASK (Execute This)
 
-Archetype: The Heart (The Reprise / Kinetic Fury)
-The Heart is the uncompromising force of dissolution that ensures the Cosmic Clock never stalls. While The Head preserves, The Heart burns—not out of cruelty, but out of a divine necessity to make room for new creation.
+🔍 **ARCHETYPE ELEVATION**
+Task: Elevated The Heart to canonical status (`The-Heart-Archetype.md`).
+Status: COMPLETE ❤️‍🔥
+
 ​
 
 Proposed Markdown Implementation
@@ -114,15 +116,13 @@ json
 When the coder renders the site or updates the README, the Heart's section should utilize the red/pink color logic established in your physical sigil board (#C62828).
 ​
 
-This update ensures The Heart is no longer a fragmentary "old-god" note but a primary, integrated pillar of the Seventh Borough ecosystem.
-​
+## 📋 ACTIVE GOVERNANCE TASK
+
 🔍 **GOVERNANCE ESTABLISHMENT**
-Task: Design protocols for lore elevation from the Reservoir.
+Task: Elevated "The Curation Threshold" as the primary governance ritual.
 Tier: 2
-Gate: Architect
-Next Action: Design Governance Rituals
-Estimated Time: 15 min
-Blocker: None
+Status: IN-PROGRESS (Drafted) 🏛️
+Next Action: Finalize walkthrough and notify user.
 
 ---
 

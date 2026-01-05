@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-05T05:17:43.638Z",
+  "generated": "2026-01-05T05:24:38.295Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
@@ -156,7 +156,8 @@
         "docs/archetypes/She-Who-Transcends.md",
         "docs/archetypes/The-Heart-Archetype.md",
         "docs/index/INDEX.md",
-        "docs/README.md"
+        "docs/README.md",
+        "docs/the-seventh-borough/CANON.md"
       ]
     },
     "The-Heart-Archetype": {
@@ -167,7 +168,8 @@
       "aliases": [],
       "backlinks": [
         "docs/archetypes/He-Who-Remains.md",
-        "docs/archetypes/The-Head-Archetype.md"
+        "docs/archetypes/The-Head-Archetype.md",
+        "docs/the-seventh-borough/CANON.md"
       ]
     },
     "&": {
@@ -1205,6 +1207,16 @@
         "docs/archetypes/README.md",
         "docs/index/INDEX.md",
         "docs/README.md"
+      ]
+    },
+    "ritual-elevation-protocol": {
+      "path": "docs/the-seventh-borough/mechanics/ritual-elevation-protocol.md",
+      "title": "🏛️ Ritual: The Curation Threshold",
+      "folder": "the-seventh-borough/mechanics",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/the-seventh-borough/CANON.md"
       ]
     },
     "The-Hearts-Reprise": {

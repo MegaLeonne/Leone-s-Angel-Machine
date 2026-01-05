@@ -282,6 +282,11 @@
                     "id": "CANON"
                 },
                 {
+                    "title": "Curation Threshold",
+                    "id": "ritual-elevation-protocol",
+                    "icon": "🏛️"
+                },
+                {
                     "title": "Tagging System",
                     "id": "TAGS"
                 }
