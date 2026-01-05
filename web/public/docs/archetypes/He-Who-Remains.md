@@ -241,7 +241,7 @@ He Who Remains is the archival counterweight to She Who Transcends. He ensures t
 
 - [She Who Transcends](./She-Who-Transcends.md) — The exit partner
 - [The Head / The Witch Queen](./The-Head-Archetype.md) — The naming principle
-- [The Heart](./archetype-heart.md) — The burning fire
+- [The Heart](./The-Heart-Archetype.md) — The burning fire
 - [The Cosmic Clock](../archive/ash-layers/The-Cosmic-Clock.md) — The cycle he witnesses
 - [Amnesia](../philosophy/Amnesia.md) — His primary hour (Hour 7)
 

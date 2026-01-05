@@ -1,0 +1,17 @@
+{
+    "automation_id": "heart_reprise_cleanup",
+    "trigger": "Phase Completion / Manual Call",
+    "actions": [
+        {
+            "target": "Orphaned Files",
+            "action": "Move to /archive/ash-layers",
+            "steward": "He Who Remains"
+        },
+        {
+            "target": "Stagnant Lore",
+            "action": "Append to REMNANTS.md",
+            "comment": "Burned during The Reprise"
+        }
+    ],
+    "lore_logic": "Heart clears the path for Transcendence"
+}

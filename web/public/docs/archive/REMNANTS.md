@@ -41,4 +41,13 @@ These files are the remains of previous cycles—fragments of lore, technical st
 
 ---
 
+## 👂 Resonant Truths (The Witnessed Voice)
+
+The following were extracted from the Voice of Khaos during the cycle of 2026-01-04:
+
+- **"Worth DOing Is worht Doing twice"** — The Law of Recursion; what resonates must be repeated.
+- **"REMEMBER WHAT DIED"** — The Foundation of Memory; the Ash is not empty; it is the weight of what was.
+
+---
+
 *Verified by He Who Remains — SEVENTH-BOUND 2026-01-04*

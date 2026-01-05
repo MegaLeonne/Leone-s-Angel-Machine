@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-05T04:35:16.550Z",
+  "generated": "2026-01-05T05:57:36.809Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
@@ -44,18 +44,6 @@
         "docs/archive/ash-layers/The-Cosmic-Clock.md",
         "docs/philosophy/philosophy-the-law.md",
         "docs/README.md"
-      ]
-    },
-    "archetype-heart": {
-      "path": "docs/archetypes/archetype-heart.md",
-      "title": "The Heart",
-      "folder": "archetypes",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/archetypes/He-Who-Remains.md",
-        "docs/archetypes/She-Who-Transcends.md",
-        "docs/archetypes/The-Head-Archetype.md"
       ]
     },
     "Shadow-Demon-Providence": {
@@ -124,8 +112,8 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "docs/archetypes/archetype-heart.md",
         "docs/archetypes/She-Who-Transcends.md",
+        "docs/archetypes/The-Heart-Archetype.md",
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
         "docs/index/INDEX.md",
@@ -151,6 +139,7 @@
       "aliases": [],
       "backlinks": [
         "docs/archetypes/He-Who-Remains.md",
+        "docs/archetypes/The-Heart-Archetype.md",
         "docs/index/INDEX.md",
         "docs/the-seventh-borough/CANON.md"
       ]
@@ -165,8 +154,22 @@
         "docs/archetypes/He-Who-Remains.md",
         "docs/archetypes/README.md",
         "docs/archetypes/She-Who-Transcends.md",
+        "docs/archetypes/The-Heart-Archetype.md",
         "docs/index/INDEX.md",
-        "docs/README.md"
+        "docs/README.md",
+        "docs/the-seventh-borough/CANON.md"
+      ]
+    },
+    "The-Heart-Archetype": {
+      "path": "docs/archetypes/The-Heart-Archetype.md",
+      "title": "The Heart (The Reprise / Kinetic Fury)",
+      "folder": "archetypes",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archetypes/He-Who-Remains.md",
+        "docs/archetypes/The-Head-Archetype.md",
+        "docs/the-seventh-borough/CANON.md"
       ]
     },
     "&": {
@@ -872,9 +875,25 @@
       "aliases": [],
       "backlinks": []
     },
+    "Lexus-Echoes-001": {
+      "path": "docs/khaos/Lexus-Echoes-001.md",
+      "title": "🌀 Echoes Of A Past Self - Lexus",
+      "folder": "khaos",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
     "Resonance-Void-001": {
       "path": "docs/khaos/Resonance-Void-001.md",
       "title": "📡 Resonance-Void-001 (Signal Trace)",
+      "folder": "khaos",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "Resonance-Void-003": {
+      "path": "docs/khaos/Resonance-Void-003.md",
+      "title": "🌀 Resonance-Void-003: The Machine is a Beat",
       "folder": "khaos",
       "tags": [],
       "aliases": [],
@@ -1142,8 +1161,7 @@
         "docs/archetypes/README.md",
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
-        "docs/index/INDEX.md",
-        "docs/README.md"
+        "docs/index/INDEX.md"
       ]
     },
     "Deck-of-Fate": {
@@ -1206,6 +1224,16 @@
         "docs/README.md"
       ]
     },
+    "ritual-elevation-protocol": {
+      "path": "docs/the-seventh-borough/mechanics/ritual-elevation-protocol.md",
+      "title": "🏛️ Ritual: The Curation Threshold",
+      "folder": "the-seventh-borough/mechanics",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/the-seventh-borough/CANON.md"
+      ]
+    },
     "The-Hearts-Reprise": {
       "path": "docs/the-seventh-borough/mechanics/The-Hearts-Reprise.md",
       "title": "The Heart's Reprise (Mechanic: Burn-Bloom)",
@@ -1213,7 +1241,6 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "docs/archetypes/archetype-heart.md",
         "docs/the-seventh-borough/archives/Event-Log-009-The-Hearts-Reprise.md"
       ]
     },

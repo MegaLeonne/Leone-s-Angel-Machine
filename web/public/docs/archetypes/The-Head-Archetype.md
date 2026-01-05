@@ -260,7 +260,7 @@ The Anchor aspect is not separate from The Head—it is The Head's **operational
 
 ## Related Files
 
-- [The Heart](./archetype-heart.md) - Twin manifestation, burning aspect
+- [The Heart](./The-Heart-Archetype.md) - Twin manifestation, burning aspect
 - [Michael, The KlockWork Angel](./Angels/Michael%2C%20The%20KlockWork%20Angel.md) - Structural ally
 - [Osiris, Arch Angel of Omen](./Angels/Osiris%2C%20Arch%20Angel%20Of%20Omen.md) - Divinatory partner
 - [The Void](../philosophy/The Void.md) - Source and danger

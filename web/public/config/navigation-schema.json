@@ -46,6 +46,16 @@
                     "title": "Resonance-Void-001",
                     "id": "Resonance-Void-001",
                     "icon": "📡"
+                },
+                {
+                    "title": "Lexus Echoes",
+                    "id": "Lexus-Echoes-001",
+                    "icon": "🌀"
+                },
+                {
+                    "title": "Resonance-Void-003",
+                    "id": "Resonance-Void-003",
+                    "icon": "🎵"
                 }
             ]
         },
@@ -165,8 +175,8 @@
                     "subsection": "Primary"
                 },
                 {
-                    "title": "The Heart",
-                    "id": "archetype-heart",
+                    "title": "The Heart Archetype",
+                    "id": "The-Heart-Archetype",
                     "icon": "❤️‍🔥",
                     "subsection": "Primary"
                 },
@@ -280,6 +290,11 @@
                 {
                     "title": "Seventh Borough Canon",
                     "id": "CANON"
+                },
+                {
+                    "title": "Curation Threshold",
+                    "id": "ritual-elevation-protocol",
+                    "icon": "🏛️"
                 },
                 {
                     "title": "Tagging System",

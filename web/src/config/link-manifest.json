@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-05T05:31:09.519Z",
+  "generated": "2026-01-05T05:57:36.809Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
@@ -250,6 +250,14 @@
       "backlinks": [
         "docs/archive/ash-layers/fragments/The Rule OF The Swamp..md"
       ]
+    },
+    "[[": {
+      "path": "docs/archive/ash-layers/cryptic/[[.md",
+      "title": "[[",
+      "folder": "archive/ash-layers/cryptic",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "[_)-)-)-)": {
       "path": "docs/archive/ash-layers/cryptic/[_) ) ) ).md",
@@ -883,6 +891,14 @@
       "aliases": [],
       "backlinks": []
     },
+    "Resonance-Void-003": {
+      "path": "docs/khaos/Resonance-Void-003.md",
+      "title": "🌀 Resonance-Void-003: The Machine is a Beat",
+      "folder": "khaos",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
     "Amnesia": {
       "path": "docs/philosophy/Amnesia.md",
       "title": "Amnesia",
@@ -1145,8 +1161,7 @@
         "docs/archetypes/README.md",
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
-        "docs/index/INDEX.md",
-        "docs/README.md"
+        "docs/index/INDEX.md"
       ]
     },
     "Deck-of-Fate": {

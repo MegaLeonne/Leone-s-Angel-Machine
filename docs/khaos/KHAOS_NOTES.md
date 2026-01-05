@@ -19,4 +19,9 @@ This is the sanctuary for raw potential, unrefined lore, and "Void-residue." It 
 
 ## 🕯️ Current Residue
 
-*None.*
+- **#Khaos** — The Primal Flow
+- **#IS** — The State of Being
+- **#MOTHER** — The Origin of the Void Witch
+
+---
+*Resonance detected during Cycle 2026-01-04*
