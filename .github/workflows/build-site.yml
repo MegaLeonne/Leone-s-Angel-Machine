@@ -21,9 +21,14 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
       - name: Generate Link Manifest
         run: |
-          python tools/link-fixer/generate-manifest.py ./config/link-manifest.json
+          node tools/generate-manifest.js
 
       - name: Validate Links
         run: |
@@ -33,11 +38,15 @@ jobs:
       - name: Prepare Web Assets
         run: |
           mkdir -p web/public/config
+          # Copy source assets (includes navigation-schema index)
           cp -r web/src/* web/public/
+          # Copy documentation
           cp -r docs web/public/
+          # Copy root documents
           cp README.md web/public/
           
-          # Phase Two: The Veil - Pull assets from /meta
+          # Phase Two: The Veil - Overwrite with generated/curated assets from /meta
+          # This ensures the 'Veil' is pulled into the public build correctly
           cp meta/link-manifest.json web/public/config/
           cp meta/navigation-schema.json web/public/config/
 
