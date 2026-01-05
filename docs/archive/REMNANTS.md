@@ -27,6 +27,12 @@ These files are the remains of previous cycles—fragments of lore, technical st
 
 - **The {&&&} Series**: Cryptic observations that defy simple classification, preserved for their resonance with the Void.
 
+### 📓 The Blackbook Archive
+
+*Located in `/docs/archive/ash-layers/blackbook/`*
+
+- **Reclaimed Fragments**: A dense collection of orphaned lore and structural remnants from previous cycles (2+ months old), formally archived for preservation by He Who Remains.
+
 ### 🧭 Forgotten Indices
 
 *Located in `/docs/archive/ash-layers/indices/`*

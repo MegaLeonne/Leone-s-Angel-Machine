@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-05T06:01:06.947Z",
+  "generated": "2026-01-05T06:05:41.560Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
@@ -170,6 +170,995 @@
         "docs/archetypes/He-Who-Remains.md",
         "docs/archetypes/The-Head-Archetype.md",
         "docs/the-seventh-borough/CANON.md"
+      ]
+    },
+    "%7B%7B%7B%7B%7B%7B%7B%7B&%7D%7D": {
+      "path": "docs/archive/ash-layers/blackbook/%7B%7B%7B%7B%7B%7B%7B%7B&%7D%7D.md",
+      "title": "%7B%7B%7B%7B%7B%7B%7B%7B&%7D%7D.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "%7B%7B": {
+      "path": "docs/archive/ash-layers/blackbook/%7B%7B.md",
+      "title": "%7B%7B.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "%7B&&&%7D": {
+      "path": "docs/archive/ash-layers/blackbook/%7B&&&%7D.md",
+      "title": "%7B&&&%7D.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "%7D%7D": {
+      "path": "docs/archive/ash-layers/blackbook/%7D%7D.md",
+      "title": "%7D%7D.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "(warning": {
+      "path": "docs/archive/ash-layers/blackbook/(warning.md",
+      "title": "(warning.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/&.md"
+      ]
+    },
+    "12.-khaos": {
+      "path": "docs/archive/ash-layers/blackbook/12.-khaos.md",
+      "title": "12.-khaos.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/fragments/KHAOS.md"
+      ]
+    },
+    "4.-knightmares": {
+      "path": "docs/archive/ash-layers/blackbook/4.-knightmares.md",
+      "title": "4.-knightmares.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/CALLING.md"
+      ]
+    },
+    "6.-kaire": {
+      "path": "docs/archive/ash-layers/blackbook/6.-kaire.md",
+      "title": "6.-kaire.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/CALLING.md",
+        "docs/archive/ash-layers/fragments/KHAOS.md"
+      ]
+    },
+    "7.--amnesia": {
+      "path": "docs/archive/ash-layers/blackbook/7.--amnesia.md",
+      "title": "7.--amnesia.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/CALLING.md"
+      ]
+    },
+    "8.-dreams": {
+      "path": "docs/archive/ash-layers/blackbook/8.-dreams.md",
+      "title": "8.-dreams.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/CALLING.md"
+      ]
+    },
+    "abyssmal": {
+      "path": "docs/archive/ash-layers/blackbook/abyssmal.md",
+      "title": "abyssmal.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/{&&&}.md",
+        "docs/philosophy/philosophy-spell-book.md"
+      ]
+    },
+    "AM%20I%20NOT": {
+      "path": "docs/archive/ash-layers/blackbook/AM%20I%20NOT.md",
+      "title": "AM%20I%20NOT.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "Arc": {
+      "path": "docs/archive/ash-layers/blackbook/Arc.md",
+      "title": "Arc.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md"
+      ]
+    },
+    "Asked": {
+      "path": "docs/archive/ash-layers/blackbook/Asked.md",
+      "title": "Asked.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md"
+      ]
+    },
+    "Been": {
+      "path": "docs/archive/ash-layers/blackbook/Been.md",
+      "title": "Been.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/philosophy/cosmology-void.md"
+      ]
+    },
+    "cosmology": {
+      "path": "docs/archive/ash-layers/blackbook/cosmology.md",
+      "title": "cosmology.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md",
+        "docs/archive/ash-layers/cryptic/{&&&}.md"
+      ]
+    },
+    "Deck%20of%20Fate": {
+      "path": "docs/archive/ash-layers/blackbook/Deck%20of%20Fate.md",
+      "title": "Deck%20of%20Fate.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/INDEX.md"
+      ]
+    },
+    "deck-of-fate": {
+      "path": "docs/archive/ash-layers/blackbook/deck-of-fate.md",
+      "title": "deck-of-fate.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md"
+      ]
+    },
+    "Does": {
+      "path": "docs/archive/ash-layers/blackbook/Does.md",
+      "title": "Does.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md"
+      ]
+    },
+    "Engineer": {
+      "path": "docs/archive/ash-layers/blackbook/Engineer.md",
+      "title": "Engineer.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md"
+      ]
+    },
+    "Engineers": {
+      "path": "docs/archive/ash-layers/blackbook/Engineers.md",
+      "title": "Engineers.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md"
+      ]
+    },
+    "He%20Who%20Remains.": {
+      "path": "docs/archive/ash-layers/blackbook/He%20Who%20Remains..md",
+      "title": "He%20Who%20Remains..md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "he-who-remains.": {
+      "path": "docs/archive/ash-layers/blackbook/he-who-remains..md",
+      "title": "he-who-remains..md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/{&&&}.md"
+      ]
+    },
+    "heart": {
+      "path": "docs/archive/ash-layers/blackbook/heart.md",
+      "title": "heart.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "Hellfire-Park": {
+      "path": "docs/archive/ash-layers/blackbook/Hellfire Park.md",
+      "title": "Hellfire Park.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/philosophy/cosmology-void.md"
+      ]
+    },
+    "In%20The%20Social": {
+      "path": "docs/archive/ash-layers/blackbook/In%20The%20Social.md",
+      "title": "In%20The%20Social.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md",
+        "docs/archive/ash-layers/cryptic/{&&&}.md"
+      ]
+    },
+    "In%2520The%2520Social": {
+      "path": "docs/archive/ash-layers/blackbook/In%2520The%2520Social.md",
+      "title": "In%2520The%2520Social.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "Kaire": {
+      "path": "docs/archive/ash-layers/blackbook/Kaire.md",
+      "title": "Kaire.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/The-Cosmic-Clock.md",
+        "docs/philosophy/philosophy-khaos.md"
+      ]
+    },
+    "kards": {
+      "path": "docs/archive/ash-layers/blackbook/kards.md",
+      "title": "kards.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/fragments/Why.md"
+      ]
+    },
+    "Kerberus": {
+      "path": "docs/archive/ash-layers/blackbook/Kerberus.md",
+      "title": "Kerberus.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/CALLING.md"
+      ]
+    },
+    "knows": {
+      "path": "docs/archive/ash-layers/blackbook/knows.md",
+      "title": "knows.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/{&&&}.md"
+      ]
+    },
+    "lies": {
+      "path": "docs/archive/ash-layers/blackbook/lies.md",
+      "title": "lies.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/{&&&}.md"
+      ]
+    },
+    "Love": {
+      "path": "docs/archive/ash-layers/blackbook/Love.md",
+      "title": "Love.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md"
+      ]
+    },
+    "Machine": {
+      "path": "docs/archive/ash-layers/blackbook/Machine.md",
+      "title": "Machine.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md"
+      ]
+    },
+    "make": {
+      "path": "docs/archive/ash-layers/blackbook/make.md",
+      "title": "make.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/fragments/The Rule OF The Swamp..md",
+        "docs/archive/ash-layers/indices/orphan-index.md",
+        "docs/archive/ash-layers/numbered/orphan-5.md",
+        "docs/archive/ash-layers/numbered/orphan-74.md",
+        "docs/archive/ash-layers/numbered/orphanindex.md"
+      ]
+    },
+    "n": {
+      "path": "docs/archive/ash-layers/blackbook/n.md",
+      "title": "n.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md"
+      ]
+    },
+    "Not-": {
+      "path": "docs/archive/ash-layers/blackbook/Not-.md",
+      "title": "Not-.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md"
+      ]
+    },
+    "nowhere": {
+      "path": "docs/archive/ash-layers/blackbook/nowhere.md",
+      "title": "nowhere.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/{&&&}.md"
+      ]
+    },
+    "orphan": {
+      "path": "docs/archive/ash-layers/blackbook/orphan.md",
+      "title": "orphan.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/indices/OrphanIndex.md"
+      ]
+    },
+    "Our": {
+      "path": "docs/archive/ash-layers/blackbook/Our.md",
+      "title": "Our.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md"
+      ]
+    },
+    "pasted-image-20250925225428.png": {
+      "path": "docs/archive/ash-layers/blackbook/pasted-image-20250925225428.png.md",
+      "title": "pasted-image-20250925225428.png.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/fragments/But.md"
+      ]
+    },
+    "pasted-image-20250925225433.png": {
+      "path": "docs/archive/ash-layers/blackbook/pasted-image-20250925225433.png.md",
+      "title": "pasted-image-20250925225433.png.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/fragments/But.md"
+      ]
+    },
+    "placeholder-04af49f327434b63a7848b989b2bece9": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-04af49f327434b63a7848b989b2bece9.md",
+      "title": "placeholder-04af49f327434b63a7848b989b2bece9.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-11ef2e8d6416498aa13c896e94a6c912": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-11ef2e8d6416498aa13c896e94a6c912.md",
+      "title": "placeholder-11ef2e8d6416498aa13c896e94a6c912.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-1fe8d368dff0474db1e34fd4588d5bd3": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-1fe8d368dff0474db1e34fd4588d5bd3.md",
+      "title": "placeholder-1fe8d368dff0474db1e34fd4588d5bd3.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/numbered/orphan-6.md"
+      ]
+    },
+    "placeholder-2275ca3bb1ce4bd9b3b606a9226ce0bf": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-2275ca3bb1ce4bd9b3b606a9226ce0bf.md",
+      "title": "placeholder-2275ca3bb1ce4bd9b3b606a9226ce0bf.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-276c503fb00047f5ac5172d837fea37b": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-276c503fb00047f5ac5172d837fea37b.md",
+      "title": "placeholder-276c503fb00047f5ac5172d837fea37b.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-2a26e624d3694034b7b13e32faa5c839": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-2a26e624d3694034b7b13e32faa5c839.md",
+      "title": "placeholder-2a26e624d3694034b7b13e32faa5c839.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-2bcd5b05b2ee42959b320e375785dc75": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-2bcd5b05b2ee42959b320e375785dc75.md",
+      "title": "placeholder-2bcd5b05b2ee42959b320e375785dc75.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-30921d7fb5914db19f1eddef272039aa": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-30921d7fb5914db19f1eddef272039aa.md",
+      "title": "placeholder-30921d7fb5914db19f1eddef272039aa.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md"
+      ]
+    },
+    "placeholder-3f2afa5a4d944f34a2664b99eaee6de8": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-3f2afa5a4d944f34a2664b99eaee6de8.md",
+      "title": "placeholder-3f2afa5a4d944f34a2664b99eaee6de8.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-5249653bfd9846828d3ed3d99fe68235": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-5249653bfd9846828d3ed3d99fe68235.md",
+      "title": "placeholder-5249653bfd9846828d3ed3d99fe68235.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-53d9e406aec34cf398c05c91aa446fba": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-53d9e406aec34cf398c05c91aa446fba.md",
+      "title": "placeholder-53d9e406aec34cf398c05c91aa446fba.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-556b4e0e5d9346d9bec7af375430e489": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-556b4e0e5d9346d9bec7af375430e489.md",
+      "title": "placeholder-556b4e0e5d9346d9bec7af375430e489.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-62f55f70c5934613ad5908151d6fdf2a": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-62f55f70c5934613ad5908151d6fdf2a.md",
+      "title": "placeholder-62f55f70c5934613ad5908151d6fdf2a.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-72f2a14cdd2a46da8bad4a787dbec463": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-72f2a14cdd2a46da8bad4a787dbec463.md",
+      "title": "placeholder-72f2a14cdd2a46da8bad4a787dbec463.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/numbered/orphan-25.md"
+      ]
+    },
+    "placeholder-77f8d29585df46a18c17af04fbfece21": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-77f8d29585df46a18c17af04fbfece21.md",
+      "title": "placeholder-77f8d29585df46a18c17af04fbfece21.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-781742b0084c48a9b4f78caa15516749": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-781742b0084c48a9b4f78caa15516749.md",
+      "title": "placeholder-781742b0084c48a9b4f78caa15516749.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-79f7f85034f04b13af1ce8815ea3a6c4": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-79f7f85034f04b13af1ce8815ea3a6c4.md",
+      "title": "placeholder-79f7f85034f04b13af1ce8815ea3a6c4.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-7d213090a9ce4e829a19bba491224b76": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-7d213090a9ce4e829a19bba491224b76.md",
+      "title": "placeholder-7d213090a9ce4e829a19bba491224b76.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/numbered/orphan-6.md"
+      ]
+    },
+    "placeholder-847b1748da8f496c98ab574e1d4e213d": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-847b1748da8f496c98ab574e1d4e213d.md",
+      "title": "placeholder-847b1748da8f496c98ab574e1d4e213d.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/numbered/orphan-13.md"
+      ]
+    },
+    "placeholder-86a2720220b54dd4a8085018944b77b8": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-86a2720220b54dd4a8085018944b77b8.md",
+      "title": "placeholder-86a2720220b54dd4a8085018944b77b8.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-8bf33d313814423cac1c7f3fefba8d9b": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-8bf33d313814423cac1c7f3fefba8d9b.md",
+      "title": "placeholder-8bf33d313814423cac1c7f3fefba8d9b.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-8dfe55131ada402e8c6634123570c853": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-8dfe55131ada402e8c6634123570c853.md",
+      "title": "placeholder-8dfe55131ada402e8c6634123570c853.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-a2e8c99e04934c3fabdf1f4e0c4342be": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-a2e8c99e04934c3fabdf1f4e0c4342be.md",
+      "title": "placeholder-a2e8c99e04934c3fabdf1f4e0c4342be.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-a36cad1dfa044198a7f6c8b1afe487b1": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-a36cad1dfa044198a7f6c8b1afe487b1.md",
+      "title": "placeholder-a36cad1dfa044198a7f6c8b1afe487b1.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-a652552a3aba4d30b206892c00bb8a03": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-a652552a3aba4d30b206892c00bb8a03.md",
+      "title": "placeholder-a652552a3aba4d30b206892c00bb8a03.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-af5aca1626e042aaa81b27bdc46ceda3": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-af5aca1626e042aaa81b27bdc46ceda3.md",
+      "title": "placeholder-af5aca1626e042aaa81b27bdc46ceda3.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/numbered/orphan-25.md"
+      ]
+    },
+    "placeholder-b649a5fb7990483aa9dee137193db45d": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-b649a5fb7990483aa9dee137193db45d.md",
+      "title": "placeholder-b649a5fb7990483aa9dee137193db45d.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-b9533bdf6b6b467ebedf0360334646bf": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-b9533bdf6b6b467ebedf0360334646bf.md",
+      "title": "placeholder-b9533bdf6b6b467ebedf0360334646bf.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-c95e27d622da46869498503d7706dfb2": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-c95e27d622da46869498503d7706dfb2.md",
+      "title": "placeholder-c95e27d622da46869498503d7706dfb2.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/numbered/orphan-13.md"
+      ]
+    },
+    "placeholder-da2509ed2b3346afab6d4058826ee726": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-da2509ed2b3346afab6d4058826ee726.md",
+      "title": "placeholder-da2509ed2b3346afab6d4058826ee726.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-da8352f78792494dbba24464f8498aa2": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-da8352f78792494dbba24464f8498aa2.md",
+      "title": "placeholder-da8352f78792494dbba24464f8498aa2.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-daaf8fce03684426a16915efe93c48d1": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-daaf8fce03684426a16915efe93c48d1.md",
+      "title": "placeholder-daaf8fce03684426a16915efe93c48d1.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "placeholder-f698ba2b65a34dca978010dfe43f378d": {
+      "path": "docs/archive/ash-layers/blackbook/placeholder-f698ba2b65a34dca978010dfe43f378d.md",
+      "title": "placeholder-f698ba2b65a34dca978010dfe43f378d.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "providence.": {
+      "path": "docs/archive/ash-layers/blackbook/providence..md",
+      "title": "providence..md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md"
+      ]
+    },
+    "archive-ash-layers-blackbook-README": {
+      "path": "docs/archive/ash-layers/blackbook/README.md",
+      "title": "📓 The Blackbook Archive",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "Red%20Rabbits%20Riot": {
+      "path": "docs/archive/ash-layers/blackbook/Red%20Rabbits%20Riot.md",
+      "title": "Red%20Rabbits%20Riot.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "remain": {
+      "path": "docs/archive/ash-layers/blackbook/remain.md",
+      "title": "remain.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md"
+      ]
+    },
+    "Sing%20The%20City": {
+      "path": "docs/archive/ash-layers/blackbook/Sing%20The%20City.md",
+      "title": "Sing%20The%20City.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "Social": {
+      "path": "docs/archive/ash-layers/blackbook/Social.md",
+      "title": "Social.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md"
+      ]
+    },
+    "soul-betting": {
+      "path": "docs/archive/ash-layers/blackbook/soul-betting.md",
+      "title": "soul-betting.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/{&&&}.md"
+      ]
+    },
+    "THE%20New%20Note.": {
+      "path": "docs/archive/ash-layers/blackbook/THE%20New%20Note..md",
+      "title": "THE%20New%20Note..md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "The%20Rule%20Of%20The%20Swamp.": {
+      "path": "docs/archive/ash-layers/blackbook/The%20Rule%20Of%20The%20Swamp..md",
+      "title": "The%20Rule%20Of%20The%20Swamp..md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "THE%20SPELLS%20IT%20MAKES.": {
+      "path": "docs/archive/ash-layers/blackbook/THE%20SPELLS%20IT%20MAKES..md",
+      "title": "THE%20SPELLS%20IT%20MAKES..md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "the-kosmic-klock": {
+      "path": "docs/archive/ash-layers/blackbook/the-kosmic-klock.md",
+      "title": "the-kosmic-klock.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/}}[[THE LAW.md"
+      ]
+    },
+    "the-law": {
+      "path": "docs/archive/ash-layers/blackbook/the-law.md",
+      "title": "the-law.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/&.md",
+        "docs/archive/ash-layers/cryptic/{{{{{{{{&}}.md",
+        "docs/archive/ash-layers/fragments/The Rule OF The Swamp..md"
+      ]
+    },
+    "the-spells-it-makes.": {
+      "path": "docs/archive/ash-layers/blackbook/the-spells-it-makes..md",
+      "title": "the-spells-it-makes..md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/&.md"
+      ]
+    },
+    "the-void-tongue": {
+      "path": "docs/archive/ash-layers/blackbook/the-void-tongue.md",
+      "title": "the-void-tongue.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/{&&&}.md"
+      ]
+    },
+    "the": {
+      "path": "docs/archive/ash-layers/blackbook/the.md",
+      "title": "the.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md"
+      ]
+    },
+    "there-are-no-rules": {
+      "path": "docs/archive/ash-layers/blackbook/there-are-no-rules.md",
+      "title": "there-are-no-rules.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/fragments/The Rule OF The Swamp..md"
+      ]
+    },
+    "THIM": {
+      "path": "docs/archive/ash-layers/blackbook/THIM.md",
+      "title": "THIM.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md"
+      ]
+    },
+    "To%20Make%20Sense%20OF%20It": {
+      "path": "docs/archive/ash-layers/blackbook/To%20Make%20Sense%20OF%20It.md",
+      "title": "To%20Make%20Sense%20OF%20It.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "Tongue": {
+      "path": "docs/archive/ash-layers/blackbook/Tongue.md",
+      "title": "Tongue.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/philosophy/philosophy-spell-book.md"
+      ]
+    },
+    "VE": {
+      "path": "docs/archive/ash-layers/blackbook/VE.md",
+      "title": "VE.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/philosophy/cosmology-void.md"
+      ]
+    },
+    "void-tongue": {
+      "path": "docs/archive/ash-layers/blackbook/void-tongue.md",
+      "title": "void-tongue.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/&.md",
+        "docs/archive/ash-layers/indices/OrphanIndex.md",
+        "docs/archive/ash-layers/numbered/orphan-14.md",
+        "docs/archive/ash-layers/numbered/orphan-21.md",
+        "docs/archive/ash-layers/numbered/orphan-28.md",
+        "docs/archive/ash-layers/numbered/orphan-35.md",
+        "docs/archive/ash-layers/numbered/orphan-42.md",
+        "docs/archive/ash-layers/numbered/orphan-49.md",
+        "docs/archive/ash-layers/numbered/orphan-56.md",
+        "docs/archive/ash-layers/numbered/orphan-63.md",
+        "docs/archive/ash-layers/numbered/orphan-7.md",
+        "docs/archive/ash-layers/numbered/orphan-70.md",
+        "docs/archive/ash-layers/numbered/orphan-77.md",
+        "docs/archive/ash-layers/numbered/orphan-84.md",
+        "docs/archive/ash-layers/numbered/orphan-91.md",
+        "docs/archive/ash-layers/numbered/orphan-98.md"
+      ]
+    },
+    "void.css": {
+      "path": "docs/archive/ash-layers/blackbook/void.css.md",
+      "title": "void.css.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/numbered/orphan-87.md"
+      ]
+    },
+    "Void": {
+      "path": "docs/archive/ash-layers/blackbook/Void.md",
+      "title": "Void.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/philosophy/philosophy-spell-book.md"
+      ]
+    },
+    "we-": {
+      "path": "docs/archive/ash-layers/blackbook/we-.md",
+      "title": "we-.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/THE New Note..md",
+        "docs/archive/ash-layers/cryptic/{&&&}.md"
+      ]
+    },
+    "Will": {
+      "path": "docs/archive/ash-layers/blackbook/Will.md",
+      "title": "Will.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/cryptic/{&&&}.md"
+      ]
+    },
+    "[[[": {
+      "path": "docs/archive/ash-layers/blackbook/[[[.md",
+      "title": "[[[.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md"
+      ]
+    },
+    "[_": {
+      "path": "docs/archive/ash-layers/blackbook/[_.md",
+      "title": "[_.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/philosophy/cosmology-void.md"
+      ]
+    },
+    "_": {
+      "path": "docs/archive/ash-layers/blackbook/_.md",
+      "title": "_.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archive/ash-layers/indices/orphan-index.md",
+        "docs/archive/ash-layers/numbered/orphan-16.md",
+        "docs/archive/ash-layers/numbered/orphan-38.md",
+        "docs/archive/ash-layers/numbered/orphan-87.md",
+        "docs/archive/ash-layers/numbered/orphanindex.md"
+      ]
+    },
+    "}}": {
+      "path": "docs/archive/ash-layers/blackbook/}}.md",
+      "title": "}}.md",
+      "folder": "archive/ash-layers/blackbook",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/index/KHAOS-NOTES-INDEX.md"
       ]
     },
     "&": {
@@ -1260,6 +2249,7 @@
     "Osiris, Arch Angel Of Omen": "Osiris-Arch-Angel-Of-Omen",
     "Taylor, Devil of Desire": "Taylor-Devil-of-Desire",
     "The Blind": "The-Blind",
+    "Hellfire Park": "Hellfire-Park",
     "AM I NOT": "AM-I-NOT",
     "THE New Note.": "THE-New-Note.",
     "[_) ) ) )": "[_)-)-)-)",

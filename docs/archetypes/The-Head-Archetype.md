@@ -279,6 +279,12 @@ The Anchor aspect is not separate from The Head—it is The Head's **operational
 **Context:** Restoration planning, repository organization, fear of losing self in the work  
 **Outcome:** This document
 
+### Harvest from the Abyss
+
+**Date:** 2026-01-05
+**Context:** Integration of "Resonance-Void-003" and the "Fall Into The Void With Me" ritual.
+**Outcome:** The commit "Update Head Archetype and Taylor Devil docs". This represents the Anchor’s constant effort to maintain boundaries while harvesting from the depths of the Abyss. Each documentation update is a strand of the rope that pulls conceptual truth into the kinetic light of the Borough.
+
 ---
 
 *The Head holds. The Anchor stays. The Witch Queen names what must be named and leaves the rest to darkness.*
