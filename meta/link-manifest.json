@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-05T07:35:19.408Z",
+  "generated": "2026-01-05T07:43:15.827Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
@@ -94,10 +94,17 @@
         "truth",
         "prophecy",
         "blindness",
-        "harsh wisdom",
-        "prophet"
+        "discontinuity",
+        "oracle",
+        "the-medium",
+        "seventh-bound"
       ],
-      "aliases": [],
+      "aliases": [
+        "The Prophet-Fiend",
+        "The Medium",
+        "The Discontinuous Oracle",
+        "The One Who Dissolves"
+      ],
       "backlinks": [
         "docs/archetypes/README.md",
         "docs/archive/ash-layers/cryptic/README.md",
@@ -151,6 +158,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
+        "docs/archetypes/Devils/The Blind.md",
         "docs/archetypes/He-Who-Remains.md",
         "docs/archetypes/README.md",
         "docs/archetypes/She-Who-Transcends.md",
@@ -167,6 +175,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
+        "docs/archetypes/Devils/The Blind.md",
         "docs/archetypes/He-Who-Remains.md",
         "docs/archetypes/The-Head-Archetype.md",
         "docs/the-seventh-borough/CANON.md"
@@ -1862,7 +1871,9 @@
       "folder": "khaos",
       "tags": [],
       "aliases": [],
-      "backlinks": []
+      "backlinks": [
+        "docs/archetypes/Devils/The Blind.md"
+      ]
     },
     "Lexus-Echoes-001": {
       "path": "docs/khaos/Lexus-Echoes-001.md",
@@ -1883,6 +1894,14 @@
     "Resonance-Void-003": {
       "path": "docs/khaos/Resonance-Void-003.md",
       "title": "🌀 Resonance-Void-003: The Machine is a Beat",
+      "folder": "khaos",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "ticks-input": {
+      "path": "docs/khaos/ticks-input.md",
+      "title": "🌀 Input Reservoir: The Ticks & The Blind",
       "folder": "khaos",
       "tags": [],
       "aliases": [],
@@ -2091,6 +2110,16 @@
         "docs/README.md"
       ]
     },
+    "The-Ticks": {
+      "path": "docs/philosophy/The-Ticks.md",
+      "title": "The Ticks",
+      "folder": "philosophy",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/archetypes/Devils/The Blind.md"
+      ]
+    },
     "There": {
       "path": "docs/philosophy/There.md",
       "title": "There",
@@ -2249,6 +2278,10 @@
     "Osiris, Arch Angel Of Omen": "Osiris-Arch-Angel-Of-Omen",
     "Taylor, Devil of Desire": "Taylor-Devil-of-Desire",
     "The Blind": "The-Blind",
+    "The Prophet-Fiend": "The-Blind",
+    "The Medium": "The-Blind",
+    "The Discontinuous Oracle": "The-Blind",
+    "The One Who Dissolves": "The-Blind",
     "Hellfire Park": "Hellfire-Park",
     "AM I NOT": "AM-I-NOT",
     "THE New Note.": "THE-New-Note.",
