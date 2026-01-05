@@ -1,0 +1,647 @@
+/* Leonne's Angel Machine - Obsidian-inspired Stylesheet */
+
+:root {
+    /* Dark theme colors from Obsidian */
+    --bg-primary: #1e1e1e;
+    --bg-secondary: #252525;
+    --bg-sidebar: #202020;
+    --text-primary: #dcddde;
+    --text-secondary: #b9bbbe;
+    --text-muted: #72767d;
+    --accent-purple: #a277ff;
+    --accent-cyan: #61afef;
+    --accent-pink: #ff6bcb;
+    --accent-green: #98c379;
+    --accent-yellow: #e5c07b;
+    --border-color: #3a3a3a;
+    --hover-bg: #2a2a2a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    width: 280px;
+    background: var(--bg-sidebar);
+    border-right: 1px solid var(--border-color);
+    padding: 20px;
+    overflow-y: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+}
+
+.sidebar-header {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.sidebar-header h1 {
+    font-size: 18px;
+    color: var(--accent-purple);
+    margin-bottom: 5px;
+}
+
+.sidebar-header p {
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+/* Constellation View Button */
+.constellation-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 10px 15px;
+    background: linear-gradient(135deg, var(--accent-purple), var(--accent-cyan));
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.constellation-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(162, 119, 255, 0.4);
+}
+
+/* Folder Navigation */
+.folder-nav {
+    list-style: none;
+}
+
+.folder-item {
+    margin-bottom: 5px;
+}
+
+.folder-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 8px 12px;
+    background: transparent;
+    color: var(--text-secondary);
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.2s;
+    z-index: 1;
+    position: relative;
+}
+
+.folder-toggle:hover {
+    background: var(--hover-bg);
+    color: var(--text-primary);
+}
+
+.folder-icon {
+    font-size: 12px;
+    transition: transform 0.2s;
+}
+
+.folder-item.open .folder-icon {
+    transform: rotate(90deg);
+}
+
+.folder-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding-left: 20px;
+}
+
+.folder-item.open .folder-content {
+    max-height: 1000px;
+}
+
+.file-link {
+    display: block;
+    padding: 6px 12px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 4px;
+    transition: all 0.2s;
+    z-index: 2;
+    position: relative;
+    pointer-events: auto;
+}
+
+.file-link:hover {
+    background: var(--hover-bg);
+    color: var(--accent-cyan);
+    padding-left: 16px;
+}
+
+.file-link.active {
+    background: var(--hover-bg);
+    color: var(--accent-purple);
+    font-weight: 500;
+}
+
+/* Main Content Area */
+.main-content {
+    margin-left: 280px;
+    flex: 1;
+    padding: 40px 60px;
+    max-width: 1200px;
+}
+
+.content-header {
+    margin-bottom: 30px;
+}
+
+.content-header h1 {
+    font-size: 32px;
+    color: var(--text-primary);
+    margin-bottom: 10px;
+}
+
+.content-header .tagline {
+    color: var(--text-muted);
+    font-size: 16px;
+}
+
+/* Quick Links */
+.quick-links {
+    display: flex;
+    gap: 15px;
+    padding: 20px 0;
+    margin: 20px 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.quick-link {
+    padding: 10px 20px;
+    background: var(--bg-secondary);
+    color: var(--accent-cyan);
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s;
+    border: 1px solid var(--border-color);
+}
+
+.quick-link:hover {
+    background: var(--hover-bg);
+    border-color: var(--accent-cyan);
+    transform: translateY(-2px);
+}
+
+/* Content Sections */
+.content-section {
+    margin-bottom: 40px;
+}
+
+.content-section h2 {
+    font-size: 24px;
+    color: var(--text-primary);
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--accent-purple);
+}
+
+.content-section h3 {
+    font-size: 18px;
+    color: var(--accent-cyan);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content-section p {
+    color: var(--text-secondary);
+    margin-bottom: 15px;
+}
+
+.content-section ul,
+.content-section ol {
+    color: var(--text-secondary);
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.content-section li {
+    margin-bottom: 8px;
+}
+
+.content-section a {
+    color: var(--accent-cyan);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.content-section a:hover {
+    border-bottom-color: var(--accent-cyan);
+}
+
+/* Code blocks */
+code {
+    background: var(--bg-secondary);
+    color: var(--accent-pink);
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-family: 'Courier New', monospace;
+}
+
+pre {
+    background: var(--bg-secondary);
+    padding: 15px;
+    border-radius: 6px;
+    overflow-x: auto;
+    border: 1px solid var(--border-color);
+}
+
+pre code {
+    background: none;
+    padding: 0;
+}
+
+/* Badges */
+.badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+    border-radius: 12px;
+    font-size: 12px;
+    margin-right: 8px;
+    border: 1px solid var(--border-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+        transition: transform 0.3s;
+    }
+
+    .sidebar.open {
+        transform: translateX(0);
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 20px;
+    }
+}
+
+/* Backlinks Section */
+.backlinks {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.backlinks h3 {
+    font-size: 14px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.backlinks-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.backlink-item {
+    padding: 8px 16px;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 13px;
+    color: var(--accent-cyan);
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.backlink-item:hover {
+    background: var(--hover-bg);
+    border-color: var(--accent-cyan);
+    transform: translateY(-2px);
+}
+
+/* ===== Navigation Schema Styling ===== */
+
+.nav-section {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.nav-section.pinned-section {
+    border-bottom: 2px solid var(--accent-purple);
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    font-weight: 500;
+    color: var(--accent-cyan);
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
+
+.section-header.collapsible {
+    cursor: pointer;
+    user-select: none;
+    transition: opacity var(--duration) var(--ease);
+}
+
+.section-header.collapsible:hover {
+    opacity: 0.8;
+}
+
+.collapse-icon {
+    display: inline-block;
+    width: 16px;
+    transition: transform var(--duration) var(--ease);
+    transform: rotate(0deg);
+}
+
+.section-content {
+    max-height: 1000px;
+    overflow: hidden;
+    transition: max-height var(--duration) var(--ease), opacity var(--duration) var(--ease);
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.section-content.collapsed {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.file-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all var(--duration) var(--ease);
+    cursor: pointer;
+}
+
+.file-link:hover {
+    background: var(--hover-bg);
+    color: var(--text-primary);
+    padding-left: 1rem;
+}
+
+.file-link.active {
+    background: var(--hover-bg);
+    color: var(--accent-cyan);
+    border-left: 2px solid var(--accent-purple);
+    font-weight: 500;
+}
+
+.file-link.featured-link {
+    font-weight: 600;
+    color: var(--accent-purple);
+}
+
+.file-link.featured-link:hover {
+    background: rgba(168, 85, 247, 0.1);
+    color: var(--accent-purple);
+}
+
+.file-link.external-link {
+    color: var(--accent-cyan);
+}
+
+.file-link.external-link::after {
+    content: '↗';
+    margin-left: 0.25rem;
+    font-size: 0.8em;
+}
+
+.item-icon {
+    display: inline-block;
+    width: 1.2em;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.item-title {
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-title.featured {
+    font-weight: 600;
+}
+
+.nav-section.nav-section-start-here .file-link {
+    font-weight: 500;
+    color: var(--accent-cyan);
+}
+
+@media (max-width: 768px) {
+    .section-header {
+        font-size: 0.85rem;
+    }
+
+    .file-link {
+        padding: 0.4rem 0.5rem;
+        font-size: 0.85rem;
+    }
+
+    .file-link:hover {
+        padding-left: 0.75rem;
+    }
+}
+
+/* ============================================
+   NESTED SUBSECTION NAVIGATION STYLES
+   Added for Angels/Devils dropdown support
+   ============================================ */
+
+/* Container for nested subsections (Angels, Devils, etc.) */
+.nav-subsection {
+    margin-left: 0.5rem;
+    border-left: 2px solid var(--border-color);
+    padding-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Subsection header styling (the "Angels" or "Devils" label) */
+.subsection-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: var(--text-muted);
+    border-radius: 4px;
+    transition: background 0.2s ease;
+}
+
+/* Hover effect for subsection headers */
+.subsection-header:hover {
+    background: var(--hover-bg);
+    color: var(--text-primary);
+}
+
+/* Subsection label text */
+.subsection-label {
+    flex: 1;
+}
+
+/* Container for items inside a subsection */
+.subsection-content {
+    padding-left: 0.5rem;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+/* Open state - subsection is expanded */
+.subsection-content.open {
+    max-height: 2000px;
+    /* Large enough for any number of items */
+    opacity: 1;
+}
+
+/* Collapsed state - subsection is hidden */
+.subsection-content.collapsed {
+    max-height: 0;
+    opacity: 0;
+}
+
+/* Arrow icon rotation for collapse/expand */
+.subsection-header .collapse-icon {
+    transition: transform 0.3s ease;
+    font-size: 0.8em;
+    color: var(--accent-purple);
+}
+
+/* Rotate arrow when collapsed */
+.subsection-content.collapsed+.subsection-header .collapse-icon,
+.subsection-header.collapsed .collapse-icon {
+    transform: rotate(-90deg);
+}
+
+/* Ensure items inside subsections have proper spacing */
+.subsection-content .file-link {
+    margin-left: 0.25rem;
+}
+
+/* Add subtle visual separation for subsection items */
+.nav-subsection .file-link {
+    border-left: 1px solid transparent;
+    padding-left: 0.5rem;
+    transition: border-color 0.2s ease;
+}
+
+/* Highlight subsection item on hover */
+.nav-subsection .file-link:hover {
+    border-left-color: var(--accent-cyan);
+}
+
+/* Active state for items inside subsections */
+.nav-subsection .file-link.active {
+    border-left-color: var(--accent-purple);
+    background: var(--hover-bg);
+}
+/* ============================================
+   METADATA CARD STYLING
+   Standardized formatting for file frontmatter
+   ============================================ */
+
+.metadata-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    font-size: 0.9rem;
+}
+
+.meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.meta-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+.meta-value {
+    color: var(--text-primary);
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.meta-summary {
+    grid-column: 1 / -1;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.6;
+}
+
+/* Ensure parsed markdown content doesn't have a giant gap at the top */
+.content-section > *:first-child {
+    margin-top: 0;
+}
+

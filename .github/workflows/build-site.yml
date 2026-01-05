@@ -34,10 +34,12 @@ jobs:
         run: |
           mkdir -p web/public/config
           cp -r web/src/* web/public/
-          cp config/link-manifest.json web/public/config/
           cp -r docs web/public/
           cp README.md web/public/
-          # Source files already have correct paths, no sed needed!
+          
+          # Phase Two: The Veil - Pull assets from /meta
+          cp meta/link-manifest.json web/public/config/
+          cp meta/navigation-schema.json web/public/config/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

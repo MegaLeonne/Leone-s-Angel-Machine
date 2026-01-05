@@ -97,9 +97,9 @@ aliases: ["Alias 1", "Alias 2"]
 
 ## 📖 Related Documentation
 
-- **[Restoration Plan](../RESTORATION_PLAN.md)** - Recovering merged files
+- **[Restoration Plan](../docs/RESTORATION_PLAN.md)** - Recovering merged files
 - **[Contributing Guide](../docs/guides/guide-contributing.md)** - How to add content
-- **[Web App README](../web/README.md)** - Website structure
+- **[Web App README](./README.md)** - Website structure
 
 ---
 

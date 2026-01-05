@@ -46,4 +46,4 @@ def apply_fixes(root_dir, report_file):
             print(f"Error fixing {rel_path}: {e}")
 
 if __name__ == "__main__":
-    apply_fixes(".", "broken-links-report.json")
+    apply_fixes(".", "meta/logs/broken-links-report.json")

@@ -115,8 +115,8 @@ def analyze_links(root_dir, manifest_file):
     return report
 
 if __name__ == "__main__":
-    report = analyze_links(".", "config/link-manifest.json")
-    with open("broken-links-report.json", 'w', encoding='utf-8') as f:
+    report = analyze_links(".", "meta/link-manifest.json")
+    with open("meta/logs/broken-links-report.json", 'w', encoding='utf-8') as f:
         json.dump(report, f, indent=2)
     
     print("Report generated: broken-links-report.json")

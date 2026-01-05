@@ -30,9 +30,30 @@
             ]
         },
         {
+            "id": "khaos-reservoir",
+            "label": "🌀 The Reservoir",
+            "type": "section",
+            "collapsible": true,
+            "defaultOpen": true,
+            "items": [
+                {
+                    "title": "KHAOS NOTES",
+                    "id": "KHAOS_NOTES",
+                    "icon": "📝",
+                    "featured": true
+                },
+                {
+                    "title": "Resonance-Void-001",
+                    "id": "Resonance-Void-001",
+                    "icon": "📡"
+                }
+            ]
+        },
+        {
             "id": "laws-of-khaos",
             "label": "⚖️ Laws of Khaos",
             "type": "section",
+            "description": "Governing principles and primal forces",
             "collapsible": true,
             "defaultOpen": false,
             "items": [
@@ -214,6 +235,11 @@
                     "title": "The Seventh Call",
                     "id": "ritual-seventh-call",
                     "icon": "📞"
+                },
+                {
+                    "title": "ASH REMNANTS",
+                    "id": "REMNANTS",
+                    "icon": "🕯️"
                 }
             ]
         },

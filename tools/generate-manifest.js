@@ -4,7 +4,7 @@ const path = require('path');
 
 const DOCS_DIR = path.join(__dirname, '../docs');
 const OUTPUT_FILE = path.join(__dirname, '../web/src/config/link-manifest.json');
-const OUTPUT_FILE_ROOT = path.join(__dirname, '../config/link-manifest.json');
+const OUTPUT_FILE_ROOT = path.join(__dirname, '../meta/link-manifest.json');
 
 /**
  * Parse YAML values with proper type handling
@@ -159,8 +159,8 @@ function scanDirectory(dir, baseDir = DOCS_DIR) {
             }
 
             if (item.isDirectory()) {
-                // Skip hidden, node_modules, and archive directories
-                if (item.name.startsWith('.') || item.name === 'node_modules' || item.name === 'archive') {
+                // Skip hidden and node_modules directories
+                if (item.name.startsWith('.') || item.name === 'node_modules') {
                     continue;
                 }
                 scan(fullPath);
@@ -178,6 +178,12 @@ function scanDirectory(dir, baseDir = DOCS_DIR) {
 
                     // Create file ID from filename (without extension)
                     let fileId = item.name.replace(/\.md$/, '');
+
+                    // Specific fix: if it's a README in a subfolder, prepend folder name to avoid collision with root README
+                    if (fileId.toLowerCase() === 'readme' && folder !== 'docs' && folder !== 'Root') {
+                        fileId = `${folder.replace(/\//g, '-')}-README`;
+                    }
+
                     const cleanId = fileId.replace(/[, ]+/g, '-');
 
                     // *** CRITICAL FIX: Ensure tags are ALWAYS arrays ***

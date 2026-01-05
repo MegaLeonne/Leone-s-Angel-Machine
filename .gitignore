@@ -1,7 +1,7 @@
 # OS generated files
 .DS_Store
 Thumbs.db
-archive/
+/archive/
 
 # Editor directories and files
 .vscode/

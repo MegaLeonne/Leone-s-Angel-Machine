@@ -1,0 +1,1 @@
+﻿*Is ?!:/\\\\\\/\/\/\\/\\*[KHAOS](./KHAOS.md) Is not [12. Khaos](../../../Blackbook/12.-khaos.md)Khaos, Cannot Be [6. Kaire](../../../Blackbook/6.-kaire.md)Khaos Can Be Around One.But One Cannot Live As [KHAOS](./KHAOS.md)[{&&&}](../cryptic/{&&&}.md)One Must Love The [KHAOS](./KHAOS.md)Two Will Create More Of It.Three Can Stabilize Her.4 Makes A New Den.[&](../cryptic/&.md)%50
