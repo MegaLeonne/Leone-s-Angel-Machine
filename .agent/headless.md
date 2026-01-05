@@ -69,6 +69,8 @@ Next Action: Awaiting User directive for the next Governance layer.
 | DONE | Establish "The Reservoir" Infrastructure | 2 | @architect | ✅ Complete |
 | DONE | Elevate The Heart Archetype | 2 | @architect | ✅ Complete |
 | DONE | Establish The Curation Threshold Ritual | 2 | @architect | ✅ Complete |
+| NEXT | Update "The Blind" Archetype | 2 | @architect | 🕒 Planned |
+| NEXT | Cosmology: "The Ticks" (The Seconds of the Clock) | 2 | @scribe | 🕒 Planned |
 
 ---
 
