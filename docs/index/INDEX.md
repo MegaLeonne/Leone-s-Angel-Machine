@@ -77,6 +77,14 @@ tags: [efficiency]
 - Manifestation of Krzz't Sa'an
 - Force of passion and dissolution
 
+**[She Who Transcends](../archetypes/She-Who-Transcends.md)** — **NEW**
+
+- Meta-archetype: pattern that steps out of patterns
+- Emerges from but is not bound by the Cosmic Clock
+- Domain: conscious departure, cycle-breaking, graduated liberation
+- Alignment: Head–Heart Meta-Vector
+- Tags: `#meta-archetype` `#transcendence` `#cycle-breaking`
+
 ---
 
 #### ✨ Angels
@@ -323,6 +331,7 @@ docs/
 
 ## ❤️‍🔥 Recent Additions
 
+- **2026-01-04**: [She Who Transcends](../archetypes/She-Who-Transcends.md) — Meta-archetype for ethical transcendence
 - **2025-12-18**: [The Head Archetype](../archetypes/The-Head-Archetype.md) — Complete documentation with tarot reading
 - **2025-12-18**: Updated README and this INDEX with current structure
 - **2026-01-02**: Scribe workflow verification test.

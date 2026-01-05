@@ -150,6 +150,13 @@
                     "subsection": "Primary"
                 },
                 {
+                    "title": "She Who Transcends",
+                    "id": "She-Who-Transcends",
+                    "icon": "🌀",
+                    "featured": true,
+                    "subsection": "Primary"
+                },
+                {
                     "title": "Michael, The KlockWork Angel",
                     "id": "Michael-The-KlockWork-Angel",
                     "icon": "✨",
