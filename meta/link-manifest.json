@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-05T07:43:15.827Z",
+  "generated": "2026-01-06T05:18:23.804Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
@@ -2194,6 +2194,14 @@
         "docs/index/KHAOS-NOTES-INDEX.md",
         "docs/rituals/Deck of Fate.md"
       ]
+    },
+    "perplexity-prompt-v2": {
+      "path": "docs/rituals/perplexity-prompt-v2.md",
+      "title": "perplexity prompt v2",
+      "folder": "rituals",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
     },
     "ritual-seventh-call": {
       "path": "docs/rituals/ritual-seventh-call.md",

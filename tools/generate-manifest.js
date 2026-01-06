@@ -169,6 +169,12 @@ function scanDirectory(dir, baseDir = DOCS_DIR) {
                     const content = fs.readFileSync(fullPath, 'utf-8');
                     const frontmatter = extractFrontmatter(content);
 
+                    // Skip private files
+                    if (frontmatter.private === true) {
+                        console.log(`🔒 Skipping private file: ${item.name}`);
+                        continue;
+                    }
+
                     // *** CRITICAL FIX: Normalize paths to Unix format ***
                     const rawRelativePath = path.relative(path.join(__dirname, '..'), fullPath);
                     const relativePath = normalizePathToUnix(rawRelativePath);
@@ -260,6 +266,65 @@ function scanDirectory(dir, baseDir = DOCS_DIR) {
     return { files, aliases };
 }
 
+/**
+ * Generate static Markdown indices based on navigation schema
+ */
+function generateMarkdownIndices(navSchema, files) {
+    if (!navSchema || !navSchema.sections) return;
+
+    console.log('\n📝 Generating Static Markdown Indices...');
+
+    // 1. Generate Master INDEX.md
+    let masterContent = `# Angel Machine - Master Index\n\n> [!NOTE]\n> This is a static manifest for automated tool discovery. [Return to Home](https://megaleonne.github.io/Leone-s-Angel-Machine/)\n\n`;
+
+    navSchema.sections.forEach(section => {
+        masterContent += `## ${section.label}\n`;
+        if (section.description) masterContent += `_${section.description}_\n\n`;
+
+        section.items.forEach(item => {
+            if (item.external) {
+                masterContent += `- [${item.title}](${item.external}) [External]\n`;
+            } else if (item.id && files[item.id]) {
+                const file = files[item.id];
+                masterContent += `- [${item.title}](file:///${file.path}) (ID: \`#${item.id}\`)\n`;
+            }
+        });
+        masterContent += `\n`;
+
+        // 2. Generate Section Indices (Archetypes, Philosophy)
+        if (section.id === 'archetypes' || section.id === 'philosophy') {
+            let sectionContent = `# ${section.label} Index\n\n`;
+            if (section.description) sectionContent += `>${section.description}\n\n`;
+
+            section.items.forEach(item => {
+                if (item.id && files[item.id]) {
+                    const file = files[item.id];
+                    sectionContent += `### [${item.title}](file:///${file.path})\n`;
+                    sectionContent += `- **ID**: \`#${item.id}\`\n`;
+                    if (file.tags && file.tags.length) sectionContent += `- **Tags**: ${file.tags.join(', ')}\n`;
+                    sectionContent += `\n`;
+                }
+            });
+
+            const sectionPath = path.join(DOCS_DIR, section.id, 'INDEX.md');
+            try {
+                fs.writeFileSync(sectionPath, sectionContent);
+                console.log(`✓ Generated: docs/${section.id}/INDEX.md`);
+            } catch (e) {
+                console.warn(`⚠️ Failed to write section index: ${sectionPath}`);
+            }
+        }
+    });
+
+    const masterPath = path.join(DOCS_DIR, 'INDEX.md');
+    try {
+        fs.writeFileSync(masterPath, masterContent);
+        console.log(`✓ Generated: docs/INDEX.md`);
+    } catch (e) {
+        console.warn(`⚠️ Failed to write master index: ${masterPath}`);
+    }
+}
+
 function main() {
     console.log('🔮 Generating manifest for Angel Machine...');
     console.log(`📂 Target Directory: ${DOCS_DIR}\n`);
@@ -275,6 +340,17 @@ function main() {
         files,
         link_aliases: aliases
     };
+
+    // Generate static indices
+    const schemaPath = path.join(__dirname, '../meta/navigation-schema.json');
+    if (fs.existsSync(schemaPath)) {
+        try {
+            const navSchema = JSON.parse(fs.readFileSync(schemaPath, 'utf-8'));
+            generateMarkdownIndices(navSchema, files);
+        } catch (e) {
+            console.error('✗ Failed to parse navigation schema for index generation:', e.message);
+        }
+    }
 
     // Ensure output directory exists
     const outputDir = path.dirname(OUTPUT_FILE);

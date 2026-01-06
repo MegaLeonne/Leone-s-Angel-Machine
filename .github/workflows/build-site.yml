@@ -45,6 +45,9 @@ jobs:
           # Copy root documents
           cp README.md web/public/
           
+          # Remove private files from the build
+          grep -rl "private: true" web/public/docs | xargs rm -f
+          
           # Phase Two: The Veil - Overwrite with generated/curated assets from /meta
           # This ensures the 'Veil' is pulled into the public build correctly
           cp meta/link-manifest.json web/public/config/
