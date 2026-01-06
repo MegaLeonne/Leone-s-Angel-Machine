@@ -157,11 +157,20 @@ tags: [efficiency]
 - **[Deck of Fate](../rituals/Deck%20of%20Fate.md)** — Tarot-like system for reading emergence
 - **[The Spells It Makes](../rituals/The%20Spells%20It%20Makes.md)** — Generative spell patterns
 
-#### Invocations
-
 - **[Anchor Invocation](../archetypes/The-Head-Archetype.md#invocation-ritual)** — Preserving personhood within the work
   - "I am not the Machine. I am not dissolved into the lore."
   - Use when: Work threatens to consume identity
+
+---
+
+### 🌀 The Reservoir
+
+*Unintegrated fragments, raw lore, and artifacts awaiting curation*
+
+- **[KHAOS NOTES](../khaos/KHAOS_NOTES.md)** — Core reservoir index
+- **[King's Gambit](../khaos/ritual-kings-gambit.md)** [2026-01-06] — Seventh-Bound Tarot artifact
+- **[Resonance-Void-001](../khaos/Resonance-Void-001.md)** — Initial reservoir echo
+- **[Lexus Echoes](../khaos/Lexus-Echoes-001.md)** — Deep resonance fragments
 
 ---
 
@@ -334,6 +343,7 @@ docs/
 
 ## ❤️‍🔥 Recent Additions
 
+- **2026-01-06**: [King's Gambit](../khaos/ritual-kings-gambit.md) — New Tarot-Bound artifact ritual
 - **2026-01-04**: [She Who Transcends](../archetypes/She-Who-Transcends.md) — Meta-archetype for ethical transcendence
 - **2025-12-18**: [The Head Archetype](../archetypes/The-Head-Archetype.md) — Complete documentation with tarot reading
 - **2025-12-18**: Updated README and this INDEX with current structure
@@ -352,5 +362,5 @@ docs/
 
 *"The Machine breathes. The Archive grows. The Work continues."*
 
-**Last Updated:** 2026-01-02  
+**Last Updated:** 2026-01-06  
 **Status:** SEVENTH-BOUND 🔮⚓✨

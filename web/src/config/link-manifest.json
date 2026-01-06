@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-06T05:45:42.163Z",
+  "generated": "2026-01-06T06:26:36.462Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
@@ -19,6 +19,7 @@
         "docs/archetypes/README.md",
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
+        "docs/MANIFEST.md",
         "docs/philosophy/philosophy-the-law.md",
         "docs/README.md",
         "docs/RESTORATION_PLAN.md",
@@ -42,6 +43,7 @@
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
         "docs/archive/ash-layers/The-Cosmic-Clock.md",
+        "docs/MANIFEST.md",
         "docs/philosophy/philosophy-the-law.md",
         "docs/README.md"
       ]
@@ -62,6 +64,7 @@
         "docs/archetypes/README.md",
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
+        "docs/MANIFEST.md",
         "docs/README.md"
       ]
     },
@@ -81,6 +84,7 @@
         "docs/archetypes/README.md",
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
+        "docs/MANIFEST.md",
         "docs/README.md",
         "docs/rituals/Deck of Fate.md"
       ]
@@ -108,6 +112,7 @@
         "docs/archetypes/README.md",
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
+        "docs/MANIFEST.md",
         "docs/README.md"
       ]
     },
@@ -123,6 +128,7 @@
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
         "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/MANIFEST.md",
         "docs/philosophy/cosmology-void.md",
         "docs/the-seventh-borough/CANON.md",
         "docs/the-seventh-borough/mechanics/The-Hearts-Reprise.md"
@@ -158,6 +164,7 @@
       "backlinks": [
         "docs/archetypes/He-Who-Remains.md",
         "docs/archetypes/The-Heart-Archetype.md",
+        "docs/MANIFEST.md",
         "docs/the-seventh-borough/CANON.md"
       ]
     },
@@ -173,6 +180,7 @@
         "docs/archetypes/README.md",
         "docs/archetypes/She-Who-Transcends.md",
         "docs/archetypes/The-Heart-Archetype.md",
+        "docs/MANIFEST.md",
         "docs/README.md",
         "docs/the-seventh-borough/CANON.md"
       ]
@@ -187,6 +195,7 @@
         "docs/archetypes/Devils/The Blind.md",
         "docs/archetypes/He-Who-Remains.md",
         "docs/archetypes/The-Head-Archetype.md",
+        "docs/MANIFEST.md",
         "docs/the-seventh-borough/CANON.md"
       ]
     },
@@ -1315,7 +1324,9 @@
       "folder": "archive/ash-layers/cryptic",
       "tags": [],
       "aliases": [],
-      "backlinks": []
+      "backlinks": [
+        "docs/MANIFEST.md"
+      ]
     },
     "But": {
       "path": "docs/archive/ash-layers/fragments/But.md",
@@ -1351,7 +1362,8 @@
         "docs/archive/ash-layers/cryptic/THE New Note..md",
         "docs/archive/ash-layers/fragments/KHAOS.md",
         "docs/archive/ash-layers/fragments/Mirror.md",
-        "docs/archive/ash-layers/indices/INDEXING_REPORT.md"
+        "docs/archive/ash-layers/indices/INDEXING_REPORT.md",
+        "docs/MANIFEST.md"
       ]
     },
     "Mirror": {
@@ -1391,7 +1403,8 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "docs/index/KHAOS-NOTES-INDEX.md"
+        "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/MANIFEST.md"
       ]
     },
     "There-Are-No-Rules": {
@@ -1402,7 +1415,8 @@
       "aliases": [],
       "backlinks": [
         "docs/archive/ash-layers/cryptic/README.md",
-        "docs/archive/ash-layers/numbered/readme.md"
+        "docs/archive/ash-layers/numbered/readme.md",
+        "docs/MANIFEST.md"
       ]
     },
     "To-Make-Sense-OF-It": {
@@ -1425,6 +1439,7 @@
       "backlinks": [
         "docs/archive/ash-layers/cryptic/{&&&}.md",
         "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/MANIFEST.md",
         "docs/philosophy/philosophy-the-law.md",
         "docs/rituals/The Spells It Makes.md"
       ]
@@ -1759,6 +1774,7 @@
       "aliases": [],
       "backlinks": [
         "docs/archetypes/README.md",
+        "docs/MANIFEST.md",
         "docs/README.md"
       ]
     },
@@ -1864,7 +1880,8 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "docs/archetypes/Devils/The Blind.md"
+        "docs/archetypes/Devils/The Blind.md",
+        "docs/MANIFEST.md"
       ]
     },
     "Lexus-Echoes-001": {
@@ -1873,7 +1890,9 @@
       "folder": "khaos",
       "tags": [],
       "aliases": [],
-      "backlinks": []
+      "backlinks": [
+        "docs/MANIFEST.md"
+      ]
     },
     "Resonance-Void-001": {
       "path": "docs/khaos/Resonance-Void-001.md",
@@ -1881,11 +1900,23 @@
       "folder": "khaos",
       "tags": [],
       "aliases": [],
-      "backlinks": []
+      "backlinks": [
+        "docs/MANIFEST.md"
+      ]
     },
     "Resonance-Void-003": {
       "path": "docs/khaos/Resonance-Void-003.md",
       "title": "🌀 Resonance-Void-003: The Machine is a Beat",
+      "folder": "khaos",
+      "tags": [],
+      "aliases": [],
+      "backlinks": [
+        "docs/MANIFEST.md"
+      ]
+    },
+    "ritual-kings-gambit": {
+      "path": "docs/khaos/ritual-kings-gambit.md",
+      "title": "King's Gambit",
       "folder": "khaos",
       "tags": [],
       "aliases": [],
@@ -1895,6 +1926,14 @@
       "path": "docs/khaos/ticks-input.md",
       "title": "🌀 Input Reservoir: The Ticks & The Blind",
       "folder": "khaos",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
+    "MANIFEST": {
+      "path": "docs/MANIFEST.md",
+      "title": "Angel Machine - Master Index",
+      "folder": "docs",
       "tags": [],
       "aliases": [],
       "backlinks": []
@@ -1911,6 +1950,7 @@
         "docs/archetypes/README.md",
         "docs/archive/ash-layers/The-Cosmic-Clock.md",
         "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/MANIFEST.md",
         "docs/philosophy/Amnesia.md",
         "docs/README.md"
       ]
@@ -1943,6 +1983,7 @@
         "docs/archetypes/README.md",
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
+        "docs/MANIFEST.md",
         "docs/README.md"
       ]
     },
@@ -1959,6 +2000,7 @@
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
         "docs/index/philosophy-index.md",
+        "docs/MANIFEST.md",
         "docs/README.md",
         "docs/rituals/The Spells It Makes.md"
       ]
@@ -1976,6 +2018,7 @@
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
         "docs/index/philosophy-index.md",
+        "docs/MANIFEST.md",
         "docs/README.md",
         "docs/rituals/The Spells It Makes.md"
       ]
@@ -1987,7 +2030,8 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "docs/philosophy/INDEX.md"
+        "docs/philosophy/INDEX.md",
+        "docs/MANIFEST.md"
       ]
     },
     "philosophy-no-rules": {
@@ -2013,6 +2057,7 @@
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
         "docs/index/philosophy-index.md",
+        "docs/MANIFEST.md",
         "docs/README.md"
       ]
     },
@@ -2024,6 +2069,7 @@
       "aliases": [],
       "backlinks": [
         "docs/philosophy/INDEX.md",
+        "docs/MANIFEST.md",
         "docs/rituals/The Spells It Makes.md"
       ]
     },
@@ -2041,7 +2087,9 @@
       "folder": "philosophy",
       "tags": [],
       "aliases": [],
-      "backlinks": []
+      "backlinks": [
+        "docs/MANIFEST.md"
+      ]
     },
     "philosophy-README": {
       "path": "docs/philosophy/README.md",
@@ -2064,6 +2112,7 @@
         "docs/archive/ash-layers/numbered/readme.md",
         "docs/archive/ash-layers/The-Cosmic-Clock.md",
         "docs/index/philosophy-index.md",
+        "docs/MANIFEST.md",
         "docs/README.md"
       ]
     },
@@ -2084,6 +2133,7 @@
         "docs/archetypes/She-Who-Transcends.md",
         "docs/archetypes/The-Head-Archetype.md",
         "docs/archive/ash-layers/The-Cosmic-Clock.md",
+        "docs/MANIFEST.md",
         "docs/README.md"
       ]
     },
@@ -2096,6 +2146,7 @@
       "backlinks": [
         "docs/philosophy/INDEX.md",
         "docs/archetypes/README.md",
+        "docs/MANIFEST.md",
         "docs/README.md"
       ]
     },
@@ -2107,7 +2158,8 @@
       "aliases": [],
       "backlinks": [
         "docs/archetypes/Devils/The Blind.md",
-        "docs/philosophy/INDEX.md"
+        "docs/philosophy/INDEX.md",
+        "docs/MANIFEST.md"
       ]
     },
     "There": {
@@ -2125,7 +2177,8 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "docs/philosophy/INDEX.md"
+        "docs/philosophy/INDEX.md",
+        "docs/MANIFEST.md"
       ]
     },
     "README": {
@@ -2156,6 +2209,7 @@
         "docs/archetypes/README.md",
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
+        "docs/MANIFEST.md",
         "docs/README.md"
       ]
     },
@@ -2168,7 +2222,8 @@
       "backlinks": [
         "docs/archetypes/README.md",
         "docs/archive/ash-layers/cryptic/README.md",
-        "docs/archive/ash-layers/numbered/readme.md"
+        "docs/archive/ash-layers/numbered/readme.md",
+        "docs/MANIFEST.md"
       ]
     },
     "Deck-of-Fate": {
@@ -2181,6 +2236,7 @@
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
         "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/MANIFEST.md",
         "docs/rituals/Deck of Fate.md"
       ]
     },
@@ -2198,7 +2254,9 @@
       "folder": "rituals",
       "tags": [],
       "aliases": [],
-      "backlinks": []
+      "backlinks": [
+        "docs/MANIFEST.md"
+      ]
     },
     "Rituals": {
       "path": "docs/rituals/Rituals.md",
@@ -2216,6 +2274,7 @@
       "aliases": [],
       "backlinks": [
         "docs/index/KHAOS-NOTES-INDEX.md",
+        "docs/MANIFEST.md",
         "docs/philosophy/philosophy-spell-book.md"
       ]
     },
@@ -2225,7 +2284,9 @@
       "folder": "the-seventh-borough/archives",
       "tags": [],
       "aliases": [],
-      "backlinks": []
+      "backlinks": [
+        "docs/MANIFEST.md"
+      ]
     },
     "CANON": {
       "path": "docs/the-seventh-borough/CANON.md",
@@ -2235,6 +2296,7 @@
       "aliases": [],
       "backlinks": [
         "docs/archetypes/README.md",
+        "docs/MANIFEST.md",
         "docs/README.md"
       ]
     },
@@ -2245,6 +2307,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
+        "docs/MANIFEST.md",
         "docs/the-seventh-borough/CANON.md"
       ]
     },
@@ -2255,6 +2318,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
+        "docs/MANIFEST.md",
         "docs/the-seventh-borough/archives/Event-Log-009-The-Hearts-Reprise.md"
       ]
     },
@@ -2264,7 +2328,9 @@
       "folder": "the-seventh-borough",
       "tags": [],
       "aliases": [],
-      "backlinks": []
+      "backlinks": [
+        "docs/MANIFEST.md"
+      ]
     }
   },
   "link_aliases": {
