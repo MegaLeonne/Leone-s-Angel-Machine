@@ -57,7 +57,7 @@ class AngelMachine {
     async route() {
         if (!this.manifest) return;
 
-        const hash = window.location.hash.slice(1) || 'INDEX';
+        const hash = window.location.hash.slice(1) || 'README';
         let fileData = this.manifest.files[hash];
 
         if (!fileData && this.manifest.link_aliases && this.manifest.link_aliases[hash]) {

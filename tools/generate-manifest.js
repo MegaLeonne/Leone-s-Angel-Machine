@@ -316,10 +316,10 @@ function generateMarkdownIndices(navSchema, files) {
         }
     });
 
-    const masterPath = path.join(DOCS_DIR, 'INDEX.md');
+    const masterPath = path.join(DOCS_DIR, 'MANIFEST.md');
     try {
         fs.writeFileSync(masterPath, masterContent);
-        console.log(`✓ Generated: docs/INDEX.md`);
+        console.log(`✓ Generated: docs/MANIFEST.md`);
     } catch (e) {
         console.warn(`⚠️ Failed to write master index: ${masterPath}`);
     }

@@ -3,7 +3,14 @@
 ## 🎯 Active Phase: PHASE THREE — THE GOVERNANCE OF THE BOROUGH
 
 **Current Goal**: Establish law and ritual for the curated codex.
-**Last Sync**: 2026-01-04 23:25 CST
+**Last Sync**: 2026-01-05 23:45 CST
+
+## 🧠 SYSTEM MEMORY: PERPLEXITY ADAPTER (V2)
+
+- **Status**: ACTIVE 📡
+- **Entry Point**: `docs/MANIFEST.md`
+- **Logic**: Automated tool discovery via static Markdown manifests. Bypasses hash-routing hangups by providing direct `file:///` and `https://` path mapping for bots.
+- **Artifact**: `docs/rituals/perplexity-prompt-v2.md`
 
 ## 📋 ACTIVE GOVERNANCE TASK
 
