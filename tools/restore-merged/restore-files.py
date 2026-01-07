@@ -1,98 +1,136 @@
 #!/usr/bin/env python3
+"""
+Atomic-safe restore script.
+- Default: dry-run (no writes)
+- --apply: perform live restores
+- --mapping: path to BACKUP_MAPPING.json
+- --subset: optional newline-separated file listing current_path values to restore (canary)
+"""
 import json
-from pathlib import Path
+import argparse
 import shutil
+import tempfile
 import os
+from pathlib import Path
 from datetime import datetime
 
-def restore_files(mapping_json="tools/restore-merged/BACKUP_MAPPING.json", dry_run=True):
-    """Restore original content from backups."""
-    if not os.path.exists(mapping_json):
-        print(f"Error: {mapping_json} not found.")
-        return
+ROOT = Path(".")
+OUT_DIR = Path("tools/restore-merged")
+OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    with open(mapping_json) as f:
-        data = json.load(f)
-    
+DEFAULT_MAPPING = OUT_DIR / "BACKUP_MAPPING.json"
+RESTORE_REPORT = OUT_DIR / "RESTORATION_REPORT.json"
+
+# known-corrupt filenames to skip (OS-dependent)
+KNOWN_CORRUPT = {"{&&&}.md", "[_) ) ) ).md", "{{.md", "[[.md", "[.md"}
+
+def read_mapping(path):
+    with open(path, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+def ensure_space_for(size_needed):
+    try:
+        stat = shutil.disk_usage(str(ROOT))
+        return stat.free > size_needed + (50 * 1024 * 1024)  # keep 50MB buffer
+    except Exception:
+        return True
+
+def atomic_write(target: Path, content: str):
+    # write to temp file on same FS, then replace atomically
+    target.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(mode='w', delete=False, dir=str(target.parent), encoding='utf-8') as tmp:
+        tmp.write(content)
+        tmp_path = Path(tmp.name)
+    # On POSIX, replace is atomic
+    tmp_path.replace(target)
+    return True
+
+def restore_single(mapping_entry, dry_run=True):
+    current_rel = mapping_entry["current_path"]
+    current = ROOT / current_rel
+    primary_backup = mapping_entry["backup_locations"][0] if mapping_entry["backup_locations"] else None
+    result = {"file": str(current_rel), "status": "SKIPPED", "reason": None, "backup_source": primary_backup}
+    if not primary_backup:
+        result.update({"status": "FAILED", "reason": "no_backup"})
+        return result
+    if Path(primary_backup).name in KNOWN_CORRUPT:
+        result.update({"status": "FAILED", "reason": "corrupt_filename_needs_manual_review"})
+        return result
+    backup_path = ROOT / primary_backup
+    if not backup_path.exists():
+        result.update({"status": "FAILED", "reason": f"backup_missing: {backup_path}"})
+        return result
+    try:
+        content = backup_path.read_text(encoding='utf-8', errors='replace')
+        if dry_run:
+            result.update({"status": "DRY_OK", "content_size": len(content)})
+            return result
+        # Live mode: write safely
+        # Step A: write temp file then replace
+        # But first back up merged placeholder if it exists
+        if current.exists():
+            merged_backup = current.with_suffix(current.suffix + ".merged-backup")
+            # move merged to merged-backup atomically (use replace)
+            current.replace(merged_backup)
+            result["merged_backup"] = str(merged_backup)
+        # write original content atomically
+        atomic_write(current, content)
+        result.update({"status": "RESTORED", "content_size": len(content)})
+        return result
+    except Exception as e:
+        result.update({"status": "FAILED", "reason": str(e)})
+        return result
+
+def run_restore(mapping_file=DEFAULT_MAPPING, dry_run=True, subset_file=None):
+    mapping = read_mapping(mapping_file)
+    all_mappings = mapping.get("mappings", [])
+    if subset_file:
+        want = {line.strip() for line in Path(subset_file).read_text(encoding='utf-8').splitlines() if line.strip()}
+        all_mappings = [m for m in all_mappings if m["current_path"] in want]
+    total_size = 0
+    # estimate total size from backups
+    for m in all_mappings:
+        primary = m["backup_locations"][0] if m["backup_locations"] else None
+        if primary:
+            p = ROOT / primary
+            try:
+                total_size += p.stat().st_size
+            except Exception:
+                total_size += 0
+    if not ensure_space_for(total_size):
+        raise SystemExit("Insufficient disk space for restore operation. Free space and retry.")
     restored = []
     failed = []
-    
-    for mapping in data["mappings"]:
-        current_path = Path(mapping["current_path"])
-        backups = mapping["backup_locations"]
-        
-        if not backups:
-            failed.append({
-                "file": str(current_path),
-                "reason": "No backup found"
-            })
-            continue
-        
-        # Use the most recent backup (last in list)
-        backup_path = Path(backups[-1])
-        
-        if not backup_path.exists():
-            failed.append({
-                "file": str(current_path),
-                "reason": f"Backup not accessible: {backup_path}"
-            })
-            continue
-        
-        try:
-            # Read original content from backup
-            original_content = backup_path.read_text(encoding='utf-8')
-            
-            # Create backup of current merged version
-            if not dry_run:
-                # Use .merged-backup extension
-                backup_current = Path(str(current_path) + ".merged-backup")
-                if current_path.exists():
-                    shutil.copy2(current_path, backup_current)
-                
-                # Write original content
-                current_path.write_text(original_content, encoding='utf-8')
-            
-            restored.append({
-                "file": str(current_path),
-                "restored_from": str(backup_path),
-                "size_bytes": len(original_content)
-            })
-            
-        except Exception as e:
-            failed.append({
-                "file": str(current_path),
-                "reason": str(e)
-            })
-    
+    for m in all_mappings:
+        res = restore_single(m, dry_run=dry_run)
+        if res["status"] in ("RESTORED", "DRY_OK"):
+            restored.append(res)
+        else:
+            failed.append(res)
+        print(f"[{res['status']}] {m['file_name']} -> {res.get('reason','')}")
     report = {
-        "timestamp": datetime.now().isoformat(),
-        "dry_run": dry_run,
-        "total_attempted": len(data["mappings"]),
+        "timestamp": datetime.utcnow().isoformat(),
+        "mode": "DRY_RUN" if dry_run else "LIVE",
+        "total_attempted": len(all_mappings),
         "restored": len(restored),
         "failed": len(failed),
         "restored_files": restored,
         "failed_files": failed
     }
-    
-    output_file = "tools/restore-merged/RESTORATION_REPORT.json"
-    with open(output_file, "w") as f:
-        json.dump(report, f, indent=2)
-    
-    mode = "DRY RUN" if dry_run else "LIVE"
-    print(f"[{mode}] Restored: {report['restored']}/{report['total_attempted']}")
-    print(f"Failed: {report['failed']}")
-    print(f"Report saved to: {output_file}")
+    RESTORE_REPORT.write_text(json.dumps(report, indent=2), encoding='utf-8')
+    print(f"Restore complete. Restored: {len(restored)} Failed: {len(failed)}. Report: {RESTORE_REPORT}")
+    return report
 
 if __name__ == "__main__":
-    import sys
-    # Handle non-interactive mode for agent environments
-    dry_run = "--apply" not in sys.argv
-    
-    if dry_run:
-        print("Running in DRY RUN mode. Use --apply to actually restore files.")
-    else:
-        # Check if running in a non-interactive shell (like this tool environment)
-        # In this context, we can skip the input() if specifically told to --apply.
-        pass
-    
-    restore_files(dry_run=dry_run)
+    parser = argparse.ArgumentParser(description="Atomic-safe restore script")
+    parser.add_argument("--mapping", default=str(DEFAULT_MAPPING), help="Path to BACKUP_MAPPING.json")
+    parser.add_argument("--apply", action="store_true", help="Perform live restore (default: dry-run)")
+    parser.add_argument("--subset", help="Path to newline-separated file with current_path entries to restrict restore (canary)")
+    args = parser.parse_args()
+    dry = not args.apply
+    if args.apply:
+        confirm = input("WARNING: This will overwrite merged files. Type 'yes' to continue: ")
+        if confirm.strip().lower() != "yes":
+            print("Aborted by user.")
+            raise SystemExit(1)
+    run_restore(mapping_file=args.mapping, dry_run=dry, subset_file=args.subset)
