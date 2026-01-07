@@ -1,81 +1,64 @@
 #!/usr/bin/env python3
+"""
+Merged File Discovery - finds files containing the linkfix merge notice.
+Outputs: tools/restore-merged/MERGED_FILES_REPORT.json
+"""
 import os
 import re
-from pathlib import Path
 import json
+from pathlib import Path
+from datetime import datetime
 
-MERGE_PATTERN = r'This file has been merged into.*?Original content preserved in backup'
+ROOT = Path(".")
+OUT_DIR = Path("tools/restore-merged")
+OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-def find_merged_files(root_dir="."):
-    """Find all files containing merge notices."""
-    merged_files = []
-    root_path = os.path.abspath(root_dir)
-    
-    for root, dirs, files in os.walk(root_dir):
-        abs_root = os.path.abspath(root)
-        rel_root = os.path.relpath(abs_root, root_path)
-        
-        skip_dirs = ['.git', '.archive', '.linkfix_backups', 'archive', 'tools', 'web', 'config']
-        if any(skip in rel_root.split(os.sep) for skip in skip_dirs):
-            continue
-            
-        for file in files:
-            if file.endswith('.md'):
-                if file == "RESTORATION_PLAN.md":
-                    continue
-                    
-                file_path = os.path.join(root, file)
-                try:
-                    with open(file_path, 'r', encoding='utf-8') as f:
-                        content = f.read()
-                        
-                    if re.search(MERGE_PATTERN, content, re.DOTALL):
-                        # Precision extraction of original name
-                        orig_name = None
-                        
-                        # 1. Try frontmatter: merged_into: ...\filename.md
-                        # Look for filename after last slash/backslash, until end of line
-                        fm_match = re.search(r'merged_into:\s*.*?[\\/]([^\\/\n\r]+?\.md)', content)
-                        if fm_match:
-                            orig_name = fm_match.group(1).strip()
-                        
-                        # 2. Try text link: merged into [filename.md]
-                        if not orig_name:
-                            link_match = re.search(r'merged into \[([^\]\n]+?\.md)\]', content)
-                            if link_match:
-                                orig_name = link_match.group(1).strip()
-                        
-                        # 3. Last resort: current name if nothing found
-                        if not orig_name:
-                            orig_name = file
-                        
-                        target_link_match = re.search(r'merged into \[.*?\]\((.*?)\)', content)
-                        target_link = target_link_match.group(1) if target_link_match else "UNKNOWN"
-                        
-                        merged_files.append({
-                            "current_path": os.path.relpath(file_path, root_path).replace('\\', '/'),
-                            "current_name": file,
-                            "original_name": orig_name,
-                            "target_link": target_link,
-                            "content_preview": content[:150].strip()
-                        })
-                except Exception as e:
-                    print(f"Error reading {file_path}: {e}")
-    
-    return merged_files
+MERGE_PATTERN = re.compile(r'This file has been merged into.*?Original content preserved in backup', re.DOTALL)
+TARGET_RE = re.compile(r'merged into \[([^\]]+)\]\(([^)]+)\)')
 
-if __name__ == "__main__":
-    results = find_merged_files()
-    
-    output = {
+SKIP_DIRS = {'.archive', '.linkfix_backups', '__pycache__', '.git', 'node_modules', 'tools/restore-merged'}
+
+def should_skip(path: Path):
+    return any(part in SKIP_DIRS for part in path.parts)
+
+def scan(root: Path = ROOT):
+    results = []
+    total = 0
+    for dirpath, dirnames, filenames in os.walk(root):
+        # prune skip dirs in-place
+        dirnames[:] = [d for d in dirnames if d not in SKIP_DIRS]
+        for fname in filenames:
+            if not fname.endswith(".md"):
+                continue
+            total += 1
+            fpath = Path(dirpath) / fname
+            try:
+                text = fpath.read_text(encoding='utf-8', errors='replace')
+            except Exception as e:
+                results.append({
+                    "current_path": str(fpath),
+                    "error": f"read_error: {e}"
+                })
+                continue
+            if MERGE_PATTERN.search(text):
+                m = TARGET_RE.search(text)
+                target = m.group(2) if m else None
+                results.append({
+                    "current_path": str(fpath.relative_to(ROOT)),
+                    "merged_into": target,
+                    "content_size": len(text),
+                    "content_preview": text[:400]
+                })
+    report = {
+        "timestamp": datetime.utcnow().isoformat(),
+        "total_files_scanned": total,
         "total_merged_files": len(results),
         "files": results
     }
-    
-    os.makedirs("tools/restore-merged", exist_ok=True)
-    
-    with open("tools/restore-merged/MERGED_FILES_REPORT.json", "w") as f:
-        json.dump(output, f, indent=2)
-    
-    print(f"Found {len(results)} merged files")
-    print("Report saved to: tools/restore-merged/MERGED_FILES_REPORT.json")
+    out = OUT_DIR / "MERGED_FILES_REPORT.json"
+    out.write_text(json.dumps(report, indent=2), encoding='utf-8')
+    print(f"Found {len(results)} merged files. Report: {out}")
+    return report
+
+if __name__ == "__main__":
+    scan()
