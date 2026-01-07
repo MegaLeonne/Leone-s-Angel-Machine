@@ -3,7 +3,6 @@ tags: [canon, governance, seventh-borough]
 title: Seventh Borough Canon
 ---
 
-# Seventh Borough Canon
 
 **Status**: [RESTORED STUB]
 
@@ -39,7 +38,8 @@ The Seventh Borough is governed not by static laws, but by the ritual of **Curat
 
 ### Files Restored
 
-- `Michael, The KlockWork Angel.md`
+* `Michael, The KlockWork Angel.md`
+
 * `Osiris, Arch Angel Of Omen.md`
 * `He Who Remains.md`
 * `Taylor, Devil of Desire.md`

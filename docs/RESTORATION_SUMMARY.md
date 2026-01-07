@@ -4,7 +4,7 @@ title: Restoration Summary
 created: 2026-01-06
 ---
 
-# Restoration Summary
+
 
 ## Overview
 
@@ -24,7 +24,7 @@ On **2026-01-06**, the Leone's Angel Machine repository underwent a restoration 
 
 ## Method
 
-1. **Discovery**: Identified files containing the `This file has been merged into` pattern.
+1. **Discovery**: Identified files containing the merge stub notice pattern.
 2. **Patch Extraction**: Recovered original content from historical git patches.
 3. **Atomic Restore**: Replaced stubs with original content using atomic file operations.
 4. **Verification**: Confirmed all restored files no longer contain merge stubs.
