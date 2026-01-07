@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/orphans/The-Cosmic-Clock.md",
+                "file": "archive/PHASE_1_STATUS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The-Cosmic-Clock"
+              "title": "PHASE_1_STATUS"
             },
             "group": "31da2196f1ac9f15"
           }
@@ -34,7 +34,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "docs/orphans/The-Cosmic-Clock.md",
+                "file": "archive/PHASE_1_STATUS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -62,7 +62,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of The-Cosmic-Clock"
+              "title": "Graph of PHASE_1_STATUS"
             },
             "group": "31da2196f1ac9f15"
           }
@@ -228,8 +228,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "1500eda1cc8262bc",
+  "active": "3156daf4fcea1ef6",
   "lastOpenFiles": [
+    "NAVIGATION_FIX_PLAN.md",
+    "MANIFEST_FIX_EXECUTION_GUIDE.md",
+    "ANGEL_MACHINE_MASTER_PLAN.md",
+    "STRUCTURE_SYNC_GUIDE.md",
+    "web/public/README.md",
+    "docs/guides/Seventh-Borough-Borough-Workflow-v1.md",
+    "docs/guides/guide-contributing.md",
+    "docs/guides/README.md",
+    "docs/archetypes/README.md",
+    "docs/archetypes/INDEX.md",
+    "docs/archetypes/She-Who-Transcends.md",
+    "web/public/docs/archetypes/archetype-heart.md",
     "docs/archetypes/Devils/Taylor, Devil of Desire.md",
     "docs/archetypes/The-Head-Archetype.md",
     "docs/archetypes/Angels/Michael, The KlockWork Angel.md",
@@ -244,18 +256,6 @@
     "Blackbook/Asked.md",
     "Blackbook/Arc.md",
     "Blackbook/8.-dreams.md",
-    "Blackbook/[[[.md",
-    "Blackbook/6.-kaire.md",
-    "Blackbook/AM%20I%20NOT.md",
-    "Blackbook/4.-knightmares.md",
-    "Blackbook/%7B%7B%7B%7B%7B%7B%7B%7B&%7D%7D.md",
-    "Blackbook/%7B&&&%7D.md",
-    "Blackbook/[_.md",
-    "Blackbook/(warning.md",
-    "Blackbook/_.md",
-    "archive/README.md",
-    "archive/hallucination-eval-v0.md",
-    "archive/PHASE_1_STATUS.md",
     "Blackbook/pasted-image-20250925225433.png",
     "Blackbook/pasted-image-20250925225428.png"
   ]
