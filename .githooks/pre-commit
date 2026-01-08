@@ -1,0 +1,17 @@
+#!/bin/sh
+# Pre-commit hook to prevent accidental commits of merge stub notices.
+# 
+# This hook was created following the 2026-01-06 restoration event.
+# See docs/RESTORATION_SUMMARY.md for details.
+
+PATTERN="This file has been merged into"
+
+# Search staged markdown files for the merge stub pattern
+if git diff --cached --name-only | grep -E '\.md$' | xargs -r grep -l "$PATTERN" 2>/dev/null; then
+    echo "ERROR: Attempted to commit files containing merge stub notices."
+    echo "The pattern '$PATTERN' was found in one or more staged files."
+    echo "Please restore the original content before committing."
+    exit 1
+fi
+
+exit 0

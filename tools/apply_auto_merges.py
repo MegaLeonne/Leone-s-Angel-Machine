@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """Apply auto-merges for duplicate basenames where file similarity >= threshold.
 
+!!! DISABLED !!!
+This tool has been disabled following the 2026-01-06 restoration event.
+It was responsible for overwriting archetype files with merge stubs.
+See docs/RESTORATION_SUMMARY.md for details.
+
 This script will:
  - scan repo for duplicate basenames
  - choose a canonical per basename (prefer Blackbook, otherwise largest file)
@@ -15,6 +20,10 @@ import difflib
 import time
 import shutil
 import os
+import sys
+
+# DISABLED: This tool caused the 2026-01-06 corruption event.
+DISABLED = True
 
 ROOT = Path(__file__).resolve().parents[2]
 BACKUP_ROOT = ROOT / '.linkfix_backups'
@@ -47,6 +56,11 @@ def make_redirect_text(canon: Path, other: Path) -> str:
     )
 
 def main():
+    if DISABLED:
+        print("ERROR: This tool has been permanently disabled.")
+        print("See docs/RESTORATION_SUMMARY.md for details on the 2026-01-06 corruption event.")
+        return 1
+
     parser = argparse.ArgumentParser()
     parser.add_argument('--threshold', type=float, default=0.85)
     args = parser.parse_args()

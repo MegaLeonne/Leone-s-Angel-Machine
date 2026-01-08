@@ -1,131 +1,21 @@
 [
   {
-    "file": "docs\\archetypes\\Angels\\Michael, The KlockWork Angel.md",
+    "file": "archive\\.archive\\empty\\THE-VOID.md",
     "verified": true,
-    "has_content": true
+    "has_content": false
   },
   {
-    "file": "docs\\archetypes\\Angels\\Osiris, Arch Angel Of Omen.md",
+    "file": "archive\\.archive\\empty\\THEM.md",
     "verified": true,
-    "has_content": true
+    "has_content": false
   },
   {
-    "file": "docs\\archetypes\\Devils\\He Who Remains.md",
+    "file": "archive\\.archive\\empty\\[Make.md",
     "verified": true,
-    "has_content": true
+    "has_content": false
   },
   {
-    "file": "docs\\archetypes\\Devils\\Taylor, Devil of Desire.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\archetypes\\Devils\\The Blind.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\guides\\How To Use Bill Doors.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\guides\\Qualitative Research Guide.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\index\\&.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\orphans\\cryptic\\README.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\orphans\\indices\\orphan-index.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\orphans\\numbered\\orphan-0.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\orphans\\numbered\\orphan-87.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\orphans\\numbered\\orphanindex.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\orphans\\numbered\\readme.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\philosophy\\cosmology-void.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\philosophy\\Guiding-Prompt.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\philosophy\\Passion.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\philosophy\\Patience.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\philosophy\\philosophy-khaos.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\philosophy\\philosophy-no-rules.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\philosophy\\philosophy-providence.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\philosophy\\The Material.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\philosophy\\Fragments\\Tried.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\rituals\\Angel Numbers.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\rituals\\Counterspell-Playlist.md",
-    "verified": true,
-    "has_content": true
-  },
-  {
-    "file": "docs\\rituals\\Deck of Fate.md",
+    "file": "archive\\.linkfix_backups\\20251128-202207\\Orphans\\Classified\\Symbolic\\[_) ) ) ).md",
     "verified": true,
     "has_content": true
   }

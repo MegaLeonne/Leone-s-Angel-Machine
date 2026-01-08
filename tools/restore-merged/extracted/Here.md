@@ -1,0 +1,1 @@
+For now, and forever, here is the moment you exist. so long as you are aware of your existences.

@@ -3,7 +3,6 @@ tags: [canon, governance, seventh-borough]
 title: Seventh Borough Canon
 ---
 
-# Seventh Borough Canon
 
 **Status**: [RESTORED STUB]
 
@@ -29,3 +28,24 @@ The Seventh Borough is governed not by static laws, but by the ritual of **Curat
 * **[He Who Remains](../archetypes/He-Who-Remains.md)**: The Witness; archival continuity and ash-tending.
 
 *Content restored during Scribe verification.*
+
+---
+
+## Restoration Event Log
+
+> [!IMPORTANT]
+> **2026-01-06**: The Borough experienced a corruption event where multiple archetype files were overwritten with merge stub notices. Restoration was completed using atomic-safe recovery scripts on the `restore` branch.
+
+### Files Restored
+
+* `Michael, The KlockWork Angel.md`
+
+* `Osiris, Arch Angel Of Omen.md`
+* `He Who Remains.md`
+* `Taylor, Devil of Desire.md`
+* `The Blind.md`
+* 21 additional philosophy, ritual, and guide files.
+
+### Governance Response
+
+The Curation Threshold protocol was invoked. The faulty auto-merge tooling will be disabled per Tier 3 prevention mandate.
