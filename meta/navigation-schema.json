@@ -286,6 +286,16 @@
                 {
                     "title": "The Spells It Makes",
                     "id": "The-Spells-It-Makes"
+                },
+                {
+                    "title": "King's Gambit",
+                    "id": "spell-kings-gambit",
+                    "icon": "♟️"
+                },
+                {
+                    "title": "Witch's Ceiling Fall",
+                    "id": "ritual-witchs-ceiling-fall",
+                    "icon": "🧹"
                 }
             ]
         },

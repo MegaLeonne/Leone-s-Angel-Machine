@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-07T05:46:17.550Z",
+  "generated": "2026-01-09T21:41:46.808Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
@@ -1914,8 +1914,8 @@
         "docs/MANIFEST.md"
       ]
     },
-    "ritual-kings-gambit": {
-      "path": "docs/khaos/ritual-kings-gambit.md",
+    "spell-kings-gambit": {
+      "path": "docs/khaos/spell-kings-gambit.md",
       "title": "King's Gambit",
       "folder": "khaos",
       "tags": [],
@@ -2199,6 +2199,14 @@
         "docs/README.md"
       ]
     },
+    "RESTORATION_SUMMARY": {
+      "path": "docs/RESTORATION_SUMMARY.md",
+      "title": "RESTORATION_SUMMARY",
+      "folder": "docs",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
     "Angel-Numbers": {
       "path": "docs/rituals/Angel Numbers.md",
       "title": "Angel Numbers",
@@ -2258,6 +2266,14 @@
         "docs/MANIFEST.md"
       ]
     },
+    "ritual-witchs-ceiling-fall": {
+      "path": "docs/rituals/ritual-witchs-ceiling-fall.md",
+      "title": "Witch's Ceiling Fall",
+      "folder": "rituals",
+      "tags": [],
+      "aliases": [],
+      "backlinks": []
+    },
     "Rituals": {
       "path": "docs/rituals/Rituals.md",
       "title": "Rituals",
@@ -2290,7 +2306,7 @@
     },
     "CANON": {
       "path": "docs/the-seventh-borough/CANON.md",
-      "title": "Seventh Borough Canon",
+      "title": "CANON",
       "folder": "the-seventh-borough",
       "tags": [],
       "aliases": [],

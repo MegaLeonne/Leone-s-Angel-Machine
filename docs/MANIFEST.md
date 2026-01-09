@@ -67,6 +67,8 @@ _Practical invocations and spells_
 - [Angel Numbers](file:///docs/rituals/Angel Numbers.md) (ID: `#Angel-Numbers`)
 - [Deck of Fate](file:///docs/rituals/Deck of Fate.md) (ID: `#Deck-of-Fate`)
 - [The Spells It Makes](file:///docs/rituals/The Spells It Makes.md) (ID: `#The-Spells-It-Makes`)
+- [King's Gambit](file:///docs/khaos/spell-kings-gambit.md) (ID: `#spell-kings-gambit`)
+- [Witch's Ceiling Fall](file:///docs/rituals/ritual-witchs-ceiling-fall.md) (ID: `#ritual-witchs-ceiling-fall`)
 
 ## 🏛️ The Seventh Borough
 _Canon framework and workflow_
