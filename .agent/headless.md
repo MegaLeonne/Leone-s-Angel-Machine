@@ -3,7 +3,7 @@
 ## 🎯 Active Phase: PHASE THREE — THE GOVERNANCE OF THE BOROUGH
 
 **Current Goal**: Establish law and ritual for the curated codex.
-**Last Sync**: 2026-01-06 00:25 CST
+**Last Sync**: 2026-02-18 10:44 CST
 
 ## 📋 ACTIVE GOVERNANCE TASK
 
@@ -26,8 +26,9 @@ Next Action: Awaiting User directive for the next Governance layer.
 | DONE | Establish "The Reservoir" Infrastructure | 2 | @architect | ✅ Complete |
 | DONE | Elevate The Heart Archetype | 2 | @architect | ✅ Complete |
 | DONE | Establish The Curation Threshold Ritual | 2 | @architect | ✅ Complete |
-| NEXT | Update "The Blind" Archetype | 2 | @architect | 🕒 Planned |
-| NEXT | Cosmology: "The Ticks" (The Seconds of the Clock) | 2 | @scribe | 🕒 Planned |
+| DONE | Update "The Blind" Archetype | 2 | @architect | ✅ Complete |
+| DONE | Cosmology: "The Ticks" (The Seconds of the Clock) | 2 | @scribe | ✅ Complete |
+| DONE | Update Philosophy/Amnesia | 2 | @architect | ✅ Complete |
 
 ---
 
