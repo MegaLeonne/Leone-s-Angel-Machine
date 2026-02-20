@@ -2,7 +2,7 @@
 
 **A mythic operating system for cognition, governance, and ritual practice**
 
-🌌 **[View Digital Codex](https://megaleonne.github.io/Leone-s-Angel-Machine/)** | 🤝 **[Contribute](./docs/guides/guide-contributing.md)** | 💬 **[Join the Lab](#)** *(Discord coming soon)*
+🌌 **[View Digital Codex](https://megaleonne.github.io/Leone-s-Angel-Machine/)** | 🤝 **[Contribute](./docs/guides/guide-contributing.md)** | 💬 **[Join the Lab](https://discord.gg/kACMPfvWMr)** 
 
 ---
 
