@@ -24,15 +24,6 @@
 ### [The Abyss](file:///docs/philosophy/The-Abyss.md)
 - **ID**: `#The-Abyss`
 
-### [The Ticks](file:///docs/philosophy/The-Ticks.md)
-- **ID**: `#The-Ticks`
-
 ### [Void Tongue](file:///docs/philosophy/Void-Tongue.md)
 - **ID**: `#Void-Tongue`
-
-### [Khaos](file:///docs/philosophy/philosophy-khaos.md)
-- **ID**: `#philosophy-khaos`
-
-### [Providence](file:///docs/philosophy/philosophy-providence.md)
-- **ID**: `#philosophy-providence`
 

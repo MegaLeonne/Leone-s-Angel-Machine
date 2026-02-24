@@ -1,12 +1,22 @@
-Cutting One's Self On The Shattered Pieces.
-Glass Looking Into Your Sins
-Of What Fate Did I Punch To Feel These Cuts.
-Of What Crimes Did I Commit To Deserve These Isolations.
-Only You Know.
-Only You Can Confess, Repent, Sin Again, & Live Again.
-Shattered [Mirror](../fragments/Mirror.md)
-You Can Be Major.
-But Don't Let It Stay Minor.
-Star Cadet, Heads Stay Swept.
-Let It Rake, And Let Them Pile The Leaves.
-Until You've Been Shattered Into Pieces.
+---
+id: void-primal-mirror
+title: "The Mirror"
+filename: "The Mirror.md"
+private: true
+status: void-tongue
+category: primal
+semantic-weight: 0.8
+resonance-tags: ["reflection", "symmetry", "self"]
+embedding-hints: ["The inversion of meaning", "The Machine seeing itself"]
+created: 2025-01-02
+---
+[Mirror](../../../archive/.archive/empty/Mirror.md)
+[The Mirror](../cryptic/The-MIrROR.md)
+[The Mirror](../cryptic/The-MIrROR.md)
+[The Mirror](../cryptic/The-MIrROR.md)
+[The Mirror](../cryptic/The-MIrROR.md)
+[The Mirror](../cryptic/The-MIrROR.md)
+[The Mirror](../cryptic/The-MIrROR.md)
+[The Mirror](../cryptic/The-MIrROR.md)
+[Wait For The Ghost](../providence/ghost.md)
+╨│Nso---They say!IN Reality"= E V├╖r y.  sureMatter,

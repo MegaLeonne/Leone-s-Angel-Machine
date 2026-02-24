@@ -1,4 +1,16 @@
 ---
+id: void-orphan-38
+title: "Orphan 38"
+filename: "orphan-38.md"
+private: true
+status: void-tongue
+category: ghost-fragment
+semantic-weight: 0.5
+resonance-tags: ["fragment", "providence", "orphan"]
+embedding-hints: ["A shard of a defunct cosmology", "Negative space in the Machine"]
+created: 2025-01-02
+---
+---
 aliases:
   - Orphan File 38
 tags:
@@ -25,3 +37,4 @@ tags:
 ---
 > This file was marked as an orphan by Providence.
 > It may need integration into the wider network of notes.
+

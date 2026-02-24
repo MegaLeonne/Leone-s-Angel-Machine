@@ -60,46 +60,6 @@
             ]
         },
         {
-            "id": "laws-of-khaos",
-            "label": "⚖️ Laws of Khaos",
-            "type": "section",
-            "description": "Governing principles and primal forces",
-            "collapsible": true,
-            "defaultOpen": false,
-            "items": [
-                {
-                    "title": "KHAOS",
-                    "id": "KHAOS",
-                    "icon": "🌀"
-                },
-                {
-                    "title": "The Law",
-                    "id": "philosophy-the-law",
-                    "icon": "📜"
-                },
-                {
-                    "title": "The Law (Mirror)",
-                    "id": "}}[[THE-LAW",
-                    "icon": "🪞"
-                },
-                {
-                    "title": "There Are No Rules",
-                    "id": "There-Are-No-Rules",
-                    "icon": "❌"
-                },
-                {
-                    "title": "The Rule Of The Swamp",
-                    "id": "The-Rule-OF-The-Swamp.",
-                    "icon": "🐊"
-                },
-                {
-                    "title": "Walk Alongside Khaos",
-                    "id": "WalkAlongSideKhaos",
-                    "icon": "🚶"
-                }
-            ]
-        },
-        {
             "id": "philosophy",
             "label": "💭 Philosophy",
             "type": "section",
@@ -143,23 +103,8 @@
                     "category": "cosmology"
                 },
                 {
-                    "title": "The Ticks",
-                    "id": "The-Ticks",
-                    "category": "cosmology"
-                },
-                {
                     "title": "Void Tongue",
                     "id": "Void-Tongue",
-                    "category": "cosmology"
-                },
-                {
-                    "title": "Khaos",
-                    "id": "philosophy-khaos",
-                    "category": "cosmology"
-                },
-                {
-                    "title": "Providence",
-                    "id": "philosophy-providence",
                     "category": "cosmology"
                 }
             ]

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-09T21:41:46.808Z",
+  "generated": "2026-02-24T08:29:38.828Z",
   "version": "2.0",
   "files": {
     "Michael-The-KlockWork-Angel": {
@@ -127,7 +127,6 @@
         "docs/archetypes/The-Heart-Archetype.md",
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
-        "docs/index/KHAOS-NOTES-INDEX.md",
         "docs/MANIFEST.md",
         "docs/philosophy/cosmology-void.md",
         "docs/the-seventh-borough/CANON.md",
@@ -237,9 +236,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/index/&.md"
-      ]
+      "backlinks": []
     },
     "12.-khaos": {
       "path": "docs/archive/ash-layers/blackbook/12.-khaos.md",
@@ -247,9 +244,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/fragments/KHAOS.md"
-      ]
+      "backlinks": []
     },
     "4.-knightmares": {
       "path": "docs/archive/ash-layers/blackbook/4.-knightmares.md",
@@ -257,9 +252,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/CALLING.md"
-      ]
+      "backlinks": []
     },
     "6.-kaire": {
       "path": "docs/archive/ash-layers/blackbook/6.-kaire.md",
@@ -267,10 +260,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/CALLING.md",
-        "docs/archive/ash-layers/fragments/KHAOS.md"
-      ]
+      "backlinks": []
     },
     "7.--amnesia": {
       "path": "docs/archive/ash-layers/blackbook/7.--amnesia.md",
@@ -278,9 +268,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/CALLING.md"
-      ]
+      "backlinks": []
     },
     "8.-dreams": {
       "path": "docs/archive/ash-layers/blackbook/8.-dreams.md",
@@ -288,9 +276,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/CALLING.md"
-      ]
+      "backlinks": []
     },
     "abyssmal": {
       "path": "docs/archive/ash-layers/blackbook/abyssmal.md",
@@ -299,7 +285,6 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "docs/archive/ash-layers/cryptic/{&&&}.md",
         "docs/philosophy/philosophy-spell-book.md"
       ]
     },
@@ -317,9 +302,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/index/KHAOS-NOTES-INDEX.md"
-      ]
+      "backlinks": []
     },
     "Asked": {
       "path": "docs/archive/ash-layers/blackbook/Asked.md",
@@ -327,9 +310,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md"
-      ]
+      "backlinks": []
     },
     "Been": {
       "path": "docs/archive/ash-layers/blackbook/Been.md",
@@ -347,10 +328,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md",
-        "docs/archive/ash-layers/cryptic/{&&&}.md"
-      ]
+      "backlinks": []
     },
     "Deck%20of%20Fate": {
       "path": "docs/archive/ash-layers/blackbook/Deck%20of%20Fate.md",
@@ -366,9 +344,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md"
-      ]
+      "backlinks": []
     },
     "Does": {
       "path": "docs/archive/ash-layers/blackbook/Does.md",
@@ -376,9 +352,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md"
-      ]
+      "backlinks": []
     },
     "Engineer": {
       "path": "docs/archive/ash-layers/blackbook/Engineer.md",
@@ -386,9 +360,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md"
-      ]
+      "backlinks": []
     },
     "Engineers": {
       "path": "docs/archive/ash-layers/blackbook/Engineers.md",
@@ -396,9 +368,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md"
-      ]
+      "backlinks": []
     },
     "He%20Who%20Remains.": {
       "path": "docs/archive/ash-layers/blackbook/He%20Who%20Remains..md",
@@ -414,9 +384,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/{&&&}.md"
-      ]
+      "backlinks": []
     },
     "heart": {
       "path": "docs/archive/ash-layers/blackbook/heart.md",
@@ -442,10 +410,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md",
-        "docs/archive/ash-layers/cryptic/{&&&}.md"
-      ]
+      "backlinks": []
     },
     "In%2520The%2520Social": {
       "path": "docs/archive/ash-layers/blackbook/In%2520The%2520Social.md",
@@ -462,8 +427,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "docs/archive/ash-layers/The-Cosmic-Clock.md",
-        "docs/philosophy/philosophy-khaos.md"
+        "docs/archive/ash-layers/The-Cosmic-Clock.md"
       ]
     },
     "kards": {
@@ -482,9 +446,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/CALLING.md"
-      ]
+      "backlinks": []
     },
     "knows": {
       "path": "docs/archive/ash-layers/blackbook/knows.md",
@@ -492,9 +454,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/{&&&}.md"
-      ]
+      "backlinks": []
     },
     "lies": {
       "path": "docs/archive/ash-layers/blackbook/lies.md",
@@ -502,9 +462,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/{&&&}.md"
-      ]
+      "backlinks": []
     },
     "Love": {
       "path": "docs/archive/ash-layers/blackbook/Love.md",
@@ -512,9 +470,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md"
-      ]
+      "backlinks": []
     },
     "Machine": {
       "path": "docs/archive/ash-layers/blackbook/Machine.md",
@@ -522,9 +478,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md"
-      ]
+      "backlinks": []
     },
     "make": {
       "path": "docs/archive/ash-layers/blackbook/make.md",
@@ -533,11 +487,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "docs/archive/ash-layers/fragments/The Rule OF The Swamp..md",
-        "docs/archive/ash-layers/indices/orphan-index.md",
-        "docs/archive/ash-layers/numbered/orphan-5.md",
-        "docs/archive/ash-layers/numbered/orphan-74.md",
-        "docs/archive/ash-layers/numbered/orphanindex.md"
+        "docs/archive/ash-layers/indices/orphan-index.md"
       ]
     },
     "n": {
@@ -546,9 +496,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md"
-      ]
+      "backlinks": []
     },
     "Not-": {
       "path": "docs/archive/ash-layers/blackbook/Not-.md",
@@ -556,9 +504,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md"
-      ]
+      "backlinks": []
     },
     "nowhere": {
       "path": "docs/archive/ash-layers/blackbook/nowhere.md",
@@ -566,9 +512,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/{&&&}.md"
-      ]
+      "backlinks": []
     },
     "orphan": {
       "path": "docs/archive/ash-layers/blackbook/orphan.md",
@@ -586,9 +530,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md"
-      ]
+      "backlinks": []
     },
     "pasted-image-20250925225428.png": {
       "path": "docs/archive/ash-layers/blackbook/pasted-image-20250925225428.png.md",
@@ -632,9 +574,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/numbered/orphan-6.md"
-      ]
+      "backlinks": []
     },
     "placeholder-2275ca3bb1ce4bd9b3b606a9226ce0bf": {
       "path": "docs/archive/ash-layers/blackbook/placeholder-2275ca3bb1ce4bd9b3b606a9226ce0bf.md",
@@ -674,9 +614,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/index/KHAOS-NOTES-INDEX.md"
-      ]
+      "backlinks": []
     },
     "placeholder-3f2afa5a4d944f34a2664b99eaee6de8": {
       "path": "docs/archive/ash-layers/blackbook/placeholder-3f2afa5a4d944f34a2664b99eaee6de8.md",
@@ -724,9 +662,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/numbered/orphan-25.md"
-      ]
+      "backlinks": []
     },
     "placeholder-77f8d29585df46a18c17af04fbfece21": {
       "path": "docs/archive/ash-layers/blackbook/placeholder-77f8d29585df46a18c17af04fbfece21.md",
@@ -758,9 +694,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/numbered/orphan-6.md"
-      ]
+      "backlinks": []
     },
     "placeholder-847b1748da8f496c98ab574e1d4e213d": {
       "path": "docs/archive/ash-layers/blackbook/placeholder-847b1748da8f496c98ab574e1d4e213d.md",
@@ -768,9 +702,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/numbered/orphan-13.md"
-      ]
+      "backlinks": []
     },
     "placeholder-86a2720220b54dd4a8085018944b77b8": {
       "path": "docs/archive/ash-layers/blackbook/placeholder-86a2720220b54dd4a8085018944b77b8.md",
@@ -826,9 +758,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/numbered/orphan-25.md"
-      ]
+      "backlinks": []
     },
     "placeholder-b649a5fb7990483aa9dee137193db45d": {
       "path": "docs/archive/ash-layers/blackbook/placeholder-b649a5fb7990483aa9dee137193db45d.md",
@@ -852,9 +782,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/numbered/orphan-13.md"
-      ]
+      "backlinks": []
     },
     "placeholder-da2509ed2b3346afab6d4058826ee726": {
       "path": "docs/archive/ash-layers/blackbook/placeholder-da2509ed2b3346afab6d4058826ee726.md",
@@ -894,9 +822,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md"
-      ]
+      "backlinks": []
     },
     "archive-ash-layers-blackbook-README": {
       "path": "docs/archive/ash-layers/blackbook/README.md",
@@ -920,9 +846,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md"
-      ]
+      "backlinks": []
     },
     "Sing%20The%20City": {
       "path": "docs/archive/ash-layers/blackbook/Sing%20The%20City.md",
@@ -938,9 +862,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md"
-      ]
+      "backlinks": []
     },
     "soul-betting": {
       "path": "docs/archive/ash-layers/blackbook/soul-betting.md",
@@ -948,9 +870,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/{&&&}.md"
-      ]
+      "backlinks": []
     },
     "THE%20New%20Note.": {
       "path": "docs/archive/ash-layers/blackbook/THE%20New%20Note..md",
@@ -982,9 +902,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/}}[[THE LAW.md"
-      ]
+      "backlinks": []
     },
     "the-law": {
       "path": "docs/archive/ash-layers/blackbook/the-law.md",
@@ -992,11 +910,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/index/&.md",
-        "docs/archive/ash-layers/cryptic/{{{{{{{{&}}.md",
-        "docs/archive/ash-layers/fragments/The Rule OF The Swamp..md"
-      ]
+      "backlinks": []
     },
     "the-spells-it-makes.": {
       "path": "docs/archive/ash-layers/blackbook/the-spells-it-makes..md",
@@ -1004,9 +918,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/index/&.md"
-      ]
+      "backlinks": []
     },
     "the-void-tongue": {
       "path": "docs/archive/ash-layers/blackbook/the-void-tongue.md",
@@ -1014,9 +926,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/{&&&}.md"
-      ]
+      "backlinks": []
     },
     "the": {
       "path": "docs/archive/ash-layers/blackbook/the.md",
@@ -1024,9 +934,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md"
-      ]
+      "backlinks": []
     },
     "there-are-no-rules": {
       "path": "docs/archive/ash-layers/blackbook/there-are-no-rules.md",
@@ -1034,9 +942,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/fragments/The Rule OF The Swamp..md"
-      ]
+      "backlinks": []
     },
     "THIM": {
       "path": "docs/archive/ash-layers/blackbook/THIM.md",
@@ -1044,9 +950,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/index/KHAOS-NOTES-INDEX.md"
-      ]
+      "backlinks": []
     },
     "To%20Make%20Sense%20OF%20It": {
       "path": "docs/archive/ash-layers/blackbook/To%20Make%20Sense%20OF%20It.md",
@@ -1083,22 +987,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "docs/index/&.md",
-        "docs/archive/ash-layers/indices/OrphanIndex.md",
-        "docs/archive/ash-layers/numbered/orphan-14.md",
-        "docs/archive/ash-layers/numbered/orphan-21.md",
-        "docs/archive/ash-layers/numbered/orphan-28.md",
-        "docs/archive/ash-layers/numbered/orphan-35.md",
-        "docs/archive/ash-layers/numbered/orphan-42.md",
-        "docs/archive/ash-layers/numbered/orphan-49.md",
-        "docs/archive/ash-layers/numbered/orphan-56.md",
-        "docs/archive/ash-layers/numbered/orphan-63.md",
-        "docs/archive/ash-layers/numbered/orphan-7.md",
-        "docs/archive/ash-layers/numbered/orphan-70.md",
-        "docs/archive/ash-layers/numbered/orphan-77.md",
-        "docs/archive/ash-layers/numbered/orphan-84.md",
-        "docs/archive/ash-layers/numbered/orphan-91.md",
-        "docs/archive/ash-layers/numbered/orphan-98.md"
+        "docs/archive/ash-layers/indices/OrphanIndex.md"
       ]
     },
     "void.css": {
@@ -1107,9 +996,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/numbered/orphan-87.md"
-      ]
+      "backlinks": []
     },
     "Void": {
       "path": "docs/archive/ash-layers/blackbook/Void.md",
@@ -1127,10 +1014,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md",
-        "docs/archive/ash-layers/cryptic/{&&&}.md"
-      ]
+      "backlinks": []
     },
     "Will": {
       "path": "docs/archive/ash-layers/blackbook/Will.md",
@@ -1138,9 +1022,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/{&&&}.md"
-      ]
+      "backlinks": []
     },
     "[[[": {
       "path": "docs/archive/ash-layers/blackbook/[[[.md",
@@ -1148,9 +1030,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/index/KHAOS-NOTES-INDEX.md"
-      ]
+      "backlinks": []
     },
     "[_": {
       "path": "docs/archive/ash-layers/blackbook/[_.md",
@@ -1169,11 +1049,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "docs/archive/ash-layers/indices/orphan-index.md",
-        "docs/archive/ash-layers/numbered/orphan-16.md",
-        "docs/archive/ash-layers/numbered/orphan-38.md",
-        "docs/archive/ash-layers/numbered/orphan-87.md",
-        "docs/archive/ash-layers/numbered/orphanindex.md"
+        "docs/archive/ash-layers/indices/orphan-index.md"
       ]
     },
     "}}": {
@@ -1182,49 +1058,7 @@
       "folder": "archive/ash-layers/blackbook",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/index/KHAOS-NOTES-INDEX.md"
-      ]
-    },
-    "&": {
-      "path": "docs/index/&.md",
-      "title": "&",
-      "folder": "index",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/index/&.md",
-        "docs/archive/ash-layers/cryptic/CALLING.md",
-        "docs/archive/ash-layers/cryptic/THE New Note..md",
-        "docs/archive/ash-layers/cryptic/{&&&}.md",
-        "docs/archive/ash-layers/cryptic/}}[[THE LAW.md",
-        "docs/archive/ash-layers/fragments/KHAOS.md",
-        "docs/index/KHAOS-NOTES-INDEX.md",
-        "docs/philosophy/cosmology-void.md",
-        "docs/philosophy/philosophy-khaos.md"
-      ]
-    },
-    "AM-I-NOT": {
-      "path": "docs/archive/ash-layers/cryptic/AM I NOT.md",
-      "title": "AM I NOT",
-      "folder": "archive/ash-layers/cryptic",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/index/KHAOS-NOTES-INDEX.md"
-      ]
-    },
-    "CALLING": {
-      "path": "docs/archive/ash-layers/cryptic/CALLING.md",
-      "title": "CALLING",
-      "folder": "archive/ash-layers/cryptic",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/index/KHAOS-NOTES-INDEX.md",
-        "docs/philosophy/philosophy-spell-book.md",
-        "docs/philosophy/philosophy-the-law.md"
-      ]
+      "backlinks": []
     },
     "archive-ash-layers-cryptic-README": {
       "path": "docs/archive/ash-layers/cryptic/README.md",
@@ -1234,99 +1068,13 @@
       "aliases": [],
       "backlinks": []
     },
-    "THE-New-Note.": {
-      "path": "docs/archive/ash-layers/cryptic/THE New Note..md",
-      "title": "THE New Note.",
-      "folder": "archive/ash-layers/cryptic",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/index/KHAOS-NOTES-INDEX.md"
-      ]
-    },
-    "The-MIrROR": {
-      "path": "docs/archive/ash-layers/cryptic/The-MIrROR.md",
-      "title": "The MIrROR",
-      "folder": "archive/ash-layers/cryptic",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md",
-        "docs/index/KHAOS-NOTES-INDEX.md"
-      ]
-    },
     "UntiL": {
       "path": "docs/archive/ash-layers/cryptic/UntiL.md",
       "title": "UntiL",
       "folder": "archive/ash-layers/cryptic",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/fragments/The Rule OF The Swamp..md"
-      ]
-    },
-    "[[": {
-      "path": "docs/archive/ash-layers/cryptic/[[.md",
-      "title": "[[",
-      "folder": "archive/ash-layers/cryptic",
-      "tags": [],
-      "aliases": [],
       "backlinks": []
-    },
-    "[_)-)-)-)": {
-      "path": "docs/archive/ash-layers/cryptic/[_) ) ) ).md",
-      "title": "[_) ) ) )",
-      "folder": "archive/ash-layers/cryptic",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "{&&&}": {
-      "path": "docs/archive/ash-layers/cryptic/{&&&}.md",
-      "title": "Everywhere [&](./&.md) IT IS WHAT IT IS IS'NT IT?",
-      "folder": "archive/ash-layers/cryptic",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/index/&.md",
-        "docs/archive/ash-layers/cryptic/THE New Note..md",
-        "docs/archive/ash-layers/cryptic/{&&&}.md",
-        "docs/archive/ash-layers/cryptic/}}[[THE LAW.md",
-        "docs/archive/ash-layers/fragments/KHAOS.md",
-        "docs/index/KHAOS-NOTES-INDEX.md",
-        "docs/philosophy/philosophy-khaos.md"
-      ]
-    },
-    "{{": {
-      "path": "docs/archive/ash-layers/cryptic/{{.md",
-      "title": "{{",
-      "folder": "archive/ash-layers/cryptic",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/fragments/The Rule OF The Swamp..md"
-      ]
-    },
-    "{{{{{{{{&}}": {
-      "path": "docs/archive/ash-layers/cryptic/{{{{{{{{&}}.md",
-      "title": "{{{{{{{{&}}",
-      "folder": "archive/ash-layers/cryptic",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/index/&.md",
-        "docs/archive/ash-layers/cryptic/}}[[THE LAW.md"
-      ]
-    },
-    "}}[[THE-LAW": {
-      "path": "docs/archive/ash-layers/cryptic/}}[[THE LAW.md",
-      "title": "}}[[THE LAW",
-      "folder": "archive/ash-layers/cryptic",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/MANIFEST.md"
-      ]
     },
     "But": {
       "path": "docs/archive/ash-layers/fragments/But.md",
@@ -1334,11 +1082,7 @@
       "folder": "archive/ash-layers/fragments",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/index/&.md",
-        "docs/archive/ash-layers/cryptic/THE New Note..md",
-        "docs/archive/ash-layers/cryptic/}}[[THE LAW.md"
-      ]
+      "backlinks": []
     },
     "Here": {
       "path": "docs/archive/ash-layers/fragments/Here.md",
@@ -1347,23 +1091,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "docs/index/KHAOS-NOTES-INDEX.md",
         "docs/philosophy/cosmology-void.md"
-      ]
-    },
-    "KHAOS": {
-      "path": "docs/archive/ash-layers/fragments/KHAOS.md",
-      "title": "KHAOS",
-      "folder": "archive/ash-layers/fragments",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/CALLING.md",
-        "docs/archive/ash-layers/cryptic/THE New Note..md",
-        "docs/archive/ash-layers/fragments/KHAOS.md",
-        "docs/archive/ash-layers/fragments/Mirror.md",
-        "docs/archive/ash-layers/indices/INDEXING_REPORT.md",
-        "docs/MANIFEST.md"
       ]
     },
     "Mirror": {
@@ -1372,11 +1100,7 @@
       "folder": "archive/ash-layers/fragments",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md",
-        "docs/archive/ash-layers/cryptic/The-MIrROR.md",
-        "docs/index/KHAOS-NOTES-INDEX.md"
-      ]
+      "backlinks": []
     },
     "archive-ash-layers-fragments-README": {
       "path": "docs/archive/ash-layers/fragments/README.md",
@@ -1392,32 +1116,7 @@
       "folder": "archive/ash-layers/fragments",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/index/KHAOS-NOTES-INDEX.md"
-      ]
-    },
-    "The-Rule-OF-The-Swamp.": {
-      "path": "docs/archive/ash-layers/fragments/The Rule OF The Swamp..md",
-      "title": "The Rule OF The Swamp.",
-      "folder": "archive/ash-layers/fragments",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/index/KHAOS-NOTES-INDEX.md",
-        "docs/MANIFEST.md"
-      ]
-    },
-    "There-Are-No-Rules": {
-      "path": "docs/archive/ash-layers/fragments/There Are No Rules.md",
-      "title": "There Are No Rules",
-      "folder": "archive/ash-layers/fragments",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/README.md",
-        "docs/archive/ash-layers/numbered/readme.md",
-        "docs/MANIFEST.md"
-      ]
+      "backlinks": []
     },
     "To-Make-Sense-OF-It": {
       "path": "docs/archive/ash-layers/fragments/To Make Sense OF It.md",
@@ -1426,22 +1125,7 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "docs/index/KHAOS-NOTES-INDEX.md",
         "docs/philosophy/cosmology-void.md"
-      ]
-    },
-    "WalkAlongSideKhaos": {
-      "path": "docs/archive/ash-layers/fragments/WalkAlongSideKhaos.md",
-      "title": "WalkAlongSideKhaos",
-      "folder": "archive/ash-layers/fragments",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/{&&&}.md",
-        "docs/index/KHAOS-NOTES-INDEX.md",
-        "docs/MANIFEST.md",
-        "docs/philosophy/philosophy-the-law.md",
-        "docs/rituals/The Spells It Makes.md"
       ]
     },
     "Why": {
@@ -1450,12 +1134,7 @@
       "folder": "archive/ash-layers/fragments",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/index/&.md",
-        "docs/archive/ash-layers/cryptic/THE New Note..md",
-        "docs/archive/ash-layers/cryptic/{&&&}.md",
-        "docs/archive/ash-layers/cryptic/}}[[THE LAW.md"
-      ]
+      "backlinks": []
     },
     "Winning": {
       "path": "docs/archive/ash-layers/fragments/Winning.md",
@@ -1463,10 +1142,7 @@
       "folder": "archive/ash-layers/fragments",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/THE New Note..md",
-        "docs/index/KHAOS-NOTES-INDEX.md"
-      ]
+      "backlinks": []
     },
     "You-Mind": {
       "path": "docs/archive/ash-layers/fragments/You Mind.md",
@@ -1501,15 +1177,6 @@
       "backlinks": [
         "docs/archetypes/README.md",
         "docs/archive/ash-layers/cryptic/README.md",
-        "docs/archive/ash-layers/numbered/orphan-0.md",
-        "docs/archive/ash-layers/numbered/orphan-13.md",
-        "docs/archive/ash-layers/numbered/orphan-16.md",
-        "docs/archive/ash-layers/numbered/orphan-25.md",
-        "docs/archive/ash-layers/numbered/orphan-38.md",
-        "docs/archive/ash-layers/numbered/orphan-5.md",
-        "docs/archive/ash-layers/numbered/orphan-6.md",
-        "docs/archive/ash-layers/numbered/orphan-74.md",
-        "docs/archive/ash-layers/numbered/orphan-8.md",
         "docs/archive/ash-layers/numbered/readme.md"
       ]
     },
@@ -1520,223 +1187,6 @@
       "tags": [],
       "aliases": [],
       "backlinks": []
-    },
-    "orphan-0": {
-      "path": "docs/archive/ash-layers/numbered/orphan-0.md",
-      "title": "Orphan File 0",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-13": {
-      "path": "docs/archive/ash-layers/numbered/orphan-13.md",
-      "title": "Orphan File 13",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-14": {
-      "path": "docs/archive/ash-layers/numbered/orphan-14.md",
-      "title": "orphan 14",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-16": {
-      "path": "docs/archive/ash-layers/numbered/orphan-16.md",
-      "title": "Orphan File 16",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-21": {
-      "path": "docs/archive/ash-layers/numbered/orphan-21.md",
-      "title": "orphan 21",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-25": {
-      "path": "docs/archive/ash-layers/numbered/orphan-25.md",
-      "title": "Orphan File 25",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-28": {
-      "path": "docs/archive/ash-layers/numbered/orphan-28.md",
-      "title": "orphan 28",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-35": {
-      "path": "docs/archive/ash-layers/numbered/orphan-35.md",
-      "title": "orphan 35",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-38": {
-      "path": "docs/archive/ash-layers/numbered/orphan-38.md",
-      "title": "Orphan File 38",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-42": {
-      "path": "docs/archive/ash-layers/numbered/orphan-42.md",
-      "title": "orphan 42",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-49": {
-      "path": "docs/archive/ash-layers/numbered/orphan-49.md",
-      "title": "orphan 49",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-5": {
-      "path": "docs/archive/ash-layers/numbered/orphan-5.md",
-      "title": "Orphan File 5",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-56": {
-      "path": "docs/archive/ash-layers/numbered/orphan-56.md",
-      "title": "orphan 56",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-6": {
-      "path": "docs/archive/ash-layers/numbered/orphan-6.md",
-      "title": "Orphan File 6",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-63": {
-      "path": "docs/archive/ash-layers/numbered/orphan-63.md",
-      "title": "orphan 63",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-7": {
-      "path": "docs/archive/ash-layers/numbered/orphan-7.md",
-      "title": "orphan 7",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-70": {
-      "path": "docs/archive/ash-layers/numbered/orphan-70.md",
-      "title": "orphan 70",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-74": {
-      "path": "docs/archive/ash-layers/numbered/orphan-74.md",
-      "title": "Orphan File 74",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-77": {
-      "path": "docs/archive/ash-layers/numbered/orphan-77.md",
-      "title": "orphan 77",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-8": {
-      "path": "docs/archive/ash-layers/numbered/orphan-8.md",
-      "title": "Orphan File 8",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-84": {
-      "path": "docs/archive/ash-layers/numbered/orphan-84.md",
-      "title": "orphan 84",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-87": {
-      "path": "docs/archive/ash-layers/numbered/orphan-87.md",
-      "title": "Orphan File 87",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-91": {
-      "path": "docs/archive/ash-layers/numbered/orphan-91.md",
-      "title": "orphan 91",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphan-98": {
-      "path": "docs/archive/ash-layers/numbered/orphan-98.md",
-      "title": "orphan 98",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "orphanindex": {
-      "path": "docs/archive/ash-layers/numbered/orphanindex.md",
-      "title": "Providence Orphan Files Index",
-      "folder": "archive/ash-layers/numbered",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/indices/INDEXING_REPORT.md",
-        "docs/archive/ash-layers/numbered/orphan-14.md",
-        "docs/archive/ash-layers/numbered/orphan-21.md",
-        "docs/archive/ash-layers/numbered/orphan-28.md",
-        "docs/archive/ash-layers/numbered/orphan-35.md",
-        "docs/archive/ash-layers/numbered/orphan-42.md",
-        "docs/archive/ash-layers/numbered/orphan-49.md",
-        "docs/archive/ash-layers/numbered/orphan-56.md",
-        "docs/archive/ash-layers/numbered/orphan-63.md",
-        "docs/archive/ash-layers/numbered/orphan-7.md",
-        "docs/archive/ash-layers/numbered/orphan-70.md",
-        "docs/archive/ash-layers/numbered/orphan-77.md",
-        "docs/archive/ash-layers/numbered/orphan-84.md",
-        "docs/archive/ash-layers/numbered/orphan-87.md",
-        "docs/archive/ash-layers/numbered/orphan-91.md",
-        "docs/archive/ash-layers/numbered/orphan-98.md"
-      ]
     },
     "archive-ash-layers-numbered-README": {
       "path": "docs/archive/ash-layers/numbered/readme.md",
@@ -1791,7 +1241,6 @@
       "aliases": [],
       "backlinks": [
         "docs/archetypes/README.md",
-        "docs/index/KHAOS-NOTES-INDEX.md",
         "docs/README.md"
       ]
     },
@@ -1816,60 +1265,6 @@
       "title": "Seventh Borough Canon – Borough Workflow v1",
       "folder": "guides",
       "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "archetype-index": {
-      "path": "docs/index/archetype-index.md",
-      "title": "Archetypes Index",
-      "folder": "index",
-      "tags": [
-        "archetypes",
-        "characters",
-        "index",
-        "navigation"
-      ],
-      "aliases": [],
-      "backlinks": []
-    },
-    "KHAOS-NOTES-INDEX": {
-      "path": "docs/index/KHAOS-NOTES-INDEX.md",
-      "title": "KHAOS NOTES",
-      "folder": "index",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/archive/ash-layers/cryptic/README.md",
-        "docs/archive/ash-layers/numbered/readme.md"
-      ]
-    },
-    "orphan-taxonomy": {
-      "path": "docs/index/orphan-taxonomy.md",
-      "title": "Orphan Taxonomy",
-      "folder": "index",
-      "tags": [
-        "orphans",
-        "taxonomy",
-        "classification"
-      ],
-      "aliases": [],
-      "backlinks": []
-    },
-    "philosophy-index": {
-      "path": "docs/index/philosophy-index.md",
-      "title": "Philosophy Index",
-      "folder": "index",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
-    },
-    "index-README": {
-      "path": "docs/index/README.md",
-      "title": "Indices",
-      "folder": "index",
-      "tags": [
-        "efficiency"
-      ],
       "aliases": [],
       "backlinks": []
     },
@@ -1920,15 +1315,9 @@
       "folder": "khaos",
       "tags": [],
       "aliases": [],
-      "backlinks": []
-    },
-    "ticks-input": {
-      "path": "docs/khaos/ticks-input.md",
-      "title": "🌀 Input Reservoir: The Ticks & The Blind",
-      "folder": "khaos",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
+      "backlinks": [
+        "docs/MANIFEST.md"
+      ]
     },
     "MANIFEST": {
       "path": "docs/MANIFEST.md",
@@ -1940,7 +1329,7 @@
     },
     "Amnesia": {
       "path": "docs/philosophy/Amnesia.md",
-      "title": "Amnesia",
+      "title": "We Remember To Forget. We Forget To Remember",
       "folder": "philosophy",
       "tags": [],
       "aliases": [],
@@ -1949,9 +1338,7 @@
         "docs/philosophy/INDEX.md",
         "docs/archetypes/README.md",
         "docs/archive/ash-layers/The-Cosmic-Clock.md",
-        "docs/index/KHAOS-NOTES-INDEX.md",
         "docs/MANIFEST.md",
-        "docs/philosophy/Amnesia.md",
         "docs/README.md"
       ]
     },
@@ -1969,9 +1356,7 @@
       "folder": "philosophy/Fragments",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/index/KHAOS-NOTES-INDEX.md"
-      ]
+      "backlinks": []
     },
     "Guiding-Prompt": {
       "path": "docs/philosophy/Guiding-Prompt.md",
@@ -1996,10 +1381,8 @@
       "backlinks": [
         "docs/philosophy/INDEX.md",
         "docs/archetypes/README.md",
-        "docs/index/&.md",
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
-        "docs/index/philosophy-index.md",
         "docs/MANIFEST.md",
         "docs/README.md",
         "docs/rituals/The Spells It Makes.md"
@@ -2014,24 +1397,11 @@
       "backlinks": [
         "docs/philosophy/INDEX.md",
         "docs/archetypes/README.md",
-        "docs/index/&.md",
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
-        "docs/index/philosophy-index.md",
         "docs/MANIFEST.md",
         "docs/README.md",
         "docs/rituals/The Spells It Makes.md"
-      ]
-    },
-    "philosophy-khaos": {
-      "path": "docs/philosophy/philosophy-khaos.md",
-      "title": "philosophy khaos",
-      "folder": "philosophy",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/philosophy/INDEX.md",
-        "docs/MANIFEST.md"
       ]
     },
     "philosophy-no-rules": {
@@ -2040,9 +1410,7 @@
       "folder": "philosophy",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/index/philosophy-index.md"
-      ]
+      "backlinks": []
     },
     "philosophy-prophecy": {
       "path": "docs/philosophy/philosophy-prophecy.md",
@@ -2053,24 +1421,10 @@
       "backlinks": [
         "docs/philosophy/INDEX.md",
         "docs/archetypes/README.md",
-        "docs/index/&.md",
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
-        "docs/index/philosophy-index.md",
         "docs/MANIFEST.md",
         "docs/README.md"
-      ]
-    },
-    "philosophy-providence": {
-      "path": "docs/philosophy/philosophy-providence.md",
-      "title": "Define the conversation text (summarized with the orphan marking details)",
-      "folder": "philosophy",
-      "tags": [],
-      "aliases": [],
-      "backlinks": [
-        "docs/philosophy/INDEX.md",
-        "docs/MANIFEST.md",
-        "docs/rituals/The Spells It Makes.md"
       ]
     },
     "philosophy-spell-book": {
@@ -2087,9 +1441,7 @@
       "folder": "philosophy",
       "tags": [],
       "aliases": [],
-      "backlinks": [
-        "docs/MANIFEST.md"
-      ]
+      "backlinks": []
     },
     "philosophy-README": {
       "path": "docs/philosophy/README.md",
@@ -2111,7 +1463,6 @@
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
         "docs/archive/ash-layers/The-Cosmic-Clock.md",
-        "docs/index/philosophy-index.md",
         "docs/MANIFEST.md",
         "docs/README.md"
       ]
@@ -2158,21 +1509,12 @@
       "aliases": [],
       "backlinks": [
         "docs/archetypes/Devils/The Blind.md",
-        "docs/philosophy/INDEX.md",
-        "docs/MANIFEST.md"
+        "docs/philosophy/INDEX.md"
       ]
-    },
-    "There": {
-      "path": "docs/philosophy/There.md",
-      "title": "There",
-      "folder": "philosophy",
-      "tags": [],
-      "aliases": [],
-      "backlinks": []
     },
     "Void-Tongue": {
       "path": "docs/philosophy/Void-Tongue.md",
-      "title": "Void Tongue",
+      "title": "Void Tongue — The Rosetta Stone",
       "folder": "philosophy",
       "tags": [],
       "aliases": [],
@@ -2243,7 +1585,6 @@
       "backlinks": [
         "docs/archive/ash-layers/cryptic/README.md",
         "docs/archive/ash-layers/numbered/readme.md",
-        "docs/index/KHAOS-NOTES-INDEX.md",
         "docs/MANIFEST.md",
         "docs/rituals/Deck of Fate.md"
       ]
@@ -2272,7 +1613,9 @@
       "folder": "rituals",
       "tags": [],
       "aliases": [],
-      "backlinks": []
+      "backlinks": [
+        "docs/MANIFEST.md"
+      ]
     },
     "Rituals": {
       "path": "docs/rituals/Rituals.md",
@@ -2289,7 +1632,6 @@
       "tags": [],
       "aliases": [],
       "backlinks": [
-        "docs/index/KHAOS-NOTES-INDEX.md",
         "docs/MANIFEST.md",
         "docs/philosophy/philosophy-spell-book.md"
       ]
@@ -2324,6 +1666,7 @@
       "aliases": [],
       "backlinks": [
         "docs/MANIFEST.md",
+        "docs/philosophy/Void-Tongue.md",
         "docs/the-seventh-borough/CANON.md"
       ]
     },
@@ -2359,13 +1702,7 @@
     "The Discontinuous Oracle": "The-Blind",
     "The One Who Dissolves": "The-Blind",
     "Hellfire Park": "Hellfire-Park",
-    "AM I NOT": "AM-I-NOT",
-    "THE New Note.": "THE-New-Note.",
-    "[_) ) ) )": "[_)-)-)-)",
-    "}}[[THE LAW": "}}[[THE-LAW",
     "Sing The City": "Sing-The-City",
-    "The Rule OF The Swamp.": "The-Rule-OF-The-Swamp.",
-    "There Are No Rules": "There-Are-No-Rules",
     "To Make Sense OF It": "To-Make-Sense-OF-It",
     "You Mind": "You-Mind",
     "Qualitative Research Guide": "Qualitative-Research-Guide",

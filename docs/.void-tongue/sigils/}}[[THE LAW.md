@@ -1,12 +1,11 @@
 
-
 [{{{{{{{{&}}](./{{{{{{{{&}}.md)
 
 [{&&&}](./{&&&}.md) [But](../fragments/But.md) [Why](../fragments/Why.md) [&](./&.md)
 
  Clock Work Angel
  Keeps Ticking
- Like 
+ Like
  The
  Time
  Never

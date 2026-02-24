@@ -1,4 +1,16 @@
 ---
+id: void-orphan-index
+title: "Orphan index"
+filename: "orphanindex.md"
+private: true
+status: void-tongue
+category: ghost-fragment
+semantic-weight: 0.5
+resonance-tags: ["fragment", "providence", "orphan"]
+embedding-hints: ["A shard of a defunct cosmology", "Negative space in the Machine"]
+created: 2025-01-02
+---
+---
 aliases:
   - Orphan Files Index
   - Providence Index

@@ -8,10 +8,100 @@
 ## 📋 ACTIVE GOVERNANCE TASK
 
 🔍 **GOVERNANCE ESTABLISHED**
-Task: Elevated "The Curation Threshold" as the primary governance ritual.
-Tier: 2
-Status: COMPLETE 🏛️
-Next Action: Awaiting User directive for the next Governance layer.
+Phase_0_Audit:
+
+- task: Scan /archive at root
+    action: Identify restoration debris vs canonical content
+    output: meta/archive-audit.md
+  
+- task: Scan /config at root
+    action: Check for references in codebase
+    output: meta/config-usage.md
+  
+- task: Delete restoration debris
+    files: [/archive/.archive, /archive/.linkfix_backups]
+  
+- task: Move or delete phase logs
+    source: /archive/PHASE_1_STATUS.md
+    decision: Move to docs/the-seventh-borough/archives/ OR delete
+Phase 1: Create Void Tongue Layer
+text
+create_void_tongue:
+  - path: docs/.void-tongue/
+    subdirs: [sigils, primal, anti-axioms, invocations, ghosts, resonance-patterns]
+  
+  - file: docs/.void-tongue/README.md
+    content: Internal documentation of Void Tongue system
+  
+migrate_to_void_tongue:
+
+- source: docs/philosophy/philosophy-khaos.md
+    dest: docs/.void-tongue/primal/KHAOS.md
+    frontmatter: {private: true, status: void-tongue, category: primal}
+  
+- source: docs/philosophy/philosophy-providence.md
+    dest: docs/.void-tongue/ghosts/Providence.md
+    frontmatter: {private: true, status: void-tongue, category: ghost}
+  
+- source: docs/archive/ash-layers/fragments/There Are No Rules.md
+    dest: docs/.void-tongue/anti-axioms/There Are No Rules.md
+    frontmatter: {private: true, status: void-tongue, category: anti-axiom}
+  
+- source: docs/archive/ash-layers/fragments/The Rule OF The Swamp..md
+    dest: docs/.void-tongue/anti-axioms/The Rule of The Swamp.md
+    frontmatter: {private: true, status: void-tongue, category: anti-axiom}
+  
+- source: docs/archive/ash-layers/cryptic/}}{{THE LAW.md
+    dest: docs/.void-tongue/sigils/}}{{THE LAW.md
+    frontmatter: {private: true, status: void-tongue, category: sigil}
+  
+- source: docs/archive/ash-layers/cryptic/{{&&&}.md
+    dest: docs/.void-tongue/sigils/{{&&&}.md
+    frontmatter: {private: true, status: void-tongue, category: sigil}
+
+rewrite_public_explainer:
+
+- file: docs/philosophy/Void-Tongue.md
+    task: Rewrite as Rosetta Stone (see draft above)
+    frontmatter: {id: Void-Tongue, status: seventh-bound}
+Phase 2: Clean Public Navigation
+text
+remove_laws_of_khaos_section:
+- file: meta/navigation-schema.json
+    task: Delete "Laws of Khaos" section entirely
+    reason: All content moved to Void Tongue
+
+update_philosophy_section:
+
+- file: meta/navigation-schema.json
+    task: Keep only clean philosophy items
+    items:
+  - The Void
+  - The Abyss
+  - The Ticks
+  - Void Tongue (explainer)
+  - Passion
+  - Patience
+  - Prophecy
+  - The Material
+  - Amnesia
+Phase 3: Frontmatter Standardization
+text
+add_frontmatter_public:
+- scan: docs/philosophy/, docs/archetypes/, docs/rituals/
+    add: {id, title, status: seventh-bound, category}
+
+add_frontmatter_void_tongue:
+
+- scan: docs/.void-tongue/
+    add: {id, title, private: true, status: void-tongue, category, semantic-weight, resonance-tags}
+Phase 4: Build Verification
+text
+test_build:
+- run: Build script locally
+- verify: web/public/docs/.void-tongue/ does NOT exist (stripped by private: true)
+- verify: Navigation schema has no "Laws of Khaos" section
+- verify: Void-Tongue.md still appears in Philosophy section (public explainer)
 
 ---
 

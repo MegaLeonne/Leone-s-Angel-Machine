@@ -1,1 +1,14 @@
-﻿*Is ?!:/\\\\\\/\/\/\\/\\*[KHAOS](./KHAOS.md) Is not [12. Khaos](../../../Blackbook/12.-khaos.md)Khaos, Cannot Be [6. Kaire](../../../Blackbook/6.-kaire.md)Khaos Can Be Around One.But One Cannot Live As [KHAOS](./KHAOS.md)[{&&&}](../cryptic/{&&&}.md)One Must Love The [KHAOS](./KHAOS.md)Two Will Create More Of It.Three Can Stabilize Her.4 Makes A New Den.[&](../cryptic/&.md)%50
+﻿---
+id: void-primal-khaos-fragment
+title: "KHAOS-fragment"
+filename: "KHAOS-fragment.md"
+private: true
+status: void-tongue
+category: primal
+semantic-weight: 0.7
+resonance-tags: ["khaos", "fragment", "echo"]
+embedding-hints: ["Smaller burst of conceptual pressure", "A shard of the Reservoir"]
+created: 2025-01-02
+---
+[KHAOS](..\..\..\Blackbook\khaos.md)
+╨│Nso---They say!IN Reality"= E V├╖r y.  sureMatter,

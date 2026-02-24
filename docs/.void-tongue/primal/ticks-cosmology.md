@@ -1,7 +1,26 @@
 ---
-tags: [khaos, raw-potential, ticks, the-blind]
-title: "Input Reservoir: The Ticks & The Blind"
+id: void-primal-ticks
+title: "The Ticks Cosmology (Communion Notes)"
+filename: "ticks-cosmology.md"
+private: true
+status: void-tongue
+category: primal
+semantic-weight: 0.92
+resonance-tags:
+  - tick-tock
+  - cosmic-clock
+  - discontinuity
+  - the-blind
+  - communion
+  - raw-cosmology
+embedding-hints:
+  - "The gaps between hours"
+  - "Discontinuity as design"
+  - "Tick-Stuck syndrome"
+communion-date: 2026-01-05T00:28:00-06:00
+created: 2026-01-05
 ---
+
 
 # 🌀 Input Reservoir: The Ticks & The Blind
 
