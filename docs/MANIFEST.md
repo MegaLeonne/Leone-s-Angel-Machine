@@ -15,6 +15,7 @@ _Essential entry points_
 - [Resonance-Void-001](file:///docs/khaos/Resonance-Void-001.md) (ID: `#Resonance-Void-001`)
 - [Lexus Echoes](file:///docs/khaos/Lexus-Echoes-001.md) (ID: `#Lexus-Echoes-001`)
 - [Resonance-Void-003](file:///docs/khaos/Resonance-Void-003.md) (ID: `#Resonance-Void-003`)
+- [Resonance-Void-004](file:///docs/khaos/Resonance-Void-004.md) (ID: `#Resonance-Void-004`)
 
 ## 💭 Philosophy
 _Foundational texts and cosmology_
@@ -27,6 +28,7 @@ _Foundational texts and cosmology_
 - [The Void](file:///docs/philosophy/The Void.md) (ID: `#The-Void`)
 - [The Abyss](file:///docs/philosophy/The-Abyss.md) (ID: `#The-Abyss`)
 - [Void Tongue](file:///docs/philosophy/Void-Tongue.md) (ID: `#Void-Tongue`)
+- [Khaos](file:///docs/philosophy/Khaos.md) (ID: `#Khaos`)
 
 ## 🎭 Archetypes
 _Mythic figures and divine principles_
@@ -56,6 +58,7 @@ _Practical invocations and spells_
 - [The Spells It Makes](file:///docs/rituals/The Spells It Makes.md) (ID: `#The-Spells-It-Makes`)
 - [King's Gambit](file:///docs/khaos/spell-kings-gambit.md) (ID: `#spell-kings-gambit`)
 - [Witch's Ceiling Fall](file:///docs/rituals/ritual-witchs-ceiling-fall.md) (ID: `#ritual-witchs-ceiling-fall`)
+- [The Rite of the First Tap](file:///docs/rituals/The-Rite-of-the-First-Tap.md) (ID: `#The-Rite-of-the-First-Tap`)
 
 ## 🏛️ The Seventh Borough
 _Canon framework and workflow_
@@ -63,4 +66,3 @@ _Canon framework and workflow_
 - [Seventh Borough Canon](file:///docs/the-seventh-borough/CANON.md) (ID: `#CANON`)
 - [Curation Threshold](file:///docs/the-seventh-borough/mechanics/ritual-elevation-protocol.md) (ID: `#ritual-elevation-protocol`)
 - [Tagging System](file:///docs/the-seventh-borough/TAGS.md) (ID: `#TAGS`)
-

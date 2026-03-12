@@ -19,9 +19,16 @@ This is the sanctuary for raw potential, unrefined lore, and "Void-residue." It 
 
 ## 🕯️ Current Residue
 
-- **#Khaos** — The Primal Flow
-- **#IS** — The State of Being
-- **#MOTHER** — The Origin of the Void Witch
+### Elevated — Resonance-Void-004
+
+- **#Khaos** — The Primal Flow → ELEVATED to `docs/philosophy/Khaos.md` (2026-03-11)
+- **#IS** — The State of Being → absorbed into Khaos.md body
+- **#MOTHER** — The Origin of the Void Witch → confirmed as Khaos herself; absorbed into Khaos.md
+
+### Active Residue — Awaiting Elevation
+
+- **#The-Cosmogonic-Arc** — The full spiral: Khaos → Clock → Archetypes → She Who Transcends → Khaos. Deposited during Resonance-Void-004. Eligible for elevation: next session cycle. Proposed path: `docs/philosophy/The-Cosmogonic-Arc.md`
 
 ---
 *Resonance detected during Cycle 2026-01-04*
+*Elevated during Resonance-Void-004 — 2026-03-11*
