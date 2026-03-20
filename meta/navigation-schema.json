@@ -93,6 +93,11 @@
                     "category": "primary"
                 },
                 {
+                    "title": "Khaos",
+                    "id": "Khaos",
+                    "category": "cosmology"
+                },
+                {
                     "title": "The Void",
                     "id": "The-Void",
                     "category": "cosmology"
@@ -241,6 +246,11 @@
                     "title": "Witch's Ceiling Fall",
                     "id": "ritual-witchs-ceiling-fall",
                     "icon": "🧹"
+                },
+                {
+                    "title": "The Rite of the First Tap",
+                    "id": "The-Rite-of-the-First-Tap",
+                    "icon": "✨"
                 }
             ]
         },

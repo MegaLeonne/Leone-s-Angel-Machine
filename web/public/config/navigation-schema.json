@@ -149,7 +149,7 @@
                 },
                 {
                     "title": "Khaos",
-                    "id": "philosophy-khaos",
+                    "id": "Khaos",
                     "category": "cosmology"
                 },
                 {
@@ -276,6 +276,11 @@
                 {
                     "title": "The Spells It Makes",
                     "id": "The-Spells-It-Makes"
+                },
+                {
+                    "title": "The Rite of the First Tap",
+                    "id": "The-Rite-of-the-First-Tap",
+                    "icon": "✨"
                 }
             ]
         },
